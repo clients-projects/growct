@@ -207,7 +207,7 @@ function Layout(props) {
         <div className="right">
           <div className="calbox one">
             <label>Enter Amount</label>
-            <span><input type="text" name="" id="amount"></span>
+            <span><input type="text" name="" id="amount"/></span>
           </div>
           <div className="calbox two">
             <label>Profit</label>
