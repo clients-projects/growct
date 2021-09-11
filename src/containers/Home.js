@@ -78,7 +78,7 @@ function Layout(props) {
 	  <section className="bannerwrap">
     <section className="header slideInDown wow">
       <div className="content">
-        <div className="logo"><a href="?a=home"><img src="styles/images/logo.png" alt=""></a></div>
+        {/* <div className="logo"><a href="?a=home"><img src="styles/images/logo.png" alt=""></a></div> */}
         <div className="menu">
           <ul>
             <li><a href="?a=home">HOME</a></li>                                                                         
@@ -90,7 +90,7 @@ function Layout(props) {
             <li><a href="?a=support">SUPPORT</a></li>
 
                          <li className="login"><a href="?a=login">login</a></li>
-            <li className="signup"><a href="?a=signup">signup</a>
+            <li className="signup"><a href="?a=signup">signup</a></li>
                       </ul>
         </div>
       </div>
