@@ -74,1167 +74,334 @@ function Layout(props) {
 
     return (
         <>
-            <div
-                style={{
-                    position: 'fixed',
-                    zIndex: 99999,
-                    left: '20px',
-                    bottom: '20px',
-                }}
-            ></div>
+            <section className="mainwrap">
+	  <section className="bannerwrap">
+    <section className="header slideInDown wow">
+      <div className="content">
+        <div className="logo"><a href="?a=home"><img src="styles/images/logo.png" alt=""></a></div>
+        <div className="menu">
+          <ul>
+            <li><a href="?a=home">HOME</a></li>                                                                         
+            <li><a href="?a=cust&page=about">ABOUT US</a></li>
+            <li><a href="?a=cust&page=howto">GET STARTED</a></li>
+            <li><a href="?a=cust&page=affiliates">PARTNERSHIP</a></li>
+            
+            <li><a href="?a=faq">FAQ</a></li>
+            <li><a href="?a=support">SUPPORT</a></li>
 
-            <div className='bodyWrap'>
-                <div
-                    className='mainBanner gradImg'
-                    style={{ backgroundImage: `url(${Bg_11})` }}
-                >
-                    <div className='container'>
-                        <div>
-                            <div className='circleBg'>
-                                <div className='circle'></div>
-                            </div>
-                            <div className='chart'>
-                                <iframe
-                                    title='iframe1'
-                                    height='398'
-                                    width='618'
-                                    src='https://ssltvc.forexprostools.com/?pair_ID=945629&amp;height=398&amp;width=618&amp;interval=300&amp;plotStyle=area&amp;domain_ID=7&amp;lang_ID=7&amp;timezone_ID=17'
-                                ></iframe>
-                            </div>
-                        </div>
-                        <div className='content'>
-                            <span className='heading'>
-                                Forex trading with ROBOT TRADING{' '}
-                            </span>
-                            <span>The Future of Crypto Trading</span>
-                            <div className='textBlock'>
-                                <p
-                                    style={{
-                                        fontWeight: 500,
-                                        textShadow: '2px 2px 4px black',
-                                    }}
-                                >
-                                    The Fastest Growing cryptocurrency that
-                                    return dividend from investments to
-                                    investors and the cryptocurrency that has
-                                    value in itself.
-                                </p>
-                            </div>
-                            <Link to='/Auth/signup' className='btnFillGradLg'>
-                                Get started now
-                            </Link>
-                        </div>
-                        <div className='cfix'>
-                            <div className='curRate'>
-                                <div className='item'>
-                                    <div className='iconLeft'>
-                                        <span className='icon-cur1'>
-                                            {' '}
-                                            <RiBitCoinLine />{' '}
-                                        </span>
-                                        <div className='data'>
-                                            <span>Bitcoin (BTC):</span>
-                                            <span>
-                                                <b>
-                                                    <span className='color2'>
-                                                        (Accepted)
-                                                    </span>
-                                                </b>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='item'>
-                                    <div className='iconLeft'>
-                                        <span className='icon-cur2'>
-                                            <SiEthereum />
-                                        </span>
-                                        <div className='data'>
-                                            <span>Ethereum (ETH):</span>
-                                            <span>
-                                                <b>
-                                                    <span className='color2'>
-                                                        (Accepted)
-                                                    </span>
-                                                </b>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='item'>
-                                    <div className='iconLeft'>
-                                        <span className='icon-cur3'>
-                                            <SiLitecoin />
-                                        </span>
-                                        <div className='data'>
-                                            <span>Litecoin (LTC):</span>
-                                            <span>
-                                                <b>
-                                                    <span className='color2'>
-                                                        (Accepted)
-                                                    </span>
-                                                </b>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='item'>
-                                    <div className='iconLeft'>
-                                        <span className='icon-cur1'>
-                                            {' '}
-                                            <RiBitCoinLine />
-                                        </span>
-                                        <div className='data'>
-                                            <span>Bitcoin Cash (BCH):</span>
-                                            <span>
-                                                <b>
-                                                    <span className='color2'>
-                                                        (Accepted)
-                                                    </span>
-                                                </b>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='headAdv'>
-                            <ul>
-                                <li>
-                                    <div className='iconLeft'>
-                                        <span
-                                            className='icon-adv1'
-                                            style={{
-                                                boxShadow: '2px 2px 3px black',
-                                            }}
-                                        >
-                                            {' '}
-                                            <GiVikingLonghouse />{' '}
-                                        </span>
-                                        <span
-                                            className='data'
-                                            style={{
-                                                textShadow: '2px 2px 3px black',
-                                            }}
-                                        >
-                                            Officially registered company
-                                        </span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className='iconLeft'>
-                                        <span
-                                            className='icon-adv3'
-                                            style={{
-                                                boxShadow: '2px 2px 3px black',
-                                            }}
-                                        >
-                                            <HiChartBar />
-                                        </span>
-                                        <span
-                                            className='data'
-                                            style={{
-                                                textShadow: '2px 2px 3px black',
-                                            }}
-                                        >
-                                            Innovative <br></br>approach
-                                        </span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className='iconLeft'>
-                                        <span
-                                            className='icon-adv2'
-                                            style={{
-                                                boxShadow: '2px 2px 3px black',
-                                            }}
-                                        >
-                                            {' '}
-                                            <AiOutlineFileProtect />
-                                        </span>
-                                        <span
-                                            className='data'
-                                            style={{
-                                                textShadow: '2px 2px 3px black',
-                                            }}
-                                        >
-                                            Profitable working conditions
-                                        </span>
-                                    </div>
-                                </li>
-                            </ul>
-                            <p>
-                                We strongly believe in performance-based affairs
-                                and understand that our very success is tied to
-                                the success of our clients. Therefore, we’ve
-                                ensured to lace our unique Auto Trading System
-                                with all the advanced features that’ll help our
-                                clients gain consistent results in the form of
-                                higher profit and ROI.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div
-                    className='about'
-                    style={{ backgroundImage: `url(${About_bg})` }}
-                >
-                    <div className='container'>
-                        <div className='cfix'>
-                            <div className='left'>
-                                <span className='captionLight'>
-                                    About company
-                                </span>
-                                <div className='license'>
-                                    <div
-                                        className='img invisLink'
-                                        style={{
-                                            backgroundImage: `url(${profile})`,
-                                        }}
-                                    >
-                                        <a
-                                            href={`${profile}`}
-                                            target='_blank'
-                                            rel='noopener noreferrer'
-                                        >
-                                            license
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className='address'>
-                                    <div className='iconLeft'>
-                                        <span className='icon-location gradTxt'>
-                                            <MdLocationOn className='location__svg' />
-                                        </span>
-                                        <span className='data'>
-                                            71-75 Shelton Street, London,
-                                            Greater London, United Kingdom, WC2H
-                                            9JQ
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='right'>
-                                <div className='textBlock'>
-                                    <h3>
-                                        <b style={{ color: 'white' }}>
-                                            WELCOME ON BOARD JOIN THE TRADE
-                                            PLATFORM
-                                        </b>
-                                    </h3>
-                                    <br />
-                                    <br />
-                                    <p>
-                                        Robot 44 Trade is the only company
-                                        dedicated to work on EA, better known as
-                                        Algo Trading, which atomizes the trading
-                                        process and brings risk free profit,
-                                        saves times, money and build better
-                                        wealth over long period of time.
-                                        <br />
-                                        <br />
-                                        A Robot trading System is used to
-                                        automatically generate trading signals
-                                        on the forex trader’s behalf. As such, a
-                                        manual trader has to glue himself or
-                                        herself in front of a computer screen
-                                        and wait for the appropriate time when
-                                        the criteria for making a decision fits
-                                        with his or her rules—something which is
-                                        tiring and complicated.
-                                        <br />
-                                        <br />
-                                        With robot trading, the trading rules or
-                                        strategies have been ingrained in a
-                                        computer program, and your trade
-                                        decisions will be made automatically
-                                        without your intervention. With a
-                                        trading robot, you can trade profitably
-                                        24 hours a day and increase your
-                                        profits. After you’ve coded your
-                                        strategies on a robot, it will perform
-                                        the buy and sell actions while you spend
-                                        your time on the beach. One of the main
-                                        reasons why traders fail is emotional
-                                        trading. However, a forex robot lowers
-                                        or eliminates emotions from the trading
-                                        equation and give you a reliable way of
-                                        earning money.
-                                    </p>
-                                </div>
-                                <div className='btnsWrap'>
-                                    <Link
-                                        to='about-us'
-                                        className='btnFillColor1Lg'
-                                    >
-                                        Learn more
-                                    </Link>
-                                    {/* <a
-                                        href='https://beta.companieshouse.gov.uk/company/12143668'
-                                        target='_blank'
-                                        rel='noopener noreferrer'
-                                        className='btnFillColor2Lg'
-                                    >
-                                        Check the registration
-                                    </a> */}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div
-                    className='plan page'
-                    style={{
-                        backgroundImage: `url(${Chart_bg}), url(${Grey_bg})`,
-                    }}
-                >
-                    <div className='container'>
-                        <div className='textBlock'>
-                            <p>
-                                A robot cannot fear to make a trade neither can
-                                it start making greed-driven decisions. With
-                                implanted strategies, robots are capable of
-                                making trade decisions in a way that humans
-                                cannot. Some robots can thoroughly and
-                                effectively scan the market looking for
-                                opportunities with high levels of accuracy than
-                                humans.
-                            </p>
-                        </div>
-                        <span className='captionDark center'>
-                            Trade Pricing
-                        </span>
-
-                        <div className='wrap'>
-                            <div
-                                className='row'
-                                style={{ marginBottom: '30px' }}
-                            >
-                                <div className='item col6'>
-                                    <div className='planCardFirst'>
-                                        <div
-                                            className='left'
-                                            style={{
-                                                backgroundImage: `url(${Card_bg_1})`,
-                                            }}
-                                        >
-                                            <span className='cap'>
-                                                #PACKAGE A
-                                            </span>
-                                            <div className='descr'>
-                                                <span className='pct'>10%</span>
-                                                <span>48 HOURS</span>
-                                                <Link
-                                                    to='/Auth/signup'
-                                                    className='btnFillColor1Md'
-                                                >
-                                                    Make deposit
-                                                </Link>
-                                            </div>
-                                        </div>
-                                        <ul className='info'>
-                                            <li>
-                                                Min Deposit <span>50 USD</span>
-                                            </li>
-                                            <li>
-                                                Max Deposit <span>199 USD</span>
-                                            </li>
-                                        </ul>
-                                        <img
-                                            alt=''
-                                            src={`${A1}`}
-                                            style={{
-                                                width: '80%',
-                                                marginTop: '20px',
-                                            }}
-                                        />
-                                    </div>
-                                </div>
-
-                                <div className='item col6'>
-                                    <div className='planCardSecond'>
-                                        <div
-                                            className='left'
-                                            style={{
-                                                backgroundImage: `url(${Card_bg_2})`,
-                                            }}
-                                        >
-                                            <span className='cap'>
-                                                #PACKAGE B
-                                            </span>
-                                            <div className='descr'>
-                                                <span className='pct'>20%</span>
-                                                <span>4 Work Days</span>
-                                                <Link
-                                                    to='/Auth/signup'
-                                                    className='btnFillColor2Md'
-                                                >
-                                                    Make deposit
-                                                </Link>
-                                            </div>
-                                        </div>
-                                        <ul className='info'>
-                                            <li>
-                                                Min Deposit <span>200 USD</span>
-                                            </li>
-                                            <li>
-                                                Max Deposit <span>499 USD</span>
-                                            </li>
-                                        </ul>
-                                        <img
-                                            alt=''
-                                            src={`${B}`}
-                                            style={{
-                                                width: '80%',
-                                                marginTop: '20px',
-                                            }}
-                                        />
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                className='row'
-                                style={{ marginBottom: '30px' }}
-                            >
-                                <div className='item col6'>
-                                    <div className='planCardFirst'>
-                                        <div
-                                            className='left'
-                                            style={{
-                                                backgroundImage: `url(${Card_bg_1})`,
-                                            }}
-                                        >
-                                            <span className='cap'>
-                                                #PACKAGE C
-                                            </span>
-                                            <div className='descr'>
-                                                <span className='pct'>30%</span>
-                                                <span>6 Work Days</span>
-                                                <Link
-                                                    to='/Auth/signup'
-                                                    className='btnFillColor1Md'
-                                                >
-                                                    Make deposit
-                                                </Link>
-                                            </div>
-                                        </div>
-                                        <ul className='info'>
-                                            <li>
-                                                Min Deposit <span>500 USD</span>
-                                            </li>
-                                            <li>
-                                                Max Deposit <span>999 USD</span>
-                                            </li>
-                                        </ul>
-                                        <img
-                                            alt=''
-                                            src={`${C}`}
-                                            style={{
-                                                width: '80%',
-                                                marginTop: '20px',
-                                            }}
-                                        />
-                                    </div>
-                                </div>
-
-                                <div className='item col6'>
-                                    <div className='planCardSecond'>
-                                        <div
-                                            className='left'
-                                            style={{
-                                                backgroundImage: `url(${Card_bg_2})`,
-                                            }}
-                                        >
-                                            <span className='cap'>
-                                                #PACKAGE D
-                                            </span>
-                                            <div className='descr'>
-                                                <span className='pct'>40%</span>
-                                                <span>8 Work Days</span>
-                                                <Link
-                                                    to='/Auth/signup'
-                                                    className='btnFillColor2Md'
-                                                >
-                                                    Make deposit
-                                                </Link>
-                                            </div>
-                                        </div>
-                                        <ul className='info'>
-                                            <li>
-                                                Min Deposit{' '}
-                                                <span>1,000 USD</span>
-                                            </li>
-                                            <li>
-                                                Max Deposit{' '}
-                                                <span>4,999 USD</span>
-                                            </li>
-                                        </ul>
-                                        <img
-                                            alt=''
-                                            src={`${D}`}
-                                            style={{
-                                                width: '80%',
-                                                marginTop: '20px',
-                                            }}
-                                        />
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className='row'>
-                                <div className='item col6'>
-                                    <div className='planCardFirst'>
-                                        <div
-                                            className='left'
-                                            style={{
-                                                backgroundImage: `url(${Card_bg_1})`,
-                                            }}
-                                        >
-                                            <span className='cap'>
-                                                #PACKAGE E
-                                            </span>
-                                            <div className='descr'>
-                                                <span className='pct'>60%</span>
-                                                <span>10 Work Days</span>
-                                                <Link
-                                                    to='/Auth/signup'
-                                                    className='btnFillColor1Md'
-                                                >
-                                                    Make deposit
-                                                </Link>
-                                            </div>
-                                        </div>
-                                        <ul className='info'>
-                                            <li>
-                                                Min Deposit{' '}
-                                                <span>5,000 USD</span>
-                                            </li>
-                                            <li>
-                                                Max Deposit{' '}
-                                                <span>9,999 USD</span>
-                                            </li>
-                                        </ul>
-                                        <img
-                                            alt=''
-                                            src={`${E}`}
-                                            style={{
-                                                width: '80%',
-                                                marginTop: '20px',
-                                            }}
-                                        />
-                                    </div>
-                                </div>
-
-                                <div className='item col6'>
-                                    <div className='planCardSecond'>
-                                        <div
-                                            className='left'
-                                            style={{
-                                                backgroundImage: `url(${Card_bg_2})`,
-                                            }}
-                                        >
-                                            <span className='cap'>
-                                                #PACKAGE F
-                                            </span>
-                                            <div className='descr'>
-                                                <span className='pct'>80%</span>
-                                                <span>12 Work Days</span>
-                                                <Link
-                                                    to='/Auth/signup'
-                                                    className='btnFillColor2Md'
-                                                >
-                                                    Make deposit
-                                                </Link>
-                                            </div>
-                                        </div>
-                                        <ul className='info'>
-                                            <li>
-                                                Min Deposit{' '}
-                                                <span>10,000 USD</span>
-                                            </li>
-                                            <li>
-                                                Max Deposit{' '}
-                                                <span>UNLIMITED USD</span>
-                                            </li>
-                                        </ul>
-                                        <img
-                                            alt=''
-                                            src={`${F}`}
-                                            style={{
-                                                width: '80%',
-                                                marginTop: '20px',
-                                            }}
-                                        />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div
-                            className='container'
-                            style={{ marginTop: '40px', marginBottom: '40px' }}
-                        >
-                            <div className='textBlock'>
-                                <h3>WHY ROBOT TRADING</h3>
-                                <p>
-                                    There are several other trading programs in
-                                    the global market and each one competes with
-                                    the other in advertising. With Robot
-                                    Trading, we put our money where our mouths
-                                    are and focus on ensuring success for the
-                                    long-term investment relationship with our
-                                    clients. We are dedicated to our clients ‘
-                                    financial goals and objectives and so we
-                                    have hundreds of them over the span of only
-                                    a few years. Our program is failure-free,
-                                    user friendly, and easy to install and
-                                    operate.
-                                </p>
-                                <p>
-                                    As mentioned, our prime objective is to
-                                    build profitable relationships and gain the
-                                    trust of our valued clients through superior
-                                    performance and top-notch customer support.
-                                    We’ll do all we can at our disposal to see
-                                    our clients grow with us and will prove to
-                                    be one step ahead of their expectations at
-                                    all times.
-                                </p>
-                                <p>
-                                    - An innovative hybrid proof-of-work.
-                                    <br />
-                                    - Proof-of-stake (PoS) consensus trading
-                                    system.
-                                    <br />
-                                    - Instant, on-demand cash-out.
-                                    <br />
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className='item col6'>
-                            <div className='planCardSecond'>
-                                <div
-                                    className='left'
-                                    style={{
-                                        backgroundImage: `url(${Card_bg_2})`,
-                                    }}
-                                >
-                                    <span className='cap'>TRADING PLAN</span>
-                                    <div className='descr'>
-                                        <span className='pct'>EXTRA</span>
-                                        <span>BONUS</span>
-                                        <Link
-                                            to='/Auth/signup'
-                                            className='btnFillColor2Md'
-                                        >
-                                            Make deposit
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                         <li className="login"><a href="?a=login">login</a></li>
+            <li className="signup"><a href="?a=signup">signup</a>
+                      </ul>
+        </div>
+      </div>
+    </section>	
+	
+	
+ 	
+ <section className="banner">
+      <div className="content">
+        <div className="leftinfo">
+          <div className="servertimwrap slideInRight wow">
+            <div className="servertime">server time: <span id="clockbox"></span></div>
+            <div className="emailaddress">e-mail address: <span><a href="mailto:support@nodefrancias.com">support@nodefrancias.com</a></span></div>
+          </div>
+          <h1 className="slideInDown wow">safe & Secure</h1>
+          <h2 className="slideInDown wow">cryptocurrency </h2>
+          <h3 className="slideInDown wow">investment platform</h3>
+          <p className="slideInDown wow">nodefrancias.com is a global cryptocurrency platform which aims to extract maximum from the opportunities of trading and investments while operating with the assets of customers to accomplish the most outstanding profit.</p>
+          <a href="?a=signup" className="slideInDown wow action">register now</a>
+          <div className="bannerstat">
+            <div className="statbox slideInRight wow">
+              <div className="icon"><img src="styles/images/bannerbitcoin.png" alt=""></div>
+              <p>BITCOIN: <span className="bitCoin"></span></p>
             </div>
-
-            <div className='planProfit gradBack'>
-                <div className='container'>
-                    <div className='cfix'>
-                        <form onSubmit={handleIncomeCalculation}>
-                            <div className='formBlockLight'>
-                                <label for='calc_amount'>Amount:</label>
-                                <input
-                                    name='inputNum'
-                                    className='enterNum'
-                                    type='number'
-                                    min='20'
-                                    max='99999'
-                                    id='calc_amount'
-                                    onChange={inputChangeHandler}
-                                    value={calcNum}
-                                />
-                            </div>
-                            <div className='formBlockLight'>
-                                <label for='calc_plan'>Choosing of plan:</label>
-                                <select
-                                    name='choosePlan'
-                                    id='calc_plan'
-                                    className='calc_plan--select'
-                                    onChange={inputChangeHandler}
-                                >
-                                    <option
-                                        value='10'
-                                        data-min='50'
-                                        data-max='199'
-                                        data-perc='110'
-                                        data-per='1'
-                                        checked
-                                    >
-                                        10% After 48 hours
-                                    </option>
-                                    <option
-                                        value='20'
-                                        data-min='200'
-                                        data-max='499'
-                                        data-perc='120'
-                                        data-per='1'
-                                    >
-                                        20% after 4 work Days{' '}
-                                    </option>
-                                    <option
-                                        value='30'
-                                        data-min='500'
-                                        data-max='999'
-                                        data-perc='130'
-                                        data-per='1'
-                                    >
-                                        30% after 6 work Days{' '}
-                                    </option>
-                                    <option
-                                        value='40'
-                                        data-min='1000'
-                                        data-max='4999'
-                                        data-perc='140'
-                                        data-per='1'
-                                    >
-                                        40% after 8 work Days
-                                    </option>
-                                    <option
-                                        value='60'
-                                        data-min='5000'
-                                        data-max='9999'
-                                        data-perc='160'
-                                        data-per='1'
-                                    >
-                                        60% after 10 work Days{' '}
-                                    </option>
-                                    <option
-                                        value='80'
-                                        data-min='10000'
-                                        data-max='100000000'
-                                        data-perc='180'
-                                        data-per='1'
-                                    >
-                                        80% after 12 work Days{' '}
-                                    </option>
-                                </select>
-                            </div>
-                            <div className='sum'>
-                                <span className='title'>Your profit:</span>
-                                <span className='num'>
-                                    <b id='profit'>
-                                        {calcProfit.toLocaleString()}
-                                    </b>{' '}
-                                    USD
-                                </span>
-                            </div>
-                            <input
-                                type='submit'
-                                id='calc_btn'
-                                style={{ display: 'none' }}
-                            />{' '}
-                        </form>
-                        <Link to='/Auth/signup' className='btnFillDarkMd'>
-                            Get money
-                        </Link>
-                    </div>
-                </div>
+            <div className="statbox slideInRight wow">
+              <div className="icon"><img src="styles/images/bannerlitecoin.png" alt=""></div>
+              <p>litecoin: <span className="liteCoin"></span></p>
             </div>
-
-            <div className='program gradBack'>
-                <div className='container'>
-                    <span className='captionDark center'>
-                        Affiliate program
-                    </span>
-                    <div className='wrap'>
-                        <div className='row'>
-                            <div className='item col6'>
-                                <div className='progrInfoFirst'>
-                                    <div className='inner'>
-                                        <span className='num'>6</span>
-                                        <span>1ST LEVEL</span>
-                                        <span className='pct'>%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='item col6'>
-                                <div className='progrInfoSecond'>
-                                    <div className='inner'>
-                                        <span className='num'>2</span>
-                                        <span>2ND LEVEL</span>
-                                        <span className='pct'>%</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <span className='amp'>&</span>
-                    </div>
-                    <div className='textBlock'>
-                        <p>
-                            We appreciates the active partners that help us
-                            develop and advance our company. As a thank you for
-                            each newly invited participant in this project, we
-                            charge referral commissions to their sponsors. In
-                            addition, if your invitees will also develop our
-                            company, you will also get even more bonuses for it!
-                        </p>
-                    </div>
-                    <Link to='about-us' className='btnFillGradLg center'>
-                        Learn More
-                    </Link>
-
-                    <div className='cfix'>
-                        <div className='statistic' style={{ display: 'none' }}>
-                            <div className='row'>
-                                <div className='item'>
-                                    <div className='img'>
-                                        <span className='icon-date'></span>
-                                    </div>
-                                    <span className='title'>Online Days:</span>
-                                    <span className='num'>4059</span>
-                                </div>
-                                <div className='item'>
-                                    <div className='img'>
-                                        <span className='icon-profile'></span>
-                                    </div>
-                                    <span className='title'>Online Users:</span>
-                                    <span className='num'>916</span>
-                                </div>
-                                <div className='item'>
-                                    <div className='img'>
-                                        <span className='icon-pay_in'></span>
-                                    </div>
-                                    <span className='title'>
-                                        total withdrawals:
-                                    </span>
-                                    <span
-                                        className='num'
-                                        sstyle={{ fontSize: '25px' }}
-                                    >
-                                        $ 9,428,235.00
-                                    </span>
-                                </div>
-                                <div className='item'>
-                                    <div className='img'>
-                                        <span className='icon-pay_out'></span>
-                                    </div>
-                                    <span className='title'>
-                                        total deposits:
-                                    </span>
-                                    <span
-                                        className='num'
-                                        style={{ fontSize: '25px' }}
-                                    >
-                                        $ 1,062,095.00
-                                    </span>
-                                </div>
-                                <div className='item'>
-                                    <div className='img'>
-                                        <span className='icon-partner'></span>
-                                    </div>
-                                    <span className='title'>Active users:</span>
-                                    <span className='num'>8935</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='statTbl' style={{ display: 'none' }}>
-                            <div className='row'>
-                                <div className='item col6'>
-                                    <div className='inner'>
-                                        <div className='title'>
-                                            <span>latest deposit</span>
-                                        </div>
-                                        <ul className='table full in'>
-                                            <li className='tRow'>
-                                                <span className='tCell middle name'>
-                                                    Deposit{' '}
-                                                </span>
-                                                <span className='tCell middle date'>
-                                                    {' '}
-                                                </span>
-                                                <span className='tCell middle sum'>
-                                                    $
-                                                </span>
-                                                <span className='tCell bottom right pay'>
-                                                    <img
-                                                        src={`${B1000}`}
-                                                        alt='pay'
-                                                    />
-                                                </span>
-                                            </li>
-                                            <li className='tRow'>
-                                                <span className='tCell middle name'>
-                                                    Torres
-                                                </span>
-                                                <span className='tCell middle date'>
-                                                    {' '}
-                                                </span>
-                                                <span className='tCell middle sum'>
-                                                    $53,000.00
-                                                </span>
-                                                <span className='tCell bottom right pay'>
-                                                    <img
-                                                        src={`${B1000}`}
-                                                        alt='pay'
-                                                    />
-                                                </span>
-                                            </li>
-                                            <li className='tRow'>
-                                                <span className='tCell middle name'>
-                                                    Hensley
-                                                </span>
-                                                <span className='tCell middle date'>
-                                                    {' '}
-                                                </span>
-                                                <span className='tCell middle sum'>
-                                                    $201.00
-                                                </span>
-                                                <span className='tCell bottom right pay'>
-                                                    <img
-                                                        src={`${B1000}`}
-                                                        alt='pay'
-                                                    />
-                                                </span>
-                                            </li>
-                                            <li className='tRow'>
-                                                <span className='tCell middle name'>
-                                                    Hensley
-                                                </span>
-                                                <span className='tCell middle date'>
-                                                    {' '}
-                                                </span>
-                                                <span className='tCell middle sum'>
-                                                    $34,000.00
-                                                </span>
-                                                <span className='tCell bottom right pay'>
-                                                    <img
-                                                        src={`${B1000}`}
-                                                        alt='pay'
-                                                    />
-                                                </span>
-                                            </li>
-                                            <li className='tRow'>
-                                                <span className='tCell middle name'>
-                                                    Frank Jason
-                                                </span>
-                                                <span className='tCell middle date'>
-                                                    {' '}
-                                                </span>
-                                                <span className='tCell middle sum'>
-                                                    $
-                                                </span>
-                                                <span className='tCell bottom right pay'>
-                                                    <img
-                                                        src={`${B1000}`}
-                                                        alt='pay'
-                                                    />
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div
-                                    className='item col6'
-                                    style={{ display: 'none' }}
-                                >
-                                    <div className='inner'>
-                                        <div className='title'>
-                                            <span>last WITHDRAWALS</span>
-                                        </div>
-                                        <ul className='table full out'>
-                                            <li className='tRow'>
-                                                <span className='tCell middle name'>
-                                                    Ms. Willie Hoppe III
-                                                </span>
-                                                <span className='tCell middle date'>
-                                                    {' '}
-                                                </span>
-                                                <span className='tCell middle sum'>
-                                                    $95,100.00
-                                                </span>
-                                                <span className='tCell bottom right pay'>
-                                                    <img
-                                                        src={`${B1000}`}
-                                                        alt='pay'
-                                                    />
-                                                </span>
-                                            </li>
-                                            <li className='tRow'>
-                                                <span className='tCell middle name'>
-                                                    Ms. Willie Hoppe III
-                                                </span>
-                                                <span className='tCell middle date'>
-                                                    {' '}
-                                                </span>
-                                                <span className='tCell middle sum'>
-                                                    $134,000.00
-                                                </span>
-                                                <span className='tCell bottom right pay'>
-                                                    <img
-                                                        src={`${B1000}`}
-                                                        alt='pay'
-                                                    />
-                                                </span>
-                                            </li>
-                                            <li className='tRow'>
-                                                <span className='tCell middle name'>
-                                                    Elissa Murazik
-                                                </span>
-                                                <span className='tCell middle date'>
-                                                    {' '}
-                                                </span>
-                                                <span className='tCell middle sum'>
-                                                    $87,000.00
-                                                </span>
-                                                <span className='tCell bottom right pay'>
-                                                    <img
-                                                        src={`${B1000}`}
-                                                        alt='pay'
-                                                    />
-                                                </span>
-                                            </li>
-                                            <li className='tRow'>
-                                                <span className='tCell middle name'>
-                                                    Dr. Velma Larson PhD
-                                                </span>
-                                                <span className='tCell middle date'>
-                                                    {' '}
-                                                </span>
-                                                <span className='tCell middle sum'>
-                                                    $262,800.00
-                                                </span>
-                                                <span className='tCell bottom right pay'>
-                                                    <img
-                                                        src={`${B1000}`}
-                                                        alt='pay'
-                                                    />
-                                                </span>
-                                            </li>
-                                            <li className='tRow'>
-                                                <span className='tCell middle name'>
-                                                    Takalani Letsoalo
-                                                </span>
-                                                <span className='tCell middle date'>
-                                                    {' '}
-                                                </span>
-                                                <span className='tCell middle sum'>
-                                                    $76,000.00
-                                                </span>
-                                                <span className='tCell bottom right pay'>
-                                                    <img
-                                                        src={`${B1000}`}
-                                                        alt='pay'
-                                                    />
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className='circleBg'>
-                    <div className='circle'></div>
-                </div>
+            <div className="statbox slideInRight wow">
+              <div className="icon"><img src="styles/images/bannerethreum.png" alt=""></div>
+              <p>ethereum: <span className="ethCoin"></span></p>
             </div>
+          </div>
+        </div>
+        <div className="rightthumb"><figure><img src="styles/images/bannerthumb.png" alt=""></figure></div>
+      </div>
+    </section>
+      </section>	
 
-            <div
-                className='advTempl'
-                style={{
-                    backgroundImage: `url(${Adv_bg})`,
-                }}
-            >
-                <div className='container'>
-                    <span className='captionLight center'>Why choose us?</span>
-                    <div className='advWrap'>
-                        <div className='grid'>
-                            <div className='item col4'>
-                                <div className='in'>
-                                    <span className='icon-phone gradTxt'></span>
-                                    <span className='title'>AUTOMATED</span>
-                                    <p>
-                                        No financial advisor? No experience
-                                        trading cryptocurrency? No worries. Our
-                                        algorithm takes away the guesswork and
-                                        executes transactions automatically on
-                                        your behalf.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className='item col4'>
-                                <div className='in'>
-                                    <span className='icon-chart gradTxt'></span>
-                                    <span className='title'>SMART TRADING</span>
-                                    <p>
-                                        Emotions and stress have a negative
-                                        impact on trading. Our Automated
-                                        platform allows you to avoid that and
-                                        gets the best option by analysing all
-                                        data storage.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className='item col4'>
-                                <div className='in'>
-                                    <span className='icon-team gradTxt'></span>
-                                    <span className='title'>
-                                        NO MORE MIDDLE MEN
-                                    </span>
-                                    <p>
-                                        Immediate funding without third-parties.
-                                        Smart contracts autonomously perform
-                                        funding – collect and release payments.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className='item col4'>
-                                <div className='in'>
-                                    <span className='icon-docs gradTxt'></span>
-                                    <span className='title'>
-                                        PROTECTION FROM HACKING
-                                    </span>
-                                    <p>
-                                        On a decentralized platform, all user
-                                        accounts are independent; if one account
-                                        is hacked, this won’t breach the
-                                        security.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className='item col4'>
-                                <div className='in'>
-                                    <span className='icon-cash gradTxt'></span>
-                                    <span className='title'>RELIABILITY</span>
-                                    <p>
-                                        Robot Trading under the direction of
-                                        Next Generation Technology Co., LTD is
-                                        located in United Kingdom and is
-                                        governed by the laws of United Kingdom.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className='item col4'>
-                                <div className='in'>
-                                    <span className='icon-pass gradTxt'></span>
-                                    <span className='title'>
-                                        AUTO TRADING 24/7
-                                    </span>
-                                    <p>
-                                        Our platform is always available to
-                                        ensure that no market opportunity is
-                                        lost. Let our platform work for you!
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+
+<section className="investmentofferwrap">
+    <div className="content">
+      <div className="left slideInDown wow"><h2>investment <span>offer</span></h2></div>
+      <div className="right slideInDown wow">
+        <p>nodefrancias.com proposes you the most dependable and novel finance system to choose not only for settlements but also for the possibility to earn the most extraordinary profit.</p>
+      </div>
+    </div>
+  </section>
+  <section className="planwrap">
+    <div className="content">
+      <div className="planinsider bounceInDown wow">
+        <div className="planbox one">
+          <div className="beginerwrap">
+            <div className="planname">HELM</div>
+            <div className="percentage">10<sup>%</sup><span></span></div>
+          </div>
+          <div className="roi">Principal: Returned</div>
+          <div className="planinfos">
+            <ul>
+              <li>Term:  <span>24 Hours</span></li>
+              <li>Minimum:  <span>20 USD</span></li>
+              <li>Withdrawal:  <span>Instant</span></li>
+            </ul>
+          </div>
+          <div className="deposit">
+            <a href="?a=signup">Deposit</a>
+          </div>
+        </div>
+        <div className="planbox two">
+          <div className="beginerwrap">
+            <div className="planname">Premium</div>
+            <div className="percentage">30<sup>%</sup><span></span></div>
+          </div>
+          <div className="roi">Principal: Returned</div>
+          <div className="planinfos">
+            <ul>
+              <li>Term:  <span>24 Hours</span></li>
+              <li>Minimum:  <span>1000 USD</span></li>
+              <li>Withdrawal:  <span>Instant</span></li>
+            </ul>
+          </div>
+          <div className="deposit">
+            <a href="?a=signup">Deposit</a>
+          </div>
+        </div>
+        <div className="planbox three">
+          <div className="beginerwrap">
+            <div className="planname">Business</div>
+            <div className="percentage">100<sup>%</sup><span></span></div>
+          </div>
+          <div className="roi">Principal: Returned</div>
+          <div className="planinfos">
+            <ul>
+              <li>Term:  <span>48 Hours</span></li>
+              <li>Minimum:  <span>5000 USD</span></li>
+              <li>Withdrawal:  <span>Instant</span></li>
+            </ul>
+          </div>
+          <div className="deposit">
+            <a href="?a=signup">Deposit</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+	
+	
+  <section className="calculatorwrap">
+    <div className="content">
+      <div className="calculatorinside bounceInUp wow">
+        <div className="left">calculate <span>profit</span></div>
+        <div className="right">
+          <div className="calbox one">
+            <label>Enter Amount</label>
+            <span><input type="text" name="" id="amount"></span>
+          </div>
+          <div className="calbox two">
+            <label>Profit</label>
+            <div className="results" id="profitDaily">3.6</div>
+          </div>
+          <div className="calbox three">
+            <label>Net Profit</label>
+            <div className="results" id="profitMonthly">23.6</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>	
+	
+<section className="aboutwrap">
+    <div className="content">
+      <div className="aboutinside slideInUp wow">
+        <div className="left">
+          <h1>ABOUT nodefrancias.com</h1>
+          <p>nodefrancias.com is a global crypto finance solution for all the crypto enthusiasts who are in search of the trusted, secure and reliable platform. nodefrancias.com is operating under the UK established company known as nodefrancias.com with the company number #19928031. nodefrancias.com provides our clients with an opportunity to grow their finance in the secured environment without any need to learn any complex trading skills. There are no super risky ventures that could leave you figuring your extinction, and we hold great satisfaction in managing secure, profitable conditions where our clients benefit with minimal fuss and optimal convenience. nodefrancias.com Expert team is empowered to delivering a simple, automated and easy-to-use regularity for financing and grow in the booming crypto marketplace.</p>
+          <a href="?a=faq">More Information</a>
+        </div>
+        <div className="right">
+          <div className="certificatebo"><a href="#"><img src="styles/images/certificatethumb.jpg" alt=""></a></div>
+        </div>
+      </div>
+    </div>
+  </section>	
+
+<section className="registerwrap">
+    <div className="content">
+      <div className="left">
+        <div className="ukflagwrap slideInRight wow">
+          <div className="flag"><img src="styles/images/ukmapicon.jpg" alt=""></div>
+          <div className="info">
+            <h3>nodefrancias.com</h3>
+              <h4>UK Registered Company <span>#19928031</span></h4>
+          </div>
+        </div>
+        <div className="addresswrap slideInRight wow">
+          <div className="address">61 Glentham Road,<br>London, United Kingdom, SW13 9JJ</div>
+          <div className="email"><a href="mailto:support@nodefrancias.com">support@nodefrancias.com</a></div>
+        </div>
+        <div className="action slideInRight wow">
+          <a href="#"  target="_blank" className="downloadcertificate"></a>
+          <a href="#" className="companyprofile" target="_blank">Company<br>Profile</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section className="referralwrap">
+    <div className="content">
+      <div className="left">
+        <div className="value one zoomIn wow">
+          3% <span>Level1</span>
+        </div>
+        <div className="value two zoomIn wow">
+          2% <span>Level2</span>
+        </div>
+        <div className="value three zoomIn wow">
+          1% <span>Level3</span>
+        </div>
+      </div>
+      <div className="right slideInRight wow">
+        <h3><span>3 levels</span> REFERRAL COMMISSION PROGRAM</h3>
+        <p>Earn with the most premium multi level referral commission program by referring to your friends, relative, colleagues and your networking circles.</p>         
+      </div>
+    </div>
+  </section>  
+  <section className="featureswrap">
+    <div className="content">
+      <h2>nodefrancias.com features</h2>
+      <div className="feturesboxinside">
+        <div className="featuredbox flipinX wow">
+          <div className="icon"><img src="styles/images/uniformmaturity.png" alt=""></div>
+          <div className="infos">
+            <h4>PROFESSIONAL TEAM</h4>
+            <p>Nodefrancias Ltd is run by a very professional and experienced admin team who are expert in handling the hyip yield investment programs.</p>
+          </div>
+        </div>
+        <div className="featuredbox flipinX wow">
+          <div className="icon"><img src="styles/images/fastpayment.png" alt=""></div>
+          <div className="infos">
+            <h4>INSTANT PAYOUTS</h4>
+            <p>We at nodefrancias.com believe in full transparency and hence all our investors enjoy instant payouts of their profits and referral earnings.</p>
+          </div>
+        </div>
+        <div className="featuredbox flipinX wow">
+          <div className="icon"><img src="styles/images/profsupport.png" alt=""></div>
+          <div className="infos">
+            <h4>24/7 SUPPORT</h4>
+            <p>Timely support is a key ingredient in the success of any high yield investment program. Our staff provides 24/7 support services.</p>
+          </div>
+        </div>
+        <div className="featuredbox flipinX wow">
+          <div className="icon"><img src="styles/images/strongsecurity.png" alt=""></div>
+          <div className="infos">
+            <h4>STRONG SECURITY</h4>
+            <p>nodefrancias.com uses 256 bit ssl security. Also our site is hosted on a dedicated server and protected against all kinds of ddos attacks.</p>
+          </div>
+        </div>
+      </div>
+      <div className="banklevel slideInDown wow">
+        <div className="left">Bank Level Security</div>
+        <div className="right">
+          <span><img src="styles/images/geotrust.png" alt=""></span>
+          <span><img src="styles/images/trustguard.png" alt=""></span>
+          <span><img src="styles/images/sitelock.png" alt=""></span>
+          <span><img src="styles/images/mcafee.png" alt=""></span>
+        </div>
+      </div>
+    </div>
+  </section> 
+  
+  
+  <div className="lasttenwrap">
+    <div className="content">
+      <div className="lasttenbox slideInLeft wow">
+        <div className="head">last 10 deposits</div>
+        <div className="listing">
+                      
+        </div>
+      </div>
+      <div className="midstatbox slideInUp wow">
+        <div className="statbox one">
+          <div className="info">547
+            <span>Running Days</span></div>
+          <div className="icon"><img src="styles/images/runningdays.png" alt=""></div>
+        </div>
+        <div className="statbox two">
+          <div className="info">$ 335169.13
+            <span>Total Deposited</span></div>
+          <div className="icon"><img src="styles/images/totaldeposited.png" alt=""></div>
+        </div>
+        <div className="statbox three">
+          <div className="info">$ 782310.92
+            <span>Total Withdrawal</span></div>
+          <div className="icon"><img src="styles/images/totalwithdrawals.png" alt=""></div>
+        </div>
+        <div className="statbox four">
+          <div className="info">13265
+            <span>Total Members</span></div>
+          <div className="icon"><img src="styles/images/totalmembers.png" alt=""></div>
+        </div>
+      </div>
+      <div className="lasttenbox slideInRight wow">
+        <div className="head">last 10 withdrawals</div>
+        <div className="listing">
+                    
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div className="paymentlogowrap">
+    <div className="content">
+      <div className="icons zoomIn wow"><img src="styles/images/perfectmoney.png" alt=""></div>
+      <div className="icons zoomIn wow"><img src="styles/images/payeer.png" alt=""></div>
+      <div className="icons zoomIn wow"><img src="styles/images/bitcoin.png" alt=""></div>
+      <div className="icons zoomIn wow"><img src="styles/images/litecoin.png" alt=""></div>
+      <div className="icons zoomIn wow"><img src="styles/images/ethreum.png" alt=""></div>
+      <div className="icons zoomIn wow"><img src="styles/images/bicoincash.png" alt=""></div>
+      <div className="icons zoomIn wow"><img src="styles/images/dogecoin.png" alt=""></div>
+      <div className="icons zoomIn wow"><img src="styles/images/dashcoin.png" alt=""></div>
+    </div>
+  </div>
+ <footer>
+    <div className="content">
+      <div className="footerlogo">
+        <p><img src="styles/images/logo.png" alt=""></p>
+        <p>&copy; 2020 nodefrancias.com<br> 
+          ALL RIGHTS RESERVED.</p>
+      </div>
+      <div className="footeraddresswrap">
+        <div className="address"><span>Address:</span> 61 Glentham Road,<br> London, UK, SW13 9JJ</div>
+        <div className="email"><span>Email:</span>  support@nodefrancais.com</div>
+      </div>
+      <div className="footerlinks">
+        <ul>
+          <li><a href="?a=home">Home</a></li>
+          <li><a href="?a=cust&page=about">About</a></li>
+          <li><a href="?a=cust&page=howto">Get Started</a></li>
+          
+        </ul>
+        <ul>
+          <li><a href="?a=cust&page=affiliates">Affiliates</a></li>
+          <li><a href="?a=faq">FAQ</a></li>
+          <li><a href="?a=news">News</a></li>
+          <li><a href="?a=rules">Terms & Conitions</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
         </>
     )
 }
