@@ -74,61 +74,59 @@ function Layout(props) {
 
     return (
         <>
-            <section className="mainwrap">
+      <section className="mainwrap">
 	  <section className="bannerwrap">
-    <section className="header slideInDown wow">
-      <div className="content">
-        {/* <div className="logo"><a href="?a=home"><img src="styles/images/logo.png" alt=""></a></div> */}
-        <div className="menu">
-          <ul>
-            <li><a href="?a=home">HOME</a></li>                                                                         
-            <li><a href="?a=cust&page=about">ABOUT US</a></li>
-            <li><a href="?a=cust&page=howto">GET STARTED</a></li>
-            <li><a href="?a=cust&page=affiliates">PARTNERSHIP</a></li>
-            
-            <li><a href="?a=faq">FAQ</a></li>
-            <li><a href="?a=support">SUPPORT</a></li>
+        <section className="header slideInDown wow">
+            <div className="content">
+                {/* <div className="logo"><a href="?a=home"><img src="styles/images/logo.png" alt=""></a></div> */}
+                    <div className="menu">
+                    <ul>
+                        <li><a href="?a=home">HOME</a></li>                                                                         
+                        <li><a href="?a=cust&page=about">ABOUT US</a></li>
+                        <li><a href="?a=cust&page=howto">GET STARTED</a></li>
+                        <li><a href="?a=cust&page=affiliates">PARTNERSHIP</a></li>
+                        
+                        <li><a href="?a=faq">FAQ</a></li>
+                        <li><a href="?a=support">SUPPORT</a></li>
 
-                         <li className="login"><a href="?a=login">login</a></li>
-            <li className="signup"><a href="?a=signup">signup</a></li>
-                      </ul>
-        </div>
-      </div>
-    </section>	
+                                    <li className="login"><a href="?a=login">login</a></li>
+                        <li className="signup"><a href="?a=signup">signup</a></li>
+                                </ul>
+                    </div>
+            </div>
+        </section>	
 	
-	
- 	
- <section className="banner">
-      <div className="content">
-        <div className="leftinfo">
-          <div className="servertimwrap slideInRight wow">
-            <div className="servertime">server time: <span id="clockbox"></span></div>
-            <div className="emailaddress">e-mail address: <span><a href="mailto:support@nodefrancias.com">support@nodefrancias.com</a></span></div>
-          </div>
-          <h1 className="slideInDown wow">safe & Secure</h1>
-          <h2 className="slideInDown wow">cryptocurrency </h2>
-          <h3 className="slideInDown wow">investment platform</h3>
-          <p className="slideInDown wow">nodefrancias.com is a global cryptocurrency platform which aims to extract maximum from the opportunities of trading and investments while operating with the assets of customers to accomplish the most outstanding profit.</p>
-          <a href="?a=signup" className="slideInDown wow action">register now</a>
-          <div className="bannerstat">
-            <div className="statbox slideInRight wow">
-              {/* <div className="icon"><img src="styles/images/bannerbitcoin.png"/> alt=""></div> */}
-              <p>BITCOIN: <span className="bitCoin"></span></p>
+        <section className="banner">
+            <div className="content">
+                <div className="leftinfo">
+                <div className="servertimwrap slideInRight wow">
+                    <div className="servertime">server time: <span id="clockbox"></span></div>
+                    <div className="emailaddress">e-mail address: <span><a href="mailto:support@nodefrancias.com">support@nodefrancias.com</a></span></div>
+                </div>
+                <h1 className="slideInDown wow">safe & Secure</h1>
+                <h2 className="slideInDown wow">cryptocurrency </h2>
+                <h3 className="slideInDown wow">investment platform</h3>
+                <p className="slideInDown wow">nodefrancias.com is a global cryptocurrency platform which aims to extract maximum from the opportunities of trading and investments while operating with the assets of customers to accomplish the most outstanding profit.</p>
+                <a href="?a=signup" className="slideInDown wow action">register now</a>
+                <div className="bannerstat">
+                    <div className="statbox slideInRight wow">
+                    {/* <div className="icon"><img src="styles/images/bannerbitcoin.png"/> alt=""></div> */}
+                    <p>BITCOIN: <span className="bitCoin"></span></p>
+                    </div>
+                    <div className="statbox slideInRight wow">
+                    {/* <div className="icon"><img src="styles/images/bannerlitecoin.png"/> alt=""></div> */}
+                    <p>litecoin: <span className="liteCoin"></span></p>
+                    </div>
+                    <div className="statbox slideInRight wow">
+                    {/* <div className="icon"><img src="styles/images/bannerethreum.png" />alt=""></div> */}
+                    <p>ethereum: <span className="ethCoin"></span></p>
+                    </div>
+                </div>
+                </div>
+                {/* <div className="rightthumb"><figure><img src="styles/images/bannerthumb.png" alt=""></figure></div> */}
             </div>
-            <div className="statbox slideInRight wow">
-              {/* <div className="icon"><img src="styles/images/bannerlitecoin.png"/> alt=""></div> */}
-              <p>litecoin: <span className="liteCoin"></span></p>
-            </div>
-            <div className="statbox slideInRight wow">
-              {/* <div className="icon"><img src="styles/images/bannerethreum.png" />alt=""></div> */}
-              <p>ethereum: <span className="ethCoin"></span></p>
-            </div>
-          </div>
-        </div>
-        {/* <div className="rightthumb"><figure><img src="styles/images/bannerthumb.png" alt=""></figure></div> */}
-      </div>
-    </section>
-      </section>	
+            </section>
+     </section>	
 
 
 
@@ -248,12 +246,12 @@ function Layout(props) {
           </div>
         </div>
         <div className="addresswrap slideInRight wow">
-          <div className="address">61 Glentham Road,<br>London, United Kingdom, SW13 9JJ</div>
+          {/* <div className="address">61 Glentham Road,<br/>London, United Kingdom, SW13 9JJ</div> */}
           <div className="email"><a href="mailto:support@nodefrancias.com">support@nodefrancias.com</a></div>
         </div>
         <div className="action slideInRight wow">
           <a href="#"  target="_blank" className="downloadcertificate"></a>
-          <a href="#" className="companyprofile" target="_blank">Company<br/>Profile</a>
+          {/* <a href="#" className="companyprofile" target="_blank">Company<br/>Profile</a> */}
         </div>
       </div>
     </div>
@@ -320,7 +318,9 @@ function Layout(props) {
           <span><img src="styles/images/mcafee.png" alt=""></span> */}
         </div>
       </div>
-    </div>
+                        </div>
+                    </section>
+                
   </section> 
   
   
@@ -379,11 +379,10 @@ function Layout(props) {
     <div className="content">
       <div className="footerlogo">
         {/* <p><img src="styles/images/logo.png" alt=""></p> */}
-        <p>&copy; 2020 nodefrancias.com<br/> 
-          ALL RIGHTS RESERVED.</p>
+        {/* <p>&copy; 2020 nodefrancias.com<br/> ALL RIGHTS RESERVED.</p> */}
       </div>
       <div className="footeraddresswrap">
-        <div className="address"><span>Address:</span> 61 Glentham Road,<br> London, UK, SW13 9JJ</div>
+        {/* <div className="address"><span>Address:</span> 61 Glentham Road,<br/> London, UK, SW13 9JJ</div> */}
         <div className="email"><span>Email:</span>  support@nodefrancais.com</div>
       </div>
       <div className="footerlinks">
