@@ -336,22 +336,22 @@ function Layout(props) {
         <div className="statbox one">
           <div className="info">547
             <span>Running Days</span></div>
-          <div className="icon"><img src="styles/images/runningdays.png" alt=""></div>
+          {/* <div className="icon"><img src="styles/images/runningdays.png" alt=""></div> */}
         </div>
         <div className="statbox two">
           <div className="info">$ 335169.13
             <span>Total Deposited</span></div>
-          <div className="icon"><img src="styles/images/totaldeposited.png" alt=""></div>
+          {/* <div className="icon"><img src="styles/images/totaldeposited.png" alt=""></div> */}
         </div>
         <div className="statbox three">
           <div className="info">$ 782310.92
             <span>Total Withdrawal</span></div>
-          <div className="icon"><img src="styles/images/totalwithdrawals.png" alt=""></div>
+          {/* <div className="icon"><img src="styles/images/totalwithdrawals.png" alt=""></div> */}
         </div>
         <div className="statbox four">
           <div className="info">13265
             <span>Total Members</span></div>
-          <div className="icon"><img src="styles/images/totalmembers.png" alt=""></div>
+          {/* <div className="icon"><img src="styles/images/totalmembers.png" alt=""></div> */}
         </div>
       </div>
       <div className="lasttenbox slideInRight wow">
@@ -365,21 +365,21 @@ function Layout(props) {
   
   <div className="paymentlogowrap">
     <div className="content">
-      <div className="icons zoomIn wow"><img src="styles/images/perfectmoney.png" alt=""></div>
+      {/* <div className="icons zoomIn wow"><img src="styles/images/perfectmoney.png" alt=""></div>
       <div className="icons zoomIn wow"><img src="styles/images/payeer.png" alt=""></div>
       <div className="icons zoomIn wow"><img src="styles/images/bitcoin.png" alt=""></div>
       <div className="icons zoomIn wow"><img src="styles/images/litecoin.png" alt=""></div>
       <div className="icons zoomIn wow"><img src="styles/images/ethreum.png" alt=""></div>
       <div className="icons zoomIn wow"><img src="styles/images/bicoincash.png" alt=""></div>
       <div className="icons zoomIn wow"><img src="styles/images/dogecoin.png" alt=""></div>
-      <div className="icons zoomIn wow"><img src="styles/images/dashcoin.png" alt=""></div>
+      <div className="icons zoomIn wow"><img src="styles/images/dashcoin.png" alt=""></div> */}
     </div>
   </div>
  <footer>
     <div className="content">
       <div className="footerlogo">
-        <p><img src="styles/images/logo.png" alt=""></p>
-        <p>&copy; 2020 nodefrancias.com<br> 
+        {/* <p><img src="styles/images/logo.png" alt=""></p> */}
+        <p>&copy; 2020 nodefrancias.com<br/> 
           ALL RIGHTS RESERVED.</p>
       </div>
       <div className="footeraddresswrap">
