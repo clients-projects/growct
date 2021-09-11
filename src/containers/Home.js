@@ -112,20 +112,20 @@ function Layout(props) {
           <a href="?a=signup" className="slideInDown wow action">register now</a>
           <div className="bannerstat">
             <div className="statbox slideInRight wow">
-              <div className="icon"><img src="styles/images/bannerbitcoin.png" alt=""></div>
+              {/* <div className="icon"><img src="styles/images/bannerbitcoin.png"/> alt=""></div> */}
               <p>BITCOIN: <span className="bitCoin"></span></p>
             </div>
             <div className="statbox slideInRight wow">
-              <div className="icon"><img src="styles/images/bannerlitecoin.png" alt=""></div>
+              {/* <div className="icon"><img src="styles/images/bannerlitecoin.png"/> alt=""></div> */}
               <p>litecoin: <span className="liteCoin"></span></p>
             </div>
             <div className="statbox slideInRight wow">
-              <div className="icon"><img src="styles/images/bannerethreum.png" alt=""></div>
+              {/* <div className="icon"><img src="styles/images/bannerethreum.png" />alt=""></div> */}
               <p>ethereum: <span className="ethCoin"></span></p>
             </div>
           </div>
         </div>
-        <div className="rightthumb"><figure><img src="styles/images/bannerthumb.png" alt=""></figure></div>
+        {/* <div className="rightthumb"><figure><img src="styles/images/bannerthumb.png" alt=""></figure></div> */}
       </div>
     </section>
       </section>	
