@@ -283,28 +283,28 @@ function Layout(props) {
       <h2>nodefrancias.com features</h2>
       <div className="feturesboxinside">
         <div className="featuredbox flipinX wow">
-          <div className="icon"><img src="styles/images/uniformmaturity.png" alt=""></div>
+          {/* <div className="icon"><img src="styles/images/uniformmaturity.png" alt=""></div> */}
           <div className="infos">
             <h4>PROFESSIONAL TEAM</h4>
             <p>Nodefrancias Ltd is run by a very professional and experienced admin team who are expert in handling the hyip yield investment programs.</p>
           </div>
         </div>
         <div className="featuredbox flipinX wow">
-          <div className="icon"><img src="styles/images/fastpayment.png" alt=""></div>
+          {/* <div className="icon"><img src="styles/images/fastpayment.png" alt=""></div> */}
           <div className="infos">
             <h4>INSTANT PAYOUTS</h4>
             <p>We at nodefrancias.com believe in full transparency and hence all our investors enjoy instant payouts of their profits and referral earnings.</p>
           </div>
         </div>
         <div className="featuredbox flipinX wow">
-          <div className="icon"><img src="styles/images/profsupport.png" alt=""></div>
+          {/* <div className="icon"><img src="styles/images/profsupport.png" alt=""></div> */}
           <div className="infos">
             <h4>24/7 SUPPORT</h4>
             <p>Timely support is a key ingredient in the success of any high yield investment program. Our staff provides 24/7 support services.</p>
           </div>
         </div>
         <div className="featuredbox flipinX wow">
-          <div className="icon"><img src="styles/images/strongsecurity.png" alt=""></div>
+          {/* <div className="icon"><img src="styles/images/strongsecurity.png" alt=""></div> */}
           <div className="infos">
             <h4>STRONG SECURITY</h4>
             <p>nodefrancias.com uses 256 bit ssl security. Also our site is hosted on a dedicated server and protected against all kinds of ddos attacks.</p>
@@ -314,10 +314,10 @@ function Layout(props) {
       <div className="banklevel slideInDown wow">
         <div className="left">Bank Level Security</div>
         <div className="right">
-          <span><img src="styles/images/geotrust.png" alt=""></span>
+          {/* <span><img src="styles/images/geotrust.png" alt=""></span>
           <span><img src="styles/images/trustguard.png" alt=""></span>
           <span><img src="styles/images/sitelock.png" alt=""></span>
-          <span><img src="styles/images/mcafee.png" alt=""></span>
+          <span><img src="styles/images/mcafee.png" alt=""></span> */}
         </div>
       </div>
     </div>
