@@ -231,7 +231,7 @@ function Layout(props) {
           <a href="?a=faq">More Information</a>
         </div>
         <div className="right">
-          <div className="certificatebo"><a href="#"><img src="styles/images/certificatethumb.jpg" alt=""></a></div>
+          {/* <div className="certificatebo"><a href="#"><img src="styles/images/certificatethumb.jpg" alt=""></a></div> */}
         </div>
       </div>
     </div>
@@ -241,7 +241,7 @@ function Layout(props) {
     <div className="content">
       <div className="left">
         <div className="ukflagwrap slideInRight wow">
-          <div className="flag"><img src="styles/images/ukmapicon.jpg" alt=""></div>
+          {/* <div className="flag"><img src="styles/images/ukmapicon.jpg" alt=""></div> */}
           <div className="info">
             <h3>nodefrancias.com</h3>
               <h4>UK Registered Company <span>#19928031</span></h4>
@@ -253,7 +253,7 @@ function Layout(props) {
         </div>
         <div className="action slideInRight wow">
           <a href="#"  target="_blank" className="downloadcertificate"></a>
-          <a href="#" className="companyprofile" target="_blank">Company<br>Profile</a>
+          <a href="#" className="companyprofile" target="_blank">Company<br/>Profile</a>
         </div>
       </div>
     </div>
