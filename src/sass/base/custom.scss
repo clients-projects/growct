@@ -90,12 +90,12 @@ ul {
 
 .wrapper{
 	width: 100%;
-	// background: url(images/bg.html) transparent no-repeat center bottom;
+	// background: url(../image/bg.html) transparent no-repeat center bottom;
 	background-size: cover;
 }
 
 .wrapper-sub {
-    // background: url(images/subpage-bg.html) transparent no-repeat center bottom;
+    // background: url(../image/subpage-bg.html) transparent no-repeat center bottom;
     padding-bottom: 0px;
 }
 
@@ -143,7 +143,7 @@ h2.section-header {
 }
 
 .bannerwrap {
-	// background: url(images/bannerbg.jpg) no-repeat top center;
+	// background: url(../image/bannerbg.jpg) no-repeat top center;
 	color:#fff;
 }
 .bannerwrap .header {
@@ -245,11 +245,11 @@ h2.section-header {
 	color: #ffb794;
 }
 .servertime {
-	background: url(images/servertime.png) no-repeat left center;
+	background: url(../image/servertime.png) no-repeat left center;
 }
 .emailaddress {
 	margin: 0;
-	background: url(images/emailicon.png) no-repeat left center;
+	background: url(../image/emailicon.png) no-repeat left center;
 }
 .emailaddress a {
 	color: #ffb794;
@@ -359,7 +359,7 @@ h2.section-header {
 }
 .planinsider {
 	margin-top: -150px;
-	background: url(images/planbg.png) no-repeat top center;
+	background: url(../image/planbg.png) no-repeat top center;
 	text-align: center;
 	overflow: hidden;
 	padding: 0 0 40px;
@@ -444,7 +444,7 @@ h2.section-header {
 	content: "";
 	width: 24px;
 	height: 24px;
-	background: url(images/depositarrow.png) no-repeat center center;
+	background: url(../image/depositarrow.png) no-repeat center center;
 	right: 40px;
 	top: 32px;
 	transition:0.5s;
@@ -457,7 +457,7 @@ h2.section-header {
 	padding: 0 0 85px;
 }
 .calculatorinside {
-	background: url(images/calculatorbg.png) no-repeat center center;
+	background: url(../image/calculatorbg.png) no-repeat center center;
 	border-radius: 10px;
 	padding: 40px;
 	overflow: hidden;
@@ -514,7 +514,7 @@ h2.section-header {
 	position: absolute;
 	right: 10px;
 	top: 5px;
-	background: url(images/calculatorbitcoin.png) no-repeat center center;
+	background: url(../image/calculatorbitcoin.png) no-repeat center center;
 	width: 38px;
 	height: 38px;
 }
@@ -571,7 +571,7 @@ h2.section-header {
 	background: #fff;
 }
 .registerwrap {
-	background: url(images/certificatebg.jpg) no-repeat top center#291880;
+	background: url(../image/certificatebg.jpg) no-repeat top center#291880;
 	padding: 350px 0 60px;
 	margin-top: -350px;
 	overflow: hidden;
@@ -620,10 +620,10 @@ h2.section-header {
 	min-height: 64px;
 }
 .addresswrap .address {
-	background: url(images/locationiconcerti.png) no-repeat left center;
+	background: url(../image/locationiconcerti.png) no-repeat left center;
 }
 .addresswrap .email {
-	background: url(images/emailiconcerti.png) no-repeat left center;
+	background: url(../image/emailiconcerti.png) no-repeat left center;
 }
 .addresswrap .email a {
 	color: #fff;
@@ -664,19 +664,19 @@ h2.section-header {
 
 }
 .registerwrap .left .action a.downloadcertificate:before {
-	background: url(images/downloadcertificate.png) no-repeat left 5px center;
+	background: url(../image/downloadcertificate.png) no-repeat left 5px center;
 }
 .registerwrap .left .action a.companyprofile:before {
-	background: url(images/companyprofile.png) no-repeat left 5px center;
+	background: url(../image/companyprofile.png) no-repeat left 5px center;
 }
 .referralwrap {
-	background: url(images/affiliatebg.jpg) no-repeat center center;
+	background: url(../image/affiliatebg.jpg) no-repeat center center;
 	padding:55px 0;
 }
 .referralwrap .left {
 	width: 58%;
 	float: left;
-	background: url(images/affiliateround.png) no-repeat center center;
+	background: url(../image/affiliateround.png) no-repeat center center;
 	min-height: 250px;
 	position: relative;
 	display: flex;
@@ -736,7 +736,7 @@ h2.section-header {
 .featureswrap:before {
 	content:"";
 	position: absolute;
-	background: url(images/featuredbg.png) no-repeat center center;
+	background: url(../image/featuredbg.png) no-repeat center center;
 	width:100%;
 	height: 100%;
 	left: 0;
@@ -819,7 +819,7 @@ h2.section-header {
 .banklevel .right:before {
 	content: "";
 	position: absolute;
-	background: url(images/banklevellock.png) no-repeat center center;
+	background: url(../image/banklevellock.png) no-repeat center center;
 	width: 32px;
 	height: 32px;
 	left:-16px;
@@ -834,7 +834,7 @@ h2.section-header {
 
 
 .lasttenwrap {
-	background: #eaecf0 url(images/featuredbg.png) no-repeat center center;
+	background: #eaecf0 url(../image/featuredbg.png) no-repeat center center;
 	padding: 50px 0 30px;
 }
 .lasttenbox, .midstatbox {
@@ -842,7 +842,7 @@ h2.section-header {
 	float: left;
 }
 .lasttenbox {
-	background: url(images/lasttenbg.png) no-repeat center center #192076;
+	background: url(../image/lasttenbg.png) no-repeat center center #192076;
 	border-radius: 6px;
 }
 .midstatbox {
@@ -953,10 +953,10 @@ footer {
 	line-height: 22px;
 }
 .footeraddresswrap .address {
-	background: url(images/footerlocation.png) no-repeat left top;
+	background: url(../image/footerlocation.png) no-repeat left top;
 }
 .footeraddresswrap .email {
-	background: url(images/footeremail.png) no-repeat left top;
+	background: url(../image/footeremail.png) no-repeat left top;
 	padding: 12px 0 12px 60px;
 }
 .footeraddresswrap .address span,.footeraddresswrap .email span {
@@ -1043,7 +1043,7 @@ footer {
 }
 .bannerContainer.insider {
     padding: 30px 0 40px 0;
-    // background: url(images/investmentbg.html) #172158 no-repeat center;
+    // background: url(../image/investmentbg.html) #172158 no-repeat center;
 }
 .inside_wrap {
 	width: 100%;
@@ -1197,7 +1197,7 @@ position: absolute;
     font-size: 16px;
     display: block;
     line-height: 24px;
-    background: url(images/remove.png) no-repeat right 10px center;
+    background: url(../image/remove.png) no-repeat right 10px center;
 }
 
 .faq .panel-title > a:hover, .faq .panel-title > a:focus {
@@ -1205,7 +1205,7 @@ position: absolute;
 }
 
 .faq .panel-title > a.collapsed {
-	background: url(images/add.png) no-repeat right 10px center
+	// background: url(../image/add.png) no-repeat right 10px center
 }
 .faq .panel-heading {
      color: #0cada2;
@@ -1246,7 +1246,7 @@ position: absolute;
 }
 
 .account-bg {
-    background: url(images/account-bg.jpg) no-repeat center;
+    // background: url(../image/account-bg.jpg) no-repeat center;
     background-attachment:fixed;
 
 }
@@ -1339,7 +1339,7 @@ position: absolute;
 
 .myaccount .planinsider {
     margin-top: 20px;
-    background: url(images/planbg.png) no-repeat top center;
+    background: url(../image/planbg.png) no-repeat top center;
     text-align: center;
     overflow: hidden;
     padding: 0 0 40px;
@@ -1538,15 +1538,15 @@ border-right: 1px solid #2A9CFA;
 	color: #5fdd21;
 }
 .support-content.email {
-	// background: url(images/contactemail.html) no-repeat left center;
+	// background: url(../image/contactemail.html) no-repeat left center;
 }
 .support-content.phone {
 	border: none;
-	// background: url(images/contactphone.html) no-repeat left center;
+	// background: url(../image/contactphone.html) no-repeat left center;
 }
 .supportform {
 	padding: 40px 0;
-	// background: url(images/bg-bot.html) transparent no-repeat center bottom;
+	// background: url(../image/bg-bot.html) transparent no-repeat center bottom;
 	background-size: auto auto;
 	background-size: cover;
 	overflow: hidden;
@@ -1582,7 +1582,7 @@ ul.rules li {
     padding: 0 0 15px 0px;
 }
 .loginarea, .redirect {
-    background: url(images/bannerbg.jpg) no-repeat top center #181E80;
+    background: url(../image/bannerbg.jpg) no-repeat top center #181E80;
     background-size: cover;
     margin:0px;
     padding:0px;
@@ -1698,7 +1698,7 @@ ul.rules li {
     margin: 25px 0 0px;
     height: 60px;
     width: 246px;
-    background: url(images/logo.png) transparent no-repeat center;
+    background: url(../image/logo.png) transparent no-repeat center;
 }
 
 .loginpage h2 #logologin {
@@ -1729,7 +1729,7 @@ ul.rules li {
 }
 
 .goals-left ul li {
-    background: url(images/check.png) no-repeat left center;
+    background: url(../image/check.png) no-repeat left center;
     padding-left: 42px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1782,7 +1782,7 @@ ul.rules li {
 	content: "";
 	left: 20px;
 	top: -2px;
-	// background: url(images/buttonarrow.html) no-repeat left center;
+	// background: url(../image/buttonarrow.html) no-repeat left center;
 	width: 24px;
 	height: 24px;
 }
@@ -1948,7 +1948,7 @@ width: 65%;
 }
 
 .reflinkbox {
-    background: #242c6f url(images/account7.png) no-repeat 20px center;
+    // background: #242c6f url(../image/account7.png) no-repeat 20px center;
     text-align: left;
     width: 100%;
     float: left;
@@ -2021,7 +2021,7 @@ width: 65%;
     width: 32%;
     float: left;
     margin: 0 2% 0 0;
-    background: #1b2f77 url(images/bannerbg.jpg) no-repeat left -280px;
+    background: #1b2f77 url(../image/bannerbg.jpg) no-repeat left -280px;
     border-top: 6px solid #ffb593;
     text-align: center;
     border-radius: 6px;
@@ -2395,25 +2395,25 @@ background-color: #ef804b;
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b5998', endColorstr='#4a73c9', GradientType=0 ); /* IE6-9 */
 }
 .facebook-left {
-	// background: url(images/facebook-left.html) no-repeat right 20px top 30px;
+	// background: url(../image/facebook-left.html) no-repeat right 20px top 30px;
 	float: left;
 	width: 60%;
 	padding: 30px 210px 30px 30px;
 }
 .youtube-left {
-	// background: url(images/youtube-left.html) no-repeat right 20px top 36px;
+	// background: url(../image/youtube-left.html) no-repeat right 20px top 36px;
 	float: left;
 	width: 60%;
 	padding: 30px 210px 30px 30px;
 }
 .forum-left {
-	// background: url(images/forum-left.html) no-repeat right 20px top 28px;
+	// background: url(../image/forum-left.html) no-repeat right 20px top 28px;
 	float: left;
 	width: 60%;
 	padding: 30px 210px 30px 30px;
 }
 .telegram-left {
-	// background: url(images/telegram-left.html) no-repeat right 20px top 28px;
+	// background: url(../image/telegram-left.html) no-repeat right 20px top 28px;
 	float: left;
 	width: 60%;
 	padding: 30px 210px 30px 30px;
@@ -2432,7 +2432,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b5998', end
 	color: white;
 	padding: 15px 25px;
 	font-weight: 600;
-	// background: url(images/reward.html) #fec134 no-repeat 15px center;
+	// background: url(../image/reward.html) #fec134 no-repeat 15px center;
 	padding-left: 60px;
 	background-size: 30px;
 	width: 100%;
@@ -2443,7 +2443,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b5998', end
 }
 .facebook-left ul li {
 	list-style: none;
-	background: url(images/check.png) transparent no-repeat left 6px;
+	background: url(../image/check.png) transparent no-repeat left 6px;
 	padding: 4px 0 4px 36px;
 	line-height: 26px;
 }
@@ -2470,7 +2470,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b5998', end
 	margin-bottom: 5px;
 }
 .requirement p {
-	// background: url(images/about-list.html) transparent no-repeat left 4px;
+	// background: url(../image/about-list.html) transparent no-repeat left 4px;
 	padding-left: 25px;
 }
 .youtube-group {
@@ -2527,7 +2527,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17c6d1', end
 }
 .loginnewuser {
     padding: 14px 0 14px 0px;
-    // background: url(images/signup-form.html) no-repeat left center;
+    // background: url(../image/signup-form.html) no-repeat left center;
     background-size: 48px auto;
 
 }
@@ -2560,13 +2560,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17c6d1', end
 	color: white;
 }
 .aboutpage .features-part3 {
-	// background: url(images/ctn-top-ic5.html) #04074f no-repeat center top 45px;
+	// background: url(../image/ctn-top-ic5.html) #04074f no-repeat center top 45px;
 }
 .aboutpage .features-part1 {
-	// background: url(images/ctn-top-ic2.html) #04074f no-repeat center top 45px;
+	// background: url(../image/ctn-top-ic2.html) #04074f no-repeat center top 45px;
 }
 .aboutpage .features-part2 {
-	// background: url(images/ctn-top-ic8.html) #04074f no-repeat center top 45px;
+	// background: url(../image/ctn-top-ic8.html) #04074f no-repeat center top 45px;
 }
 .aboutpage .features-part {
 	min-height: 320px;
@@ -2861,7 +2861,7 @@ span.percent font {
 }
 
 .why-section {
-    // background: url(images/whyto-bg.html) no-repeat center top;
+    // background: url(../image/whyto-bg.html) no-repeat center top;
     overflow: hidden;
     padding-bottom: 140px;
 }
@@ -2906,7 +2906,7 @@ span.percent font {
 }
 
 .features {
-	//  background: url(images/features-bg.html) #0D4268 no-repeat center;
+	//  background: url(../image/features-bg.html) #0D4268 no-repeat center;
 	 background-size:cover;
 	 padding:40px 0px 60px;
 	 overflow:hidden;
@@ -3057,7 +3057,7 @@ span.percent font {
 }
 
 .investment-vip {
-	    // background: url(images/features-bg.html) #0D4268 no-repeat center bottom;
+	    // background: url(../image/features-bg.html) #0D4268 no-repeat center bottom;
     padding: 0px 0px 30px;
 }
 
