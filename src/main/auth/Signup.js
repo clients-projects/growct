@@ -201,15 +201,15 @@ const Signup = (props) => {
  <td><input type='password' name='password2' value='' className='inpts' size='30' placeholder="Retype Password"/></td>
 </tr>
 <tr>
- <td><input type=text name=email value='' className=inpts size=30 placeholder="Your E-mail Address"></td>
+ <td><input type='text' name='email' value='' className='inpts' size='30' placeholder="Your E-mail Address"/></td>
 </tr>
 <tr>
- <td><input type=text name=email1 value='' className=inpts size=30 placeholder="Retype Your E-mail"></td>
+ <td><input type='text' name='email1' value='' className='inpts' size='30' placeholder="Retype Your E-mail"/></td>
 </tr>
 </table>
           </div>
-          <div style="width:48%; float:right">
-          <table width="100%" border=0 cellspacing=0>
+                                    <div style={{ width: '48%', float: 'right' }}>
+          <table width="100%" border='0' cellSpacing='0'>
 <tr>
  <td><input type=text className=inpts size=30 name=pay_account[18] value="" data-validate="regexp" data-validate-regexp="^U\d{5,}$" data-validate-notice="UXXXXXXX" placeholder="Your PerfectMoney Account"></td>
 </tr>
