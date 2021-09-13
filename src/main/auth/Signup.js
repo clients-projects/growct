@@ -503,42 +503,7 @@ const Signup = (props) => {
                                                     />
                                                 </td>
                                             </tr>
-                                            <tr>
-                                                <td>
-                                                    <Input
-                                                        id='ethereumAccount'
-                                                        size='30'
-                                                        className='inpts'
-                                                        type='text'
-                                                        name='pay_account[69]'
-                                                        data-validate='regexp'
-                                                        data-validate-regexp='^(0x)?[0-9a-fA-F]{40}$'
-                                                        data-validate-notice='Ethereum Address'
-                                                        placeholder='optional'
-                                                        onChange={
-                                                            inputChangeHandler
-                                                        }
-                                                        onBlur={inputBlurHandler.bind(
-                                                            'ethereumAccount'
-                                                        )}
-                                                        value={
-                                                            state.signupForm[
-                                                                'ethereumAccount'
-                                                            ].value
-                                                        }
-                                                        valid={
-                                                            state.signupForm[
-                                                                'ethereumAccount'
-                                                            ].valid
-                                                        }
-                                                        touched={
-                                                            state.signupForm[
-                                                                'ethereumAccount'
-                                                            ].touched
-                                                        }
-                                                    />
-                                                </td>
-                                            </tr>
+
                                             <tr>
                                                 <td>
                                                     <Input
