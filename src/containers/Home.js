@@ -170,7 +170,7 @@ function Layout(props) {
                                 </a>
                                 <div className='bannerstat'>
                                     <div className='statbox slideInRight wow'>
-                                        <div className="icon"><img src={ BannerBitcoin}/> alt=""></div>
+                                        <div className="icon"><img src={ BannerBitcoin} alt=""/></div>
                                         <p>
                                             BITCOIN:{' '}
                                             <span className='bitCoin'></span>
