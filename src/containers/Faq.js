@@ -135,7 +135,7 @@ const Faq = () => {
                                                         style={{
                                                             color: '#0000ff',
                                                         }}
-                                                        href='robot44trade.com/performance/'
+                                                        href='growveonct.com/performance/'
                                                         target='_blank'
                                                         rel='noopener'
                                                     >
@@ -154,7 +154,7 @@ const Faq = () => {
                                             system among thousands of others.
                                             For further clarification, you may{' '}
                                             <a
-                                                href='robot44trade.com/reviews-2/'
+                                                href='growveonct.com/reviews-2/'
                                                 target='_blank'
                                                 rel='noopener'
                                             >
@@ -329,11 +329,11 @@ const Faq = () => {
                                                         style={{
                                                             color: '#3366ff',
                                                         }}
-                                                        href='robot44trade.com'
+                                                        href='growveonct.com'
                                                         target='_blank'
                                                         rel='noopener'
                                                     >
-                                                        robot44trade.com
+                                                        growveonct.com
                                                     </a>
                                                 </span>
                                             </strong>
@@ -623,14 +623,13 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                           
                             <div className='faqItem'>
                                 <div className='head'>
                                     <div className='iconLeft'>
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
                                             Are the updates about all Free or
-                                            robot44trade.com charges extra?
+                                            growveonct.com charges extra?
                                         </span>
                                     </div>
                                 </div>
@@ -648,7 +647,6 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                          
                             <div className='faqItem'>
                                 <div className='head'>
                                     <div className='iconLeft'>

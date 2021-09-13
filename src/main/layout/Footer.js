@@ -90,9 +90,9 @@ function Footer() {
                                 <span className='title'>E-mail:</span>
                                 <a
                                     className='link'
-                                    href='mailto:admin@robot44trade.com'
+                                    href='mailto:admin@growveonct.com'
                                 >
-                                    admin@robot44trade.com
+                                    admin@growveonct.com
                                 </a>
                             </div>
                         </div>

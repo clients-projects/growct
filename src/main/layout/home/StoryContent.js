@@ -4,7 +4,7 @@ function StoryContent() {
     return (
         <>
             <h3 className='heading-1 story__header mb-sm'>
-                Welcome to Robot44trade.com
+                Welcome to growveonct.com
             </h3>
 
             <p className='story__text'>

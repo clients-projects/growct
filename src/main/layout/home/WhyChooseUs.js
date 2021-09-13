@@ -34,7 +34,7 @@ function WhyChooseUs() {
                         Experienced Management
                     </h2>
                     <h3 className='whyChooseUs__text'>
-                        robot44trade.com is managed by a team with years of
+                        growveonct.com is managed by a team with years of
                         experience{' '}
                     </h3>
                 </div>

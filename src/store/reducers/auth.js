@@ -29,7 +29,7 @@ const authSuccess = (state, action) => {
         userId: action.userId,
         tokenId: action.tokenId,
         role: action.role,
-        siteOwner: action.email === 'admin@robot44trade.com' ? true : false,
+        siteOwner: action.email === 'admin@growveonct.com' ? true : false,
         email: action.email,
         error: null,
     })

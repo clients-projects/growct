@@ -4,8 +4,6 @@ const URL = 'http://localhost:3030'
 
 //const URL = 'https://robot444.herokuapp.com/api/graphql'
 
-
-
 export const authStart = () => {
     console.log('the url', URL)
     return {
@@ -18,7 +16,7 @@ export const authSuccessCheck = (auth, token, role, email) => {
         sessionStorage.setItem('userId', auth)
         sessionStorage.setItem('token', token)
 
-        if (email === 'admin@robot44trade.com') {
+        if (email === 'admin@growveonct.com') {
             sessionStorage.setItem('siteOwner', true)
         }
 
@@ -206,7 +204,6 @@ export const initGetUser = (token) => {
     }
 }
 export const initGetMember = (id, token) => {
-
     return (dispatch) => {
         dispatch(authStart())
         const graphqlQuery = {

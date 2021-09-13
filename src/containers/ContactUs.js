@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 
 import ContactPageBg from '../images/contact_page_bg.jpg'
 import ContactBg from '../images/contact_bg.jpg'
@@ -9,20 +9,19 @@ const ContactUs = (props) => {
     const [message, setMessage] = useState('')
     const [name, setName] = useState('')
 
-
     const inputHandler = (input) => {
         const inputName = input.target.name
         const inputValue = input.target.value
 
-        if(inputName === 'name'){
+        if (inputName === 'name') {
             setName(inputValue)
         }
 
-        if(inputName === 'email'){
+        if (inputName === 'email') {
             setEmail(inputValue)
         }
 
-        if(inputName === 'message'){
+        if (inputName === 'message') {
             setMessage(inputValue)
         }
     }
@@ -75,13 +74,13 @@ const ContactUs = (props) => {
                                                 e-mail:
                                             </span>
                                             <a
-                                                href='mailto:admin@robot44trade.com'
+                                                href='mailto:admin@growveonct.com'
                                                 target='_blank'
                                                 className='link'
                                                 without
                                                 rel='noopener noreferrer'
                                             >
-                                                admin@robot44trade.com
+                                                admin@growveonct.com
                                             </a>
                                         </div>
                                     </div>
