@@ -425,7 +425,6 @@ const Signup = (props) => {
                                         >
                                             <tr>
                                                 <td>
-                                                 
                                                     <Input
                                                         id='ethereumAccount'
                                                         type='text'
@@ -461,16 +460,38 @@ const Signup = (props) => {
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <input
-                                                        type='text'
+                                                  
+                                                    <Input
+                                                        id='bitcoinAccount'
                                                         className='inpts'
-                                                        size='30'
+                                                        type='text'
                                                         name='pay_account[48]'
-                                                        value=''
                                                         data-validate='regexp'
                                                         data-validate-regexp='^[13][a-km-zA-HJ-NP-Z1-9]{25,34}$'
                                                         data-validate-notice='Bitcoin Address'
-                                                        placeholder='Your Bitcoin Account'
+                                                        placeholder='optional'
+                                                        minLength={40}
+                                                        onChange={
+                                                            inputChangeHandler
+                                                        }
+                                                        onBlur={inputBlurHandler.bind(
+                                                            'bitcoinAccount'
+                                                        )}
+                                                        value={
+                                                            state.signupForm[
+                                                                'bitcoinAccount'
+                                                            ].value
+                                                        }
+                                                        valid={
+                                                            state.signupForm[
+                                                                'bitcoinAccount'
+                                                            ].valid
+                                                        }
+                                                        touched={
+                                                            state.signupForm[
+                                                                'bitcoinAccount'
+                                                            ].touched
+                                                        }
                                                     />
                                                 </td>
                                             </tr>
