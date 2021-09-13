@@ -470,6 +470,7 @@ const Signup = (props) => {
                                             <tr>
                                                 <td>
                                                     <Input
+                                                        label='Ethereum Address'
                                                         id='ethereumAccount'
                                                         size='30'
                                                         className='inpts'
