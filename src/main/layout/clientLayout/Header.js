@@ -5,7 +5,7 @@ import {connect} from 'react-redux'
 import avatar from '../../../assets/img/faces/face-1.jpg'
 import Logo from '../../../images/logos.png'
 import Lang1 from '../../../images/lang_1.jpg'
-// import Lang2 from '../../../images/lang_2.jpg'
+ import Lang2 from '../../../images/lang_2.jpg'
 
 import * as orderAction from '../../../store/actions/burgerIndex'
 
