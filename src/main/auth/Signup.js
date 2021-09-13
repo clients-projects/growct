@@ -14,7 +14,7 @@ import Auth from './Auth'
 
 import GradBgBig from '../../sass/images/bannerbg.jpg'
 import LogRegBg from '../../sass/images/bannerbg.jpg'
-import Logo from '../../images/logos.png'
+import Logo from '../../sass/images/GrowveonIcon.png'
 
 const Signup = (props) => {
     const parsed = queryString.parse(window.location.search)
