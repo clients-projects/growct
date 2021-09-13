@@ -670,13 +670,13 @@ h2.section-header {
 	// //background: url(images/companyprofile.png) no-repeat left 5px center;
 }
 .referralwrap {
-	// //background: url(images/affiliatebg.jpg) no-repeat center center;
+background: url(images/affiliatebg.jpg) no-repeat center center;
 	padding:55px 0;
 }
 .referralwrap .left {
 	width: 58%;
 	float: left;
-	// //background: url(images/affiliateround.png) no-repeat center center;
+	background: url(images/affiliateround.png) no-repeat center center;
 	min-height: 250px;
 	position: relative;
 	display: flex;
@@ -736,7 +736,7 @@ h2.section-header {
 .featureswrap:before {
 	content:"";
 	position: absolute;
-	// //background: url(images/featuredbg.png) no-repeat center center;
+	background: url(images/featuredbg.png) no-repeat center center;
 	width:100%;
 	height: 100%;
 	left: 0;
@@ -819,7 +819,7 @@ h2.section-header {
 .banklevel .right:before {
 	content: "";
 	position: absolute;
-	// //background: url(images/banklevellock.png) no-repeat center center;
+	background: url(images/banklevellock.png) no-repeat center center;
 	width: 32px;
 	height: 32px;
 	left:-16px;
@@ -834,7 +834,7 @@ h2.section-header {
 
 
 .lasttenwrap {
-	// background: #eaecf0 url(images/featuredbg.png) no-repeat center center;
+	background: #eaecf0 url(images/featuredbg.png) no-repeat center center;
 	padding: 50px 0 30px;
 }
 .lasttenbox, .midstatbox {
@@ -842,7 +842,7 @@ h2.section-header {
 	float: left;
 }
 .lasttenbox {
-	// //background: url(images/lasttenbg.png) no-repeat center center #192076;
+	background: url(images/lasttenbg.png) no-repeat center center #192076;
 	border-radius: 6px;
 }
 .midstatbox {
@@ -953,10 +953,10 @@ footer {
 	line-height: 22px;
 }
 .footeraddresswrap .address {
-	//background: url(images/footerlocation.png) no-repeat left top;
+	background: url(images/footerlocation.png) no-repeat left top;
 }
 .footeraddresswrap .email {
-	//background: url(images/footeremail.png) no-repeat left top;
+	background: url(images/footeremail.png) no-repeat left top;
 	padding: 12px 0 12px 60px;
 }
 .footeraddresswrap .address span,.footeraddresswrap .email span {
@@ -1197,7 +1197,7 @@ position: absolute;
     font-size: 16px;
     display: block;
     line-height: 24px;
-    //background: url(images/remove.png) no-repeat right 10px center;
+    background: url(images/remove.png) no-repeat right 10px center;
 }
 
 .faq .panel-title > a:hover, .faq .panel-title > a:focus {
@@ -1205,7 +1205,7 @@ position: absolute;
 }
 
 .faq .panel-title > a.collapsed {
-	// //background: url(images/add.png) no-repeat right 10px center
+	background: url(images/add.png) no-repeat right 10px center
 }
 .faq .panel-heading {
      color: #0cada2;
@@ -1246,7 +1246,7 @@ position: absolute;
 }
 
 .account-bg {
-    // //background: url(images/account-bg.jpg) no-repeat center;
+   // background: url(images/account-bg.jpg) no-repeat center;
     background-attachment:fixed;
 
 }
@@ -1339,7 +1339,7 @@ position: absolute;
 
 .myaccount .planinsider {
     margin-top: 20px;
-    //background: url(images/planbg.png) no-repeat top center;
+background: url(images/planbg.png) no-repeat top center;
     text-align: center;
     overflow: hidden;
     padding: 0 0 40px;
