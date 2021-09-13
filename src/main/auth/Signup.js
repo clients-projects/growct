@@ -14,7 +14,6 @@ import Auth from './Auth'
 
 import GradBgBig from '../../sass/images/bannerbg.jpg'
 import LogRegBg from '../../sass/images/bannerbg.jpg'
-import Logo from '../../sass/images/GrowveonIcon.png'
 
 const Signup = (props) => {
     const parsed = queryString.parse(window.location.search)
@@ -164,35 +163,21 @@ const Signup = (props) => {
 
     return (
         <>
-            <div class='loginpage signuppage'>
-                <div class='inside_inner'>
-                    <div class='loginwrappers'>
-                        <div class='login_left signup_left'>
-                            <div class='login-top'>
-                                <h2>
-                                    {/* <a href='?a=home' id='logo'></a> */}
-                                    <a href='?a=home'>Back to homepage</a>
-                                </h2>
-                            </div>
+            <div className='loginpage signuppage'>
+                <div className=''>
+                    <div className='loginwrappers'>
+                        <div className='login_left signup_left'>
+                           
 
-                            <section class='form-container login'>
+                            <section className='login'>
                                 <h3>User Registration</h3>
 
                                 <form
                                     onsubmit='return checkform()'
                                     name='regform'
-                                    class='login_forms'
+                                    className='login_forms'
                                 >
-                                    <input
-                                        type='hidden'
-                                        name='form_id'
-                                        value='16315289188054'
-                                    />
-                                    <input
-                                        type='hidden'
-                                        name='form_token'
-                                        value='af410914cd78e9df04f654834994b3df'
-                                    />
+                               
                                     <div
                                         style={{ width: '48%', float: 'left' }}
                                     >

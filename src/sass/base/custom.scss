@@ -980,28 +980,28 @@ footer {
 .footerlinks ul li a:hover {
 	color:#f7c202;
 }
-@media (max-width: 1170px) {
-	.mainwrap,.bannerwrap,.investmentofferwrap,.planwrap,.calculatorwrap,.aboutwrap,.registerwrap,.referralwrap,.featureswrap,.lasttenwrap,.paymentlogowrap,footer {
-	width: 1170px;
-}
-.content {
-	margin: 0 !important;
-}
-}
+// @media (max-width: 1170px) {
+// 	.mainwrap,.bannerwrap,.investmentofferwrap,.planwrap,.calculatorwrap,.aboutwrap,.registerwrap,.referralwrap,.featureswrap,.lasttenwrap,.paymentlogowrap,footer {
+// 	width: 1170px;
+// }
+// .content {
+// 	margin: 0 !important;
+// }
+// }
 
 
 
 /***************************@@@@@@@ media***********************/
-@media (max-width: 1170px){
+// @media (max-width: 1170px){
 
-.headerTopContainer,.wrapper,.wrapperBot,.headerContainer,.bannerContainer,.companyContainer,.uptoContainer,.porexbitContainer,.contentContainer,.solidContainer,.invesmentContainer,.aboutContainer,.footerContainer,.statistContainer,.calculatorwrap{
-	width: 1170px !important;
-}
+// .headerTopContainer,.wrapper,.wrapperBot,.headerContainer,.bannerContainer,.companyContainer,.uptoContainer,.porexbitContainer,.contentContainer,.solidContainer,.invesmentContainer,.aboutContainer,.footerContainer,.statistContainer,.calculatorwrap{
+// 	width: 1170px !important;
+// }
 
-.headerTopInner,.headerInner,.bannerInner,.companyInner,.porexbitInner,.contentInner,.uptoInner,.invesmentInner,.aboutInner,.solidInner,.footerInner,.statistInner,.calculator{
-		margin: 0 !important;
-	} 
-}
+// .headerTopInner,.headerInner,.bannerInner,.companyInner,.porexbitInner,.contentInner,.uptoInner,.invesmentInner,.aboutInner,.solidInner,.footerInner,.statistInner,.calculator{
+// 		margin: 0 !important;
+// 	} 
+// }
 
 
 
@@ -1670,7 +1670,6 @@ ul.rules li {
 	background: rgb(28,59,157);
     background: linear-gradient(90deg, rgba(28,59,157,1) 0%, rgba(11,178,162,1) 100%);
     border-radius: 6px;
-    padding: 0px;
     overflow: hidden;
     box-shadow: 0 0 10px #0b154d;
     
@@ -1697,7 +1696,7 @@ ul.rules li {
     margin: 25px 0 0px;
     height: 60px;
     width: 246px;
-    background: url(images/logo.png) transparent no-repeat center;
+    background: url(images/GrowveonctLogo.svg) transparent no-repeat center;
 }
 
 .loginpage h2 #logologin {
@@ -3279,16 +3278,16 @@ text-align: right;
 }
 
 /***************************@@@@@@@ media***********************/
-@media (max-width: 1170px) {
-section, .headerTopContainer, .wrapper, .wrapperBot, .headerContainer, .bannerContainer, .companyContainer, .uptoContainer, .aboutContainer, .contentContainer, .solidContainer, .invesmentContainer, .aboutContainer, .footerContainer, .statistContainer, .inside_wrap {
-	width: 1170px !important;
-}
+// @media (max-width: 1170px) {
+// section, .headerTopContainer, .wrapper, .wrapperBot, .headerContainer, .bannerContainer, .companyContainer, .uptoContainer, .aboutContainer, .contentContainer, .solidContainer, .invesmentContainer, .aboutContainer, .footerContainer, .statistContainer, .inside_wrap {
+// 	width: 1170px !important;
+// }
 
-.companyContainer {
-	padding-bottom:60px;
-}
+// .companyContainer {
+// 	padding-bottom:60px;
+// }
 
-.headerTopInner, .section-container, .vipInner, .headerInner, .bannerInner, .companyInner, .aboutInner, .contentInner, .uptoInner, .invesmentInner, .aboutInner, .solidInner, .footerInner, .statistInner, .inside_inner {
-	margin: 0 !important;
-}
-}
+// .headerTopInner, .section-container, .vipInner, .headerInner, .bannerInner, .companyInner, .aboutInner, .contentInner, .uptoInner, .invesmentInner, .aboutInner, .solidInner, .footerInner, .statistInner, .inside_inner {
+// 	margin: 0 !important;
+// }
+// }
