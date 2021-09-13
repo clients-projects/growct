@@ -28,6 +28,9 @@ import B1000 from '../images/1000.png'
 
 import BannerThumb from '../sass/images/bannerthumb.png'
 import GeoTrust from '../sass/images/geotrust.png'
+import TrustGuard from '../sass/images/trustguard.png'
+import SiteLock from '../sass/images/sitelock.png'
+import Mcafee from '../sass/images/mcafee.png'
 
 function Layout(props) {
     const [calcNum, setCalcNum] = useState(20)
