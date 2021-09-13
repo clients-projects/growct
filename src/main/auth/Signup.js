@@ -285,8 +285,8 @@ const Signup = (props) => {
                                                     <Input
                                                         className='inpts'
                                                         size='30'
-                                                        id='fullname'
-                                                        type='text'
+                                                        id='password'
+                                                        type='password'
                                                         control='input'
                                                         minLength={6}
                                                         placeholder='Your Full Name'
