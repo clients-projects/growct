@@ -25,16 +25,14 @@ styleFile create on 27.07.2018 09:13:54 ---
     box-sizing: border-box;
 }
 
-
 body {
-    font-family: 'Montserrat';
+    font-family: $font-primary;
     padding: 0px;
     margin: 0px auto;
     max-width: 1920px;
     min-width: 1200px;
     line-height: 1;
 }
-
 
 body .bodyWrap {
     overflow: hidden;
@@ -92,7 +90,7 @@ textarea {
     width: 100%;
     outline: none;
     font-size: 16px !important;
-    font-family: 'Montserrat';
+    font-family: $font-primary;
 }
 
 .calc_plan--select {
@@ -110,16 +108,16 @@ textarea {
     box-shadow: inset 0px 3px 7px rgba(0, 0, 0, 0.07);
     cursor: pointer;
 
-    option{
-    padding: 0px;
-    padding-left: 20px;
-    background-color: transparent;
-    min-height: 46px;
-    font-size: 15px;
-    line-height: 44px;
-    color: black;
-    font-weight: normal;    }
-   
+    option {
+        padding: 0px;
+        padding-left: 20px;
+        background-color: transparent;
+        min-height: 46px;
+        font-size: 15px;
+        line-height: 44px;
+        color: black;
+        font-weight: normal;
+    }
 }
 
 .invisLink {
@@ -291,7 +289,7 @@ span.color2 {
     box-shadow: inset 0px 3px 7px rgba(0, 0, 0, 0.07);
     outline: none;
     background: transparent;
-    font-family: 'Montserrat';
+    font-family: $font-primary;
     text-align: center;
     box-sizing: border-box;
     -webkit-writing-mode: horizontal-tb !important;
@@ -565,7 +563,7 @@ span.color2 {
     -moz-border-radius: 0px;
     -ms-border-radius: 0px;
     border-radius: 0px;
-    font-family: 'Montserrat';
+    font-family: $font-primary;
     color: white;
     text-transform: uppercase;
     text-decoration: none;
@@ -922,7 +920,7 @@ span.color2 {
 [class*='formBlock'] .selectric .label {
     margin: 0;
     height: 46px;
-    font-family: 'Montserrat';
+    font-family: $font-primary;
     font-size: 15px;
     line-height: 44px;
     color: black;
@@ -4076,7 +4074,7 @@ footer .cont + .cont {
 }
 
 .ui-widget {
-    font-family: 'Montserrat';
+    font-family: $font-primary;
 }
 
 .ui-widget-content {
@@ -4085,7 +4083,7 @@ footer .cont + .cont {
 }
 
 .ui-datepicker-month {
-    font-family: 'Montserrat';
+    font-family: $font-primary;
 }
 
 .ui-widget-header {
@@ -4889,7 +4887,7 @@ ul.errors li {
     -moz-border-radius: 0px;
     -ms-border-radius: 0px;
     border-radius: 0px;
-    font-family: 'Montserrat';
+    font-family: $font-primary;
     color: white;
     text-transform: uppercase;
     text-decoration: none;
@@ -4925,44 +4923,47 @@ ul.errors li {
 
 //Custom
 
-.clientCard{
+.clientCard {
     padding: 2rem 3rem;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.21);
 
-    &__heading{
+    &__heading {
         text-align: center;
         color: black;
     }
 
-    &__title{
+    &__title {
         font-size: 1.3rem;
         color: black;
     }
 
-    &__category{
+    &__category {
         font-size: 1rem;
     }
 
+    &__tr {
+        background: linear-gradient(
+            to right,
+            rgb(0, 156, 255) 0%,
+            rgb(31, 225, 149) 100%
+        );
 
-    &__tr{
-        background:  linear-gradient(to right, rgb(0, 156, 255) 0%, rgb(31, 225, 149) 100%);
-
-        th{
+        th {
             color: white;
             text-transform: uppercase;
-            padding: 1rem; 
+            padding: 1rem;
         }
     }
 
-    &__tbody--tr{
+    &__tbody--tr {
         font-weight: bold;
         color: black;
     }
 }
 
-.copyright{
+.copyright {
     text-align: center;
     padding: 1rem;
     font-weight: bold;

@@ -24,7 +24,10 @@ import F from '../images/F.png'
 import Grey_bg from '../images/grey_bg.png'
 import profile from '../images/profile.jpg'
 import B1000 from '../images/1000.png'
+
+
 import BannerThumb from '../sass/images/bannerthumb.png'
+import GeoTrust from '../sass/images/geotrust.png'
 
 function Layout(props) {
     const [calcNum, setCalcNum] = useState(20)
@@ -478,10 +481,10 @@ function Layout(props) {
                         <div className='banklevel slideInDown wow'>
                             <div className='left'>Bank Level Security</div>
                             <div className='right'>
-                                {/* <span><img src="styles/images/geotrust.png" alt=""></span>
+                                <span><img src="styles/images/geotrust.png" alt=""></span>
           <span><img src="styles/images/trustguard.png" alt=""></span>
           <span><img src="styles/images/sitelock.png" alt=""></span>
-          <span><img src="styles/images/mcafee.png" alt=""></span> */}
+          <span><img src="styles/images/mcafee.png" alt=""></span>
                             </div>
                         </div>
                     </div>
