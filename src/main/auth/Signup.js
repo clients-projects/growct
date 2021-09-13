@@ -289,26 +289,26 @@ const Signup = (props) => {
                                                         type='password'
                                                         control='input'
                                                         minLength={6}
-                                                        placeholder='Your Full Name'
+                                                        placeholder='Your password'
                                                         onChange={
                                                             inputChangeHandler
                                                         }
                                                         onBlur={inputBlurHandler.bind(
-                                                            'fullname'
+                                                            'password'
                                                         )}
                                                         value={
                                                             state.signupForm[
-                                                                'fullname'
+                                                                'password'
                                                             ].value
                                                         }
                                                         valid={
                                                             state.signupForm[
-                                                                'fullname'
+                                                                'password'
                                                             ].valid
                                                         }
                                                         touched={
                                                             state.signupForm[
-                                                                'fullname'
+                                                                'password'
                                                             ].touched
                                                         }
                                                     />
@@ -316,13 +316,43 @@ const Signup = (props) => {
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <input
+                                                    {/* <input
                                                         type='password'
                                                         name='password2'
                                                         value=''
                                                         className='inpts'
                                                         size='30'
                                                         placeholder='Retype Password'
+                                                    /> */}
+                                                    <Input
+                                                        id='confirmPassword'
+                                                        label='confirm Password'
+                                                        type='password'
+                                                        className='inpts'
+                                                        control='input'
+                                                        size='30'
+                                                        minLength={6}
+                                                        onChange={
+                                                            inputChangeHandler
+                                                        }
+                                                        onBlur={inputBlurHandler.bind(
+                                                            'confirmPassword'
+                                                        )}
+                                                        value={
+                                                            state.signupForm[
+                                                                'confirmPassword'
+                                                            ].value
+                                                        }
+                                                        valid={
+                                                            state.signupForm[
+                                                                'confirmPassword'
+                                                            ].valid
+                                                        }
+                                                        touched={
+                                                            state.signupForm[
+                                                                'confirmPassword'
+                                                            ].touched
+                                                        }
                                                     />
                                                 </td>
                                             </tr>
