@@ -165,90 +165,262 @@ const Signup = (props) => {
     return (
         <>
             ==========
-             
-<div class="loginpage signuppage">
-  <div class="inside_inner">
-    <div class="loginwrappers">
-      <div class="login_left signup_left">
-		  
-		   <div class="login-top">
-			   <h2><a href="?a=home" id="logo"></a>
-			    <a href="?a=home">Back to homepage</a>
-			   </h2>
-		 </div> 
-		  
-        <section class="form-container login">
-        <h3>User Registration</h3>
+            <div class='loginpage signuppage'>
+                <div class='inside_inner'>
+                    <div class='loginwrappers'>
+                        <div class='login_left signup_left'>
+                            <div class='login-top'>
+                                <h2>
+                                    <a href='?a=home' id='logo'></a>
+                                    <a href='?a=home'>Back to homepage</a>
+                                </h2>
+                            </div>
 
- 
+                            <section class='form-container login'>
+                                <h3>User Registration</h3>
 
- 
- 
-  
-<form onsubmit="return checkform()" name="regform" class="login_forms"><input type="hidden" name="form_id" value="16315289188054"/><input type="hidden" name="form_token" value="af410914cd78e9df04f654834994b3df"/>
-                                    <div style={{ width: '48%', float: "left" }}>
-<table cellSpacing='0' cellPadding='2' border='0' width="100%">
-<tr>
- <td width="100%"><input type='text' name='fullname' value='' className='inpts' size='30' placeholder="Your Full Name"/></td>
-</tr>
-<tr>
- <td><input type='text' name='username' value='' className='inpts' size='30' placeholder="Your Username"/></td>
-</tr>
-<tr>
- <td><input type='password' name='password' value='' className='inpts' size='30' placeholder="Define Password"/></td>
-</tr><tr>
+                                <form
+                                    onsubmit='return checkform()'
+                                    name='regform'
+                                    class='login_forms'
+                                >
+                                    <input
+                                        type='hidden'
+                                        name='form_id'
+                                        value='16315289188054'
+                                    />
+                                    <input
+                                        type='hidden'
+                                        name='form_token'
+                                        value='af410914cd78e9df04f654834994b3df'
+                                    />
+                                    <div
+                                        style={{ width: '48%', float: 'left' }}
+                                    >
+                                        <table
+                                            cellSpacing='0'
+                                            cellPadding='2'
+                                            border='0'
+                                            width='100%'
+                                        >
+                                            <tr>
+                                                
+                                                <td width='100%'>
+                                                    {' '}
+                                                    <Input
+                                                        className='inpts'
+                                                        size='30'
+                                                        id='fullname'
+                                                        type='text'
+                                                        control='input'
+                                                        minLength={6}
+                                                        placeholder='Your Full Name'
+                                                        onChange={
+                                                            inputChangeHandler
+                                                        }
+                                                        onBlur={inputBlurHandler.bind(
+                                                            'fullname'
+                                                        )}
+                                                        value={
+                                                            state.signupForm[
+                                                                'fullname'
+                                                            ].value
+                                                        }
+                                                        valid={
+                                                            state.signupForm[
+                                                                'fullname'
+                                                            ].valid
+                                                        }
+                                                        touched={
+                                                            state.signupForm[
+                                                                'fullname'
+                                                            ].touched
+                                                        }
+                                                    />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input
+                                                        type='text'
+                                                        name='username'
+                                                        value=''
+                                                        className='inpts'
+                                                        size='30'
+                                                        placeholder='Your Username'
+                                                    />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input
+                                                        type='password'
+                                                        name='password'
+                                                        value=''
+                                                        className='inpts'
+                                                        size='30'
+                                                        placeholder='Define Password'
+                                                    />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input
+                                                        type='password'
+                                                        name='password2'
+                                                        value=''
+                                                        className='inpts'
+                                                        size='30'
+                                                        placeholder='Retype Password'
+                                                    />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input
+                                                        type='text'
+                                                        name='email'
+                                                        value=''
+                                                        className='inpts'
+                                                        size='30'
+                                                        placeholder='Your E-mail Address'
+                                                    />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input
+                                                        type='text'
+                                                        name='email1'
+                                                        value=''
+                                                        className='inpts'
+                                                        size='30'
+                                                        placeholder='Retype Your E-mail'
+                                                    />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div
+                                        style={{ width: '48%', float: 'right' }}
+                                    >
+                                        <table
+                                            width='100%'
+                                            border='0'
+                                            cellSpacing='0'
+                                        >
+                                            <tr>
+                                                <td>
+                                                    <input
+                                                        type='text'
+                                                        className='inpts'
+                                                        size='30'
+                                                        name='pay_account[18]'
+                                                        value=''
+                                                        data-validate='regexp'
+                                                        data-validate-regexp='^U\d{5,}$'
+                                                        data-validate-notice='UXXXXXXX'
+                                                        placeholder='Your PerfectMoney Account'
+                                                    />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input
+                                                        type='text'
+                                                        className='inpts'
+                                                        size='30'
+                                                        name='pay_account[48]'
+                                                        value=''
+                                                        data-validate='regexp'
+                                                        data-validate-regexp='^[13][a-km-zA-HJ-NP-Z1-9]{25,34}$'
+                                                        data-validate-notice='Bitcoin Address'
+                                                        placeholder='Your Bitcoin Account'
+                                                    />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input
+                                                        type='text'
+                                                        className='inpts'
+                                                        size='30'
+                                                        name='pay_account[69]'
+                                                        value=''
+                                                        data-validate='regexp'
+                                                        data-validate-regexp='^(0x)?[0-9a-fA-F]{40}$'
+                                                        data-validate-notice='Ethereum Address'
+                                                        placeholder='Your Ethereum Account'
+                                                    />
+                                                </td>
+                                            </tr>
 
- <td><input type='password' name='password2' value='' className='inpts' size='30' placeholder="Retype Password"/></td>
-</tr>
-<tr>
- <td><input type='text' name='email' value='' className='inpts' size='30' placeholder="Your E-mail Address"/></td>
-</tr>
-<tr>
- <td><input type='text' name='email1' value='' className='inpts' size='30' placeholder="Retype Your E-mail"/></td>
-</tr>
-</table>
-          </div>
-                                    <div style={{ width: '48%', float: 'right' }}>
-          <table width="100%" border='0' cellSpacing='0'>
-<tr>
- <td><input type='text' className='inpts' size='30' name='pay_account[18]' value="" data-validate="regexp" data-validate-regexp="^U\d{5,}$" data-validate-notice="UXXXXXXX" placeholder="Your PerfectMoney Account"/></td>
-</tr>
-<tr>
- <td><input type='text' className='inpts' size='30' name='pay_account[48]' value="" data-validate="regexp" data-validate-regexp="^[13][a-km-zA-HJ-NP-Z1-9]{25,34}$" data-validate-notice="Bitcoin Address" placeholder="Your Bitcoin Account"/></td>
-</tr>
-<tr>
- <td><input type='text' className='inpts' size='30' name='pay_account[69]' value="" data-validate="regexp" data-validate-regexp="^(0x)?[0-9a-fA-F]{40}$" data-validate-notice="Ethereum Address" placeholder="Your Ethereum Account"/></td>
-</tr>
+                                            <tr>
+                                                <td>
+                                                    <input
+                                                        type='text'
+                                                        name='sq'
+                                                        value=''
+                                                        className='inpts'
+                                                        size='30'
+                                                        placeholder='Secret question'
+                                                    />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input
+                                                        type='text'
+                                                        name='sa'
+                                                        value=''
+                                                        className='inpts'
+                                                        size='30'
+                                                        placeholder='Secret answer'
+                                                    />
+                                                </td>
+                                            </tr>
 
-<tr>
- <td><input type='text' name='sq' value='' className='inpts' size='30' placeholder="Secret question"/></td>
-</tr>
-<tr>
- <td><input type='text' name='sa' value='' className='inpts' size='30' placeholder="Secret answer"/></td>
-</tr>
+                                            <tr>
+                                                <td align='left'>
+                                                    <div className='iagree'>
+                                                        <input
+                                                            type='checkbox'
+                                                            name='agree'
+                                                            value='1'
+                                                        />{' '}
+                                                        I agree with{' '}
+                                                        <a href='?a=rules'>
+                                                            Terms and conditions
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span className='bunicon'>
+                                                        <input
+                                                            type='submit'
+                                                            value='Register'
+                                                            className='sbmt'
+                                                        />
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </form>
+                            </section>
 
-
-
-<tr>
- <td align="left"><div className="iagree"><input type='checkbox' name='agree' value='1' /> I agree with <a href="?a=rules">Terms and conditions</a></div></td>
-</tr>
-<tr>
- <td><span className="bunicon"><input type='submit' value="Register" className='sbmt'/></span></td>
-</tr></table>
-</div>
-</form>
-</section>
-      
-         <section className="loginyellowbottom">
-				<a href="?a=login" className="loginnewuser">Do you have an account? <span>Login Here</span></a>
-		</section>
-      
-      </div>
-
-      </div>      
-  </div>
-</div>
-             
+                            <section className='loginyellowbottom'>
+                                <a href='?a=login' className='loginnewuser'>
+                                    Do you have an account?{' '}
+                                    <span>Login Here</span>
+                                </a>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
             ==========
             <div class='bodyWrap'>
                 <div class='logRegPage'>
@@ -638,7 +810,6 @@ const Signup = (props) => {
                     </div>
                 </div>
             </div>
-            
         </>
     )
 }
