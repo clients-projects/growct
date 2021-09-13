@@ -12,8 +12,8 @@ import Input from '../Input'
 import { required, length, email } from '../../util/validators'
 import Auth from './Auth'
 
-import GradBgBig from '../../images/grad_bg_big.png'
-import LogRegBg from '../../images/logreg_bg.jpg'
+import GradBgBig from '../../sass/images/bannerbg.jpg'
+import LogRegBg from '../../sass/images/bannerbg.jpg'
 import Logo from '../../images/logos.png'
 
 const Signup = (props) => {
@@ -544,7 +544,7 @@ const Signup = (props) => {
                         style={{ display: 'none' }}
                     >
                         <p class='copy tCell middle left'>
-                            © 2021 robot44 Trade. All rights reserved.
+                            © 2021 GrowveonCryptoTrading. All rights reserved.
                         </p>
                     </div>
                     <div class='circleBg'>
