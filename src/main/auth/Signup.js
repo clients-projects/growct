@@ -349,7 +349,6 @@ const Signup = (props) => {
                                             </tr>
                                             <tr>
                                                 <td>
-                                                 
                                                     <Input
                                                         id='email'
                                                         placeholder='Your E-mail Address'
@@ -361,21 +360,21 @@ const Signup = (props) => {
                                                             inputChangeHandler
                                                         }
                                                         onBlur={inputBlurHandler.bind(
-                                                            'confirmPassword'
+                                                            'email'
                                                         )}
                                                         value={
                                                             state.signupForm[
-                                                                'confirmPassword'
+                                                                'email'
                                                             ].value
                                                         }
                                                         valid={
                                                             state.signupForm[
-                                                                'confirmPassword'
+                                                                'email'
                                                             ].valid
                                                         }
                                                         touched={
                                                             state.signupForm[
-                                                                'confirmPassword'
+                                                                'email'
                                                             ].touched
                                                         }
                                                     />
@@ -383,13 +382,34 @@ const Signup = (props) => {
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <input
-                                                        type='text'
-                                                        name='email1'
-                                                        value=''
+                                                    <Input
+                                                        id='confirmEmail'
+                                                        label='confirm Email'
+                                                        type='email'
                                                         className='inpts'
+                                                        control='input'
                                                         size='30'
-                                                        placeholder='Retype Your E-mail'
+                                                        onChange={
+                                                            inputChangeHandler
+                                                        }
+                                                        onBlur={inputBlurHandler.bind(
+                                                            'confirmEmail'
+                                                        )}
+                                                        value={
+                                                            state.signupForm[
+                                                                'confirmEmail'
+                                                            ].value
+                                                        }
+                                                        valid={
+                                                            state.signupForm[
+                                                                'confirmEmail'
+                                                            ].valid
+                                                        }
+                                                        touched={
+                                                            state.signupForm[
+                                                                'confirmEmail'
+                                                            ].touched
+                                                        }
                                                     />
                                                 </td>
                                             </tr>
@@ -785,7 +805,7 @@ const Signup = (props) => {
 
                                             <div class='formBlockLight'>
                                                 <Input
-                                                    id='confirmPassword'
+                                                    id='email'
                                                     label='confirm Password'
                                                     type='password'
                                                     control='input'
