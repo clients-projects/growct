@@ -221,19 +221,19 @@ const Signup = (props) => {
 </tr>
 
 <tr>
- <td><input type=text name=sq value='' className=inpts size=30 placeholder="Secret question"></td>
+ <td><input type='text' name='sq' value='' className='inpts' size='30' placeholder="Secret question"/></td>
 </tr>
 <tr>
- <td><input type=text name=sa value='' className=inpts size=30 placeholder="Secret answer"></td>
+ <td><input type='text' name='sa' value='' className='inpts' size='30' placeholder="Secret answer"/></td>
 </tr>
 
 
 
 <tr>
- <td align="left"><div className="iagree"><input type=checkbox name=agree value=1  > I agree with <a href="?a=rules">Terms and conditions</a></div></td>
+ <td align="left"><div className="iagree"><input type='checkbox' name='agree' value='1' /> I agree with <a href="?a=rules">Terms and conditions</a></div></td>
 </tr>
 <tr>
- <td><span className="bunicon"><input type=submit value="Register" className=sbmt></span></td>
+ <td><span className="bunicon"><input type='submit' value="Register" className='sbmt'/></span></td>
 </tr></table>
 </div>
 </form>
