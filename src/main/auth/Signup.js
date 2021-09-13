@@ -244,7 +244,6 @@ const Signup = (props) => {
                                                         className='inpts'
                                                         size='30'
                                                         id='username'
-                                                        label='username'
                                                         type='text'
                                                         control='input'
                                                         minLength={6}
