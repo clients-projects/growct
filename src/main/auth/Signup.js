@@ -189,16 +189,16 @@ const Signup = (props) => {
                                     <div style={{ width: '48%', float: "left" }}>
 <table cellSpacing='0' cellPadding='2' border='0' width="100%">
 <tr>
- <td width="100%"><input type='text' name='fullname' value='' className='inpts' size=30 placeholder="Your Full Name"></td>
+ <td width="100%"><input type='text' name='fullname' value='' className='inpts' size='30' placeholder="Your Full Name"/></td>
 </tr>
 <tr>
- <td><input type=text name=username value='' className=inpts size=30 placeholder="Your Username"></td>
+ <td><input type='text' name='username' value='' className='inpts' size='30' placeholder="Your Username"/></td>
 </tr>
 <tr>
- <td><input type=password name=password value='' className=inpts size=30 placeholder="Define Password"></td>
+ <td><input type='password' name='password' value='' className='inpts' size='30' placeholder="Define Password"/></td>
 </tr><tr>
 
- <td><input type=password name=password2 value='' className=inpts size=30 placeholder="Retype Password"></td>
+ <td><input type='password' name='password2' value='' className='inpts' size='30' placeholder="Retype Password"/></td>
 </tr>
 <tr>
  <td><input type=text name=email value='' className=inpts size=30 placeholder="Your E-mail Address"></td>
