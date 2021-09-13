@@ -122,7 +122,7 @@ function Layout(props) {
                     <section className='banner'>
                         <div className='content'>
                             <div className='leftinfo'>
-                                <div className='servertimwrap slideInRight wow'>
+                                {/* <div className='servertimwrap slideInRight wow'>
                                     <div className='servertime'>
                                         server time: <span id='clockbox'></span>
                                     </div>
@@ -134,7 +134,7 @@ function Layout(props) {
                                             </a>
                                         </span>
                                     </div>
-                                </div>
+                                </div> */}
                                 <h1 className='slideInDown wow'>
                                     safe & Secure
                                 </h1>
