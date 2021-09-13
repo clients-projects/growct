@@ -277,6 +277,7 @@ const Signup = (props) => {
                                             <tr>
                                                 <td>
                                                     <Input
+                                                        label='Password'
                                                         className='inpts'
                                                         size='30'
                                                         id='password'
@@ -319,6 +320,7 @@ const Signup = (props) => {
                                                         placeholder='Retype Password'
                                                     /> */}
                                                     <Input
+                                                        label='Confirm Password'
                                                         id='confirmPassword'
                                                         type='password'
                                                         placeholder='confirm password'
@@ -353,6 +355,7 @@ const Signup = (props) => {
                                             <tr>
                                                 <td>
                                                     <Input
+                                                        label='Email'
                                                         id='email'
                                                         placeholder='Email Address'
                                                         type='email'
@@ -386,6 +389,7 @@ const Signup = (props) => {
                                             <tr>
                                                 <td>
                                                     <Input
+                                                        label='Confirm Email'
                                                         id='confirmEmail'
                                                         placeholder='confirm Email'
                                                         type='email'
@@ -426,44 +430,11 @@ const Signup = (props) => {
                                             border='0'
                                             cellSpacing='0'
                                         >
+                                            
                                             <tr>
                                                 <td>
                                                     <Input
-                                                        id='ethereumAccount'
-                                                        type='text'
-                                                        name='pay_account[18]'
-                                                        data-validate='regexp'
-                                                        data-validate-regexp='^U\d{5,}$'
-                                                        data-validate-notice='UXXXXXXX'
-                                                        placeholder='optional'
-                                                        minLength={40}
-                                                        onChange={
-                                                            inputChangeHandler
-                                                        }
-                                                        onBlur={inputBlurHandler.bind(
-                                                            'ethereumAccount'
-                                                        )}
-                                                        value={
-                                                            state.signupForm[
-                                                                'ethereumAccount'
-                                                            ].value
-                                                        }
-                                                        valid={
-                                                            state.signupForm[
-                                                                'ethereumAccount'
-                                                            ].valid
-                                                        }
-                                                        touched={
-                                                            state.signupForm[
-                                                                'ethereumAccount'
-                                                            ].touched
-                                                        }
-                                                    />
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <Input
+                                                        label='Bitcoin Address'
                                                         id='bitcoinAccount'
                                                         className='inpts'
                                                         type='text'
