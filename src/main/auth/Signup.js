@@ -185,7 +185,7 @@ const Signup = (props) => {
  
  
   
-<form onsubmit="return checkform()" name="regform" class="login_forms"><input type="hidden" name="form_id" value="16315289188054"/><input type="hidden" name="form_token" value="af410914cd78e9df04f654834994b3df">
+<form onsubmit="return checkform()" name="regform" class="login_forms"><input type="hidden" name="form_id" value="16315289188054"/><input type="hidden" name="form_token" value="af410914cd78e9df04f654834994b3df"/>
                                     <div style={{ width: '48%', float: "left" }}>
 <table cellSpacing='0' cellPadding='2' border='0' width="100%">
 <tr>
