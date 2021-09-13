@@ -25,7 +25,6 @@ import Grey_bg from '../images/grey_bg.png'
 import profile from '../images/profile.jpg'
 import B1000 from '../images/1000.png'
 
-
 import BannerThumb from '../sass/images/bannerthumb.png'
 import GeoTrust from '../sass/images/geotrust.png'
 import TrustGuard from '../sass/images/trustguard.png'
@@ -484,10 +483,18 @@ function Layout(props) {
                         <div className='banklevel slideInDown wow'>
                             <div className='left'>Bank Level Security</div>
                             <div className='right'>
-                                <span><img src="styles/images/geotrust.png" alt=""></span>
-          <span><img src="styles/images/trustguard.png" alt=""></span>
-          <span><img src="styles/images/sitelock.png" alt=""></span>
-          <span><img src="styles/images/mcafee.png" alt=""></span>
+                                <span>
+                                    <img src={GeoTrust} alt='' />
+                                </span>
+                                <span>
+                                    <img src={TrustGuard} alt='' />
+                                </span>
+                                <span>
+                                    <img src={SiteLock} alt='' />
+                                </span>
+                                <span>
+                                    <img src={Mcafee} alt='' />
+                                </span>
                             </div>
                         </div>
                     </div>
