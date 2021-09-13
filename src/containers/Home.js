@@ -149,7 +149,10 @@ function Layout(props) {
                                 <h3 className='slideInDown wow'>
                                     investment platform
                                 </h3>
-                                <p className='slideInDown wow'>
+                                <p
+                                    className='slideInDown wow'
+                                    style={{ fontWeight: 400 }}
+                                >
                                     growveonct.com is a global cryptocurrency
                                     platform which aims to extract maximum from
                                     the opportunities of trading and investments
@@ -199,11 +202,12 @@ function Layout(props) {
                     <div className='content'>
                         <div className='left slideInDown wow'>
                             <h2>
-                                investment <span>offer</span>
+                                investment <br />
+                                <span>offer</span>
                             </h2>
                         </div>
                         <div className='right slideInDown wow'>
-                            <p style={{fontWeight: 400}}>
+                            <p style={{ fontWeight: 400 }}>
                                 growveonct.com proposes you the most dependable
                                 and novel finance system to choose not only for
                                 settlements but also for the possibility to earn
@@ -336,7 +340,7 @@ function Layout(props) {
                         <div className='aboutinside slideInUp wow'>
                             <div className='left'>
                                 <h1>ABOUT growveonct.com</h1>
-                                <p style={{lineHeight: 2, fontWeight: 400}}>
+                                <p style={{ lineHeight: 2, fontWeight: 400 }}>
                                     growveonct.com is a global crypto finance
                                     solution for all the crypto enthusiasts who
                                     are in search of the trusted, secure and
@@ -556,7 +560,6 @@ function Layout(props) {
       <div className="icons zoomIn wow"><img src="styles/images/dashcoin.png" alt=""></div> */}
                 </div>
             </div>
-           
         </>
     )
 }
