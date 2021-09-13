@@ -211,13 +211,13 @@ const Signup = (props) => {
                                     <div style={{ width: '48%', float: 'right' }}>
           <table width="100%" border='0' cellSpacing='0'>
 <tr>
- <td><input type=text className=inpts size=30 name=pay_account[18] value="" data-validate="regexp" data-validate-regexp="^U\d{5,}$" data-validate-notice="UXXXXXXX" placeholder="Your PerfectMoney Account"></td>
+ <td><input type='text' className='inpts' size='30' name='pay_account[18]' value="" data-validate="regexp" data-validate-regexp="^U\d{5,}$" data-validate-notice="UXXXXXXX" placeholder="Your PerfectMoney Account"/></td>
 </tr>
 <tr>
- <td><input type=text className=inpts size=30 name=pay_account[48] value="" data-validate="regexp" data-validate-regexp="^[13][a-km-zA-HJ-NP-Z1-9]{25,34}$" data-validate-notice="Bitcoin Address" placeholder="Your Bitcoin Account"></td>
+ <td><input type='text' className='inpts' size='30' name='pay_account[48]' value="" data-validate="regexp" data-validate-regexp="^[13][a-km-zA-HJ-NP-Z1-9]{25,34}$" data-validate-notice="Bitcoin Address" placeholder="Your Bitcoin Account"/></td>
 </tr>
 <tr>
- <td><input type=text className=inpts size=30 name=pay_account[69] value="" data-validate="regexp" data-validate-regexp="^(0x)?[0-9a-fA-F]{40}$" data-validate-notice="Ethereum Address" placeholder="Your Ethereum Account"></td>
+ <td><input type='text' className='inpts' size='30' name='pay_account[69]' value="" data-validate="regexp" data-validate-regexp="^(0x)?[0-9a-fA-F]{40}$" data-validate-notice="Ethereum Address" placeholder="Your Ethereum Account"/></td>
 </tr>
 
 <tr>
