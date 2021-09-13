@@ -30,6 +30,9 @@ import GeoTrust from '../sass/images/geotrust.png'
 import TrustGuard from '../sass/images/trustguard.png'
 import SiteLock from '../sass/images/sitelock.png'
 import Mcafee from '../sass/images/mcafee.png'
+import BannerBitcoin from '../sass/images/bannerbitcoin.png'
+import BannerLitecoin from '../sass/images/bannerlitecoin.png'
+import BannerEthereum from '../sass/images/bannerethreum.png'
 
 function Layout(props) {
     const [calcNum, setCalcNum] = useState(20)
@@ -163,11 +166,11 @@ function Layout(props) {
                                     href='?a=signup'
                                     className='slideInDown wow action'
                                 >
-                                    register now
+                                    Investor now
                                 </a>
                                 <div className='bannerstat'>
                                     <div className='statbox slideInRight wow'>
-                                        {/* <div className="icon"><img src="styles/images/bannerbitcoin.png"/> alt=""></div> */}
+                                         <div className="icon"><img src="styles/images/bannerbitcoin.png"/> alt=""></div> 
                                         <p>
                                             BITCOIN:{' '}
                                             <span className='bitCoin'></span>
