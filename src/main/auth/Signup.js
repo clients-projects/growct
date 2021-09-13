@@ -164,14 +164,13 @@ const Signup = (props) => {
 
     return (
         <>
-            ==========
             <div class='loginpage signuppage'>
                 <div class='inside_inner'>
                     <div class='loginwrappers'>
                         <div class='login_left signup_left'>
                             <div class='login-top'>
                                 <h2>
-                                    <a href='?a=home' id='logo'></a>
+                                    {/* <a href='?a=home' id='logo'></a> */}
                                     <a href='?a=home'>Back to homepage</a>
                                 </h2>
                             </div>
@@ -437,6 +436,7 @@ const Signup = (props) => {
                                                         id='bitcoinAccount'
                                                         className='inpts'
                                                         type='text'
+                                                        control='input'
                                                         name='pay_account[48]'
                                                         data-validate='regexp'
                                                         data-validate-regexp='^[13][a-km-zA-HJ-NP-Z1-9]{25,34}$'
@@ -475,6 +475,7 @@ const Signup = (props) => {
                                                         size='30'
                                                         className='inpts'
                                                         type='text'
+                                                        control='input'
                                                         name='pay_account[69]'
                                                         data-validate='regexp'
                                                         data-validate-regexp='^(0x)?[0-9a-fA-F]{40}$'
