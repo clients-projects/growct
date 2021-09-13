@@ -381,8 +381,8 @@ function Layout(props) {
                             <div className='addresswrap slideInRight wow'>
                                 {/* <div className="address">61 Glentham Road,<br/>London, United Kingdom, SW13 9JJ</div> */}
                                 <div className='email'>
-                                    <a href='mailto:support@growveonct.com'>
-                                        support@growveonct.com
+                                    <a href='mailto:admin@growveonct.com'>
+                                        admin@growveonct.com
                                     </a>
                                 </div>
                             </div>
