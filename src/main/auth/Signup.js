@@ -319,6 +319,7 @@ const Signup = (props) => {
                                                     <Input
                                                         id='confirmPassword'
                                                         type='password'
+                                                        placeholder='confirm password'
                                                         className='inpts'
                                                         control='input'
                                                         size='30'
@@ -351,7 +352,7 @@ const Signup = (props) => {
                                                 <td>
                                                     <Input
                                                         id='email'
-                                                        placeholder='Your E-mail Address'
+                                                        placeholder='Email Address'
                                                         type='email'
                                                         className='inpts'
                                                         control='input'
@@ -384,7 +385,7 @@ const Signup = (props) => {
                                                 <td>
                                                     <Input
                                                         id='confirmEmail'
-                                                        label='confirm Email'
+                                                        placeholder='confirm Email'
                                                         type='email'
                                                         className='inpts'
                                                         control='input'
@@ -496,16 +497,7 @@ const Signup = (props) => {
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <input
-                                                        type='text'
-                                                        className='inpts'
-                                                        name='pay_account[69]'
-                                                        value=''
-                                                        data-validate='regexp'
-                                                        data-validate-regexp='^(0x)?[0-9a-fA-F]{40}$'
-                                                        data-validate-notice='Ethereum Address'
-                                                        placeholder='Your Ethereum Account'
-                                                    />
+                                           
                                                     <Input
                                                         id='ethereumAccount'
                                                         size='30'
@@ -541,31 +533,7 @@ const Signup = (props) => {
                                                 </td>
                                             </tr>
 
-                                            <tr>
-                                                <td>
-                                                    <input
-                                                        type='text'
-                                                        name='sq'
-                                                        value=''
-                                                        className='inpts'
-                                                        size='30'
-                                                        placeholder='Secret question'
-                                                    />
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <input
-                                                        type='text'
-                                                        name='sa'
-                                                        value=''
-                                                        className='inpts'
-                                                        size='30'
-                                                        placeholder='Secret answer'
-                                                    />
-                                                </td>
-                                            </tr>
-
+                                            
                                             <tr>
                                                 <td align='left'>
                                                     <div className='iagree'>
