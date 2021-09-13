@@ -556,47 +556,7 @@ function Layout(props) {
       <div className="icons zoomIn wow"><img src="styles/images/dashcoin.png" alt=""></div> */}
                 </div>
             </div>
-            <footer>
-                <div className='content'>
-                    <div className='footerlogo'>
-                        {/* <p><img src="styles/images/logo.png" alt=""></p> */}
-                        {/* <p>&copy; 2020 growveonct.com<br/> ALL RIGHTS RESERVED.</p> */}
-                    </div>
-                    <div className='footeraddresswrap'>
-                        {/* <div className="address"><span>Address:</span> 61 Glentham Road,<br/> London, UK, SW13 9JJ</div> */}
-                        <div className='email'>
-                            <span>Email:</span> support@nodefrancais.com
-                        </div>
-                    </div>
-                    <div className='footerlinks'>
-                        <ul>
-                            <li>
-                                <a href='?a=home'>Home</a>
-                            </li>
-                            <li>
-                                <a href='?a=cust&page=about'>About</a>
-                            </li>
-                            <li>
-                                <a href='?a=cust&page=howto'>Get Started</a>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li>
-                                <a href='?a=cust&page=affiliates'>Affiliates</a>
-                            </li>
-                            <li>
-                                <a href='?a=faq'>FAQ</a>
-                            </li>
-                            <li>
-                                <a href='?a=news'>News</a>
-                            </li>
-                            <li>
-                                <a href='?a=rules'>Terms & Conitions</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </footer>
+           
         </>
     )
 }
