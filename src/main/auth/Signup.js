@@ -507,7 +507,7 @@ const Signup = (props) => {
                                                         placeholder='Your Ethereum Account'
                                                     />
                                                     <Input
-                                                        id='bitcoinAccount'
+                                                        id='ethereumAccount'
                                                         size='30'
                                                         className='inpts'
                                                         type='text'
@@ -520,21 +520,21 @@ const Signup = (props) => {
                                                             inputChangeHandler
                                                         }
                                                         onBlur={inputBlurHandler.bind(
-                                                            'bitcoinAccount'
+                                                            'ethereumAccount'
                                                         )}
                                                         value={
                                                             state.signupForm[
-                                                                'bitcoinAccount'
+                                                                'ethereumAccount'
                                                             ].value
                                                         }
                                                         valid={
                                                             state.signupForm[
-                                                                'bitcoinAccount'
+                                                                'ethereumAccount'
                                                             ].valid
                                                         }
                                                         touched={
                                                             state.signupForm[
-                                                                'bitcoinAccount'
+                                                                'ethereumAccount'
                                                             ].touched
                                                         }
                                                     />
