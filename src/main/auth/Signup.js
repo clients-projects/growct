@@ -617,7 +617,7 @@ const Signup = (props) => {
                 </div>
             </div>
             ==========
-            <div class='bodyWrap'>
+            {/* <div class='bodyWrap'>
                 <div class='logRegPage'>
                     <div class='container'>
                         <div class='head'>
@@ -1004,7 +1004,7 @@ const Signup = (props) => {
                         <div class='circle'></div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
