@@ -24,6 +24,7 @@ import F from '../images/F.png'
 import Grey_bg from '../images/grey_bg.png'
 import profile from '../images/profile.jpg'
 import B1000 from '../images/1000.png'
+import BannerThumb from '../sass/images/bannerthumb.png'
 
 function Layout(props) {
     const [calcNum, setCalcNum] = useState(20)
@@ -181,7 +182,7 @@ function Layout(props) {
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className="rightthumb"><figure><img src="styles/images/bannerthumb.png" alt=""></figure></div> */}
+                            <div className="rightthumb"><figure><img src={BannerThumb} alt=""/></figure></div> 
                         </div>
                     </section>
                 </section>
