@@ -274,14 +274,6 @@ const Signup = (props) => {
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <input
-                                                        type='password'
-                                                        name='password'
-                                                        value=''
-                                                        className='inpts'
-                                                        size='30'
-                                                        placeholder='Define Password'
-                                                    />
                                                     <Input
                                                         className='inpts'
                                                         size='30'
@@ -326,7 +318,6 @@ const Signup = (props) => {
                                                     /> */}
                                                     <Input
                                                         id='confirmPassword'
-                                                        label='confirm Password'
                                                         type='password'
                                                         className='inpts'
                                                         control='input'
@@ -358,13 +349,35 @@ const Signup = (props) => {
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <input
-                                                        type='text'
-                                                        name='email'
-                                                        value=''
-                                                        className='inpts'
-                                                        size='30'
+                                                 
+                                                    <Input
+                                                        id='email'
                                                         placeholder='Your E-mail Address'
+                                                        type='email'
+                                                        className='inpts'
+                                                        control='input'
+                                                        size='30'
+                                                        onChange={
+                                                            inputChangeHandler
+                                                        }
+                                                        onBlur={inputBlurHandler.bind(
+                                                            'confirmPassword'
+                                                        )}
+                                                        value={
+                                                            state.signupForm[
+                                                                'confirmPassword'
+                                                            ].value
+                                                        }
+                                                        valid={
+                                                            state.signupForm[
+                                                                'confirmPassword'
+                                                            ].valid
+                                                        }
+                                                        touched={
+                                                            state.signupForm[
+                                                                'confirmPassword'
+                                                            ].touched
+                                                        }
                                                     />
                                                 </td>
                                             </tr>
