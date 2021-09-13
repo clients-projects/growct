@@ -175,7 +175,7 @@ const Signup = (props) => {
                         <div class='head'>
                             <div class='logo invisLink' style={{ opacity: 0 }}>
                                 <img src={Logo} alt='logo' height='70px;' />
-                                Robot 44 Trade
+                                Growveon Crypto Trading
                                 <Link to='/'>main</Link>
                             </div>
                         </div>
