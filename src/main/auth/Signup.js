@@ -207,6 +207,7 @@ const Signup = (props) => {
                                                 <td width='100%'>
                                                     {' '}
                                                     <Input
+                                                        label='Fullname'
                                                         className='inpts'
                                                         size='30'
                                                         id='fullname'
@@ -241,6 +242,7 @@ const Signup = (props) => {
                                             <tr>
                                                 <td>
                                                     <Input
+                                                    label='Username'
                                                         className='inpts'
                                                         size='30'
                                                         id='username'
