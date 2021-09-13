@@ -203,7 +203,7 @@ function Layout(props) {
                             </h2>
                         </div>
                         <div className='right slideInDown wow'>
-                            <p>
+                            <p style={{fontWeight: 400}}>
                                 growveonct.com proposes you the most dependable
                                 and novel finance system to choose not only for
                                 settlements but also for the possibility to earn
@@ -336,7 +336,7 @@ function Layout(props) {
                         <div className='aboutinside slideInUp wow'>
                             <div className='left'>
                                 <h1>ABOUT growveonct.com</h1>
-                                <p style={{lineHeight: 2}}>
+                                <p style={{lineHeight: 2, fontWeight: 400}}>
                                     growveonct.com is a global crypto finance
                                     solution for all the crypto enthusiasts who
                                     are in search of the trusted, secure and
