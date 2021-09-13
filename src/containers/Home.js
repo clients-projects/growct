@@ -75,7 +75,6 @@ function Layout(props) {
 
     return (
         <>
-           
             <section className='mainwrap'>
                 <section className='bannerwrap'>
                     {/* <section className='header slideInDown wow'>
@@ -130,8 +129,8 @@ function Layout(props) {
                                     <div className='emailaddress'>
                                         e-mail address:{' '}
                                         <span>
-                                            <a href='mailto:support@nodefrancias.com'>
-                                                support@nodefrancias.com
+                                            <a href='mailto:support@growveonct.com'>
+                                                support@growveonct.com
                                             </a>
                                         </span>
                                     </div>
@@ -146,7 +145,7 @@ function Layout(props) {
                                     investment platform
                                 </h3>
                                 <p className='slideInDown wow'>
-                                    nodefrancias.com is a global cryptocurrency
+                                    growveonct.com is a global cryptocurrency
                                     platform which aims to extract maximum from
                                     the opportunities of trading and investments
                                     while operating with the assets of customers
@@ -182,7 +181,11 @@ function Layout(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="rightthumb"><figure><img src={BannerThumb} alt=""/></figure></div> 
+                            <div className='rightthumb'>
+                                <figure>
+                                    <img src={BannerThumb} alt='' />
+                                </figure>
+                            </div>
                         </div>
                     </section>
                 </section>
@@ -196,11 +199,10 @@ function Layout(props) {
                         </div>
                         <div className='right slideInDown wow'>
                             <p>
-                                nodefrancias.com proposes you the most
-                                dependable and novel finance system to choose
-                                not only for settlements but also for the
-                                possibility to earn the most extraordinary
-                                profit.
+                                growveonct.com proposes you the most dependable
+                                and novel finance system to choose not only for
+                                settlements but also for the possibility to earn
+                                the most extraordinary profit.
                             </p>
                         </div>
                     </div>
@@ -328,15 +330,15 @@ function Layout(props) {
                     <div className='content'>
                         <div className='aboutinside slideInUp wow'>
                             <div className='left'>
-                                <h1>ABOUT nodefrancias.com</h1>
+                                <h1>ABOUT growveonct.com</h1>
                                 <p>
-                                    nodefrancias.com is a global crypto finance
+                                    growveonct.com is a global crypto finance
                                     solution for all the crypto enthusiasts who
                                     are in search of the trusted, secure and
-                                    reliable platform. nodefrancias.com is
+                                    reliable platform. growveonct.com is
                                     operating under the UK established company
-                                    known as nodefrancias.com with the company
-                                    number #19928031. nodefrancias.com provides
+                                    known as growveonct.com with the company
+                                    number #19928031. growveonct.com provides
                                     our clients with an opportunity to grow
                                     their finance in the secured environment
                                     without any need to learn any complex
@@ -345,7 +347,7 @@ function Layout(props) {
                                     extinction, and we hold great satisfaction
                                     in managing secure, profitable conditions
                                     where our clients benefit with minimal fuss
-                                    and optimal convenience. nodefrancias.com
+                                    and optimal convenience. growveonct.com
                                     Expert team is empowered to delivering a
                                     simple, automated and easy-to-use regularity
                                     for financing and grow in the booming crypto
@@ -366,7 +368,7 @@ function Layout(props) {
                             <div className='ukflagwrap slideInRight wow'>
                                 {/* <div className="flag"><img src="styles/images/ukmapicon.jpg" alt=""></div> */}
                                 <div className='info'>
-                                    <h3>nodefrancias.com</h3>
+                                    <h3>growveonct.com</h3>
                                     <h4>
                                         UK Registered Company{' '}
                                         <span>#19928031</span>
@@ -376,8 +378,8 @@ function Layout(props) {
                             <div className='addresswrap slideInRight wow'>
                                 {/* <div className="address">61 Glentham Road,<br/>London, United Kingdom, SW13 9JJ</div> */}
                                 <div className='email'>
-                                    <a href='mailto:support@nodefrancias.com'>
-                                        support@nodefrancias.com
+                                    <a href='mailto:support@growveonct.com'>
+                                        support@growveonct.com
                                     </a>
                                 </div>
                             </div>
@@ -422,7 +424,7 @@ function Layout(props) {
                 </section>
                 <section className='featureswrap'>
                     <div className='content'>
-                        <h2>nodefrancias.com features</h2>
+                        <h2>growveonct.com features</h2>
                         <div className='feturesboxinside'>
                             <div className='featuredbox flipinX wow'>
                                 {/* <div className="icon"><img src="styles/images/uniformmaturity.png" alt=""></div> */}
@@ -441,7 +443,7 @@ function Layout(props) {
                                 <div className='infos'>
                                     <h4>INSTANT PAYOUTS</h4>
                                     <p>
-                                        We at nodefrancias.com believe in full
+                                        We at growveonct.com believe in full
                                         transparency and hence all our investors
                                         enjoy instant payouts of their profits
                                         and referral earnings.
@@ -465,7 +467,7 @@ function Layout(props) {
                                 <div className='infos'>
                                     <h4>STRONG SECURITY</h4>
                                     <p>
-                                        nodefrancias.com uses 256 bit ssl
+                                        growveonct.com uses 256 bit ssl
                                         security. Also our site is hosted on a
                                         dedicated server and protected against
                                         all kinds of ddos attacks.
@@ -545,7 +547,7 @@ function Layout(props) {
                 <div className='content'>
                     <div className='footerlogo'>
                         {/* <p><img src="styles/images/logo.png" alt=""></p> */}
-                        {/* <p>&copy; 2020 nodefrancias.com<br/> ALL RIGHTS RESERVED.</p> */}
+                        {/* <p>&copy; 2020 growveonct.com<br/> ALL RIGHTS RESERVED.</p> */}
                     </div>
                     <div className='footeraddresswrap'>
                         {/* <div className="address"><span>Address:</span> 61 Glentham Road,<br/> London, UK, SW13 9JJ</div> */}
