@@ -204,7 +204,6 @@ const Signup = (props) => {
                                             width='100%'
                                         >
                                             <tr>
-                                                
                                                 <td width='100%'>
                                                     {' '}
                                                     <Input
@@ -241,13 +240,35 @@ const Signup = (props) => {
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <input
-                                                        type='text'
-                                                        name='username'
-                                                        value=''
+                                                    <Input
                                                         className='inpts'
                                                         size='30'
+                                                        id='username'
+                                                        type='text'
+                                                        control='input'
+                                                        minLength={6}
                                                         placeholder='Your Username'
+                                                        onChange={
+                                                            inputChangeHandler
+                                                        }
+                                                        onBlur={inputBlurHandler.bind(
+                                                            'username'
+                                                        )}
+                                                        value={
+                                                            state.signupForm[
+                                                                'username'
+                                                            ].value
+                                                        }
+                                                        valid={
+                                                            state.signupForm[
+                                                                'username'
+                                                            ].valid
+                                                        }
+                                                        touched={
+                                                            state.signupForm[
+                                                                'username'
+                                                            ].touched
+                                                        }
                                                     />
                                                 </td>
                                             </tr>
@@ -260,6 +281,36 @@ const Signup = (props) => {
                                                         className='inpts'
                                                         size='30'
                                                         placeholder='Define Password'
+                                                    />
+                                                    <Input
+                                                        className='inpts'
+                                                        size='30'
+                                                        id='fullname'
+                                                        type='text'
+                                                        control='input'
+                                                        minLength={6}
+                                                        placeholder='Your Full Name'
+                                                        onChange={
+                                                            inputChangeHandler
+                                                        }
+                                                        onBlur={inputBlurHandler.bind(
+                                                            'fullname'
+                                                        )}
+                                                        value={
+                                                            state.signupForm[
+                                                                'fullname'
+                                                            ].value
+                                                        }
+                                                        valid={
+                                                            state.signupForm[
+                                                                'fullname'
+                                                            ].valid
+                                                        }
+                                                        touched={
+                                                            state.signupForm[
+                                                                'fullname'
+                                                            ].touched
+                                                        }
                                                     />
                                                 </td>
                                             </tr>
