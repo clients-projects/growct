@@ -292,7 +292,6 @@ const Signup = (props) => {
                                             </tr>
                                             <tr>
                                                 <td>
-                                            
                                                     <Input
                                                         label='Confirm Password'
                                                         id='confirmPassword'
@@ -518,7 +517,7 @@ const Signup = (props) => {
                                             </tr>
 
                                             <tr>
-                                                <td align='left'>
+                                                <td align='right'>
                                                     {/* <div className='iagree'>
                                                         <input
                                                             type='checkbox'
@@ -530,12 +529,25 @@ const Signup = (props) => {
                                                             Terms and conditions
                                                         </a>
                                                     </div> */}
+                                                    <div className='agree'>
+                                                        <input
+                                                            required
+                                                            value=''
+                                                            type='checkbox'
+                                                        />
+                                                        <label for='regCheck'>
+                                                            I agree{' '}
+                                                            <Link href='#'>
+                                                                Terms and
+                                                                conditions
+                                                            </Link>
+                                                        </label>
+                                                    </div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     <span className='bunicon'>
-                                                      
                                                         <input
                                                             design='raised'
                                                             type='submit'
