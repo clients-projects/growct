@@ -220,41 +220,7 @@ const Signup = (props) => {
                                                     />
                                                 </td>
                                             </tr>
-                                            <tr>
-                                                <td>
-                                                    <Input
-                                                        label='Username'
-                                                        className='inpts'
-                                                        size='30'
-                                                        id='username'
-                                                        type='text'
-                                                        control='input'
-                                                        minLength={6}
-                                                        placeholder='Your Username'
-                                                        onChange={
-                                                            inputChangeHandler
-                                                        }
-                                                        onBlur={inputBlurHandler.bind(
-                                                            'username'
-                                                        )}
-                                                        value={
-                                                            state.signupForm[
-                                                                'username'
-                                                            ].value
-                                                        }
-                                                        valid={
-                                                            state.signupForm[
-                                                                'username'
-                                                            ].valid
-                                                        }
-                                                        touched={
-                                                            state.signupForm[
-                                                                'username'
-                                                            ].touched
-                                                        }
-                                                    />
-                                                </td>
-                                            </tr>
+
                                             <tr>
                                                 <td>
                                                     <Input
@@ -406,6 +372,41 @@ const Signup = (props) => {
                                             <tr>
                                                 <td>
                                                     <Input
+                                                        label='Username'
+                                                        className='inpts'
+                                                        size='30'
+                                                        id='username'
+                                                        type='text'
+                                                        control='input'
+                                                        minLength={6}
+                                                        placeholder='Your Username'
+                                                        onChange={
+                                                            inputChangeHandler
+                                                        }
+                                                        onBlur={inputBlurHandler.bind(
+                                                            'username'
+                                                        )}
+                                                        value={
+                                                            state.signupForm[
+                                                                'username'
+                                                            ].value
+                                                        }
+                                                        valid={
+                                                            state.signupForm[
+                                                                'username'
+                                                            ].valid
+                                                        }
+                                                        touched={
+                                                            state.signupForm[
+                                                                'username'
+                                                            ].touched
+                                                        }
+                                                    />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <Input
                                                         label='Bitcoin Address'
                                                         id='bitcoinAccount'
                                                         className='inpts'
@@ -516,9 +517,8 @@ const Signup = (props) => {
                                                 </td>
                                             </tr>
 
-                                            <tr >
-                                                <td style={{display: 'flex'}}>
-                                                 
+                                            <tr>
+                                                <td style={{ display: 'flex' }}>
                                                     <div className='agree'>
                                                         <input
                                                             required
