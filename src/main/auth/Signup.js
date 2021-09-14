@@ -529,11 +529,7 @@ const Signup = (props) => {
                                                             type='checkbox'
                                                         />
                                                         <label for='regCheck'>
-                                                            I agree{' '}
-                                                            <Link href='#' style={{color: 'black'}}>
-                                                                Terms and
-                                                                conditions
-                                                            </Link>
+                                                            I agree with the{' '}Terms and conditions
                                                         </label>
                                                     </div>
                                                 </td>
