@@ -34,11 +34,11 @@ function Header(props) {
                                         alt='logo'
                                         style={{ height: '70px' }}
                                     />
-                                    Robot 44 
+                                    Robot 44 Trade
                                     <a href='/'>main</a>
                                 </div>
                             </div>
-                            <div class='lang tCell right'>
+                            {/* <div class='lang tCell right'>
                                 <Link
                                     to='#'
                                     style={{
@@ -51,7 +51,7 @@ function Header(props) {
                                         backgroundImage: `url(${Lang2})`,
                                     }}
                                 ></Link>
-                            </div>
+                            </div> */}
 
                             <div className='clock tCell right'>
                                 <span className='time gradTxt' id='time'>
