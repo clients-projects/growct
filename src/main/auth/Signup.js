@@ -537,29 +537,25 @@ const Signup = (props) => {
                                                             Terms and conditions
                                                         </a>
                                                     </div> */}
-                                                    <div class='agree'>
-                                                        <input
-                                                            required
-                                                            value=''
-                                                            type='checkbox'
-                                                        />
-                                                        <label for='regCheck'>
-                                                            I agree{' '}
-                                                            <Link href='#'>
-                                                                Terms and
-                                                                conditions
-                                                            </Link>
-                                                        </label>
-                                                    </div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     <span className='bunicon'>
+                                                      
                                                         <input
+                                                            design='raised'
                                                             type='submit'
-                                                            value='Register'
-                                                            className='sbmt'
+                                                            value={
+                                                                props.loading
+                                                                    ? 'Loading...'
+                                                                    : 'Signup'
+                                                            }
+                                                            name='post'
+                                                            loading={
+                                                                props.loading
+                                                            }
+                                                            class='sbmt'
                                                         />
                                                     </span>
                                                 </td>
