@@ -518,17 +518,7 @@ const Signup = (props) => {
 
                                             <tr>
                                                 <td align='right'>
-                                                    {/* <div className='iagree'>
-                                                        <input
-                                                            type='checkbox'
-                                                            name='agree'
-                                                            value='1'
-                                                        />{' '}
-                                                        I agree with{' '}
-                                                        <a href='?a=rules'>
-                                                            Terms and conditions
-                                                        </a>
-                                                    </div> */}
+                                                 
                                                     <div className='agree'>
                                                         <input
                                                             required
