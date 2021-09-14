@@ -42,11 +42,11 @@ function SubHeader(props) {
 
     return (
         <>
-            <div className='topLine'>
+            <div className='topLine' style={{paddingTop: '0'}}>
                 <div className='container'>
                     <div className='table full' style={{
                         display: 'grid',
-                        gridTemplateColumns: '3fr 2fr 1fr',
+                        gridTemplateColumns: '1fr 3fr 1fr',
                         alignItems: 'center'
                     }}>
                         <div className='logoWrap tCell'>

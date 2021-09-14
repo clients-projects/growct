@@ -167,8 +167,6 @@ const Signup = (props) => {
                 <div className=''>
                     <div className='loginwrappers'>
                         <div className='login_left signup_left'>
-                           
-
                             <section className='login'>
                                 <h3>User Registration</h3>
 
@@ -177,7 +175,6 @@ const Signup = (props) => {
                                     name='regform'
                                     className='login_forms'
                                 >
-                               
                                     <div
                                         style={{ width: '48%', float: 'left' }}
                                     >
@@ -529,7 +526,7 @@ const Signup = (props) => {
 
                                             <tr>
                                                 <td align='left'>
-                                                    <div className='iagree'>
+                                                    {/* <div className='iagree'>
                                                         <input
                                                             type='checkbox'
                                                             name='agree'
@@ -539,6 +536,20 @@ const Signup = (props) => {
                                                         <a href='?a=rules'>
                                                             Terms and conditions
                                                         </a>
+                                                    </div> */}
+                                                    <div class='agree'>
+                                                        <input
+                                                            required
+                                                            value=''
+                                                            type='checkbox'
+                                                        />
+                                                        <label for='regCheck'>
+                                                            I agree{' '}
+                                                            <Link href='#'>
+                                                                Terms and
+                                                                conditions
+                                                            </Link>
+                                                        </label>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -568,7 +579,6 @@ const Signup = (props) => {
                     </div>
                 </div>
             </div>
-            ==========
             {/* <div class='bodyWrap'>
                 <div class='logRegPage'>
                     <div class='container'>
