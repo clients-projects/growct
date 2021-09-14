@@ -530,7 +530,7 @@ const Signup = (props) => {
                                                         />
                                                         <label for='regCheck'>
                                                             I agree{' '}
-                                                            <Link href='#'>
+                                                            <Link href='#' style={{color: 'black'}}>
                                                                 Terms and
                                                                 conditions
                                                             </Link>
