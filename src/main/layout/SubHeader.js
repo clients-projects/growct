@@ -35,19 +35,26 @@ function SubHeader(props) {
                 Go to Dashboard
             </Link>
         )
+    //     display: grid;
+    // grid-template-columns: 3fr 2fr 1fr;
+    // align-items: center;
     }
 
     return (
         <>
             <div className='topLine'>
                 <div className='container'>
-                    <div className='table full'>
+                    <div className='table full' style={{
+                        display: 'grid',
+                        gridTemplateColumns: '3fr 2fr 1fr',
+                        alignItems: 'center'
+                    }}>
                         <div className='logoWrap tCell'>
                             <div className='logo invisLink'>
                                 <img
                                     src={`${Logos}`}
                                     alt='logo'
-                                    height='70px;'
+                                    height='100px;'
                                 />
                                 Robot 44 Trade
                                 <a href='/'>main</a>
