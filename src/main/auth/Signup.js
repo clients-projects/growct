@@ -519,7 +519,10 @@ const Signup = (props) => {
 
                                             <tr>
                                                 <td style={{ display: 'flex' }}>
-                                                    <div className='agree'>
+                                                    <div style={{
+                                                        display: 'flex',
+                                                        color: 'black'
+                                                    }}>
                                                         <input
                                                             required
                                                             value=''
