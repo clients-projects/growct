@@ -517,7 +517,7 @@ const Signup = (props) => {
                                             </tr>
 
                                             <tr>
-                                                <td align='right'>
+                                                <td>
                                                  
                                                     <div className='agree'>
                                                         <input
