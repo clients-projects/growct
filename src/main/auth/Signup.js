@@ -292,14 +292,7 @@ const Signup = (props) => {
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    {/* <input
-                                                        type='password'
-                                                        name='password2'
-                                                        value=''
-                                                        className='inpts'
-                                                        size='30'
-                                                        placeholder='Retype Password'
-                                                    /> */}
+                                            
                                                     <Input
                                                         label='Confirm Password'
                                                         id='confirmPassword'
