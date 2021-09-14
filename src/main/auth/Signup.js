@@ -525,6 +525,7 @@ const Signup = (props) => {
                                                             color: 'black',
                                                             gridTemplateColumns:
                                                                 '2rem 1fr',
+                                                            marginBottom: '.5rem'
                                                         }}
                                                     >
                                                         <input
