@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 
 import Lang_1 from '../../images/lang_1.jpg'
 import Lang_2 from '../../images/lang_2.jpg'
-import Logos from '../../images/logos.png'
+import Logos from '../../sass/images/growveonctIcon.png'
 
 //Get the current date
 const newDate = new Date()
@@ -55,7 +55,7 @@ function SubHeader(props) {
                         </div>
                         <div className='logReg tCell right'>{isAuthNav}</div>
 
-                        <div className='socContHead lang tCell right'>
+                        {/* <div className='socContHead lang tCell right'>
                             <a
                                 href='#blank'
                                 style={{
@@ -72,7 +72,7 @@ function SubHeader(props) {
                             >
                                 lang2
                             </a>
-                        </div>
+                        </div> */}
 
                         <div className='clock tCell right'>
                             <span className='time gradTxt' id='time'>
