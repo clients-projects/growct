@@ -519,11 +519,14 @@ const Signup = (props) => {
 
                                             <tr>
                                                 <td style={{ display: 'flex' }}>
-                                                    <div style={{
-                                                        display: 'grid',
-                                                        color: 'black',
-                                                        gridTemplateColumns: '2rem 1fr'
-                                                    }}>
+                                                    <div
+                                                        style={{
+                                                            display: 'grid',
+                                                            color: 'black',
+                                                            gridTemplateColumns:
+                                                                '2rem 1fr',
+                                                        }}
+                                                    >
                                                         <input
                                                             required
                                                             value=''
@@ -531,7 +534,13 @@ const Signup = (props) => {
                                                         />
                                                         <label for='regCheck'>
                                                             I agree with the{' '}
-                                                            <Link href='#' style={{color: 'black'}}>
+                                                            <Link
+                                                                href='#'
+                                                                style={{
+                                                                    color: '#292929',
+                                                                    textDecoration: 'underline'
+                                                                }}
+                                                            >
                                                                 Terms and
                                                                 conditions
                                                             </Link>
