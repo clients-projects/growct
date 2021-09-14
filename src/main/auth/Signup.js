@@ -520,8 +520,9 @@ const Signup = (props) => {
                                             <tr>
                                                 <td style={{ display: 'flex' }}>
                                                     <div style={{
-                                                        display: 'flex',
-                                                        color: 'black'
+                                                        display: 'grid',
+                                                        color: 'black',
+                                                        gridTemplateColumns: '2rem 1fr'
                                                     }}>
                                                         <input
                                                             required
@@ -529,7 +530,11 @@ const Signup = (props) => {
                                                             type='checkbox'
                                                         />
                                                         <label for='regCheck'>
-                                                            I agree with the{' '}Terms and conditions
+                                                            I agree with the{' '}
+                                                            <Link href='#' style={{color: 'black'}}>
+                                                                Terms and
+                                                                conditions
+                                                            </Link>
                                                         </label>
                                                     </div>
                                                 </td>
