@@ -147,6 +147,7 @@ const Signup = (props) => {
     const inputBlurHandler = (input) => {}
 
     const handleSignup = (e) => {
+        console.log('submitting form')
         e.preventDefault()
         if (state.formValid) {
             props.onInitSignup(state)
@@ -172,10 +173,7 @@ const Signup = (props) => {
                                     <form
                                         onSubmit={handleSignup}
                                         name='regform'
-                                        style={{
-                                            marginTop: '45px',
-                                            padding: '5rem',
-                                        }}
+                                      
                                     >
                                         <div
                                             style={{
