@@ -159,420 +159,462 @@ const Signup = (props) => {
         props.history.push(props.redirectToLoginPage)
     }
 
- 
-
     return (
         <>
             <div className='loginpage signuppage'>
                 <div className=''>
                     <div className='loginwrappers'>
                         <div className='login_left signup_left'>
-                            <section className='login'>
-                                <h3>User Registration</h3>
+                            <Auth message={message}>
+                                <section className='login'>
+                                    <h3>User Registration</h3>
 
-                                <form
-                                    onsubmit='return checkform()'
-                                    name='regform'
-                                    className='login_forms'
-                                >
-                                    <div
-                                        style={{ width: '48%', float: 'left' }}
+                                    <form
+                                        onSubmit={handleSignup}
+                                        name='regform'
+                                        style={{
+                                            marginTop: '45px',
+                                            padding: '5rem',
+                                        }}
                                     >
-                                        <table
-                                            cellSpacing='0'
-                                            cellPadding='2'
-                                            border='0'
-                                            width='100%'
+                                        <div
+                                            style={{
+                                                width: '48%',
+                                                float: 'left',
+                                            }}
                                         >
-                                            <tr>
-                                                <td width='100%'>
-                                                    {' '}
-                                                    <Input
-                                                        label='Fullname'
-                                                        className='inpts'
-                                                        size='30'
-                                                        id='fullname'
-                                                        type='text'
-                                                        control='input'
-                                                        minLength={6}
-                                                        placeholder='Your Full Name'
-                                                        onChange={
-                                                            inputChangeHandler
-                                                        }
-                                                        onBlur={inputBlurHandler.bind(
-                                                            'fullname'
-                                                        )}
-                                                        value={
-                                                            state.signupForm[
+                                            <table
+                                                cellSpacing='0'
+                                                cellPadding='2'
+                                                border='0'
+                                                width='100%'
+                                            >
+                                                <tr>
+                                                    <td width='100%'>
+                                                        {' '}
+                                                        <Input
+                                                            label='Fullname'
+                                                            className='inpts'
+                                                            size='30'
+                                                            id='fullname'
+                                                            type='text'
+                                                            control='input'
+                                                            minLength={6}
+                                                            placeholder='Your Full Name'
+                                                            onChange={
+                                                                inputChangeHandler
+                                                            }
+                                                            onBlur={inputBlurHandler.bind(
                                                                 'fullname'
-                                                            ].value
-                                                        }
-                                                        valid={
-                                                            state.signupForm[
-                                                                'fullname'
-                                                            ].valid
-                                                        }
-                                                        touched={
-                                                            state.signupForm[
-                                                                'fullname'
-                                                            ].touched
-                                                        }
-                                                    />
-                                                </td>
-                                            </tr>
+                                                            )}
+                                                            value={
+                                                                state
+                                                                    .signupForm[
+                                                                    'fullname'
+                                                                ].value
+                                                            }
+                                                            valid={
+                                                                state
+                                                                    .signupForm[
+                                                                    'fullname'
+                                                                ].valid
+                                                            }
+                                                            touched={
+                                                                state
+                                                                    .signupForm[
+                                                                    'fullname'
+                                                                ].touched
+                                                            }
+                                                        />
+                                                    </td>
+                                                </tr>
 
-                                            <tr>
-                                                <td>
-                                                    <Input
-                                                        label='Password'
-                                                        className='inpts'
-                                                        size='30'
-                                                        id='password'
-                                                        type='password'
-                                                        control='input'
-                                                        minLength={6}
-                                                        placeholder='Your password'
-                                                        onChange={
-                                                            inputChangeHandler
-                                                        }
-                                                        onBlur={inputBlurHandler.bind(
-                                                            'password'
-                                                        )}
-                                                        value={
-                                                            state.signupForm[
+                                                <tr>
+                                                    <td>
+                                                        <Input
+                                                            label='Password'
+                                                            className='inpts'
+                                                            size='30'
+                                                            id='password'
+                                                            type='password'
+                                                            control='input'
+                                                            minLength={6}
+                                                            placeholder='Your password'
+                                                            onChange={
+                                                                inputChangeHandler
+                                                            }
+                                                            onBlur={inputBlurHandler.bind(
                                                                 'password'
-                                                            ].value
-                                                        }
-                                                        valid={
-                                                            state.signupForm[
-                                                                'password'
-                                                            ].valid
-                                                        }
-                                                        touched={
-                                                            state.signupForm[
-                                                                'password'
-                                                            ].touched
-                                                        }
-                                                    />
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <Input
-                                                        label='Confirm Password'
-                                                        id='confirmPassword'
-                                                        type='password'
-                                                        placeholder='confirm password'
-                                                        className='inpts'
-                                                        control='input'
-                                                        size='30'
-                                                        minLength={6}
-                                                        onChange={
-                                                            inputChangeHandler
-                                                        }
-                                                        onBlur={inputBlurHandler.bind(
-                                                            'confirmPassword'
-                                                        )}
-                                                        value={
-                                                            state.signupForm[
+                                                            )}
+                                                            value={
+                                                                state
+                                                                    .signupForm[
+                                                                    'password'
+                                                                ].value
+                                                            }
+                                                            valid={
+                                                                state
+                                                                    .signupForm[
+                                                                    'password'
+                                                                ].valid
+                                                            }
+                                                            touched={
+                                                                state
+                                                                    .signupForm[
+                                                                    'password'
+                                                                ].touched
+                                                            }
+                                                        />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <Input
+                                                            label='Confirm Password'
+                                                            id='confirmPassword'
+                                                            type='password'
+                                                            placeholder='confirm password'
+                                                            className='inpts'
+                                                            control='input'
+                                                            size='30'
+                                                            minLength={6}
+                                                            onChange={
+                                                                inputChangeHandler
+                                                            }
+                                                            onBlur={inputBlurHandler.bind(
                                                                 'confirmPassword'
-                                                            ].value
-                                                        }
-                                                        valid={
-                                                            state.signupForm[
-                                                                'confirmPassword'
-                                                            ].valid
-                                                        }
-                                                        touched={
-                                                            state.signupForm[
-                                                                'confirmPassword'
-                                                            ].touched
-                                                        }
-                                                    />
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <Input
-                                                        label='Email'
-                                                        id='email'
-                                                        placeholder='Email Address'
-                                                        type='email'
-                                                        className='inpts'
-                                                        control='input'
-                                                        size='30'
-                                                        onChange={
-                                                            inputChangeHandler
-                                                        }
-                                                        onBlur={inputBlurHandler.bind(
-                                                            'email'
-                                                        )}
-                                                        value={
-                                                            state.signupForm[
+                                                            )}
+                                                            value={
+                                                                state
+                                                                    .signupForm[
+                                                                    'confirmPassword'
+                                                                ].value
+                                                            }
+                                                            valid={
+                                                                state
+                                                                    .signupForm[
+                                                                    'confirmPassword'
+                                                                ].valid
+                                                            }
+                                                            touched={
+                                                                state
+                                                                    .signupForm[
+                                                                    'confirmPassword'
+                                                                ].touched
+                                                            }
+                                                        />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <Input
+                                                            label='Email'
+                                                            id='email'
+                                                            placeholder='Email Address'
+                                                            type='email'
+                                                            className='inpts'
+                                                            control='input'
+                                                            size='30'
+                                                            onChange={
+                                                                inputChangeHandler
+                                                            }
+                                                            onBlur={inputBlurHandler.bind(
                                                                 'email'
-                                                            ].value
-                                                        }
-                                                        valid={
-                                                            state.signupForm[
-                                                                'email'
-                                                            ].valid
-                                                        }
-                                                        touched={
-                                                            state.signupForm[
-                                                                'email'
-                                                            ].touched
-                                                        }
-                                                    />
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <Input
-                                                        label='Confirm Email'
-                                                        id='confirmEmail'
-                                                        placeholder='confirm Email'
-                                                        type='email'
-                                                        className='inpts'
-                                                        control='input'
-                                                        size='30'
-                                                        onChange={
-                                                            inputChangeHandler
-                                                        }
-                                                        onBlur={inputBlurHandler.bind(
-                                                            'confirmEmail'
-                                                        )}
-                                                        value={
-                                                            state.signupForm[
+                                                            )}
+                                                            value={
+                                                                state
+                                                                    .signupForm[
+                                                                    'email'
+                                                                ].value
+                                                            }
+                                                            valid={
+                                                                state
+                                                                    .signupForm[
+                                                                    'email'
+                                                                ].valid
+                                                            }
+                                                            touched={
+                                                                state
+                                                                    .signupForm[
+                                                                    'email'
+                                                                ].touched
+                                                            }
+                                                        />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <Input
+                                                            label='Confirm Email'
+                                                            id='confirmEmail'
+                                                            placeholder='confirm Email'
+                                                            type='email'
+                                                            className='inpts'
+                                                            control='input'
+                                                            size='30'
+                                                            onChange={
+                                                                inputChangeHandler
+                                                            }
+                                                            onBlur={inputBlurHandler.bind(
                                                                 'confirmEmail'
-                                                            ].value
-                                                        }
-                                                        valid={
-                                                            state.signupForm[
-                                                                'confirmEmail'
-                                                            ].valid
-                                                        }
-                                                        touched={
-                                                            state.signupForm[
-                                                                'confirmEmail'
-                                                            ].touched
-                                                        }
-                                                    />
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                    <div
-                                        style={{ width: '48%', float: 'right' }}
-                                    >
-                                        <table
-                                            width='100%'
-                                            border='0'
-                                            cellSpacing='0'
+                                                            )}
+                                                            value={
+                                                                state
+                                                                    .signupForm[
+                                                                    'confirmEmail'
+                                                                ].value
+                                                            }
+                                                            valid={
+                                                                state
+                                                                    .signupForm[
+                                                                    'confirmEmail'
+                                                                ].valid
+                                                            }
+                                                            touched={
+                                                                state
+                                                                    .signupForm[
+                                                                    'confirmEmail'
+                                                                ].touched
+                                                            }
+                                                        />
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div
+                                            style={{
+                                                width: '48%',
+                                                float: 'right',
+                                            }}
                                         >
-                                            <tr>
-                                                <td>
-                                                    <Input
-                                                        label='Username'
-                                                        className='inpts'
-                                                        size='30'
-                                                        id='username'
-                                                        type='text'
-                                                        control='input'
-                                                        minLength={6}
-                                                        placeholder='Your Username'
-                                                        onChange={
-                                                            inputChangeHandler
-                                                        }
-                                                        onBlur={inputBlurHandler.bind(
-                                                            'username'
-                                                        )}
-                                                        value={
-                                                            state.signupForm[
+                                            <table
+                                                width='100%'
+                                                border='0'
+                                                cellSpacing='0'
+                                            >
+                                                <tr>
+                                                    <td>
+                                                        <Input
+                                                            label='Username'
+                                                            className='inpts'
+                                                            size='30'
+                                                            id='username'
+                                                            type='text'
+                                                            control='input'
+                                                            minLength={6}
+                                                            placeholder='Your Username'
+                                                            onChange={
+                                                                inputChangeHandler
+                                                            }
+                                                            onBlur={inputBlurHandler.bind(
                                                                 'username'
-                                                            ].value
-                                                        }
-                                                        valid={
-                                                            state.signupForm[
-                                                                'username'
-                                                            ].valid
-                                                        }
-                                                        touched={
-                                                            state.signupForm[
-                                                                'username'
-                                                            ].touched
-                                                        }
-                                                    />
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <Input
-                                                        label='Bitcoin Address'
-                                                        id='bitcoinAccount'
-                                                        className='inpts'
-                                                        type='text'
-                                                        control='input'
-                                                        name='pay_account[48]'
-                                                        data-validate='regexp'
-                                                        data-validate-regexp='^[13][a-km-zA-HJ-NP-Z1-9]{25,34}$'
-                                                        data-validate-notice='Bitcoin Address'
-                                                        placeholder='optional'
-                                                        minLength={40}
-                                                        onChange={
-                                                            inputChangeHandler
-                                                        }
-                                                        onBlur={inputBlurHandler.bind(
-                                                            'bitcoinAccount'
-                                                        )}
-                                                        value={
-                                                            state.signupForm[
+                                                            )}
+                                                            value={
+                                                                state
+                                                                    .signupForm[
+                                                                    'username'
+                                                                ].value
+                                                            }
+                                                            valid={
+                                                                state
+                                                                    .signupForm[
+                                                                    'username'
+                                                                ].valid
+                                                            }
+                                                            touched={
+                                                                state
+                                                                    .signupForm[
+                                                                    'username'
+                                                                ].touched
+                                                            }
+                                                        />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <Input
+                                                            label='Bitcoin Address'
+                                                            id='bitcoinAccount'
+                                                            className='inpts'
+                                                            type='text'
+                                                            control='input'
+                                                            name='pay_account[48]'
+                                                            data-validate='regexp'
+                                                            data-validate-regexp='^[13][a-km-zA-HJ-NP-Z1-9]{25,34}$'
+                                                            data-validate-notice='Bitcoin Address'
+                                                            placeholder='optional'
+                                                            minLength={40}
+                                                            onChange={
+                                                                inputChangeHandler
+                                                            }
+                                                            onBlur={inputBlurHandler.bind(
                                                                 'bitcoinAccount'
-                                                            ].value
-                                                        }
-                                                        valid={
-                                                            state.signupForm[
-                                                                'bitcoinAccount'
-                                                            ].valid
-                                                        }
-                                                        touched={
-                                                            state.signupForm[
-                                                                'bitcoinAccount'
-                                                            ].touched
-                                                        }
-                                                    />
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <Input
-                                                        label='Ethereum Address'
-                                                        id='ethereumAccount'
-                                                        size='30'
-                                                        className='inpts'
-                                                        type='text'
-                                                        control='input'
-                                                        name='pay_account[69]'
-                                                        data-validate='regexp'
-                                                        data-validate-regexp='^(0x)?[0-9a-fA-F]{40}$'
-                                                        data-validate-notice='Ethereum Address'
-                                                        placeholder='optional'
-                                                        onChange={
-                                                            inputChangeHandler
-                                                        }
-                                                        onBlur={inputBlurHandler.bind(
-                                                            'ethereumAccount'
-                                                        )}
-                                                        value={
-                                                            state.signupForm[
+                                                            )}
+                                                            value={
+                                                                state
+                                                                    .signupForm[
+                                                                    'bitcoinAccount'
+                                                                ].value
+                                                            }
+                                                            valid={
+                                                                state
+                                                                    .signupForm[
+                                                                    'bitcoinAccount'
+                                                                ].valid
+                                                            }
+                                                            touched={
+                                                                state
+                                                                    .signupForm[
+                                                                    'bitcoinAccount'
+                                                                ].touched
+                                                            }
+                                                        />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <Input
+                                                            label='Ethereum Address'
+                                                            id='ethereumAccount'
+                                                            size='30'
+                                                            className='inpts'
+                                                            type='text'
+                                                            control='input'
+                                                            name='pay_account[69]'
+                                                            data-validate='regexp'
+                                                            data-validate-regexp='^(0x)?[0-9a-fA-F]{40}$'
+                                                            data-validate-notice='Ethereum Address'
+                                                            placeholder='optional'
+                                                            onChange={
+                                                                inputChangeHandler
+                                                            }
+                                                            onBlur={inputBlurHandler.bind(
                                                                 'ethereumAccount'
-                                                            ].value
-                                                        }
-                                                        valid={
-                                                            state.signupForm[
-                                                                'ethereumAccount'
-                                                            ].valid
-                                                        }
-                                                        touched={
-                                                            state.signupForm[
-                                                                'ethereumAccount'
-                                                            ].touched
-                                                        }
-                                                    />
-                                                </td>
-                                            </tr>
+                                                            )}
+                                                            value={
+                                                                state
+                                                                    .signupForm[
+                                                                    'ethereumAccount'
+                                                                ].value
+                                                            }
+                                                            valid={
+                                                                state
+                                                                    .signupForm[
+                                                                    'ethereumAccount'
+                                                                ].valid
+                                                            }
+                                                            touched={
+                                                                state
+                                                                    .signupForm[
+                                                                    'ethereumAccount'
+                                                                ].touched
+                                                            }
+                                                        />
+                                                    </td>
+                                                </tr>
 
-                                            <tr>
-                                                <td>
-                                                    <Input
-                                                        id='referral'
-                                                        label='Referral'
-                                                        type='text'
-                                                        size='30'
-                                                        className='inpts'
-                                                        control='input'
-                                                        placeholder='optional'
-                                                        minLength={3}
-                                                        onChange={
-                                                            inputChangeHandler
-                                                        }
-                                                        onBlur={inputBlurHandler.bind(
-                                                            'referral'
-                                                        )}
-                                                        value={
-                                                            state.signupForm[
+                                                <tr>
+                                                    <td>
+                                                        <Input
+                                                            id='referral'
+                                                            label='Referral'
+                                                            type='text'
+                                                            size='30'
+                                                            className='inpts'
+                                                            control='input'
+                                                            placeholder='optional'
+                                                            minLength={3}
+                                                            onChange={
+                                                                inputChangeHandler
+                                                            }
+                                                            onBlur={inputBlurHandler.bind(
                                                                 'referral'
-                                                            ].value
-                                                        }
-                                                        valid={
-                                                            state.signupForm[
-                                                                'referral'
-                                                            ].valid
-                                                        }
-                                                        touched={
-                                                            state.signupForm[
-                                                                'referral'
-                                                            ].touched
-                                                        }
-                                                    />
-                                                </td>
-                                            </tr>
+                                                            )}
+                                                            value={
+                                                                state
+                                                                    .signupForm[
+                                                                    'referral'
+                                                                ].value
+                                                            }
+                                                            valid={
+                                                                state
+                                                                    .signupForm[
+                                                                    'referral'
+                                                                ].valid
+                                                            }
+                                                            touched={
+                                                                state
+                                                                    .signupForm[
+                                                                    'referral'
+                                                                ].touched
+                                                            }
+                                                        />
+                                                    </td>
+                                                </tr>
 
-                                            <tr>
-                                                <td style={{ display: 'flex' }}>
-                                                    <div
+                                                <tr>
+                                                    <td
                                                         style={{
-                                                            display: 'grid',
-                                                            color: 'black',
-                                                            gridTemplateColumns:
-                                                                '2rem 1fr',
-                                                            marginBottom: '.5rem'
+                                                            display: 'flex',
                                                         }}
                                                     >
-                                                        <input
-                                                            required
-                                                            value=''
-                                                            type='checkbox'
-                                                        />
-                                                        <label for='regCheck'>
-                                                            I agree with the{' '}
-                                                            <Link
-                                                                href='#'
-                                                                style={{
-                                                                    color: '#292929',
-                                                                    textDecoration: 'underline'
-                                                                }}
-                                                            >
-                                                                Terms and
-                                                                conditions
-                                                            </Link>
-                                                        </label>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <span className='bunicon'>
-                                                        <input
-                                                            design='raised'
-                                                            type='submit'
-                                                            value={
-                                                                props.loading
-                                                                    ? 'Loading...'
-                                                                    : 'Signup'
-                                                            }
-                                                            name='post'
-                                                            loading={
-                                                                props.loading
-                                                            }
-                                                            class='sbmt'
-                                                        />
-                                                    </span>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </form>
-                            </section>
+                                                        <div
+                                                            style={{
+                                                                display: 'grid',
+                                                                color: 'black',
+                                                                gridTemplateColumns:
+                                                                    '2rem 1fr',
+                                                                marginBottom:
+                                                                    '.5rem',
+                                                            }}
+                                                        >
+                                                            <input
+                                                                required
+                                                                value=''
+                                                                type='checkbox'
+                                                            />
+                                                            <label for='regCheck'>
+                                                                I agree with the{' '}
+                                                                <Link
+                                                                    href='#'
+                                                                    style={{
+                                                                        color: '#292929',
+                                                                        textDecoration:
+                                                                            'underline',
+                                                                    }}
+                                                                >
+                                                                    Terms and
+                                                                    conditions
+                                                                </Link>
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span className='bunicon'>
+                                                            <input
+                                                                design='raised'
+                                                                type='submit'
+                                                                value={
+                                                                    props.loading
+                                                                        ? 'Loading...'
+                                                                        : 'Signup'
+                                                                }
+                                                                name='post'
+                                                                loading={
+                                                                    props.loading
+                                                                }
+                                                                class='sbmt'
+                                                            />
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </form>
+                                </section>
+                            </Auth>
 
                             <section className='loginyellowbottom'>
                                 <a href='?a=login' className='loginnewuser'>
