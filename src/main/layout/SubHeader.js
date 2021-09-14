@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 
 import Lang_1 from '../../images/lang_1.jpg'
 import Lang_2 from '../../images/lang_2.jpg'
-import Logos from '../../sass/images/growveonctIcon.png'
+import Logos from '../../sass/images/GrowveonctLogo.png'
 
 //Get the current date
 const newDate = new Date()
