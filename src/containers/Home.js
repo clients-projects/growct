@@ -584,34 +584,8 @@ function Layout(props) {
                 <section className='calculatorwrap'>
                     <div className='content'>
                          <div className='calculatorinside bounceInUp wow'>
-                        hello
-                           {/* <div className='left'>
-                                calculate <span>profit</span>
-                            </div>
-                            <div className='right'>
-                                <div className='calbox one'>
-                                    <label>Enter Amount</label>
-                                    <span>
-                                        <input
-                                            type='text'
-                                            name=''
-                                            id='amount'
-                                        />
-                                    </span>
-                                </div>
-                                <div className='calbox two'>
-                                    <label>Profit</label>
-                                    <div className='results' id='profitDaily'>
-                                        3.6
-                                    </div>
-                                </div>
-                                <div className='calbox three'>
-                                    <label>Net Profit</label>
-                                    <div className='results' id='profitMonthly'>
-                                        23.6
-                                    </div>
-                                </div>
-                            </div> */}
+                        <h2>INVESTED CAPITAL IS DUE FOR WITHDRAWAL AFTER 4 (28 days)</h2>
+                      
                             </div>
                     </div>
                 </section>
