@@ -347,6 +347,10 @@ function Layout(props) {
                                         </li>
                                     </ul>
                                 </div>
+                                <div className='deposit'>
+                                    <a href='?a=signup'>Deposit</a>
+                                </div>
+                            </div>
                             <div className='planbox one'>
                                 <div className='beginerwrap'>
                                     <div className='planname'>BRONZE</div>
