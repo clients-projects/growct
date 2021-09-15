@@ -15,7 +15,6 @@ import Transactions from '../main/layout/clientLayout/Transactions'
 const Referrals = (props) => {
     return (
         <div className='content'>
-        
             <div class='bodyWrap'>
                 <Header />
 
@@ -92,7 +91,7 @@ const Referrals = (props) => {
                 </div>
 
                 <p class='copyright'>
-                    © 2021 Robot44 Trade. All rights reserved.
+                    © 2021 Growveon cryptotrading. All rights reserved.
                 </p>
             </div>
         </div>
@@ -105,7 +104,7 @@ const mapStateToProps = (state) => {
         referrals: state.auth.userData.referrals,
         activeReferrals: state.auth.userData.activeReferrals,
         totalReferrals: state.auth.userData.totalReferrals,
-        totalReferralCommission: state.auth.userData.totalReferralCommission
+        totalReferralCommission: state.auth.userData.totalReferralCommission,
     }
 }
 
