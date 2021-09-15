@@ -531,13 +531,13 @@ function Layout(props) {
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            duration: <span>1 Week</span>
+                                            duration: <span>19% weekly for 24 Week</span>
                                         </li>
                                         <li>
-                                            Minimum: <span>500 USD</span>
+                                            Minimum: <span>50,000 USD</span>
                                         </li>
                                         <li>
-                                            Maximum: <span>4900 USD</span>
+                                            Maximum: <span>500,000 USD</span>
                                         </li>
                                         <li>
                                             Referral Bonus: <span>5%</span>
