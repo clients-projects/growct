@@ -223,9 +223,12 @@ function Layout(props) {
                                 </p>
                             </div>
                         </div>
+                        <div className='plansHeader'>
+
                         <h2 style={{ textAlign: 'center' }}>
-                            Daily investment Packages
+                                Daily investment Packages
                         </h2>
+                            </div>
                     </div>
                 </section>
                 <section className='planwrap'>
@@ -311,7 +314,7 @@ function Layout(props) {
                             </div>
                         </div>
                     </div>
-                    <div style={{ margin: '2rem 0'}}>
+                    <div className='plansHeader'>
                     <h2 style={{ textAlign: 'center'}}>
                         Daily investment Packages
                     </h2>
