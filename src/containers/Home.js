@@ -210,7 +210,7 @@ function Layout(props) {
                             <div className='left slideInDown wow'>
                                 <h2>
                                     investment <br />
-                                    <span>offer</span>
+                                    <span>Packages</span>
                                 </h2>
                             </div>
                             <div className='right slideInDown wow'>
@@ -249,11 +249,12 @@ function Layout(props) {
                                             Term: <span>24 Hours</span>
                                         </li>
                                         <li>
-                                            Minimum: <span>0 USD</span>
+                                            Minimum: <span>500 USD</span>
                                         </li>
                                         <li>
-                                            Withdrawal: <span>Instant</span>
+                                            Miximum: <span>4900 USD</span>
                                         </li>
+                                      
                                     </ul>
                                 </div>
                                 <div className='deposit'>
@@ -316,7 +317,7 @@ function Layout(props) {
                     </div>
                     <div className='plansHeader'>
                     <h2 style={{ textAlign: 'center'}}>
-                        Daily investment Packages
+                        Weekly investment Packages
                     </h2>
                         
                     </div>
@@ -324,7 +325,7 @@ function Layout(props) {
                         <div className='planinsider1 bounceInDown wow'>
                             <div className='planbox one'>
                                 <div className='beginerwrap'>
-                                    <div className='planname'>HELM</div>
+                                    <div className='planname'>BRONZE</div>
                                     <div className='percentage'>
                                         10<sup>%</sup>
                                         <span></span>
@@ -474,11 +475,11 @@ function Layout(props) {
                     </div>
                 </section>
 
-                <section className='registerwrap'>
+                {/* <section className='registerwrap'>
                     <div className='content'>
                         <div className='left'>
                             <div className='ukflagwrap slideInRight wow'>
-                                {/* <div className="flag"><img src="styles/images/ukmapicon.jpg" alt=""></div> */}
+                                 <div className="flag"><img src="styles/images/ukmapicon.jpg" alt=""></div> *
                                 <div className='info'>
                                     <h3>growveonct.com</h3>
                                     <h4>
@@ -488,7 +489,7 @@ function Layout(props) {
                                 </div>
                             </div>
                             <div className='addresswrap slideInRight wow'>
-                                {/* <div className="address">61 Glentham Road,<br/>London, United Kingdom, SW13 9JJ</div> */}
+                                 <div className="address">61 Glentham Road,<br/>London, United Kingdom, SW13 9JJ</div> 
                                 <div className='email'>
                                     <a href='mailto:admin@growveonct.com'>
                                         admin@growveonct.com
@@ -501,11 +502,11 @@ function Layout(props) {
                                     target='_blank'
                                     className='downloadcertificate'
                                 ></a>
-                                {/* <a href="#" className="companyprofile" target="_blank">Company<br/>Profile</a> */}
+                                 <a href="#" className="companyprofile" target="_blank">Company<br/>Profile</a> 
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
                 <section className='referralwrap'>
                     <div className='content'>
