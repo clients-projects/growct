@@ -118,23 +118,13 @@ const Login = (props) => {
                                         >
                                             <tr>
                                                 <td colspan='2'>
-                                                    <input
-                                                        type='text'
-                                                        name='username'
-                                                        value=''
-                                                        className='inpts'
-                                                        size='30'
-                                                        autofocus='autofocus'
-                                                        placeholder='Username'
-                                                    />
-                                                    <label>
-                                                        Email Address:
-                                                    </label>
+                                                 
                                                     <Input
                                                         id='email'
                                                         type='email'
                                                         label='Email'
                                                         control='input'
+                                                        placeholder='Email'
                                                         onChange={
                                                             inputChangeHandler
                                                         }
@@ -161,17 +151,11 @@ const Login = (props) => {
                                             </tr>
                                             <tr>
                                                 <td colspan='2'>
-                                                    <input
-                                                        type='password'
-                                                        name='password'
-                                                        value=''
-                                                        className='inpts'
-                                                        size='30'
-                                                        placeholder='Password'
-                                                    />
+                                                 
                                                     <Input
                                                         id='password'
                                                         type='password'
+                                                        label='Password'
                                                         placeholder='Password'
                                                         control='input'
                                                         minLength={6}
