@@ -429,7 +429,7 @@ function Layout(props) {
                         </h2>
                     </div>
                     <div className='content'>
-                        <div className='planinsider1'>
+                        <div className='planinsider2'>
                             <div className='planbox1 one'>
                                 <div
                                     className='beginerwrap'
