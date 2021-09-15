@@ -430,7 +430,10 @@ function Layout(props) {
                         </div>
                     </div>
                 </section>
+                <section>
                 <TechnicalAnalysis/>
+
+                </section>
                 <section className='featureswrap'>
                     <div className='content'>
                         <h2>growveonct.com features</h2>
