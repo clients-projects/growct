@@ -446,6 +446,139 @@ function Layout(props) {
                             </div>
                         </div>
                     </div>
+                    <div className='plansHeader'>
+                        <h2 style={{ textAlign: 'center' }}>
+                            Compound investment Packages
+                        </h2>
+                    </div>
+                    <div className='content'>
+                        <div className='planinsider1'>
+                            <div className='planbox1 one'>
+                                <div
+                                    className='beginerwrap'
+                                    style={{ color: 'white' }}
+                                >
+                                    <div className='planname'>BRONZE</div>
+                                    <div className='percentage'>
+                                        10<sup>%</sup>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div className='planinfos'>
+                                    <ul>
+                                        <li>
+                                            Term: <span>1 Week</span>
+                                        </li>
+                                        <li>
+                                            Minimum: <span>500 USD</span>
+                                        </li>
+                                        <li>
+                                            Maximum: <span>4900 USD</span>
+                                        </li>
+                                        <li>
+                                            Referral Bonus: <span>5%</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className='deposit'>
+                                    <a href='?a=signup'>Deposit</a>
+                                </div>
+                            </div>
+                            <div className='planbox1 two'>
+                                <div
+                                    className='beginerwrap'
+                                    style={{ color: 'white' }}
+                                >
+                                    <div className='planname'>BRONZE</div>
+                                    <div className='percentage'>
+                                        10<sup>%</sup>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div className='planinfos'>
+                                    <ul>
+                                        <li>
+                                            Term: <span>1 Week</span>
+                                        </li>
+                                        <li>
+                                            Minimum: <span>500 USD</span>
+                                        </li>
+                                        <li>
+                                            Maximum: <span>4900 USD</span>
+                                        </li>
+                                        <li>
+                                            Referral Bonus: <span>5%</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className='deposit'>
+                                    <a href='?a=signup'>Deposit</a>
+                                </div>
+                            </div>
+                            <div className='planbox1 three'>
+                                <div
+                                    className='beginerwrap'
+                                    style={{ color: 'white' }}
+                                >
+                                    <div className='planname'>BRONZE</div>
+                                    <div className='percentage'>
+                                        10<sup>%</sup>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div className='planinfos'>
+                                    <ul>
+                                        <li>
+                                            Term: <span>1 Week</span>
+                                        </li>
+                                        <li>
+                                            Minimum: <span>500 USD</span>
+                                        </li>
+                                        <li>
+                                            Maximum: <span>4900 USD</span>
+                                        </li>
+                                        <li>
+                                            Referral Bonus: <span>5%</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className='deposit'>
+                                    <a href='?a=signup'>Deposit</a>
+                                </div>
+                            </div>
+                            <div className='planbox1 four'>
+                                <div
+                                    className='beginerwrap'
+                                    style={{ color: 'white' }}
+                                >
+                                    <div className='planname'>BRONZE</div>
+                                    <div className='percentage'>
+                                        10<sup>%</sup>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div className='planinfos'>
+                                    <ul>
+                                        <li>
+                                            Term: <span>1 Week</span>
+                                        </li>
+                                        <li>
+                                            Minimum: <span>500 USD</span>
+                                        </li>
+                                        <li>
+                                            Maximum: <span>4900 USD</span>
+                                        </li>
+                                        <li>
+                                            Referral Bonus: <span>5%</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className='deposit'>
+                                    <a href='?a=signup'>Deposit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
                 <section className='calculatorwrap'>
