@@ -352,7 +352,7 @@ function Layout(props) {
                                 </div>
                             </div>
                             <div className='planbox one'>
-                                <div className='beginerwrap'>
+                                <div className='beginerwrap' style={{color: 'black'}}>
                                     <div className='planname'>BRONZE</div>
                                     <div className='percentage'>
                                         10<sup>%</sup>
