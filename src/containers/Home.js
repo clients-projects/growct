@@ -322,7 +322,7 @@ function Layout(props) {
                         
                     </div>
                     <div className='content'>
-                        <div className='planinsider1 bounceInDown wow'>
+                        <div className='bounceInDown wow'>
                             <div className='planbox one'>
                                 <div className='beginerwrap'>
                                     <div className='planname'>BRONZE</div>
@@ -331,17 +331,19 @@ function Layout(props) {
                                         <span></span>
                                     </div>
                                 </div>
-                                <div className='roi'>Principal: Returned</div>
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            Term: <span>24 Hours</span>
+                                            Term: <span>1 Week</span>
                                         </li>
                                         <li>
-                                            Minimum: <span>20 USD</span>
+                                            Minimum: <span>500 USD</span>
                                         </li>
                                         <li>
-                                            Withdrawal: <span>Instant</span>
+                                            Maximum: <span>4900 USD</span>
+                                        </li>
+                                        <li>
+                                            Referral Bonus: <span>5%</span>
                                         </li>
                                     </ul>
                                 </div>
