@@ -597,7 +597,7 @@ const Signup = (props) => {
                                                                 loading={
                                                                     props.loading
                                                                 }
-                                                                class='sbmt'
+                                                                className='sbmt'
                                                             />
                                                         </span>
                                                     </td>

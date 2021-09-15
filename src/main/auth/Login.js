@@ -188,8 +188,7 @@ const Login = (props) => {
                                                     <span className='bunicon'>
                                                         <button
                                                             type='submit'
-                                                            class='btnFillDarkMd'
-                                                            name='post'
+                                                            className='sbmt'
                                                         >
                                                             {props.loading
                                                                 ? 'Loading...'
@@ -234,7 +233,6 @@ const Login = (props) => {
                     </p>
                 </div>
             </section>
-           
         </>
     )
 }
