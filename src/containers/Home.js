@@ -376,10 +376,10 @@ function Layout(props) {
                                             duration: <span>1 Week</span>
                                         </li>
                                         <li>
-                                            Minimum: <span>20,000 USD</span>
+                                            Minimum: <span>$20,000 </span>
                                         </li>
                                         <li>
-                                            Maximum: <span>49,900 USD</span>
+                                            Maximum: <span>$49,900 </span>
                                         </li>
                                         <li>
                                             Referral Bonus: <span>10%</span>
@@ -407,10 +407,10 @@ function Layout(props) {
                                             duration: <span>1 Week</span>
                                         </li>
                                         <li>
-                                            Minimum: <span>50,000 USD</span>
+                                            Minimum: <span>$50,000 </span>
                                         </li>
                                         <li>
-                                            Maximum: <span>500,000 USD</span>
+                                            Maximum: <span>$500,000 </span>
                                         </li>
                                         <li>
                                             Referral Bonus: <span>15%</span>
