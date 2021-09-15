@@ -251,10 +251,10 @@ function Layout(props) {
                                             duration: <span>24 Hours</span>
                                         </li>
                                         <li>
-                                            Minimum: <span>5,000 USD</span>
+                                            Minimum: <span>$5,000</span>
                                         </li>
                                         <li>
-                                            maximum: <span>19,999 USD</span>
+                                            maximum: <span>$19,999</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -277,10 +277,10 @@ function Layout(props) {
                                             duration: <span>24 Hours</span>
                                         </li>
                                         <li>
-                                            Minimum: <span>20,000 USD</span>
+                                            Minimum: <span>$20,000</span>
                                         </li>
                                         <li>
-                                            maximum: <span>50,000</span>
+                                            maximum: <span>$50,000</span>
                                         </li>
                                     </ul>
                                 </div>
