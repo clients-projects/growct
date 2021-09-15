@@ -557,7 +557,7 @@ const Signup = (props) => {
                                                                 gridTemplateColumns:
                                                                     '2rem 1fr',
                                                                 marginBottom:
-                                                                    '.5rem',
+                                                                    '2rem',
                                                             }}
                                                         >
                                                             <input

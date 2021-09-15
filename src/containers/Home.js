@@ -34,7 +34,7 @@ import BannerBitcoin from '../sass/images/bannerbitcoin.png'
 import BannerLitecoin from '../sass/images/bannerlitecoin.png'
 import BannerEthereum from '../sass/images/bannerethreum.png'
 
-import TechnicalAnalysis from '../tradeviewWidgets/TechnicalAnalysis'
+import TechnicalAnalysis from '../tradeviewWidgets/AdvancedRealChart'
 
 function Layout(props) {
     const [calcNum, setCalcNum] = useState(20)
