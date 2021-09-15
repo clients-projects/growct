@@ -224,11 +224,10 @@ function Layout(props) {
                             </div>
                         </div>
                         <div className='plansHeader'>
-
-                        <h2 style={{ textAlign: 'center' }}>
+                            <h2 style={{ textAlign: 'center' }}>
                                 Daily investment Packages
-                        </h2>
-                            </div>
+                            </h2>
+                        </div>
                     </div>
                 </section>
                 <section className='planwrap'>
@@ -254,7 +253,6 @@ function Layout(props) {
                                         <li>
                                             Miximum: <span>4900 USD</span>
                                         </li>
-                                      
                                     </ul>
                                 </div>
                                 <div className='deposit'>
@@ -316,15 +314,17 @@ function Layout(props) {
                         </div>
                     </div>
                     <div className='plansHeader'>
-                    <h2 style={{ textAlign: 'center'}}>
-                        Weekly investment Packages
-                    </h2>
-                        
+                        <h2 style={{ textAlign: 'center' }}>
+                            Weekly investment Packages
+                        </h2>
                     </div>
                     <div className='content'>
                         <div className='planinsider1'>
                             <div className='planbox one'>
-                                <div className='beginerwrap'>
+                                <div
+                                    className='beginerwrap'
+                                    style={{ color: 'black' }}
+                                >
                                     <div className='planname'>BRONZE</div>
                                     <div className='percentage'>
                                         10<sup>%</sup>
@@ -352,7 +352,10 @@ function Layout(props) {
                                 </div>
                             </div>
                             <div className='planbox one'>
-                                <div className='beginerwrap' style={{color: 'black'}}>
+                                <div
+                                    className='beginerwrap'
+                                    style={{ color: 'black' }}
+                                >
                                     <div className='planname'>BRONZE</div>
                                     <div className='percentage'>
                                         10<sup>%</sup>
@@ -499,7 +502,11 @@ function Layout(props) {
                                 <a href='?a=faq'>More Information</a>
                             </div>
                             <div className='right'>
-                                <div className="certificatebo"><a href="#"><img src={Certificate} alt=""/></a></div>
+                                <div className='certificatebo'>
+                                    <a href='#'>
+                                        <img src={Certificate} alt='' />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
