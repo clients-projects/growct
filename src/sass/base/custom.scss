@@ -371,11 +371,15 @@ h2.section-header {
 	padding: 0 0 40px;
 }
 .planinsider2 {
-	display: flex;
-	justify-content: space-between;
+	display: grid;
 	text-align: center;
+	
 	overflow: hidden;
 	padding: 0 0 40px;
+	grid-template-columns: repeat(4, 1fr);
+	// &>* {
+	// 	margin: 0 1rem;
+	// }
 }
 .planbox {
 	width: 33.33%;
