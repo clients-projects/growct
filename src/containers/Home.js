@@ -450,9 +450,9 @@ function Layout(props) {
 
                 <section className='calculatorwrap'>
                     <div className='content'>
+                         <div className='calculatorinside bounceInUp wow'>
                         hello
-                        {/* <div className='calculatorinside bounceInUp wow'>
-                            <div className='left'>
+                           {/* <div className='left'>
                                 calculate <span>profit</span>
                             </div>
                             <div className='right'>
@@ -478,8 +478,8 @@ function Layout(props) {
                                         23.6
                                     </div>
                                 </div>
+                            </div> */}
                             </div>
-                        </div> */}
                     </div>
                 </section>
 
