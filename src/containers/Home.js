@@ -502,7 +502,7 @@ function Layout(props) {
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            duration: <span>1 Week</span>
+                                            duration: <span>16% weekly for 12 Weeks</span>
                                         </li>
                                         <li>
                                             Minimum: <span>20,000 USD</span>
@@ -510,9 +510,7 @@ function Layout(props) {
                                         <li>
                                             Maximum: <span>49,900 USD</span>
                                         </li>
-                                        <li>
-                                            Referral Bonus: <span>5%</span>
-                                        </li>
+                                     
                                     </ul>
                                 </div>
                                 <div className='deposit'>
@@ -524,9 +522,9 @@ function Layout(props) {
                                     className='beginerwrap'
                                     style={{ color: 'white' }}
                                 >
-                                    <div className='planname'>BRONZE</div>
+                                    <div className='planname'>SIX MONTHS</div>
                                     <div className='percentage'>
-                                        10<sup>%</sup>
+                                        76<sup>%</sup>
                                         <span></span>
                                     </div>
                                 </div>
