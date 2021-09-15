@@ -298,6 +298,88 @@ function Layout(props) {
                             </div>
                         </div>
                     </div>
+                    <div className='content'>
+                        <div className='planinsider bounceInDown wow'>
+                            <div className='planbox one'>
+                                <div className='beginerwrap'>
+                                    <div className='planname'>HELM</div>
+                                    <div className='percentage'>
+                                        10<sup>%</sup>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div className='roi'>Principal: Returned</div>
+                                <div className='planinfos'>
+                                    <ul>
+                                        <li>
+                                            Term: <span>24 Hours</span>
+                                        </li>
+                                        <li>
+                                            Minimum: <span>20 USD</span>
+                                        </li>
+                                        <li>
+                                            Withdrawal: <span>Instant</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className='deposit'>
+                                    <a href='?a=signup'>Deposit</a>
+                                </div>
+                            </div>
+                            <div className='planbox two'>
+                                <div className='beginerwrap'>
+                                    <div className='planname'>Premium</div>
+                                    <div className='percentage'>
+                                        30<sup>%</sup>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div className='roi'>Principal: Returned</div>
+                                <div className='planinfos'>
+                                    <ul>
+                                        <li>
+                                            Term: <span>24 Hours</span>
+                                        </li>
+                                        <li>
+                                            Minimum: <span>1000 USD</span>
+                                        </li>
+                                        <li>
+                                            Withdrawal: <span>Instant</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className='deposit'>
+                                    <a href='?a=signup'>Deposit</a>
+                                </div>
+                            </div>
+                            <div className='planbox three'>
+                                <div className='beginerwrap'>
+                                    <div className='planname'>Business</div>
+                                    <div className='percentage'>
+                                        100<sup>%</sup>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div className='roi'>Principal: Returned</div>
+                                <div className='planinfos'>
+                                    <ul>
+                                        <li>
+                                            Term: <span>48 Hours</span>
+                                        </li>
+                                        <li>
+                                            Minimum: <span>5000 USD</span>
+                                        </li>
+                                        <li>
+                                            Withdrawal: <span>Instant</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className='deposit'>
+                                    <a href='?a=signup'>Deposit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
                 <section className='calculatorwrap'>
