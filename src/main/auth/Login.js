@@ -188,19 +188,16 @@ const Login = (props) => {
                                                     <span class='bunicon'>
                                                         <input
                                                             type='submit'
-                                                            value='Login'
+                                                            name='post'
+                                                            value={
+                                                                props.loading
+                                                                    ? 'Loading...'
+                                                                    : 'Login'
+                                                            }
                                                             class='sbmt'
                                                         />
                                                     </span>
-                                                    <button
-                                                        type='submit'
-                                                        class='btnFillDarkMd'
-                                                        name='post'
-                                                    >
-                                                        {props.loading
-                                                            ? 'Loading...'
-                                                            : 'Login'}
-                                                    </button>
+                                           
                                                 </td>
                                                 <td
                                                     align='right'
