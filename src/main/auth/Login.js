@@ -102,79 +102,113 @@ const Login = (props) => {
                 <div className='inside_inner'>
                     <div className='loginwrappers'>
                         <div className='login_left'>
-                          
- <Auth login message={message}>
-                            <div className='form-container login'>
-                                <h3>Member Login</h3>
+                            <Auth login message={message}>
+                                <div className='form-container login'>
+                                    <h3>Member Login</h3>
                                     <form
                                         class='formLogin'
                                         onSubmit={handleLogin}
-                                    >                                    <table
-                                        width='100%'
-                                        border='0'
-                                        cellPadding='4'
-                                        cellSpacing='4'
                                     >
-                                        <tr>
-                                            <td colspan='2'>
-                                                <input
-                                                    type='text'
-                                                    name='username'
-                                                    value=''
-                                                    className='inpts'
-                                                    size='30'
-                                                    autofocus='autofocus'
-                                                    placeholder='Username'
-                                                />
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan='2'>
-                                                <input
-                                                    type='password'
-                                                    name='password'
-                                                    value=''
-                                                    className='inpts'
-                                                    size='30'
-                                                    placeholder='Password'
-                                                />
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan='2'></td>
-                                        </tr>
-                                        <tr>
-                                            <td height='40' valign='middle'>
-                                                <span className='bunicon'>
+                                        {' '}
+                                        <table
+                                            width='100%'
+                                            border='0'
+                                            cellPadding='4'
+                                            cellSpacing='4'
+                                        >
+                                            <tr>
+                                                <td colspan='2'>
                                                     <input
-                                                        type='submit'
-                                                        value='Login'
-                                                        className='sbmt'
+                                                        type='text'
+                                                        name='username'
+                                                        value=''
+                                                        className='inpts'
+                                                        size='30'
+                                                        autofocus='autofocus'
+                                                        placeholder='Username'
                                                     />
-                                                </span>
-                                            </td>
-                                            <td align='right' valign='middle'>
-                                                <a
-                                                    href='?a=forgot_password'
-                                                    className='small_text'
+                                                    <label>
+                                                        Email Address:
+                                                    </label>
+                                                    <Input
+                                                        id='email'
+                                                        type='email'
+                                                        label='Email'
+                                                        control='input'
+                                                        onChange={
+                                                            inputChangeHandler
+                                                        }
+                                                        onBlur={inputBlurHandler.bind(
+                                                            'email'
+                                                        )}
+                                                        value={
+                                                            state.loginForm[
+                                                                'email'
+                                                            ].value
+                                                        }
+                                                        valid={
+                                                            state.loginForm[
+                                                                'email'
+                                                            ].valid
+                                                        }
+                                                        touched={
+                                                            state.loginForm[
+                                                                'email'
+                                                            ].touched
+                                                        }
+                                                    />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan='2'>
+                                                    <input
+                                                        type='password'
+                                                        name='password'
+                                                        value=''
+                                                        className='inpts'
+                                                        size='30'
+                                                        placeholder='Password'
+                                                    />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan='2'></td>
+                                            </tr>
+                                            <tr>
+                                                <td height='40' valign='middle'>
+                                                    <span className='bunicon'>
+                                                        <input
+                                                            type='submit'
+                                                            value='Login'
+                                                            className='sbmt'
+                                                        />
+                                                    </span>
+                                                </td>
+                                                <td
+                                                    align='right'
+                                                    valign='middle'
                                                 >
-                                                    Forgot your password?
-                                                </a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </form>
+                                                    <a
+                                                        href='?a=forgot_password'
+                                                        className='small_text'
+                                                    >
+                                                        Forgot your password?
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </form>
 
-                                <div className='loginyellowbottom'>
-                                    <a
-                                        href='?a=signup'
-                                        className='loginnewuser'
-                                    >
-                                        New User? <span>SignUp Here</span>
-                                    </a>
+                                    <div className='loginyellowbottom'>
+                                        <a
+                                            href='?a=signup'
+                                            className='loginnewuser'
+                                        >
+                                            New User? <span>SignUp Here</span>
+                                        </a>
+                                    </div>
                                 </div>
-                                </div>
-                                </Auth>
+                            </Auth>
                         </div>
                     </div>
                 </div>
