@@ -112,11 +112,11 @@ const Login = (props) => {
                                         <table
                                             width='100%'
                                             border='0'
-                                            cellPadding='0'
-                                            cellSpacing='0'
+                                            cellPadding='4'
+                                            cellSpacing='4'
                                         >
                                             <tr>
-                                                <td colspan='0'>
+                                                <td colspan='2'>
                                                     <Input
                                                         id='email'
                                                         type='email'
@@ -148,7 +148,7 @@ const Login = (props) => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td colspan='0'>
+                                                <td colspan='2'>
                                                     <Input
                                                         id='password'
                                                         type='password'
