@@ -218,12 +218,12 @@ function Layout(props) {
                             </p>
                         </div>
                     </div>
-                    <h2 style={{textAlign: 'center'}}>
-                        Daily investment Packages
-                    </h2>
                 </section>
                 <section className='planwrap'>
                     <div className='content'>
+                            <h2 style={{ textAlign: 'center' }}>
+                                Daily investment Packages
+                            </h2>
                         <div className='planinsider bounceInDown wow'>
                             <div className='planbox one'>
                                 <div className='beginerwrap'>
