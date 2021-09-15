@@ -202,28 +202,30 @@ function Layout(props) {
                 </section>
 
                 <section className='investmentofferwrap'>
-                    <div className='content' style={{display: 'grid', gap: '3rem'}}>
-                        <div> 
-                            
-                        <div className='left slideInDown wow'>
-                            <h2>
-                                investment <br />
-                                <span>offer</span>
-                            </h2>
+                    <div
+                        className='content'
+                        style={{ display: 'grid', gap: '3rem' }}
+                    >
+                        <div>
+                            <div className='left slideInDown wow'>
+                                <h2>
+                                    investment <br />
+                                    <span>offer</span>
+                                </h2>
+                            </div>
+                            <div className='right slideInDown wow'>
+                                <p style={{ fontWeight: 400 }}>
+                                    growveonct.com proposes you the most
+                                    dependable and novel finance system to
+                                    choose not only for settlements but also for
+                                    the possibility to earn the most
+                                    extraordinary profit.
+                                </p>
+                            </div>
                         </div>
-                        <div className='right slideInDown wow'>
-                            <p style={{ fontWeight: 400 }}>
-                                growveonct.com proposes you the most dependable
-                                and novel finance system to choose not only for
-                                settlements but also for the possibility to earn
-                                the most extraordinary profit.
-                            </p>
-                        </div>
-
-                        </div>
-                            <h2 style={{ textAlign: 'center' }}>
-                                Daily investment Packages
-                            </h2>
+                        <h2 style={{ textAlign: 'center' }}>
+                            Daily investment Packages
+                        </h2>
                     </div>
                 </section>
                 <section className='planwrap'>
@@ -309,6 +311,9 @@ function Layout(props) {
                             </div>
                         </div>
                     </div>
+                    <h2 style={{ textAlign: 'center', margin: '2rem 0' }}>
+                        Daily investment Packages
+                    </h2>
                     <div className='content'>
                         <div className='planinsider1 bounceInDown wow'>
                             <div className='planbox one'>
