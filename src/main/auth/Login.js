@@ -169,6 +169,34 @@ const Login = (props) => {
                                                         size='30'
                                                         placeholder='Password'
                                                     />
+                                                    <Input
+                                                        id='password'
+                                                        type='password'
+                                                        placeholder='Password'
+                                                        control='input'
+                                                        minLength={6}
+                                                        onChange={
+                                                            inputChangeHandler
+                                                        }
+                                                        onBlur={inputBlurHandler.bind(
+                                                            'password'
+                                                        )}
+                                                        value={
+                                                            state.loginForm[
+                                                                'password'
+                                                            ].value
+                                                        }
+                                                        valid={
+                                                            state.loginForm[
+                                                                'password'
+                                                            ].valid
+                                                        }
+                                                        touched={
+                                                            state.loginForm[
+                                                                'password'
+                                                            ].touched
+                                                        }
+                                                    />
                                                 </td>
                                             </tr>
                                             <tr>
