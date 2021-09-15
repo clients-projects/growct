@@ -584,7 +584,7 @@ function Layout(props) {
                 <section className='calculatorwrap'>
                     <div className='content'>
                          <div className='calculatorinside bounceInUp wow' style={{color: 'white'}}>
-                        <h2 style={{textAlign: 'center'}}>INVESTED CAPITAL IS DUE FOR WITHDRAWAL AFTER 4 (28 days)</h2>
+                        <h2 style={{textAlign: 'center'}}>*INVESTED CAPITAL IS DUE FOR WITHDRAWAL AFTER 4 (28 days)*</h2>
                       
                             </div>
                     </div>
