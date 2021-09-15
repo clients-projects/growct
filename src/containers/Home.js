@@ -323,7 +323,7 @@ function Layout(props) {
                             <div className='planbox1 one'>
                                 <div
                                     className='beginerwrap'
-                                    style={{ color: 'black' }}
+                                    style={{ color: 'white' }}
                                 >
                                     <div className='planname'>BRONZE</div>
                                     <div className='percentage'>
@@ -354,7 +354,7 @@ function Layout(props) {
                             <div className='planbox1 two'>
                                 <div
                                     className='beginerwrap'
-                                    style={{ color: 'black' }}
+                                    style={{ color: 'white' }}
                                 >
                                     <div className='planname'>BRONZE</div>
                                     <div className='percentage'>
@@ -385,7 +385,7 @@ function Layout(props) {
                             <div className='planbox1 three'>
                                 <div
                                     className='beginerwrap'
-                                    style={{ color: 'black' }}
+                                    style={{ color: 'white' }}
                                 >
                                     <div className='planname'>Premium</div>
                                     <div className='percentage'>
@@ -410,10 +410,10 @@ function Layout(props) {
                                     <a href='?a=signup'>Deposit</a>
                                 </div>
                             </div>
-                            <div className=' three'>
+                            <div className='planbox1 four'>
                                 <div
                                     className='beginerwrap'
-                                    style={{ color: 'black' }}
+                                    style={{ color: 'white' }}
                                 >
                                     <div className='planname'>Business</div>
                                     <div className='percentage'>
