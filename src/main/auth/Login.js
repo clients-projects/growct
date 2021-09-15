@@ -97,7 +97,6 @@ const Login = (props) => {
 
     return (
         <>
-            ============
             <section className='loginpage'>
                 <div className='inside_inner'>
                     <div className='loginwrappers'>
@@ -118,7 +117,6 @@ const Login = (props) => {
                                         >
                                             <tr>
                                                 <td colspan='2'>
-                                                 
                                                     <Input
                                                         id='email'
                                                         type='email'
@@ -151,7 +149,6 @@ const Login = (props) => {
                                             </tr>
                                             <tr>
                                                 <td colspan='2'>
-                                                 
                                                     <Input
                                                         id='password'
                                                         type='password'
@@ -189,23 +186,27 @@ const Login = (props) => {
                                             <tr>
                                                 <td height='40' valign='middle'>
                                                     <span className='bunicon'>
-                                                        <input
+                                                        <button
                                                             type='submit'
-                                                            value='Login'
-                                                            className='sbmt'
-                                                        />
+                                                            class='btnFillDarkMd'
+                                                            name='post'
+                                                        >
+                                                            {props.loading
+                                                                ? 'Loading...'
+                                                                : 'Login'}
+                                                        </button>
                                                     </span>
                                                 </td>
                                                 <td
                                                     align='right'
                                                     valign='middle'
                                                 >
-                                                    <a
-                                                        href='?a=forgot_password'
-                                                        className='small_text'
+                                                    <Link
+                                                        to='/forgot-password'
+                                                        class='passLink'
                                                     >
-                                                        Forgot your password?
-                                                    </a>
+                                                        Forgot password?
+                                                    </Link>
                                                 </td>
                                             </tr>
                                         </table>
@@ -228,137 +229,12 @@ const Login = (props) => {
             <section className='footerContainer loginfooter'>
                 <div className='footerInner'>
                     <p>
-                        Copyright &copy; 2020. <a href='?a=home'></a> All Rights
+                        Copyright &copy; 2021. <a href='home'></a> All Rights
                         Reserved
                     </p>
                 </div>
             </section>
-            ===========
-            <div class='bodyWrap'>
-                <div
-                    class='logRegPage'
-                    style={{
-                        backgroundImage: `url(${GradBgBig}), url(${LogRegBg})`,
-                    }}
-                >
-                    <div class='container'>
-                        <div class='head'>
-                            <div class='logo invisLink' style={{ opacity: 0 }}>
-                                <img src={Logo} alt='logo' height='70px;' />
-
-                                <Link to='/'>main</Link>
-                            </div>
-                        </div>
-
-                        <div class='content'>
-                            <div class='captionLight center'>Login</div>
-                            <div class='wrap login'>
-                                <Auth login message={message}>
-                                    <form
-                                        class='formLogin'
-                                        onSubmit={handleLogin}
-                                    >
-                                        <div class='item'>
-                                            <div class='formBlockLight'>
-                                                <label>Email Address:</label>
-                                                <Input
-                                                    id='email'
-                                                    type='email'
-                                                    control='input'
-                                                    onChange={
-                                                        inputChangeHandler
-                                                    }
-                                                    onBlur={inputBlurHandler.bind(
-                                                        'email'
-                                                    )}
-                                                    value={
-                                                        state.loginForm['email']
-                                                            .value
-                                                    }
-                                                    valid={
-                                                        state.loginForm['email']
-                                                            .valid
-                                                    }
-                                                    touched={
-                                                        state.loginForm['email']
-                                                            .touched
-                                                    }
-                                                />
-                                                <span class='icon-login'>
-                                                    <GoPerson />
-                                                </span>
-                                            </div>
-                                            <div class='formBlockLight'>
-                                                <label for='logPass'>
-                                                    Password:
-                                                </label>
-                                                <Input
-                                                    id='password'
-                                                    type='password'
-                                                    control='input'
-                                                    minLength={6}
-                                                    onChange={
-                                                        inputChangeHandler
-                                                    }
-                                                    onBlur={inputBlurHandler.bind(
-                                                        'password'
-                                                    )}
-                                                    value={
-                                                        state.loginForm[
-                                                            'password'
-                                                        ].value
-                                                    }
-                                                    valid={
-                                                        state.loginForm[
-                                                            'password'
-                                                        ].valid
-                                                    }
-                                                    touched={
-                                                        state.loginForm[
-                                                            'password'
-                                                        ].touched
-                                                    }
-                                                />
-                                                <span class='icon-pass'>
-                                                    <RiLockPasswordFill />
-                                                </span>
-                                            </div>
-                                            <Link
-                                                to='/forgot-password'
-                                                class='passLink'
-                                            >
-                                                Forgot password?
-                                            </Link>
-                                            <button
-                                                type='submit'
-                                                class='btnFillDarkMd'
-                                                name='post'
-                                            >
-                                                {props.loading
-                                                    ? 'Loading...'
-                                                    : 'Login'}
-                                            </button>
-                                        </div>
-                                    </form>
-                                </Auth>
-                            </div>
-                        </div>
-
-                        <div
-                            class='bottomLine table full'
-                            style={{ opacity: 0 }}
-                        >
-                            <p class='copy tCell middle left'>
-                                © 2021 Growveon cryptotrading. All rights
-                                reserved.
-                            </p>
-                        </div>
-                    </div>
-                    <div class='circleBg'>
-                        <div class='circle'></div>
-                    </div>
-                </div>
-            </div>
+           
         </>
     )
 }
