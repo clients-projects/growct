@@ -371,9 +371,10 @@ h2.section-header {
 	padding: 0 0 40px;
 }
 .planinsider2 {
+	gap: 2rem;
 	display: grid;
 	text-align: center;
-	
+
 	overflow: hidden;
 	padding: 0 0 40px;
 	grid-template-columns: repeat(4, 1fr);
