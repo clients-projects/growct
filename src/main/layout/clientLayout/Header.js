@@ -34,7 +34,7 @@ function Header(props) {
                                         alt='logo'
                                         style={{ height: '70px' }}
                                     />
-                                    Robot 44 Trade
+                                    Growveon Cryptotrading
                                     <a href='/'>main</a>
                                 </div>
                             </div>

@@ -2,9 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 
-import Lang_1 from '../../images/lang_1.jpg'
-import Lang_2 from '../../images/lang_2.jpg'
 import Logos from '../../sass/images/GrowveonctLogo.svg'
+import LiveChart from '../../tradeviewWidgets/LiveTicker'
 
 //Get the current date
 const newDate = new Date()
@@ -42,13 +41,17 @@ function SubHeader(props) {
 
     return (
         <>
-            <div className='topLine' style={{paddingTop: '0'}}>
+                <LiveChart />
+            <div className='topLine' style={{ paddingTop: '0' }}>
                 <div className='container'>
-                    <div className='table full' style={{
-                        display: 'grid',
-                        gridTemplateColumns: '1fr 3fr 1fr',
-                        alignItems: 'center'
-                    }}>
+                    <div
+                        className='table full'
+                        style={{
+                            display: 'grid',
+                            gridTemplateColumns: '1fr 3fr 1fr',
+                            alignItems: 'center',
+                        }}
+                    >
                         <div className='logoWrap tCell'>
                             <div className='logo invisLink'>
                                 <img
@@ -56,30 +59,11 @@ function SubHeader(props) {
                                     alt='logo'
                                     height='100px;'
                                 />
-                                Robot 44 Trade
+                                Growveon cryptotrading
                                 <a href='/'>main</a>
                             </div>
                         </div>
                         <div className='logReg tCell right'>{isAuthNav}</div>
-
-                        {/* <div className='socContHead lang tCell right'>
-                            <a
-                                href='#blank'
-                                style={{
-                                    backgroundImage: `url(${Lang_1})`,
-                                }}
-                            >
-                                lang1
-                            </a>
-                            <a
-                                href='#blank'
-                                style={{
-                                    backgroundImage: `url(${Lang_2})`,
-                                }}
-                            >
-                                lang2
-                            </a>
-                        </div> */}
 
                         <div className='clock tCell right'>
                             <span className='time gradTxt' id='time'>

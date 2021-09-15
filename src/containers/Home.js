@@ -34,6 +34,8 @@ import BannerBitcoin from '../sass/images/bannerbitcoin.png'
 import BannerLitecoin from '../sass/images/bannerlitecoin.png'
 import BannerEthereum from '../sass/images/bannerethreum.png'
 
+import TechnicalAnalysis from '../tradeviewWidgets/TechnicalAnalysis'
+
 function Layout(props) {
     const [calcNum, setCalcNum] = useState(20)
     const [selectedValue, setSelectedValue] = useState(0.1)
@@ -428,6 +430,7 @@ function Layout(props) {
                         </div>
                     </div>
                 </section>
+                <TechnicalAnalysis/>
                 <section className='featureswrap'>
                     <div className='content'>
                         <h2>growveonct.com features</h2>
