@@ -228,14 +228,7 @@ const Login = (props) => {
                     </div>
                 </div>
             </section>
-            <section className='footerContainer loginfooter'>
-                <div className='footerInner'>
-                    <p>
-                        Copyright &copy; 2021. <a href='home'></a> All Rights
-                        Reserved
-                    </p>
-                </div>
-            </section>
+            
         </>
     )
 }
