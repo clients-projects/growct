@@ -482,7 +482,7 @@ function Layout(props) {
                     </div>
                 </section>
 
-                <section className='aboutwrap'>
+                <section className='aboutwrap' style={{margin: '4rem 0'}}>
                     <div className='content'>
                         <div className='aboutinside slideInUp wow'>
                             <div className='left'>
@@ -555,7 +555,7 @@ function Layout(props) {
                     </div>
                 </section> */}
 
-                <section className='referralwrap'>
+                <section className='referralwrap' style={{margin: '4rem 0'}}>
                     <div className='content'>
                         <div className='left'>
                             <div className='value one zoomIn wow'>
