@@ -228,7 +228,7 @@ function Layout(props) {
                                             Minimum: <span>500 USD</span>
                                         </li>
                                         <li>
-                                            Miximum: <span>4,900 USD</span>
+                                            Miximum: <span>4,999 USD</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -254,7 +254,7 @@ function Layout(props) {
                                             Minimum: <span>5,000 USD</span>
                                         </li>
                                         <li>
-                                            maximum: <span>19,900 USD</span>
+                                            maximum: <span>19,999 USD</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -317,7 +317,7 @@ function Layout(props) {
                                             Minimum: <span>500 USD</span>
                                         </li>
                                         <li>
-                                            Maximum: <span>4,900 USD</span>
+                                            Maximum: <span>4,999 USD</span>
                                         </li>
                                         <li>
                                             Referral Bonus: <span>5%</span>
@@ -348,7 +348,7 @@ function Layout(props) {
                                             Minimum: <span>5,000 USD</span>
                                         </li>
                                         <li>
-                                            Maximum: <span>19,900 USD</span>
+                                            Maximum: <span>19,999 USD</span>
                                         </li>
                                         <li>
                                             Referral Bonus: <span>7%</span>
@@ -450,7 +450,7 @@ function Layout(props) {
                                             Minimum: <span>500 USD</span>
                                         </li>
                                         <li>
-                                            Maximum: <span>4,900 USD</span>
+                                            Maximum: <span>4,999 USD</span>
                                         </li>
                                         
                                     </ul>
@@ -464,26 +464,24 @@ function Layout(props) {
                                     className='beginerwrap'
                                     style={{ color: 'white' }}
                                 >
-                                    <div className='planname'>BRONZE</div>
+                                    <div className='planname'>TWO MONTHS</div>
                                     <div className='percentage'>
-                                        10<sup>%</sup>
+                                        52<sup>%</sup>
                                         <span></span>
                                     </div>
                                 </div>
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            duration: <span>1 Week</span>
+                                            duration: <span>13 weekly for 8 Week</span>
                                         </li>
                                         <li>
-                                            Minimum: <span>500 USD</span>
+                                            Minimum: <span>5000 USD</span>
                                         </li>
                                         <li>
-                                            Maximum: <span>4900 USD</span>
+                                            Maximum: <span>19,000 USD</span>
                                         </li>
-                                        <li>
-                                            Referral Bonus: <span>5%</span>
-                                        </li>
+                                      
                                     </ul>
                                 </div>
                                 <div className='deposit'>
@@ -495,9 +493,9 @@ function Layout(props) {
                                     className='beginerwrap'
                                     style={{ color: 'white' }}
                                 >
-                                    <div className='planname'>BRONZE</div>
+                                    <div className='planname'>THREE MONTHS</div>
                                     <div className='percentage'>
-                                        10<sup>%</sup>
+                                        64<sup>%</sup>
                                         <span></span>
                                     </div>
                                 </div>
@@ -507,10 +505,10 @@ function Layout(props) {
                                             duration: <span>1 Week</span>
                                         </li>
                                         <li>
-                                            Minimum: <span>500 USD</span>
+                                            Minimum: <span>20,000 USD</span>
                                         </li>
                                         <li>
-                                            Maximum: <span>4900 USD</span>
+                                            Maximum: <span>49,900 USD</span>
                                         </li>
                                         <li>
                                             Referral Bonus: <span>5%</span>
