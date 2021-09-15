@@ -320,7 +320,7 @@ function Layout(props) {
                     </div>
                     <div className='content'>
                         <div className='planinsider1'>
-                            <div className=' one'>
+                            <div className='planbox1 one'>
                                 <div
                                     className='beginerwrap'
                                     style={{ color: 'black' }}
@@ -351,7 +351,7 @@ function Layout(props) {
                                     <a href='?a=signup'>Deposit</a>
                                 </div>
                             </div>
-                            <div className=' one'>
+                            <div className='planbox1 two'>
                                 <div
                                     className='beginerwrap'
                                     style={{ color: 'black' }}
@@ -382,7 +382,7 @@ function Layout(props) {
                                     <a href='?a=signup'>Deposit</a>
                                 </div>
                             </div>
-                            <div className=' two'>
+                            <div className='planbox1 three'>
                                 <div
                                     className='beginerwrap'
                                     style={{ color: 'black' }}
