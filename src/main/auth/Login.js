@@ -114,15 +114,13 @@ const Login = (props) => {
         <div className="form-container login">
 			
           <h3>Member Login</h3>
-<form method=post name=mainform onsubmit="return checkform()"><input type="hidden" name="form_id" value="16316866205291"><input type="hidden" name="form_token" value="cef65273debd1908cc963454c09fe3c8">
-<input type=hidden name=a value='do_login'>
-<input type=hidden name=follow value=''>
-<input type=hidden name=follow_id value=''>
-<table width="100%" border=0 cellpadding=4 cellspacing=4>
+<form>
+
+<table width="100%" border='0' cellPadding='4' cellSpacing='4'>
 <tr>
- <td colspan="2"><input type=text name=username value='' className=inpts size=30 autofocus="autofocus" placeholder="Username"></td>
+ <td colspan="2"><input type='text' name='username' value='' className='inpts' size='30' autofocus="autofocus" placeholder="Username"/></td>
 </tr><tr>
- <td colspan="2"><input type=password name=password value='' className=inpts size=30 placeholder="Password"></td>
+ <td colspan="2"><input type='password' name='password' value='' className='inpts' size='30' placeholder="Password"/></td>
 </tr>
 <tr>
                 <td colspan="2"></td>
