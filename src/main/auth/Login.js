@@ -97,6 +97,60 @@ const Login = (props) => {
 
     return (
         <>
+            ============
+             <section className="loginpage">
+  <div className="inside_inner">
+ 
+    <div className="loginwrappers">
+      <div className="login_left">
+		  
+		 <div className="login-top">
+			   <h2><a href="?a=home" id="logo"></a>
+			    <a href="?a=home">Back to homepage</a>
+			   </h2>
+			  
+		 </div> 
+		  
+        <div className="form-container login">
+			
+          <h3>Member Login</h3>
+<form method=post name=mainform onsubmit="return checkform()"><input type="hidden" name="form_id" value="16316866205291"><input type="hidden" name="form_token" value="cef65273debd1908cc963454c09fe3c8">
+<input type=hidden name=a value='do_login'>
+<input type=hidden name=follow value=''>
+<input type=hidden name=follow_id value=''>
+<table width="100%" border=0 cellpadding=4 cellspacing=4>
+<tr>
+ <td colspan="2"><input type=text name=username value='' className=inpts size=30 autofocus="autofocus" placeholder="Username"></td>
+</tr><tr>
+ <td colspan="2"><input type=password name=password value='' className=inpts size=30 placeholder="Password"></td>
+</tr>
+<tr>
+                <td colspan="2"></td>
+              </tr>
+                            <tr>
+                <td height="40" valign="middle"><span className="bunicon">
+                    <input type=submit value="Login" className=sbmt></span></td>
+                <td align="right" valign="middle"><a href="?a=forgot_password" className="small_text">Forgot your password?</a></td>
+              </tr>
+              </table>
+</form>
+
+          <div className="loginyellowbottom">
+			<a href="?a=signup" className="loginnewuser">New User? <span>SignUp Here</span></a>
+			</div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section className="footerContainer loginfooter">
+  <div className="footerInner">
+<p>Copyright &copy; 2020. <a href="?a=home"></a> All Rights Reserved</p>
+  </div>
+</section>
+            ===========
             <div class='bodyWrap'>
                 <div
                     class='logRegPage'
