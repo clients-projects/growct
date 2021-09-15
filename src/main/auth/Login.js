@@ -102,12 +102,7 @@ const Login = (props) => {
                 <div className='inside_inner'>
                     <div className='loginwrappers'>
                         <div className='login_left'>
-                            <div className='login-top'>
-                                <h2>
-                                    <a href='?a=home' id='logo'></a>
-                                    <a href='?a=home'>Back to homepage</a>
-                                </h2>
-                            </div>
+                          
 
                             <div className='form-container login'>
                                 <h3>Member Login</h3>
