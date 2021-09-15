@@ -534,10 +534,10 @@ function Layout(props) {
                                             duration: <span>19% weekly for 24 Week</span>
                                         </li>
                                         <li>
-                                            Minimum: <span>50,000 USD</span>
+                                            Minimum: <span>$50,000</span>
                                         </li>
                                         <li>
-                                            Maximum: <span>500,000 USD</span>
+                                            Maximum: <span>$500,000</span>
                                         </li>
                                      
                                     </ul>
