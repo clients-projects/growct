@@ -217,11 +217,11 @@ function Layout(props) {
                                 the most extraordinary profit.
                             </p>
                         </div>
-                    </div>
-                </section>
                     <h2 style={{textAlign: 'center'}}>
                         Daily investment Packages
                     </h2>
+                    </div>
+                </section>
                 <section className='planwrap'>
                     <div className='content'>
                         <div className='planinsider bounceInDown wow'>
