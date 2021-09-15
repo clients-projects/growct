@@ -13,7 +13,7 @@
         "node": "14.16.0"
     },
     "dependencies": {
-        "@types/node": "^14.11.8",
+        "@types/node": "^14.16.0",
         "@types/react-router-dom": "^5.1.6",
         "@types/react-toggle": "^4.0.2",
         "axios": "^0.20.0",
@@ -58,11 +58,8 @@
         "start": "react-scripts start",
         "build": "react-scripts build ",
         "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject",
-        "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
-        "compile-sass": "node-sass src/assets/sass/light-bootstrap-dashboard-react.scss src/assets/css/light-bootstrap-dashboard-react.css",
-        "minify-sass": "node-sass src/assets/sass/light-bootstrap-dashboard-react.scss src/assets/css/light-bootstrap-dashboard-react.min.css --output-style compressed",
-        "map-sass": "node-sass src/assets/sass/light-bootstrap-dashboard-react.scss src/assets/css/light-bootstrap-dashboard-react.css --source-map true"
+        "eject": "react-scripts eject"
+      
     },
     "eslintConfig": {
         "extends": "react-app"
