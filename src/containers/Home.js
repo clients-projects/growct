@@ -202,7 +202,7 @@ function Layout(props) {
                 </section>
 
                 <section className='investmentofferwrap'>
-                    <div className='content' style={{display: 'grid'}}>
+                    <div className='content' style={{display: 'grid', gap: '3rem'}}>
                         <div> 
                             
                         <div className='left slideInDown wow'>
