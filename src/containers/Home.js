@@ -31,8 +31,8 @@ import TrustGuard from '../sass/images/trustguard.png'
 import SiteLock from '../sass/images/sitelock.png'
 import Mcafee from '../sass/images/mcafee.png'
 import BannerBitcoin from '../sass/images/bannerbitcoin.png'
-import BannerLitecoin from '../sass/images/bannerlitecoin.png'
 import BannerEthereum from '../sass/images/bannerethreum.png'
+import Certificate from '../sass/images/certificatethumb.jpg'
 
 import TechnicalAnalysis from '../tradeviewWidgets/AdvancedRealChart'
 
@@ -469,7 +469,7 @@ function Layout(props) {
                                 <a href='?a=faq'>More Information</a>
                             </div>
                             <div className='right'>
-                                {/* <div className="certificatebo"><a href="#"><img src="styles/images/certificatethumb.jpg" alt=""></a></div> */}
+                                <div className="certificatebo"><a href="#"><img src={Certificate} alt=""/></a></div>
                             </div>
                         </div>
                     </div>
