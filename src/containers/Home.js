@@ -202,7 +202,9 @@ function Layout(props) {
                 </section>
 
                 <section className='investmentofferwrap'>
-                    <div className='content'>
+                    <div className='content' style={{display: 'grid'}}>
+                        <div> 
+                            
                         <div className='left slideInDown wow'>
                             <h2>
                                 investment <br />
@@ -216,6 +218,8 @@ function Layout(props) {
                                 settlements but also for the possibility to earn
                                 the most extraordinary profit.
                             </p>
+                        </div>
+
                         </div>
                             <h2 style={{ textAlign: 'center' }}>
                                 Daily investment Packages
