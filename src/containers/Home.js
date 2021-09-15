@@ -238,7 +238,7 @@ function Layout(props) {
                                 <div className='beginerwrap'>
                                     <div className='planname'>HELM</div>
                                     <div className='percentage'>
-                                        10<sup>%</sup>
+                                        2<sup>%</sup>
                                         <span></span>
                                     </div>
                                 </div>
@@ -249,7 +249,7 @@ function Layout(props) {
                                             Term: <span>24 Hours</span>
                                         </li>
                                         <li>
-                                            Minimum: <span>20 USD</span>
+                                            Minimum: <span>0 USD</span>
                                         </li>
                                         <li>
                                             Withdrawal: <span>Instant</span>
