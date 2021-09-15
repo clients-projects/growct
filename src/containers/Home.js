@@ -225,10 +225,10 @@ function Layout(props) {
                                             duration: <span>24 Hours</span>
                                         </li>
                                         <li>
-                                            Minimum: <span>500 USD</span>
+                                            Minimum: <span>$500</span>
                                         </li>
                                         <li>
-                                            Miximum: <span>4,999 USD</span>
+                                            Miximum: <span>$4,999</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -539,9 +539,7 @@ function Layout(props) {
                                         <li>
                                             Maximum: <span>500,000 USD</span>
                                         </li>
-                                        <li>
-                                            Referral Bonus: <span>5%</span>
-                                        </li>
+                                     
                                     </ul>
                                 </div>
                                 <div className='deposit'>
