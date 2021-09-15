@@ -387,22 +387,25 @@ function Layout(props) {
                                     className='beginerwrap'
                                     style={{ color: 'white' }}
                                 >
-                                    <div className='planname'>Premium</div>
+                                    <div className='planname'>BRONZE</div>
                                     <div className='percentage'>
-                                        30<sup>%</sup>
+                                        10<sup>%</sup>
                                         <span></span>
                                     </div>
                                 </div>
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            Term: <span>24 Hours</span>
+                                            Term: <span>1 Week</span>
                                         </li>
                                         <li>
-                                            Minimum: <span>1000 USD</span>
+                                            Minimum: <span>500 USD</span>
                                         </li>
                                         <li>
-                                            Withdrawal: <span>Instant</span>
+                                            Maximum: <span>4900 USD</span>
+                                        </li>
+                                        <li>
+                                            Referral Bonus: <span>5%</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -415,22 +418,25 @@ function Layout(props) {
                                     className='beginerwrap'
                                     style={{ color: 'white' }}
                                 >
-                                    <div className='planname'>Business</div>
+                                    <div className='planname'>BRONZE</div>
                                     <div className='percentage'>
-                                        100<sup>%</sup>
+                                        10<sup>%</sup>
                                         <span></span>
                                     </div>
                                 </div>
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            Term: <span>48 Hours</span>
+                                            Term: <span>1 Week</span>
                                         </li>
                                         <li>
-                                            Minimum: <span>5000 USD</span>
+                                            Minimum: <span>500 USD</span>
                                         </li>
                                         <li>
-                                            Withdrawal: <span>Instant</span>
+                                            Maximum: <span>4900 USD</span>
+                                        </li>
+                                        <li>
+                                            Referral Bonus: <span>5%</span>
                                         </li>
                                     </ul>
                                 </div>
