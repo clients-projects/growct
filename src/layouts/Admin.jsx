@@ -16,9 +16,7 @@ import { dashboardRoutes } from '../routes.js'
 //import image from "../assets/img/sidebar-3.jpg";
 import sideBarImg from '../images/about_img.jpg'
 
-
 class Admin extends Component {
-    
     constructor(props) {
         super(props)
         this.state = {
@@ -30,7 +28,7 @@ class Admin extends Component {
             fixedClasses: 'dropdown show-dropdown open',
         }
     }
-    
+
     handleNotificationClick = (position) => {
         var color = Math.floor(Math.random() * 4 + 1)
         var level
@@ -41,21 +39,22 @@ class Admin extends Component {
             case 2:
                 level = 'warning'
                 break
-                case 3:
-                    level = 'error'
-                    break
-                    case 4:
+            case 3:
+                level = 'error'
+                break
+            case 4:
                 level = 'info'
                 break
             default:
                 break
         }
-        
+
         this.state._notificationSystem.addNotification({
             title: <span data-notify='icon' className='pe-7s-gift' />,
             message: (
                 <div>
-                    Welcome to <b>Robot44trade investment Dashboard</b> - The
+                    Welcome to{' '}
+                    <b>Growveon cryptotrading investment Dashboard</b> - The
                     most advanced trading platform
                 </div>
             ),
@@ -69,17 +68,17 @@ class Admin extends Component {
             if (prop.layout === '/admin') {
                 return (
                     <Route
-                    path={prop.layout + prop.path}
+                        path={prop.layout + prop.path}
                         render={(props) => (
                             <prop.component
                                 {...props}
                                 handleClick={this.handleNotificationClick}
                             />
-                            )}
-                            key={key}
-                            />
-                            )
-                        } else {
+                        )}
+                        key={key}
+                    />
+                )
+            } else {
                 return null
             }
         })
@@ -89,13 +88,13 @@ class Admin extends Component {
             if (
                 this.props.location.pathname.indexOf(
                     dashboardRoutes[i].layout + dashboardRoutes[i].path
-                    ) !== -1
+                ) !== -1
             ) {
                 return dashboardRoutes[i].name
             }
         }
         const pathRoute = path.slice(7)
-        return pathRoute ? pathRoute : 'robot44trade'
+        return pathRoute ? pathRoute : 'Growveon cryptotrading'
     }
     handleImageClick = (image) => {
         this.setState({ image: image })
@@ -122,14 +121,14 @@ class Admin extends Component {
             case 1:
                 level = 'success'
                 break
-                case 2:
+            case 2:
                 level = 'warning'
                 break
             case 3:
                 level = 'error'
                 break
-                case 4:
-                    level = 'info'
+            case 4:
+                level = 'info'
                 break
             default:
                 break
@@ -138,8 +137,8 @@ class Admin extends Component {
             title: <span data-notify='icon' className='pe-7s-gift' />,
             message: (
                 <div>
-                    Welcome to <b>Robot44trade Dashboard</b> - The most advanced
-                    trading platform
+                    Welcome to <b>Growveon cryptotrading Dashboard</b> - The
+                    most advanced trading platform
                 </div>
             ),
             level: level,
@@ -151,13 +150,9 @@ class Admin extends Component {
             this.props.onInitGetUser(this.props.tokenId)
             this.props.onInitGetAdmin(this.props.tokenId)
         }
-    
     }
-    
-    
-    
-    render() {
 
+    render() {
         return (
             <div>
                 <Helmet>

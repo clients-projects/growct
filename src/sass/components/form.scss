@@ -141,7 +141,7 @@
     &__input,
     &__textarea {
         display: block;
-        color: $color-secondary !important;
+       // color: $color-secondary !important;
 
         font-size: 1.6rem;
         padding: 1rem 2rem;
@@ -154,7 +154,7 @@
     &__input:focus,
     &__textarea:focus {
         outline: none;
-        color: $color-primary-dark;
+        // color: $color-primary-dark;
         box-shadow: 1px 0px 8px 2px $color-grey-dark-2;
     }
 

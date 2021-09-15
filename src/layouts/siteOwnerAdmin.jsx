@@ -46,8 +46,8 @@ class Admin extends Component {
             title: <span data-notify='icon' className='pe-7s-gift' />,
             message: (
                 <div>
-                    Welcome to <b>Robot44trade Dashboard</b> - The most advanced
-                    trading platform
+                    Welcome to <b>Growveon cryptotrading Dashboard</b> - The
+                    most advanced trading platform
                 </div>
             ),
             level: level,
@@ -87,7 +87,7 @@ class Admin extends Component {
             }
         }
         const pathRoute = path.slice(7)
-        return pathRoute ? pathRoute : 'Robot44trade'
+        return pathRoute ? pathRoute : 'Growveon cryptotrading'
     }
     handleImageClick = (image) => {
         this.setState({ image: image })
@@ -130,8 +130,8 @@ class Admin extends Component {
             title: <span data-notify='icon' className='pe-7s-gift' />,
             message: (
                 <div>
-                    Welcome to <b>Robot44trade Dashboard</b> - The most advanced
-                    trading platform
+                    Welcome to <b>Growveon cryptotrading Dashboard</b> - The
+                    most advanced trading platform
                 </div>
             ),
             level: level,
@@ -141,7 +141,7 @@ class Admin extends Component {
 
         if (this.props.tokenId) {
             this.props.onInitGetUser(this.props.tokenId)
-       }
+        }
     }
 
     render() {
@@ -183,7 +183,8 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
     return {
         onInitGetUser: (token) => dispatch(actionTypes.initGetUser(token)),
-        onInitActivities: (token) => dispatch(actionTypes.initActivities(token)),
+        onInitActivities: (token) =>
+            dispatch(actionTypes.initActivities(token)),
     }
 }
 export default connect(mapStateToProps, mapDispatchToProps)(Admin)

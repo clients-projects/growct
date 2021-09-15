@@ -48,7 +48,7 @@ class Sidebar extends Component {
                         href='/admin/dashboard'
                         className='simple-text logo-normal'
                     >
-                        robot44trade
+                        Growveon cryptotrading
                     </a> */}
                 </div>
                 <div className='sidebar-wrapper'>

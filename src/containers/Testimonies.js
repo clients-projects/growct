@@ -34,9 +34,9 @@ function Testimonies() {
                                     ></div>
                                     <span className='title'>Wayne</span>
                                     <p>
-                                        I've been investing with Robot44trade
+                                        I've been investing with growveon cryptotrading
                                         apparently over 8 months now and i can
-                                        tell you it's worth trying robot44trade
+                                        tell you it's worth trying growveon cryptotrading
                                         is the best..
                                     </p>
                                 </div>
@@ -51,10 +51,10 @@ function Testimonies() {
                                     ></div>
                                     <span className='title'>Mr Anderson</span>
                                     <p>
-                                        I've been investing with Robot44trade
+                                        I've been investing with growveon cryptotrading
                                         apparently over 8 months now and i can
                                         tell you it's worth trying .
-                                        Robot44trade is the best...
+                                        growveon cryptotrading is the best...
                                     </p>
                                 </div>
                             </div>

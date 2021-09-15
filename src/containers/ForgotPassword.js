@@ -228,7 +228,7 @@ const Login = (props) => {
 
                         <div class='bottomLine table full'>
                             <p class='copy tCell middle left'>
-                                © 2021 Robot44 Trade. All rights reserved.
+                                © 2021 Growveon Crypto Trade. All rights reserved.
                             </p>
                         </div>
                     </div>

@@ -127,6 +127,7 @@ const Signup = (props) => {
             }
             let formIsValid = true
             for (const inputName in updatedForm) {
+                console.log({inputName})
                 if (
                     inputName !== 'formValid' &&
                     inputName !== '[object Object]' &&
@@ -147,7 +148,6 @@ const Signup = (props) => {
     const inputBlurHandler = (input) => {}
 
     const handleSignup = (e) => {
-        console.log('submitting form')
         e.preventDefault()
         if (state.formValid) {
             props.onInitSignup(state)
