@@ -299,7 +299,7 @@ function Layout(props) {
                         </div>
                     </div>
                     <div className='content'>
-                        <div className='planinsider bounceInDown wow'>
+                        <div className='planinsider1 bounceInDown wow'>
                             <div className='planbox one'>
                                 <div className='beginerwrap'>
                                     <div className='planname'>HELM</div>
@@ -381,6 +381,7 @@ function Layout(props) {
                         </div>
                     </div>
                 </section>
+                
 
                 <section className='calculatorwrap'>
                     <div className='content'>
