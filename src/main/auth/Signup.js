@@ -2,18 +2,12 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import queryString from 'query-string'
 import { connect } from 'react-redux'
-import { GoPerson } from 'react-icons/go'
-import { RiBitCoinFill, RiLockPasswordFill } from 'react-icons/ri'
-import { FaEthereum } from 'react-icons/fa'
-import { MdEmail } from 'react-icons/md'
 
 import * as orderAction from '../../store/actions/burgerIndex'
 import Input from '../Input'
 import { required, length, email } from '../../util/validators'
 import Auth from './Auth'
 
-import GradBgBig from '../../sass/images/bannerbg.jpg'
-import LogRegBg from '../../sass/images/bannerbg.jpg'
 
 const Signup = (props) => {
     const parsed = queryString.parse(window.location.search)
