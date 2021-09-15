@@ -103,11 +103,13 @@ const Login = (props) => {
                     <div className='loginwrappers'>
                         <div className='login_left'>
                           
-
+ <Auth login message={message}>
                             <div className='form-container login'>
                                 <h3>Member Login</h3>
-                                <form>
-                                    <table
+                                    <form
+                                        class='formLogin'
+                                        onSubmit={handleLogin}
+                                    >                                    <table
                                         width='100%'
                                         border='0'
                                         cellPadding='4'
@@ -171,7 +173,8 @@ const Login = (props) => {
                                         New User? <span>SignUp Here</span>
                                     </a>
                                 </div>
-                            </div>
+                                </div>
+                                </Auth>
                         </div>
                     </div>
                 </div>
