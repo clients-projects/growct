@@ -222,13 +222,13 @@ function Layout(props) {
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            Term: <span>24 Hours</span>
+                                            duration: <span>24 Hours</span>
                                         </li>
                                         <li>
                                             Minimum: <span>500 USD</span>
                                         </li>
                                         <li>
-                                            Miximum: <span>4900 USD</span>
+                                            Miximum: <span>4,900 USD</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -240,7 +240,7 @@ function Layout(props) {
                                 <div className='beginerwrap'>
                                     <div className='planname'>Premium</div>
                                     <div className='percentage'>
-                                        30<sup>%</sup>
+                                        2.5<sup>%</sup>
                                         <span></span>
                                     </div>
                                 </div>
@@ -248,13 +248,13 @@ function Layout(props) {
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            Term: <span>24 Hours</span>
+                                            duration: <span>24 Hours</span>
                                         </li>
                                         <li>
-                                            Minimum: <span>1000 USD</span>
+                                            Minimum: <span>5,000 USD</span>
                                         </li>
                                         <li>
-                                            Withdrawal: <span>Instant</span>
+                                            maximum: <span>19,900 USD</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -266,7 +266,7 @@ function Layout(props) {
                                 <div className='beginerwrap'>
                                     <div className='planname'>Business</div>
                                     <div className='percentage'>
-                                        100<sup>%</sup>
+                                        3.5<sup>%</sup>
                                         <span></span>
                                     </div>
                                 </div>
@@ -274,10 +274,10 @@ function Layout(props) {
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            Term: <span>48 Hours</span>
+                                            duration: <span>24 Hours</span>
                                         </li>
                                         <li>
-                                            Minimum: <span>5000 USD</span>
+                                            Minimum: <span>20,000 USD</span>
                                         </li>
                                         <li>
                                             Withdrawal: <span>Instant</span>
@@ -311,7 +311,7 @@ function Layout(props) {
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            Term: <span>1 Week</span>
+                                            duration: <span>1 Week</span>
                                         </li>
                                         <li>
                                             Minimum: <span>500 USD</span>
@@ -342,7 +342,7 @@ function Layout(props) {
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            Term: <span>1 Week</span>
+                                            duration: <span>1 Week</span>
                                         </li>
                                         <li>
                                             Minimum: <span>500 USD</span>
@@ -373,7 +373,7 @@ function Layout(props) {
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            Term: <span>1 Week</span>
+                                            duration: <span>1 Week</span>
                                         </li>
                                         <li>
                                             Minimum: <span>500 USD</span>
@@ -404,7 +404,7 @@ function Layout(props) {
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            Term: <span>1 Week</span>
+                                            duration: <span>1 Week</span>
                                         </li>
                                         <li>
                                             Minimum: <span>500 USD</span>
@@ -444,7 +444,7 @@ function Layout(props) {
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            Term: <span>1 Week</span>
+                                            duration: <span>1 Week</span>
                                         </li>
                                         <li>
                                             Minimum: <span>500 USD</span>
@@ -475,7 +475,7 @@ function Layout(props) {
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            Term: <span>1 Week</span>
+                                            duration: <span>1 Week</span>
                                         </li>
                                         <li>
                                             Minimum: <span>500 USD</span>
@@ -506,7 +506,7 @@ function Layout(props) {
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            Term: <span>1 Week</span>
+                                            duration: <span>1 Week</span>
                                         </li>
                                         <li>
                                             Minimum: <span>500 USD</span>
@@ -537,7 +537,7 @@ function Layout(props) {
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            Term: <span>1 Week</span>
+                                            duration: <span>1 Week</span>
                                         </li>
                                         <li>
                                             Minimum: <span>500 USD</span>
