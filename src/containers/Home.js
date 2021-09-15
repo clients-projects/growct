@@ -383,8 +383,11 @@ function Layout(props) {
                                 </div>
                             </div>
                             <div className='planbox two'>
-                                <div className='beginerwrap'>
-                                <div className='beginerwrap' style={{color: 'black'}}>
+                                <div
+                                    className='beginerwrap'
+                                    style={{ color: 'black' }}
+                                >
+                                    <div className='planname'>Premium</div>
                                     <div className='percentage'>
                                         30<sup>%</sup>
                                         <span></span>
@@ -408,8 +411,11 @@ function Layout(props) {
                                 </div>
                             </div>
                             <div className='planbox three'>
-                                <div className='beginerwrap'>
-                                <div className='beginerwrap' style={{color: 'black'}}>
+                                <div
+                                    className='beginerwrap'
+                                    style={{ color: 'black' }}
+                                >
+                                    <div className='planname'>Business</div>
                                     <div className='percentage'>
                                         100<sup>%</sup>
                                         <span></span>
