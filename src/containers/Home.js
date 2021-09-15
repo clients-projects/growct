@@ -172,15 +172,19 @@ function Layout(props) {
                                 </a>
                                 <div className='bannerstat'>
                                     <div className='statbox slideInRight wow'>
-                                        <div className="icon"><img src={ BannerBitcoin} alt=""/></div>
+                                        <div className='icon'>
+                                            <img src={BannerBitcoin} alt='' />
+                                        </div>
                                         <p>
                                             BITCOIN
                                             <span className='bitCoin'></span>
                                         </p>
                                     </div>
-                                   
+
                                     <div className='statbox slideInRight wow'>
-                                        <div className="icon"><img src={BannerEthereum} alt=""/></div>
+                                        <div className='icon'>
+                                            <img src={BannerEthereum} alt='' />
+                                        </div>
                                         <p>
                                             ethereum
                                             <span className='ethCoin'></span>
@@ -217,6 +221,9 @@ function Layout(props) {
                 </section>
                 <section className='planwrap'>
                     <div className='content'>
+                    <h2>
+                        Daily investment Packages
+                    </h2>
                         <div className='planinsider bounceInDown wow'>
                             <div className='planbox one'>
                                 <div className='beginerwrap'>
@@ -381,7 +388,6 @@ function Layout(props) {
                         </div>
                     </div>
                 </section>
-                
 
                 <section className='calculatorwrap'>
                     <div className='content'>
@@ -514,8 +520,7 @@ function Layout(props) {
                     </div>
                 </section>
                 <section>
-                <TechnicalAnalysis/>
-
+                    <TechnicalAnalysis />
                 </section>
                 <section className='featureswrap'>
                     <div className='content'>
