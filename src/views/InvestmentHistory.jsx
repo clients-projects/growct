@@ -140,7 +140,7 @@ const Members = (props) => {
                     </div>
                 </div>
                 <p class='copyright'>
-                    © 2021 Robot44 Trade. All rights reserved.
+                    © 2021 Growveon cryptotrading. All rights reserved.
                 </p>
             </div>
         </div>
@@ -153,7 +153,7 @@ const mapStateToProps = (state) => {
         err: state.auth.error,
         tokenId: state.auth.tokenId,
         userId: state.auth.userId,
-        getUserDepositHistory: state.users.getUserDepositHistory
+        getUserDepositHistory: state.users.getUserDepositHistory,
     }
 }
 

@@ -34,14 +34,10 @@ const Members = (props) => {
 
     const handleApproval = (id) => {
         for (let i = 0; i < props.getUsersId.length; i++) {
-
             if (id === i) {
-            
-                 props.history.push(
-                     '/admin/member?id=' + props.getUsersId[i]._id
-                    
-                 )
-           
+                props.history.push(
+                    '/admin/member?id=' + props.getUsersId[i]._id
+                )
             }
         }
     }
@@ -193,7 +189,7 @@ const Members = (props) => {
                     </div>
                 </div>
                 <p class='copyright'>
-                    © 2021 Robot44 Trade. All rights reserved.
+                    © 2021 Growveon cryptotrading. All rights reserved.
                 </p>
             </div>
         </div>

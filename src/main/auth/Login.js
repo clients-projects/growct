@@ -212,7 +212,8 @@ const Login = (props) => {
                             style={{ opacity: 0 }}
                         >
                             <p class='copy tCell middle left'>
-                                © 2021 Robot44 Trade. All rights reserved.
+                                © 2021 Growveon cryptotrading. All rights
+                                reserved.
                             </p>
                         </div>
                     </div>

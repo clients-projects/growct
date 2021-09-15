@@ -13,7 +13,6 @@ import SideBar from '../../main/layout/siteOwnerLayout/SideBar'
 import SubHeader from '../../main/layout/siteOwnerLayout/SubHeader'
 import Transactions from '../../main/layout/siteOwnerLayout/Transactions'
 
-
 const thDepositArray = ['No', 'Amount', 'Package', 'profit', 'Date']
 
 const UserDetails = (props) => {
@@ -116,28 +115,29 @@ const UserDetails = (props) => {
     }
 
     const handleMember = (e, p) => {
-        for(let i of userDeposits) {
-
-            if(i.fundNO === p+1){
+        for (let i of userDeposits) {
+            if (i.fundNO === p + 1) {
                 if (e.target.name === '3') {
                     setIsTouchedProfit(true)
                     setProfit({
-                        [p] : e.target.value
+                        [p]: e.target.value,
                     })
                 }
             }
         }
-
     }
 
-     const updateMemberProfit = (id) => {
-         for (let i = 0; i < props.memberId.length; i++) {
-             if (id === i) {
-              
-            props.onInitUpdateProfit(profit[i], props.memberId[i]._id, props.tokenId)
-             }
-         }
-     }
+    const updateMemberProfit = (id) => {
+        for (let i = 0; i < props.memberId.length; i++) {
+            if (id === i) {
+                props.onInitUpdateProfit(
+                    profit[i],
+                    props.memberId[i]._id,
+                    props.tokenId
+                )
+            }
+        }
+    }
 
     useEffect(() => {
         if (props.member) {
@@ -371,9 +371,7 @@ const UserDetails = (props) => {
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td>
-                                                            Daily Earning:
-                                                        </td>
+                                                        <td>Daily Earning:</td>
                                                         <td>
                                                             <input
                                                                 type='number'
@@ -388,9 +386,7 @@ const UserDetails = (props) => {
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td>
-                                                            Total Earnings:
-                                                        </td>
+                                                        <td>Total Earnings:</td>
                                                         <td>
                                                             <input
                                                                 type='number'
@@ -527,8 +523,7 @@ const UserDetails = (props) => {
                                                                 name='post'
                                                                 class='btnFillGradLg center'
                                                                 style={{
-                                                                    margin:
-                                                                        '2rem 0',
+                                                                    margin: '2rem 0',
                                                                 }}
                                                             >
                                                                 {props.loading
@@ -594,7 +589,6 @@ const UserDetails = (props) => {
                                                                         prop,
                                                                         key
                                                                     ) => {
-                                                                    
                                                                         return (
                                                                             <td
                                                                                 key={
@@ -667,7 +661,7 @@ const UserDetails = (props) => {
                     </div>
                 </div>
                 <p class='copyright'>
-                    © 2021 Robot44 Trade. All rights reserved.
+                    © 2021 Growveon cryptotrading. All rights reserved.
                 </p>
             </div>
         </div>
@@ -693,7 +687,9 @@ const mapDispatchToProps = (dispatch) => {
         onInitUpdateMember: (updateMemberData, token) =>
             dispatch(orderAction.initUpdateMember(updateMemberData, token)),
         onInitUpdateProfit: (updateProfitData, memberId, token) =>
-            dispatch(orderAction.initUpdateProfit(updateProfitData, memberId, token)),
+            dispatch(
+                orderAction.initUpdateProfit(updateProfitData, memberId, token)
+            ),
     }
 }
 export default connect(mapStateToProps, mapDispatchToProps)(UserDetails)

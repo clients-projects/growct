@@ -116,7 +116,6 @@ const UserSettings = (props) => {
             confirmPassword,
         }
 
-
         props.onInitUpdateProfile(formData, props.tokenId)
     }
 
@@ -140,8 +139,8 @@ const UserSettings = (props) => {
 
                                 <div className='right'>
                                     <div className='balInfo' id='infodata'>
-                                    <Transactions/>
-                                      </div> 
+                                        <Transactions />
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -356,7 +355,7 @@ const UserSettings = (props) => {
                     </div>
                 </div>
                 <p class='copyright'>
-                    © 2021 Robot44 Trade. All rights reserved.
+                    © 2021 Growveon cryptotrading. All rights reserved.
                 </p>
             </div>
         </div>

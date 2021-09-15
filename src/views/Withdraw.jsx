@@ -58,11 +58,10 @@ const PlanOrder = (props) => {
     ]
 
     const onCurrencyChange = (e) => {
-       setCurrency(e.value)
+        setCurrency(e.value)
     }
     return (
         <>
-          
             <div class='bodyWrap'>
                 <Header />
 
@@ -80,7 +79,7 @@ const PlanOrder = (props) => {
                                 <SideBar />
 
                                 <div className='right'>
-                                    <Transactions/>
+                                    <Transactions />
                                 </div>
                             </div>
                         </div>
@@ -195,7 +194,7 @@ const PlanOrder = (props) => {
                 </div>
 
                 <p class='copyright'>
-                    © 2021 Robot44 Trade. All rights reserved.
+                    © 2021 Growveon cryptotrading. All rights reserved.
                 </p>
             </div>
         </>

@@ -14,7 +14,7 @@ import * as orderAction from '../store/actions/burgerIndex'
 
 function Deposit(props) {
     const [packageProfit, setPackageProfit] = useState(0)
-    const [amountToDeposit, setAmountToDeposit] = useState((0))
+    const [amountToDeposit, setAmountToDeposit] = useState(0)
     const [packageName, setPackageName] = useState('')
 
     const [planDetails, setPlanDetails] = useState({})
@@ -166,7 +166,6 @@ function Deposit(props) {
     }, [packageName])
 
     useEffect(() => {
-
         if (props.adminData) {
             setAdminBitcoinAddress(props.adminData.bitcoinAccount)
             setAdminEthereumAddress(props.adminData.ethereumAccount)
@@ -181,19 +180,17 @@ function Deposit(props) {
             currency: 'Bitcoin',
         }
 
-
-        console.log({formData})
+        console.log({ formData })
         if (amountToDeposit === '' || amountToDeposit === '0') {
             setMessage('Please enter a value')
             return setError(true)
         } else {
             // setMessage('Order Successful!! ')
             setError(false)
-    
+
             if (!error) {
                 props.onInitInvestNow(formData, props.tokenId)
-    
-    
+
                 props.history.push('/admin/plan-confirmation/:' + packageName, {
                     ...formData,
                     packageName,
@@ -335,7 +332,7 @@ function Deposit(props) {
                 </div>
 
                 <p class='copyright'>
-                    © 2021 Robot44 Trade. All rights reserved.
+                    © 2021 Growveon cryptotrading. All rights reserved.
                 </p>
             </div>
         </>

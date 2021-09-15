@@ -200,7 +200,9 @@ const Dashboard = (props) => {
                     </div>
                 </div>
             </div>
-            <p class='copyright'>© 2021 Robot44 Trade. All rights reserved.</p>
+            <p class='copyright'>
+                © 2021 Growveon cryptotrading. All rights reserved.
+            </p>
         </>
     )
 }

@@ -14,13 +14,7 @@ import SubHeader from '../../main/layout/siteOwnerLayout/SubHeader'
 import Transactions from '../../main/layout/siteOwnerLayout/Transactions'
 //import { thWithdrawalArray, tdWithdrawalArray } from '../../variables/Variables'
 
-const thDepositHistoryArray = [
-    'No',
-    'Username',
-    'Amount',
-    'Plan',
-    'Date',
-]
+const thDepositHistoryArray = ['No', 'Username', 'Amount', 'Plan', 'Date']
 
 const AllUsersDepositHistory = (props) => {
     const [allUsersDeposit, setAllUsersDeposit] = useState([])
@@ -90,7 +84,7 @@ const AllUsersDepositHistory = (props) => {
                     </Col>
                 </Row>
             </Grid> */}
-                        <div class='bodyWrap'>
+            <div class='bodyWrap'>
                 <Header />
 
                 <div
@@ -116,13 +110,14 @@ const AllUsersDepositHistory = (props) => {
                 <div id='content_place'></div>
 
                 <div class='cabItem depList' style={{ background: '#d5e1e3' }}>
-                    <span class='captionDark center'>Users Deposit History</span>
+                    <span class='captionDark center'>
+                        Users Deposit History
+                    </span>
 
                     <div class='wrap' style={{ padding: '1rem 3rem' }}>
                         <div class='row'>
                             <ClientCard
                                 plain
-                             
                                 ctTableFullWidth
                                 ctTableResponsive
                                 content={
@@ -185,7 +180,7 @@ const AllUsersDepositHistory = (props) => {
                     </div>
                 </div>
                 <p class='copyright'>
-                    © 2021 Robot44 Trade. All rights reserved.
+                    © 2021 Growveon cryptotrading. All rights reserved.
                 </p>
             </div>
         </div>

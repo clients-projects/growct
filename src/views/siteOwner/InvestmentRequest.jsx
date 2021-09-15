@@ -53,8 +53,7 @@ const PendingDeposits = (props) => {
 
     return (
         <div className='content'>
-
-                        <div class='bodyWrap'>
+            <div class='bodyWrap'>
                 <Header />
 
                 <div
@@ -86,7 +85,6 @@ const PendingDeposits = (props) => {
                         <div class='row'>
                             <ClientCard
                                 plain
-                            
                                 ctTableFullWidth
                                 ctTableResponsive
                                 content={
@@ -161,7 +159,7 @@ const PendingDeposits = (props) => {
                     </div>
                 </div>
                 <p class='copyright'>
-                    © 2021 Robot44 Trade. All rights reserved.
+                    © 2021 Growveon cryptotrading. All rights reserved.
                 </p>
             </div>
         </div>

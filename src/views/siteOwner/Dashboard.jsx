@@ -13,21 +13,14 @@ import * as actions from '../../store/actions/burgerIndex'
 import CrytoMarketWatch from '../../tradeviewWidgets/CryptoMarketWatch'
 
 const Dashboard = (props) => {
-   
-
     useEffect(() => {
         if (props.tokenId) {
             props.onInitGetFunds(props.tokenId)
         }
-
-     
     }, [props])
-
-  
 
     return (
         <div className='content'>
-
             <div class='bodyWrap'>
                 <Header />
 
@@ -81,10 +74,11 @@ const Dashboard = (props) => {
 
                         <p>none</p>
                     </div>
-                   
                 </div>
             </div>
-            <p class='copyright'>© 2021 Robot44 Trade. All rights reserved.</p>
+            <p class='copyright'>
+                © 2021 Growveon cryptotrading. All rights reserved.
+            </p>
         </div>
     )
 }

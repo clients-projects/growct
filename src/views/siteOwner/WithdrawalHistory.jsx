@@ -40,8 +40,7 @@ const AllUsersWithdrawalHistory = (props) => {
 
     return (
         <div className='content'>
-          
-                        <div class='bodyWrap'>
+            <div class='bodyWrap'>
                 <Header />
 
                 <div
@@ -67,13 +66,14 @@ const AllUsersWithdrawalHistory = (props) => {
                 <div id='content_place'></div>
 
                 <div class='cabItem depList' style={{ background: '#d5e1e3' }}>
-                    <span class='captionDark center'>Users Withdrawal History</span>
+                    <span class='captionDark center'>
+                        Users Withdrawal History
+                    </span>
 
                     <div class='wrap' style={{ padding: '1rem 3rem' }}>
                         <div class='row'>
                             <ClientCard
                                 plain
-                  
                                 ctTableFullWidth
                                 ctTableResponsive
                                 content={
@@ -136,7 +136,7 @@ const AllUsersWithdrawalHistory = (props) => {
                     </div>
                 </div>
                 <p class='copyright'>
-                    © 2021 Robot44 Trade. All rights reserved.
+                    © 2021 Growveon cryptotrading. All rights reserved.
                 </p>
             </div>
         </div>
@@ -156,4 +156,7 @@ const mapDispatchToProps = (dispatch) => {
         onInitGetFunds: (token) => dispatch(actions.initGetFunds(token)),
     }
 }
-export default connect(mapStateToProps, mapDispatchToProps)(AllUsersWithdrawalHistory)
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(AllUsersWithdrawalHistory)
