@@ -145,7 +145,7 @@ function Layout(props) {
                                     href='?a=signup'
                                     className='slideInDown wow action'
                                 >
-                                    Investor now
+                                    Invest now
                                 </a>
                                 <div className='bannerstat'>
                                     <div className='statbox slideInRight wow'>
