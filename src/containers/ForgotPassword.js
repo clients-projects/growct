@@ -141,7 +141,7 @@ const Login = (props) => {
                         <div class='head'>
                             <div class='logo invisLink' style={{ opacity: 0 }}>
                                 <img src={Logo} alt='logo' height='70px;' />
-                                Robot 44 Trade
+                                GrowveonCT
                                 <Link to='/'>main</Link>
                             </div>
                         </div>
@@ -228,7 +228,8 @@ const Login = (props) => {
 
                         <div class='bottomLine table full'>
                             <p class='copy tCell middle left'>
-                                © 2021 Growveon Crypto Trade. All rights reserved.
+                                © 2021 Growveon Crypto Trade. All rights
+                                reserved.
                             </p>
                         </div>
                     </div>

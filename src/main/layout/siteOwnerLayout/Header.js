@@ -1,15 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {connect} from 'react-redux'
+import { connect } from 'react-redux'
 
 import avatar from '../../../assets/img/faces/face-1.jpg'
 import Logo from '../../../images/logos.png'
 import Lang1 from '../../../images/lang_1.jpg'
 import Lang2 from '../../../images/lang_2.jpg'
 
-
 import * as orderAction from '../../../store/actions/burgerIndex'
-
 
 function Header(props) {
     //Get the current date
@@ -34,7 +32,7 @@ function Header(props) {
                                         alt='logo'
                                         style={{ height: '70px' }}
                                     />
-                                    Robot 44 Trade
+                                    GrowveonCT
                                     <a href='/'>main</a>
                                 </div>
                             </div>
@@ -76,7 +74,9 @@ function Header(props) {
                                     ></div>
                                     <div class='data'>
                                         <span>Welcome,</span>
-                                        <a href='/dashboard'>{props.userData.username}</a>
+                                        <a href='/dashboard'>
+                                            {props.userData.username}
+                                        </a>
                                     </div>
                                 </div>
                             </div>

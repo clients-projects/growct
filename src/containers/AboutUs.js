@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import AboutPageBg from '../images/about_page_bg.jpg'
 import { MdLocationOn } from 'react-icons/md'
@@ -8,11 +8,10 @@ import GreyBg from '../images/grey_bg.png'
 import Profile from '../images/profile.jpg'
 
 import { AiFillPhone, AiOutlineFundProjectionScreen } from 'react-icons/ai'
-import {IoIosPeople} from 'react-icons/io'
-import {MdLowPriority} from 'react-icons/md'
-import {RiUserUnfollowFill} from 'react-icons/ri'
-import {SiAutotask} from 'react-icons/si'
-
+import { IoIosPeople } from 'react-icons/io'
+import { MdLowPriority } from 'react-icons/md'
+import { RiUserUnfollowFill } from 'react-icons/ri'
+import { SiAutotask } from 'react-icons/si'
 
 function AboutUs() {
     return (
@@ -44,9 +43,7 @@ font-size: 16px;} */}
                     left: '20px',
                     bottom: '20px',
                 }}
-            >
-        
-            </div>
+            ></div>
 
             <div className='bodyWrap'>
                 <div
@@ -83,7 +80,7 @@ font-size: 16px;} */}
                                 <div className='address'>
                                     <div className='iconLeft'>
                                         <span className='icon-location gradTxt'>
-                                            <MdLocationOn className='location__svg'/>
+                                            <MdLocationOn className='location__svg' />
                                         </span>
                                         <span className='data'>
                                             71-75 Shelton Street, London,
@@ -114,8 +111,8 @@ font-size: 16px;} */}
                                 </div>
                             </div>
                             <p>
-                                Robot 44 Trade is the only company dedicated to
-                                work on EA, better known as Algo Trading, which
+                                GrowveonCT is the only company dedicated to work
+                                on EA, better known as Algo Trading, which
                                 atomizes the trading process and brings risk
                                 free profit, saves times, money and build better
                                 wealth over long period of time.
@@ -172,7 +169,9 @@ font-size: 16px;} */}
                                     <div className='grid'>
                                         <div className='item col4'>
                                             <div className='in'>
-                                                <span className='icon-phone gradTxt'><AiFillPhone className='location__svg'/></span>
+                                                <span className='icon-phone gradTxt'>
+                                                    <AiFillPhone className='location__svg' />
+                                                </span>
                                                 <span className='title'>
                                                     AUTOMATED
                                                 </span>
@@ -189,7 +188,9 @@ font-size: 16px;} */}
                                         </div>
                                         <div className='item col4'>
                                             <div className='in'>
-                                                <span className='icon-chart gradTxt'><AiOutlineFundProjectionScreen className='location__svg'/></span>
+                                                <span className='icon-chart gradTxt'>
+                                                    <AiOutlineFundProjectionScreen className='location__svg' />
+                                                </span>
                                                 <span className='title'>
                                                     SMART TRADING
                                                 </span>
@@ -205,7 +206,9 @@ font-size: 16px;} */}
                                         </div>
                                         <div className='item col4'>
                                             <div className='in'>
-                                                <span className='icon-team gradTxt'><IoIosPeople className='location__svg'/></span>
+                                                <span className='icon-team gradTxt'>
+                                                    <IoIosPeople className='location__svg' />
+                                                </span>
                                                 <span className='title'>
                                                     PROTECTION FROM HACKING
                                                 </span>
@@ -220,7 +223,9 @@ font-size: 16px;} */}
                                         </div>
                                         <div className='item col4'>
                                             <div className='in'>
-                                                <span className='icon-docs gradTxt'><MdLowPriority className='location__svg'/></span>
+                                                <span className='icon-docs gradTxt'>
+                                                    <MdLowPriority className='location__svg' />
+                                                </span>
                                                 <span className='title'>
                                                     LOW COST
                                                 </span>
@@ -234,7 +239,9 @@ font-size: 16px;} */}
                                         </div>
                                         <div className='item col4'>
                                             <div className='in'>
-                                                <span className='icon-cash gradTxt'><RiUserUnfollowFill className='location__svg'/></span>
+                                                <span className='icon-cash gradTxt'>
+                                                    <RiUserUnfollowFill className='location__svg' />
+                                                </span>
                                                 <span className='title'>
                                                     NO MORE MIDDLE MEN
                                                 </span>
@@ -249,7 +256,9 @@ font-size: 16px;} */}
                                         </div>
                                         <div className='item col4'>
                                             <div className='in'>
-                                                <span className='icon-pass gradTxt'><SiAutotask className='location__svg'/></span>
+                                                <span className='icon-pass gradTxt'>
+                                                    <SiAutotask className='location__svg' />
+                                                </span>
                                                 <span className='title'>
                                                     AUTO TRADING 24/7
                                                 </span>

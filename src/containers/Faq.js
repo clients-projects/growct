@@ -46,7 +46,7 @@ const Faq = () => {
                                     <div className='iconLeft'>
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
-                                            What is Robot 44 Trade? What are the
+                                            What is GrowveonCT? What are the
                                             main features of it?
                                         </span>
                                     </div>
@@ -54,7 +54,7 @@ const Faq = () => {
                                 <div className='content'>
                                     <div className='textBlock'>
                                         <p>
-                                            <strong>Robot 44 Trade</strong> is a
+                                            <strong>GrowveonCT</strong> is a
                                             fully automated trading robot, which
                                             works well on the{' '}
                                             <strong>MT4</strong> platform. It
@@ -95,8 +95,8 @@ const Faq = () => {
                                 <div className='content'>
                                     <div className='textBlock'>
                                         <p>
-                                            <strong>Robot 44 Trade</strong>{' '}
-                                            allows you to trade the followings
+                                            <strong>GrowveonCT</strong> allows
+                                            you to trade the followings
                                             instruments:
                                         </p>
                                         <ul>
@@ -116,7 +116,7 @@ const Faq = () => {
                                     <div className='iconLeft'>
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
-                                            Why should I trust Robot 44 Trade
+                                            Why should I trust GrowveonCT
                                             (Robot)?
                                         </span>
                                     </div>
@@ -148,11 +148,11 @@ const Faq = () => {
                                             purchase it. There are many reputed
                                             Forex review websites/Forums and
                                             experts, which rank{' '}
-                                            <strong>Robot 44 Trade</strong> on
-                                            top, considering us the best
-                                            Performing and reliable trading
-                                            system among thousands of others.
-                                            For further clarification, you may{' '}
+                                            <strong>GrowveonCT</strong> on top,
+                                            considering us the best Performing
+                                            and reliable trading system among
+                                            thousands of others. For further
+                                            clarification, you may{' '}
                                             <a
                                                 href='growveonct.com/reviews-2/'
                                                 target='_blank'
@@ -180,7 +180,7 @@ const Faq = () => {
                                     <div className='iconLeft'>
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
-                                            Is Robot 44 Trade affiliated to any
+                                            Is GrowveonCT affiliated to any
                                             other EA or Robot?
                                         </span>
                                     </div>
@@ -189,26 +189,24 @@ const Faq = () => {
                                     <div className='textBlock'>
                                         <p>
                                             To make it very clear that{' '}
-                                            <strong>Robot 44 Trade Ltd.</strong>{' '}
+                                            <strong>GrowveonCT Ltd.</strong>{' '}
                                             exclusively owns{' '}
-                                            <strong>Robot 44 Trade</strong> and
-                                            we are not affiliated to or
-                                            influenced by any other EAs or
-                                            robots. Also,{' '}
-                                            <strong>Robot 44 Trade</strong> is
-                                            not a rebranded system, it Is
-                                            utterly our very own creation, based
-                                            on our exclusive trading strategy,
-                                            which copy may not even be
-                                            discovered anywhere else in the
-                                            market.
+                                            <strong>GrowveonCT</strong> and we
+                                            are not affiliated to or influenced
+                                            by any other EAs or robots. Also,{' '}
+                                            <strong>GrowveonCT</strong> is not a
+                                            rebranded system, it Is utterly our
+                                            very own creation, based on our
+                                            exclusive trading strategy, which
+                                            copy may not even be discovered
+                                            anywhere else in the market.
                                         </p>
                                         <p>
-                                            <strong>Robot 44 Trade</strong>{' '}
-                                            utilizes a completely different and
-                                            most powerful strategy to help you
-                                            thrive towards more and more profit
-                                            in the Forex market.
+                                            <strong>GrowveonCT</strong> utilizes
+                                            a completely different and most
+                                            powerful strategy to help you thrive
+                                            towards more and more profit in the
+                                            Forex market.
                                         </p>
                                     </div>
                                 </div>
@@ -219,7 +217,7 @@ const Faq = () => {
                                     <div className='iconLeft'>
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
-                                            How may I Buy Robot 44 Trade?
+                                            How may I Buy GrowveonCT?
                                         </span>
                                     </div>
                                 </div>
@@ -235,7 +233,7 @@ const Faq = () => {
                                             purchase for any plan of your
                                             choice, then contact our support on
                                             live chat or via email to claim your
-                                            robot 44 trade package.
+                                            GrowveonCT package.
                                         </p>
                                     </div>
                                 </div>
@@ -262,9 +260,9 @@ const Faq = () => {
                                     <div className='textBlock'>
                                         <p>
                                             No, you cannot pay in instalments.
-                                            Robot 44 Trade is a one-time
-                                            purchase and it is required to pay
-                                            the full amount at once.
+                                            GrowveonCT is a one-time purchase
+                                            and it is required to pay the full
+                                            amount at once.
                                         </p>
                                         <p>
                                             We accept Bitcoin, Ether, Bitcoin
@@ -360,7 +358,7 @@ const Faq = () => {
                                             There are only <strong>6</strong>{' '}
                                             types of pricing plans available
                                             with each{' '}
-                                            <strong>Robot 44 Trade</strong>’s
+                                            <strong>GrowveonCT</strong>’s
                                             purchase. We do not entertain any
                                             custom requests. For example – If
                                             you want <strong>30</strong> live
@@ -379,7 +377,7 @@ const Faq = () => {
                                     <div className='iconLeft'>
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
-                                            What will I get in Robot 44 Trade’s
+                                            What will I get in GrowveonCT’s
                                             package?
                                         </span>
                                     </div>
@@ -388,10 +386,10 @@ const Faq = () => {
                                     <div className='textBlock'>
                                         <p>
                                             On purchase, you will get your Tbot
-                                            Software Robot 44 Trade, and money
-                                            back guarantee (which is subjected
-                                            to our terms and conditions). If
-                                            submitted wrong information in the
+                                            Software GrowveonCT, and money back
+                                            guarantee (which is subjected to our
+                                            terms and conditions). If submitted
+                                            wrong information in the
                                             registration form, you should
                                             immediately write to us via email or
                                             contact our support team on live
@@ -415,12 +413,12 @@ const Faq = () => {
                                 <div className='content'>
                                     <div className='textBlock'>
                                         <p>
-                                            Robot 44 Trade comes with 3-days
-                                            money refund policy. We make the
-                                            prompt refund, if any user is not
-                                            satisfied with our product. However,
-                                            the request needs to align well with
-                                            our terms and conditions.
+                                            GrowveonCT comes with 3-days money
+                                            refund policy. We make the prompt
+                                            refund, if any user is not satisfied
+                                            with our product. However, the
+                                            request needs to align well with our
+                                            terms and conditions.
                                         </p>
                                         <p>
                                             To avail a hassle-free refund, you
@@ -488,7 +486,7 @@ const Faq = () => {
                                 <div className='content'>
                                     <div className='textBlock'>
                                         <p>
-                                            <strong>Robot 44 Trade</strong> is
+                                            <strong>GrowveonCT</strong> is
                                             capable to estimate the sudden
                                             market changes and perform
                                             accordingly. You need not to shut
@@ -511,7 +509,7 @@ const Faq = () => {
                                     <div className='iconLeft'>
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
-                                            Is Robot 44 Trade an Arbitrage or
+                                            Is GrowveonCT an Arbitrage or
                                             Martingale system?
                                         </span>
                                     </div>
@@ -543,8 +541,8 @@ const Faq = () => {
                                 <div className='content'>
                                     <div className='textBlock'>
                                         <p>
-                                            <strong>Robot 44 Trade</strong> is
-                                            NOT related or similar to any other
+                                            <strong>GrowveonCT</strong> is NOT
+                                            related or similar to any other
                                             robot, available in the market. Here
                                             are our live performance and user
                                             reviews, to prove the authenticity
@@ -558,7 +556,7 @@ const Faq = () => {
                                             have the knowledge of our EA’s
                                             strategy, are making the false
                                             claims on reputed forums/websites
-                                            about Robot 44 Trade. We strongly
+                                            about GrowveonCT. We strongly
                                             condemn those all comments and
                                             irresponsible conclusions, coming
                                             from the knobs of FOREX Trading.
@@ -615,8 +613,8 @@ const Faq = () => {
                                             learning and researching on Forex or
                                             spending a huge time monitoring the
                                             charts on your computer screen,{' '}
-                                            <strong>Robot 44 Trade</strong> will
-                                            do manage everything&nbsp; in well
+                                            <strong>GrowveonCT</strong> will do
+                                            manage everything&nbsp; in well
                                             professional manner for you.
                                         </p>
                                     </div>
@@ -685,7 +683,7 @@ const Faq = () => {
                                         <span className='data'>
                                             What to do if I want to become your
                                             affiliate? Why should I promote
-                                            Robot 44 Trade?
+                                            GrowveonCT?
                                         </span>
                                     </div>
                                 </div>
