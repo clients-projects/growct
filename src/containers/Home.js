@@ -664,14 +664,14 @@ function Layout(props) {
                 </section>
                 <section className='featureswrap'>
                     <div className='content'>
-                        <h2>growveonct.com features</h2>
+                        <h2>growveonCT features</h2>
                         <div className='feturesboxinside'>
                             <div className='featuredbox flipinX wow'>
                                 {/* <div className="icon"><img src="styles/images/uniformmaturity.png" alt=""></div> */}
                                 <div className='infos'>
                                     <h4>PROFESSIONAL TEAM</h4>
                                     <p>
-                                        Nodefrancias Ltd is run by a very
+                                        GrowveonCT Ltd is run by a very
                                         professional and experienced admin team
                                         who are expert in handling the hyip
                                         yield investment programs.
