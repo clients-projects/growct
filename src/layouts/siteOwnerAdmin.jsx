@@ -46,8 +46,8 @@ class Admin extends Component {
             title: <span data-notify='icon' className='pe-7s-gift' />,
             message: (
                 <div>
-                    Welcome to <b>Growveon cryptotrading Dashboard</b> - The
-                    most advanced trading platform
+                    Welcome to <b>GrowveonCT Dashboard</b> - The most advanced
+                    trading platform
                 </div>
             ),
             level: level,
@@ -87,7 +87,7 @@ class Admin extends Component {
             }
         }
         const pathRoute = path.slice(7)
-        return pathRoute ? pathRoute : 'Growveon cryptotrading'
+        return pathRoute ? pathRoute : 'Robot44trade'
     }
     handleImageClick = (image) => {
         this.setState({ image: image })
@@ -130,8 +130,8 @@ class Admin extends Component {
             title: <span data-notify='icon' className='pe-7s-gift' />,
             message: (
                 <div>
-                    Welcome to <b>Growveon cryptotrading Dashboard</b> - The
-                    most advanced trading platform
+                    Welcome to <b>GrowveonCT Dashboard</b> - The most advanced
+                    trading platform
                 </div>
             ),
             level: level,
