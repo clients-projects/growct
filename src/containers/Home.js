@@ -179,7 +179,7 @@ function Layout(props) {
                     </section>
                 </section>
 
-                <section className='investmentofferwrap'>
+                {/* <section className='investmentofferwrap'>
                     <div
                         className='content'
                         style={{ display: 'grid', gap: '3rem' }}
@@ -207,8 +207,8 @@ function Layout(props) {
                             </h2>
                         </div>
                     </div>
-                </section>
-                <section className='planwrap'>
+                </section> */}
+                {/* <section className='planwrap'>
                     <div className='content'>
                         <div className='planinsider bounceInDown wow'>
                             <div className='planbox one'>
@@ -549,7 +549,7 @@ function Layout(props) {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
                 <section className='calculatorwrap'>
                     <div className='content'>
