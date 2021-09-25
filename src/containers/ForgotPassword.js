@@ -148,7 +148,7 @@ const Login = (props) => {
 
                         <div class='content'>
                             <div class='captionLight center'>
-                                Forget Password
+                                Forgot Password
                             </div>
                             <p
                                 style={{
