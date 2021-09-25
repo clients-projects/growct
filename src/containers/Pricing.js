@@ -19,7 +19,7 @@ function Pricing() {
                 style={{ backgroundImage: `url(${RulesPageBg})` }}
             >
                 <div className='container'>
-                    <span className='heading'>Pricing</span>
+                    <span className='heading'>Packages</span>
                 </div>
             </div>
 
