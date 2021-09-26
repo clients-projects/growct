@@ -572,7 +572,7 @@ function Layout(props) {
                             <div className='left'>
                                 <h1>ABOUT growveonct.com</h1>
                                 <p style={{ lineHeight: 2, fontWeight: 400, fontSize: '1.2rem' }}>
-                                    growveonct.com is a global crypto finance
+                                    Growveonct.com is a global crypto finance
                                     solution for all the crypto enthusiasts who
                                     are in search of the trusted, secure and
                                     reliable platform. growveonct.com is
@@ -690,7 +690,7 @@ function Layout(props) {
                                 <div className='infos'>
                                     <h4>INSTANT PAYOUTS</h4>
                                     <p>
-                                        We at growveonct.com believe in full
+                                        We at Growveonct.com believe in full
                                         transparency and hence all our investors
                                         enjoy instant payouts of their profits
                                         and referral earnings.
