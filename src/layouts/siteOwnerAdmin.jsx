@@ -145,6 +145,7 @@ class Admin extends Component {
     }
 
     render() {
+        console.log('site owner')
         return (
             <div>
                 <Helmet>
