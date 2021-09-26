@@ -27,11 +27,11 @@ function Header(props) {
                         <div class='table full'>
                             <div class='logoWrap tCell'>
                                 <div class='logo invisLink'>
-                                    <img
+                                    {/* <img
                                         src={Logo}
                                         alt='logo'
                                         style={{ height: '70px' }}
-                                    />
+                                    /> */}
                                     GrowveonCT
                                     <a href='/'>main</a>
                                 </div>
