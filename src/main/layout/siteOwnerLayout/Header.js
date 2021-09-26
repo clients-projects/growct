@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 
 import avatar from '../../../assets/img/faces/face-1.jpg'
-import Logo from '../../../images/logos.png'
+import Logo from '../../../sass/images/GrowveonctLogo.svg'
 import Lang1 from '../../../images/lang_1.jpg'
 import Lang2 from '../../../images/lang_2.jpg'
 
@@ -27,11 +27,11 @@ function Header(props) {
                         <div class='table full'>
                             <div class='logoWrap tCell'>
                                 <div class='logo invisLink'>
-                                    {/* <img
+                                    <img
                                         src={Logo}
                                         alt='logo'
                                         style={{ height: '70px' }}
-                                    /> */}
+                                    />
                                     GrowveonCT
                                     <a href='/'>main</a>
                                 </div>
