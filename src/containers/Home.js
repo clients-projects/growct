@@ -11,6 +11,9 @@ import BannerBitcoin from '../sass/images/bannerbitcoin.png'
 import BannerEthereum from '../sass/images/bannerethreum.png'
 import Certificate from '../sass/images/certificatethumb.jpg'
 
+import '../sass/abstracts/Variables.scss'
+import '../customStyles/custom.scss'
+
 import TechnicalAnalysis from '../tradeviewWidgets/AdvancedRealChart'
 
 function Layout(props) {
