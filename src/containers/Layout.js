@@ -40,10 +40,10 @@ function Layout(props) {
      
         localStorage.setItem('cssLoaded', false)
       
-        const all = import('../assets/css/pe-icon-7-stroke.css')
-        all.finally((result) => {
-            localStorage.setItem('cssLoaded', true)
-        })
+        // const all = import('../sass/components/home.scss')
+        // all.finally((result) => {
+        //     localStorage.setItem('cssLoaded', true)
+        // })
 
         toRender = (
             <>

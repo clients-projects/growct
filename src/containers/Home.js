@@ -11,11 +11,17 @@ import BannerBitcoin from '../sass/images/bannerbitcoin.png'
 import BannerEthereum from '../sass/images/bannerethreum.png'
 import Certificate from '../sass/images/certificatethumb.jpg'
 
-import '../customStyles/custom.scss'
 
 import TechnicalAnalysis from '../tradeviewWidgets/AdvancedRealChart'
 
+
 function Layout(props) {
+    const all = import('../sass/components/home.scss')
+    all.finally((result) => {
+        localStorage.setItem('cssLoaded', true)
+    })
+
+    
     const [calcNum, setCalcNum] = useState(20)
     const [selectedValue, setSelectedValue] = useState(0.1)
     const [calcProfit, setCalcProfit] = useState(22)
@@ -27,7 +33,7 @@ function Layout(props) {
             //setCalcProfit((Number(selectedValue) * Number(input.target.value)) + Number(input.target.value))
         }
 
-        console.log({input})
+        console.log({ input })
         if (input.target.id === 'calc_plan') {
             let calcPercent = 0
             if (input.target.value === '10') {
@@ -562,7 +568,7 @@ function Layout(props) {
                     </div>
                 </section> */}
 
-                <section className='aboutwrap' style={{margin: '4rem 0'}}>
+                <section className='aboutwrap' style={{ margin: '4rem 0' }}>
                     <div className='content'>
                         <div className='aboutinside slideInUp wow'>
                             <div className='left'>
@@ -635,7 +641,7 @@ function Layout(props) {
                     </div>
                 </section> */}
 
-                <section className='referralwrap' style={{margin: '4rem 0'}}>
+                <section className='referralwrap' style={{ margin: '4rem 0' }}>
                     <div className='content'>
                         <div className='left'>
                             <div className='value one zoomIn wow'>
