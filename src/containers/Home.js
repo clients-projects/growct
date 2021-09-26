@@ -16,12 +16,14 @@ import TechnicalAnalysis from '../tradeviewWidgets/AdvancedRealChart'
 
 
 function Layout(props) {
+
+    import('../sass/abstracts/variables.scss').then()
     const all = import('../sass/components/home.scss')
     all.finally((result) => {
         localStorage.setItem('cssLoaded', true)
     })
 
-    
+
     const [calcNum, setCalcNum] = useState(20)
     const [selectedValue, setSelectedValue] = useState(0.1)
     const [calcProfit, setCalcProfit] = useState(22)
