@@ -14,8 +14,6 @@ import Certificate from '../sass/images/certificatethumb.jpg'
 
 import TechnicalAnalysis from '../tradeviewWidgets/AdvancedRealChart'
 
-import '../customStyles/test.css'
-
 
 function Layout(props) {
 
