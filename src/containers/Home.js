@@ -114,7 +114,7 @@ function Layout(props) {
                     </section> */}
 
                     <section className='banner'>
-                        <div className='content'>
+                        <div className='contents'>
                             <div className='leftinfo'>
                                 {/* <div className='servertimwrap slideInRight wow'>
                                     <div className='servertime'>
@@ -567,7 +567,7 @@ function Layout(props) {
                 </section> */}
 
                 <section className='aboutwrap' style={{ margin: '4rem 0' }}>
-                    <div className='content'>
+                    <div className='contents'>
                         <div className='aboutinside slideInUp wow'>
                             <div className='left'>
                                 <h1>ABOUT growveonct.com</h1>
@@ -640,7 +640,7 @@ function Layout(props) {
                 </section> */}
 
                 <section className='referralwrap' style={{ margin: '4rem 0' }}>
-                    <div className='content'>
+                    <div className='contents'>
                         <div className='left'>
                             <div className='value one zoomIn wow'>
                                 3% <span>Level1</span>
@@ -670,7 +670,7 @@ function Layout(props) {
                     <TechnicalAnalysis />
                 </section>
                 <section className='featureswrap'>
-                    <div className='content'>
+                    <div className='contents'>
                         <h2>growveonCT features</h2>
                         <div className='feturesboxinside'>
                             <div className='featuredbox flipinX wow'>
@@ -787,7 +787,7 @@ function Layout(props) {
             </div> */}
 
             <div className='paymentlogowrap'>
-                <div className='content'>
+                <div className='contents'>
                     {/* <div className="icons zoomIn wow"><img src="styles/images/perfectmoney.png" alt=""></div>
       <div className="icons zoomIn wow"><img src="styles/images/payeer.png" alt=""></div>
       <div className="icons zoomIn wow"><img src="styles/images/bitcoin.png" alt=""></div>
