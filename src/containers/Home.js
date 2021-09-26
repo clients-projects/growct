@@ -571,7 +571,7 @@ function Layout(props) {
                         <div className='aboutinside slideInUp wow'>
                             <div className='left'>
                                 <h1>ABOUT growveonct.com</h1>
-                                <p style={{ lineHeight: 2, fontWeight: 400 }}>
+                                <p style={{ lineHeight: 2, fontWeight: 400, fontSize: '1.8rem' }}>
                                     growveonct.com is a global crypto finance
                                     solution for all the crypto enthusiasts who
                                     are in search of the trusted, secure and
