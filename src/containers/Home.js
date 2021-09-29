@@ -690,7 +690,7 @@ function Layout(props) {
                                 <div className='infos'>
                                     <h4>INSTANT PAYOUTS</h4>
                                     <p>
-                                        We at Growveonct.com believe in full
+                                        We at Growveonct believe in full
                                         transparency and hence all our investors
                                         enjoy instant payouts of their profits
                                         and referral earnings.
