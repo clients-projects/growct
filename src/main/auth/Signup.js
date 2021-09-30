@@ -121,6 +121,7 @@ const Signup = (props) => {
             }
             let formIsValid = true
             for (const inputName in updatedForm) {
+                console.log('the input name', inputName)
                 if (
                     inputName !== 'formValid' &&
                     inputName !== '[object Object]' &&
@@ -130,6 +131,8 @@ const Signup = (props) => {
                 ) {
                     formIsValid = formIsValid && updatedForm[inputName].valid
                 }
+
+                console.log('is the form valid', formIsValid)
             }
             return {
                 signupForm: updatedForm,
