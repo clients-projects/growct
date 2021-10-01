@@ -70,7 +70,6 @@ function App(props) {
 
             <Route path='/about-us' component={AboutUs} />
             <Route path='/pricing' component={Pricing} />
-            <Route path='/top-reward' component={TopReward} />
             <Route path='/forgot-password' component={ForgotPassword} />
             <Route path='/contact-us' component={ContactUs} />
             <Route path='/faq' component={Faq} />
@@ -101,9 +100,7 @@ function App(props) {
                     path='/Auth/login'
                     render={(props) => <AsyncLogin {...props} />}
                 />
-                <Route path='/testimonies' component={Testimonies} />
                 <Route path='/pricing' component={Pricing} />
-                <Route path='/top-reward' component={TopReward} />
                 <Route path='/about-us' component={AsyncAboutUs} />
                 <Route path='/contact-us' component={ContactUs} />
                 <Route path='/faq' component={Faq} />
