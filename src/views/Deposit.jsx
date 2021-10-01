@@ -110,8 +110,8 @@ function Deposit(props) {
 
             setPackageProfit(amountValue * 0.2)
         }
-        if (packageName === 'Package C') {
-            setPackageName('Package C')
+        if (packageName === 'Business') {
+            setPackageName('Business')
 
             setPackageProfit(amountValue * 0.3)
         }
@@ -150,14 +150,14 @@ function Deposit(props) {
                     name: 'Premium',
                     percent: 2.5,
                     hours: 24,
-                    minimum: 200,
-                    maximum: 499,
+                    minimum: 5000,
+                    maximum: 1999,
                 })
                 break
-            case 'Package C':
+            case 'Business':
                 setPlanDetails({
-                    name: 'PACKAGE C',
-                    percent: 30,
+                    name: 'Business',
+                    percent: 3.5,
                     days: 6,
                     minimum: 500,
                     maximum: 999,
