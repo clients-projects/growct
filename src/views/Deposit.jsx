@@ -101,8 +101,8 @@ function Deposit(props) {
     const onAmountChange = (e) => {
         const amountValue = e.target.value
 
-        if (packageName === 'Package A') {
-            setPackageName('Package A')
+        if (packageName === 'Helm') {
+            setPackageName('Helm')
             setPackageProfit(amountValue * 0.1)
         }
         if (packageName === 'Package B') {
@@ -136,13 +136,13 @@ function Deposit(props) {
 
     useEffect(() => {
         switch (packageName) {
-            case 'Package A':
+            case 'Helm':
                 setPlanDetails({
-                    name: 'PACKAGE A',
-                    percent: 10,
-                    hours: 48,
-                    minimum: 50,
-                    maximum: 199,
+                    name: 'Helm',
+                    percent: 2,
+                    hours: 24,
+                    minimum: 500,
+                    maximum: 4999,
                 })
                 break
             case 'Package B':
