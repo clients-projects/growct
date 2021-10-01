@@ -9,6 +9,7 @@ import {
 import { connect } from 'react-redux'
 
 import WhatsappLivechat from '../images/whatsapp.png'
+import InstagramLogo from '../images/Instagram-Logo.png'
 import * as actions from '../store/actions/burgerIndex'
 import asyncComponent from '../main/hoc/asyncComponent'
 import Layout from './Layout'
