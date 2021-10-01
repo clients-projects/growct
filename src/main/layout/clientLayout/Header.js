@@ -102,15 +102,11 @@ function Header(props) {
                                 <li>
                                     <a href='/about-us'>ABOUT US</a>
                                 </li>
-                                <li>
-                                    <a href='/top-reward'>TOP REWARD</a>
-                                </li>
+                             
                                 <li>
                                     <a href='/pricing'>PRICING</a>
                                 </li>
-                                <li>
-                                    <a href='/testimonies'>Testimonies</a>
-                                </li>
+                              
                                 <li>
                                     <a href='/contact-us'>CONTACT US</a>
                                 </li>
