@@ -70,6 +70,32 @@ function Deposit(props) {
 
             setPackageProfit(amountToDeposit * 0.8)
         }
+        if (selectedPackage === 'Diamond') {
+            setPackageName('Diamond')
+
+            setPackageProfit(amountToDeposit * 0.8)
+        }
+        if (selectedPackage === 'One Month') {
+            setPackageName('One Month')
+
+            setPackageProfit(amountToDeposit * 0.8)
+        }
+        if (selectedPackage === 'Two Months') {
+            setPackageName('Two Months')
+
+            setPackageProfit(amountToDeposit * 0.8)
+        }
+        if (selectedPackage === 'Three Months') {
+            setPackageName('Three Months')
+
+            setPackageProfit(amountToDeposit * 0.8)
+        }
+        if (selectedPackage === 'Six Months') {
+            setPackageName('Six Months')
+
+            setPackageProfit(amountToDeposit * 0.8)
+        }
+        
     }
 
     const onAmountChange = (e) => {
