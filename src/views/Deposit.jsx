@@ -27,9 +27,13 @@ function Deposit(props) {
         { label: 'Helm ($500 - $4,999)', value: 'Package A' },
         { label: 'Premium ($5,000 - $19,999)', value: 'Package B' },
         { label: 'Business ($20,000 - $50,000)', value: 'Package C' },
-        { label: 'Package D ($1,000 - $4,999)', value: 'Package D' },
-        { label: 'Package E ($5,000 - $9,999)', value: 'Package E' },
-        { label: 'Package F ($10,000 - Unlimited)', value: 'Package F' },
+        { label: 'Bronze ($500 - $4,999)', value: 'Package A' },
+        { label: 'Silver ($5,000 - $19,999)', value: 'Package B' },
+        { label: 'Gold ($20,000 - $50,000)', value: 'Package C' },
+        { label: 'Diamond ($500 - $4,999)', value: 'Package A' },
+        { label: 'Premium ($5,000 - $19,999)', value: 'Package B' },
+        { label: 'Business ($20,000 - $50,000)', value: 'Package C' },
+       
     ]
 
     const onPackageChange = (newValue) => {
