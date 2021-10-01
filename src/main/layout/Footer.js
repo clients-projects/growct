@@ -53,9 +53,7 @@ function Footer() {
                                     <li>
                                         <Link to='/about-us'>ABOUT US</Link>
                                     </li>
-                                    <li>
-                                        <Link to='/top-reward'>TOP REWARD</Link>
-                                    </li>
+                                 
                                     <li>
                                         <Link to='/pricing'>PRICING</Link>
                                     </li>
@@ -84,7 +82,7 @@ function Footer() {
                             <div className='cont'>
                                 <span className='title'>Address:</span>
                                 <p>
-                                    71-75 Shelton Street, London, Greater
+                                    1567th Avenue Street, London, Greater
                                     London, United Kingdom, WC2H 9JQ
                                 </p>
                             </div>

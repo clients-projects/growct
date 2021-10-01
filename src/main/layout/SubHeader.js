@@ -100,15 +100,11 @@ function SubHeader(props) {
                             <li>
                                 <Link to='/about-us'>ABOUT US</Link>
                             </li>
-                            <li>
-                                <Link to='/top-reward'>TOP REWARD</Link>
-                            </li>
+                            
                             <li>
                                 <Link to='/pricing'>PRICING</Link>
                             </li>
-                            <li>
-                                <Link to='/testimonies'>Testimonies</Link>
-                            </li>
+                        
                             <li>
                                 <Link to='/contact-us'>CONTACT US</Link>
                             </li>
