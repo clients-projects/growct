@@ -193,19 +193,46 @@ function Deposit(props) {
             case 'Diamond':
                 setPlanDetails({
                     name: 'Diamond',
-                    percent: 20,
+                    percent: 25,
                     days: 7,
+                    minimum: 50000,
+                    maximum: 500000,
+                })
+                break
+            case 'One Month':
+                setPlanDetails({
+                    name: 'One Month',
+                    percent: 11,
+                    days: 30,
+                    minimum: 500,
+                    maximum: 4999,
+                })
+                break
+            case 'Two Months':
+                setPlanDetails({
+                    name: 'Two Months',
+                    percent: 13,
+                    days: 30,
+                    minimum: 5000,
+                    maximum: 19999,
+                })
+                break
+            case 'Three Months':
+                setPlanDetails({
+                    name: 'Three Months',
+                    percent: 16,
+                    days: 30,
                     minimum: 20000,
                     maximum: 49999,
                 })
                 break
-            case 'Gold':
+            case 'Six Months':
                 setPlanDetails({
-                    name: 'Gold',
-                    percent: 20,
-                    days: 7,
-                    minimum: 20000,
-                    maximum: 49999,
+                    name: 'Six Months',
+                    percent: 19,
+                    days: 30,
+                    minimum: 50000,
+                    maximum: 500000,
                 })
                 break
 
