@@ -82,7 +82,7 @@ function Pricing() {
                                     </ul>
                                 </div>
                                 <div className='deposit'>
-                                    <a href='?a=signup'>Deposit</a>
+                                    <a href='Auth/signup'>Deposit</a>
                                 </div>
                             </div>
                             <div className='planbox two'>
@@ -108,7 +108,7 @@ function Pricing() {
                                     </ul>
                                 </div>
                                 <div className='deposit'>
-                                    <a href='?a=signup'>Deposit</a>
+                                    <a href='Auth/signup'>Deposit</a>
                                 </div>
                             </div>
                             <div className='planbox three'>
@@ -134,7 +134,7 @@ function Pricing() {
                                     </ul>
                                 </div>
                                 <div className='deposit'>
-                                    <a href='?a=signup'>Deposit</a>
+                                    <a href='Auth/signup'>Deposit</a>
                                 </div>
                             </div>
                         </div>
@@ -174,7 +174,7 @@ function Pricing() {
                                     </ul>
                                 </div>
                                 <div className='deposit'>
-                                    <a href='?a=signup'>Deposit</a>
+                                    <a href='Auth/signup'>Deposit</a>
                                 </div>
                             </div>
                             <div className='planbox1 two'>
@@ -205,7 +205,7 @@ function Pricing() {
                                     </ul>
                                 </div>
                                 <div className='deposit'>
-                                    <a href='?a=signup'>Deposit</a>
+                                    <a href='Auth/signup'>Deposit</a>
                                 </div>
                             </div>
                             <div className='planbox1 three'>
@@ -236,7 +236,7 @@ function Pricing() {
                                     </ul>
                                 </div>
                                 <div className='deposit'>
-                                    <a href='?a=signup'>Deposit</a>
+                                    <a href='Auth/signup'>Deposit</a>
                                 </div>
                             </div>
                             <div className='planbox1 four'>
@@ -267,7 +267,7 @@ function Pricing() {
                                     </ul>
                                 </div>
                                 <div className='deposit'>
-                                    <a href='?a=signup'>Deposit</a>
+                                    <a href='Auth/signup'>Deposit</a>
                                 </div>
                             </div>
                         </div>
@@ -305,7 +305,7 @@ function Pricing() {
                                     </ul>
                                 </div>
                                 <div className='deposit'>
-                                    <a href='?a=signup'>Deposit</a>
+                                    <a href='Auth/signup'>Deposit</a>
                                 </div>
                             </div>
                             <div className='planbox1 two'>
@@ -334,7 +334,7 @@ function Pricing() {
                                     </ul>
                                 </div>
                                 <div className='deposit'>
-                                    <a href='?a=signup'>Deposit</a>
+                                    <a href='Auth/signup'>Deposit</a>
                                 </div>
                             </div>
                             <div className='planbox1 three'>
@@ -363,7 +363,7 @@ function Pricing() {
                                     </ul>
                                 </div>
                                 <div className='deposit'>
-                                    <a href='?a=signup'>Deposit</a>
+                                    <a href='Auth/signup'>Deposit</a>
                                 </div>
                             </div>
                             <div className='planbox1 four'>
@@ -392,7 +392,7 @@ function Pricing() {
                                     </ul>
                                 </div>
                                 <div className='deposit'>
-                                    <a href='?a=signup'>Deposit</a>
+                                    <a href='Auth/signup'>Deposit</a>
                                 </div>
                             </div>
                         </div>
