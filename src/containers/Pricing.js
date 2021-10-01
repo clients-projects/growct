@@ -25,7 +25,7 @@ function Pricing() {
 
             <div
                 className='rules'
-                style={{ backgroundImage: `url(${GreyBgBig})` }}
+                style={{ backgroundImage: `url(${GreyBgBig})`, padding: '0 2rem' }}
             >
                  <section className='investmentofferwrap'>
                     <div
