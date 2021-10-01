@@ -33,6 +33,8 @@ function Deposit(props) {
         { label: 'Diamond ($500 - $4,999)', value: 'Package A' },
         { label: 'Premium ($5,000 - $19,999)', value: 'Package B' },
         { label: 'Business ($20,000 - $50,000)', value: 'Package C' },
+        { label: 'Premium ($5,000 - $19,999)', value: 'Package B' },
+        { label: 'Business ($20,000 - $50,000)', value: 'Package C' }
        
     ]
 
