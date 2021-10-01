@@ -133,7 +133,7 @@ function App(props) {
                 rel='noopener noreferrer'
             > 
                <img
-                  src={WhatsappLivechat}
+                  src={InstagramLogo}
                     alt=''
                     className='instagram'
                 />
