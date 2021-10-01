@@ -115,18 +115,18 @@ function Deposit(props) {
 
             setPackageProfit(amountValue * 0.3)
         }
-        if (packageName === 'Package D') {
-            setPackageName('Package D')
+        if (packageName === 'Bronze') {
+            setPackageName('Bronze')
 
             setPackageProfit(amountValue * 0.4)
         }
-        if (packageName === 'Package E') {
-            setPackageName('Package E')
+        if (packageName === 'Silver') {
+            setPackageName('Silver')
 
             setPackageProfit(amountValue * 0.6)
         }
-        if (packageName === 'Package F') {
-            setPackageName('Package F')
+        if (packageName === 'Gold') {
+            setPackageName('Gold')
 
             setPackageProfit(amountValue * 0.8)
         }
@@ -158,36 +158,54 @@ function Deposit(props) {
                 setPlanDetails({
                     name: 'Business',
                     percent: 3.5,
-                    days: 6,
-                    minimum: 500,
-                    maximum: 999,
+                    hours: 24,
+                    minimum: 20000,
+                    maximum: 50000,
                 })
                 break
-            case 'Package D':
+            case 'Bronze':
                 setPlanDetails({
-                    name: 'PACKAGE D',
-                    percent: 40,
-                    days: 8,
-                    minimum: 1000,
+                    name: 'Bronze',
+                    percent: 10,
+                    days: 7,
+                    minimum: 500,
                     maximum: 4999,
                 })
                 break
-            case 'Package E':
+            case 'Silver':
                 setPlanDetails({
-                    name: 'PACKAGE E',
-                    percent: 60,
-                    days: 10,
+                    name: 'Silver',
+                    percent: 15,
+                    days: 7,
                     minimum: 5000,
-                    maximum: 9999,
+                    maximum: 19999,
                 })
                 break
-            case 'Package F':
+            case 'Gold':
                 setPlanDetails({
-                    name: 'PACKAGE F',
-                    percent: 80,
-                    days: 12,
-                    minimum: 10000,
-                    maximum: 'UNLIMITED',
+                    name: 'Gold',
+                    percent: 20,
+                    days: 7,
+                    minimum: 20000,
+                    maximum: 49999,
+                })
+                break
+            case 'Diamond':
+                setPlanDetails({
+                    name: 'Diamond',
+                    percent: 20,
+                    days: 7,
+                    minimum: 20000,
+                    maximum: 49999,
+                })
+                break
+            case 'Gold':
+                setPlanDetails({
+                    name: 'Gold',
+                    percent: 20,
+                    days: 7,
+                    minimum: 20000,
+                    maximum: 49999,
                 })
                 break
 
