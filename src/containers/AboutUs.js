@@ -83,9 +83,8 @@ font-size: 16px;} */}
                                             <MdLocationOn className='location__svg' />
                                         </span>
                                         <span className='data'>
-                                            71-75 Shelton Street, London,
-                                            Greater London, United Kingdom, WC2H
-                                            9JQ
+                                            1567th Avenue Street, Irvine,
+                                            Alberta
                                         </span>
                                     </div>
                                 </div>

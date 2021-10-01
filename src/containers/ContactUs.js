@@ -56,9 +56,8 @@ const ContactUs = (props) => {
                                                 our Address:
                                             </span>
                                             <p>
-                                                71-75 Shelton Street, London,
-                                                Greater London, United Kingdom,
-                                                WC2H 9JQ
+                                                1567th Avenue Street, Irvine,
+                                                Alberta
                                             </p>
                                         </div>
                                     </div>

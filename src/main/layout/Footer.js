@@ -82,8 +82,7 @@ function Footer() {
                             <div className='cont'>
                                 <span className='title'>Address:</span>
                                 <p>
-                                    1567th Avenue Street, London, Greater
-                                    London, United Kingdom, WC2H 9JQ
+                                    1567th Avenue Street, Irvine, Alberta
                                 </p>
                             </div>
                             <div className='cont'>
