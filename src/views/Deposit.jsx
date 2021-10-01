@@ -29,12 +29,12 @@ function Deposit(props) {
         { label: 'Business ($20,000 - $50,000)', value: 'Package C' },
         { label: 'Bronze ($500 - $4,999)', value: 'Package A' },
         { label: 'Silver ($5,000 - $19,999)', value: 'Package B' },
-        { label: 'Gold ($20,000 - $50,000)', value: 'Package C' },
-        { label: 'Diamond ($500 - $4,999)', value: 'Package A' },
-        { label: 'Premium ($5,000 - $19,999)', value: 'Package B' },
-        { label: 'Business ($20,000 - $50,000)', value: 'Package C' },
-        { label: 'Premium ($5,000 - $19,999)', value: 'Package B' },
-        { label: 'Business ($20,000 - $50,000)', value: 'Package C' }
+        { label: 'Gold ($20,000 - $49,999)', value: 'Package C' },
+        { label: 'Diamond ($50,000 - $500,000)', value: 'Package A' },
+        { label: 'One Month ($5000 - $19,999)', value: 'Package B' },
+        { label: 'Two Months ($20,000 - $50,000)', value: 'Package C' },
+        { label: 'Three Months ($5,000 - $19,999)', value: 'Package B' },
+        { label: 'Six Months ($20,000 - $50,000)', value: 'Package C' }
        
     ]
 
