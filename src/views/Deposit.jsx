@@ -41,32 +41,32 @@ function Deposit(props) {
     const onPackageChange = (newValue) => {
         const selectedPackage = newValue.value
 
-        if (selectedPackage === 'Package A') {
-            setPackageName('Package A')
+        if (selectedPackage === 'Helm') {
+            setPackageName('Helm')
             setPackageProfit(amountToDeposit * 0.1)
         }
-        if (selectedPackage === 'Package B') {
-            setPackageName('Package B')
+        if (selectedPackage === 'Premium') {
+            setPackageName('Premium')
 
             setPackageProfit(amountToDeposit * 0.2)
         }
-        if (selectedPackage === 'Package C') {
-            setPackageName('Package C')
+        if (selectedPackage === 'Business') {
+            setPackageName('Business')
 
             setPackageProfit(amountToDeposit * 0.3)
         }
-        if (selectedPackage === 'Package D') {
-            setPackageName('Package D')
+        if (selectedPackage === 'Bronze') {
+            setPackageName('Bronze')
 
             setPackageProfit(amountToDeposit * 0.4)
         }
-        if (selectedPackage === 'Package E') {
-            setPackageName('Package E')
+        if (selectedPackage === 'Silver') {
+            setPackageName('Silver')
 
             setPackageProfit(amountToDeposit * 0.6)
         }
-        if (selectedPackage === 'Package F') {
-            setPackageName('Package F')
+        if (selectedPackage === 'Gold') {
+            setPackageName('Gold')
 
             setPackageProfit(amountToDeposit * 0.8)
         }
