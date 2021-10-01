@@ -57,7 +57,7 @@ function Pricing() {
                     </div>
                 </section>
                 <section className='planwrap'>
-                    <div className='content'>
+                    <div className='contents'>
                         <div className='planinsider bounceInDown wow'>
                             <div className='planbox one'>
                                 <div className='beginerwrap'>

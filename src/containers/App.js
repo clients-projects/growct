@@ -125,6 +125,18 @@ function App(props) {
                     className='liveChat__whatsapp'
                 />
              </a> 
+            <a
+                href='hghh'
+                alt=''
+                target='_blank'
+                rel='noopener noreferrer'
+            > 
+               <img
+                  src={WhatsappLivechat}
+                    alt=''
+                    className='instagram'
+                />
+             </a> 
             <Layout isAdmin={location} siteOwner={props.siteOwner}>
                 {AuthGuard}
             </Layout>
