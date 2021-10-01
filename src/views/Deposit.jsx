@@ -24,9 +24,9 @@ function Deposit(props) {
     const [adminEthereumAddress, setAdminEthereumAddress] = useState('')
 
     const options = [
-        { label: 'Package A ($50 - $199)', value: 'Package A' },
-        { label: 'Package B ($200 - $499)', value: 'Package B' },
-        { label: 'Package C ($500 - $999)', value: 'Package C' },
+        { label: 'Helm ($50 - $199)', value: 'Package A' },
+        { label: 'Premium ($200 - $499)', value: 'Package B' },
+        { label: 'Business ($500 - $999)', value: 'Package C' },
         { label: 'Package D ($1,000 - $4,999)', value: 'Package D' },
         { label: 'Package E ($5,000 - $9,999)', value: 'Package E' },
         { label: 'Package F ($10,000 - Unlimited)', value: 'Package F' },
