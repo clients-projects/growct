@@ -25,9 +25,9 @@ function Pricing() {
 
             <div
                 className='rules'
-                style={{ backgroundImage: `url(${GreyBgBig})`}}
+                style={{ backgroundImage: `url(${GreyBgBig})` }}
             >
-                 <section className='investmentofferwrap'>
+                <section className='investmentofferwrap'>
                     <div
                         className='content'
                         style={{ display: 'grid', gap: '3rem', padding: '0 2rem' }}
@@ -55,9 +55,9 @@ function Pricing() {
                             </h2>
                         </div>
                     </div>
-                </section> 
+                </section>
                 <section className='planwrap'>
-                    <div className='content' style={{padding: '0 2rem'}}>
+                    <div className='content'>
                         <div className='planinsider bounceInDown wow'>
                             <div className='planbox one'>
                                 <div className='beginerwrap'>
@@ -144,7 +144,7 @@ function Pricing() {
                             Weekly investment Packages
                         </h2>
                     </div>
-                    <div className='content'>
+                    <div className='content' style={{ padding: '0 2rem' }}>
                         <div className='planinsider1'>
                             <div className='planbox1 one'>
                                 <div
@@ -277,7 +277,7 @@ function Pricing() {
                             Compound investment Packages
                         </h2>
                     </div>
-                    <div className='content'>
+                    <div className='content' style={{ padding: '0 2rem' }}>
                         <div className='planinsider2'>
                             <div className='planbox1 one'>
                                 <div
@@ -293,7 +293,8 @@ function Pricing() {
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            duration: <span>11% weekly for 4 Weeks</span>
+                                            duration:{' '}
+                                            <span>11% weekly for 4 Weeks</span>
                                         </li>
                                         <li>
                                             Minimum: <span>$500</span>
@@ -301,7 +302,6 @@ function Pricing() {
                                         <li>
                                             Maximum: <span>$4,999</span>
                                         </li>
-                                        
                                     </ul>
                                 </div>
                                 <div className='deposit'>
@@ -322,7 +322,8 @@ function Pricing() {
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            duration: <span>13 weekly for 8 Week</span>
+                                            duration:{' '}
+                                            <span>13 weekly for 8 Week</span>
                                         </li>
                                         <li>
                                             Minimum: <span>$5000</span>
@@ -330,7 +331,6 @@ function Pricing() {
                                         <li>
                                             Maximum: <span>$19,999</span>
                                         </li>
-                                      
                                     </ul>
                                 </div>
                                 <div className='deposit'>
@@ -351,7 +351,8 @@ function Pricing() {
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            duration: <span>16% weekly for 12 Weeks</span>
+                                            duration:{' '}
+                                            <span>16% weekly for 12 Weeks</span>
                                         </li>
                                         <li>
                                             Minimum: <span>$20,000</span>
@@ -359,7 +360,6 @@ function Pricing() {
                                         <li>
                                             Maximum: <span>$49,999</span>
                                         </li>
-                                     
                                     </ul>
                                 </div>
                                 <div className='deposit'>
@@ -380,7 +380,8 @@ function Pricing() {
                                 <div className='planinfos'>
                                     <ul>
                                         <li>
-                                            duration: <span>19% weekly for 24 Week</span>
+                                            duration:{' '}
+                                            <span>19% weekly for 24 Week</span>
                                         </li>
                                         <li>
                                             Minimum: <span>$50,000</span>
@@ -388,7 +389,6 @@ function Pricing() {
                                         <li>
                                             Maximum: <span>$500,000</span>
                                         </li>
-                                     
                                     </ul>
                                 </div>
                                 <div className='deposit'>
@@ -401,10 +401,15 @@ function Pricing() {
 
                 <section className='calculatorwrap'>
                     <div className='content'>
-                         <div className='calculatorinside bounceInUp wow' style={{color: 'white'}}>
-                        <h2 style={{textAlign: 'center'}}>*INVESTED CAPITAL IS DUE FOR WITHDRAWAL AFTER 4 (28 days)*</h2>
-                      
-                            </div>
+                        <div
+                            className='calculatorinside bounceInUp wow'
+                            style={{ color: 'white' }}
+                        >
+                            <h2 style={{ textAlign: 'center' }}>
+                                *INVESTED CAPITAL IS DUE FOR WITHDRAWAL AFTER
+                                (28 days)*
+                            </h2>
+                        </div>
                     </div>
                 </section>
             </div>
