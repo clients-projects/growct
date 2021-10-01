@@ -25,12 +25,12 @@ function Pricing() {
 
             <div
                 className='rules'
-                style={{ backgroundImage: `url(${GreyBgBig})`, padding: '0 2rem' }}
+                style={{ backgroundImage: `url(${GreyBgBig})`}}
             >
                  <section className='investmentofferwrap'>
                     <div
                         className='content'
-                        style={{ display: 'grid', gap: '3rem' }}
+                        style={{ display: 'grid', gap: '3rem', padding: '0 2rem' }}
                     >
                         <div>
                             <div className='left slideInDown wow'>
@@ -57,7 +57,7 @@ function Pricing() {
                     </div>
                 </section> 
                 <section className='planwrap'>
-                    <div className='content'>
+                    <div className='content' style={{padding: '0 2rem'}}>
                         <div className='planinsider bounceInDown wow'>
                             <div className='planbox one'>
                                 <div className='beginerwrap'>
