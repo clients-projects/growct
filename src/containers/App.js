@@ -19,9 +19,7 @@ import ContactUs from './ContactUs'
 import Faq from './Faq'
 import ForgotPassword from './ForgotPassword'
 import AboutUs from './AboutUs'
-import TopReward from './TopReward'
 import Pricing from './Pricing'
-import Testimonies from './Testimonies'
 import LoginPage from '../main/auth/Login'
 import SignupPage from '../main/auth/Signup'
 
@@ -71,7 +69,6 @@ function App(props) {
             />
 
             <Route path='/about-us' component={AboutUs} />
-            <Route path='/testimonies' component={Testimonies} />
             <Route path='/pricing' component={Pricing} />
             <Route path='/top-reward' component={TopReward} />
             <Route path='/forgot-password' component={ForgotPassword} />
