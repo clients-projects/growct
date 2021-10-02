@@ -152,8 +152,8 @@ textarea {
 
 html:not(.IE) .gradTxt {
     background: #009cff;
-    background: -moz-linear-gradient(left, #009cff 0%, #1fe195 100%);
-    background: -webkit-linear-gradient(left, #009cff 0%, #1fe195 100%);
+    background: -moz-linear-gradient(to left, #009cff 0%, #1fe195 100%);
+    background: -webkit-linear-gradient(to left, #009cff 0%, #1fe195 100%);
     background: linear-gradient(to right, #009cff 0%, #1fe195 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -165,7 +165,7 @@ html.IE .gradTxt {
 
 .location__svg {
     color: #009cff;
-    background: linear-gradient(left, #009cff 0%, #1fe195 100%);
+    background: linear-gradient(to left, #009cff 0%, #1fe195 100%);
 }
 
 .heading {
@@ -231,8 +231,8 @@ span.color2 {
 
 .gradBack {
     background: #009cff;
-    background: -moz-linear-gradient(left, #009cff 0%, #1fe195 100%);
-    background: -webkit-linear-gradient(left, #009cff 0%, #1fe195 100%);
+    background: -moz-linear-gradient(to left, #009cff 0%, #1fe195 100%);
+    background: -webkit-linear-gradient(to left, #009cff 0%, #1fe195 100%);
     background: linear-gradient(to right, #009cff 0%, #1fe195 100%);
 }
 
@@ -621,8 +621,8 @@ span.color2 {
 
 [class*='btnFill'][class*='Grad'] {
     background: #009cff;
-    background: -moz-linear-gradient(left, #009cff 0%, #1fe195 100%);
-    background: -webkit-linear-gradient(left, #009cff 0%, #1fe195 100%);
+    background: -moz-linear-gradient(to left, #009cff 0%, #1fe195 100%);
+    background: -webkit-linear-gradient(to left, #009cff 0%, #1fe195 100%);
     background: linear-gradient(to right, #009cff 0%, #1fe195 100%);
 }
 
@@ -1631,17 +1631,6 @@ footer .cont + .cont {
     margin-right: -552px;
 }
 
-.mainBanner .chart::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: -32px;
-    left: -97px;
-    width: 813px;
-    height: 673px;
-    background-image: url(../images/case.png);
-    z-index: -1;
-}
 
 .mainBanner + * {
     padding-top: 190px;
@@ -3088,8 +3077,8 @@ footer .cont + .cont {
     left: 0;
     opacity: 0;
     background: #009cff;
-    background: -moz-linear-gradient(left, #009cff 0%, #1fe195 100%);
-    background: -webkit-linear-gradient(left, #009cff 0%, #1fe195 100%);
+    background: -moz-linear-gradient(to left, #009cff 0%, #1fe195 100%);
+    background: -webkit-linear-gradient(to left, #009cff 0%, #1fe195 100%);
     background: linear-gradient(to right, #009cff 0%, #1fe195 100%);
     -webkit-border-radius: 23px;
     -moz-border-radius: 23px;
@@ -4774,25 +4763,7 @@ footer .cont + .cont {
     border: 1px solid white;
 }
 
-.agree input:not(checked) + label::after {
-    content: '';
-    display: block;
-    // z-index: 10;
-    position: absolute;
-    left: 0px;
-    top: 50%;
-    width: 28px;
-    height: 28px;
-    margin-top: -14px;
-    background-image: url(../images/check.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 0;
-    -webkit-transition: opacity 0.3s;
-    -moz-transition: opacity 0.3s;
-    -o-transition: opacity 0.3s;
-    transition: opacity 0.3s;
-}
+
 
 .agree input:checked + label::after {
     opacity: 1;
@@ -4913,8 +4884,8 @@ ul.errors li {
     box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.21);
 
     background: #009cff;
-    background: -moz-linear-gradient(left, #009cff 0%, #1fe195 100%);
-    background: -webkit-linear-gradient(left, #009cff 0%, #1fe195 100%);
+    background: -moz-linear-gradient(to left, #009cff 0%, #1fe195 100%);
+    background: -webkit-linear-gradient(to left, #009cff 0%, #1fe195 100%);
     background: linear-gradient(to right, #009cff 0%, #1fe195 100%);
 }
 
