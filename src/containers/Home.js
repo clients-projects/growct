@@ -667,7 +667,9 @@ function Layout(props) {
                     </div>
                 </section>
                 <section>
+                    <div className='contents'>
                     <TechnicalAnalysis />
+                    </div>
                 </section>
                 <section className='featureswrap'>
                     <div className='contents'>
