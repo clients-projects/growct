@@ -38,16 +38,16 @@ function Transactions(props) {
                 if (i.planName === 'Helm') {
                     setHelm(i.amount)
                 }
-                if (i.planName === 'Package B') {
-                    setBusiness(i.amount)
-                }
-                if (i.planName === 'Package C') {
+                if (i.planName === 'Premium') {
                     setPremium(i.amount)
                 }
-                if (i.planName === 'Package D') {
+                if (i.planName === 'Business') {
+                    setBusiness(i.amount)
+                }
+                if (i.planName === 'Bronze') {
                     setBronze(i.amount)
                 }
-                if (i.planName === 'Package E') {
+                if (i.planName === 'Silver') {
                     setSilver(i.amount)
                 }
                 if (i.planName === 'Package F') {
@@ -79,7 +79,7 @@ function Transactions(props) {
                             <FaMoneyBillAlt />
                         </div>
                         <div className='data'>
-                            <span>PACKAGE B</span>
+                            <span>Premium</span>
                             <span>
                                 Funds: <b>{Business}</b>
                             </span>
@@ -92,7 +92,7 @@ function Transactions(props) {
                             <FaMoneyBillAlt />
                         </div>
                         <div className='data'>
-                            <span>PACKAGE C</span>
+                            <span>Business</span>
                             <span>
                                 Funds: <b>{Premium}</b>
                             </span>
@@ -105,7 +105,7 @@ function Transactions(props) {
                             <FaMoneyBillAlt />
                         </div>
                         <div className='data'>
-                            <span>PACKAGE D</span>
+                            <span>Bronze</span>
                             <span>
                                 Funds: <b>{Bronze}</b>
                             </span>
@@ -118,7 +118,7 @@ function Transactions(props) {
                             <FaMoneyBillAlt />
                         </div>
                         <div className='data'>
-                            <span>PACKAGE E</span>
+                            <span>Silver</span>
                             <span>
                                 Funds: <b>{Silver}</b>
                             </span>
