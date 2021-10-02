@@ -101,6 +101,8 @@ function Deposit(props) {
     const onAmountChange = (e) => {
         const amountValue = e.target.value
 
+        console.log({planDetails})
+
         if (packageName === 'Helm') {
             setPackageName('Helm')
             setPackageProfit(amountValue * 0.1)
