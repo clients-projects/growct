@@ -391,8 +391,7 @@ function Deposit(props) {
                                         margin: '20px',
                                     }}
                                 >
-                                    Profit: $
-                                    <pwex>{Math.floor(packageProfit)}</pwex> for{' '}
+                                    Profit: ${Math.floor(packageProfit)}{' '} for{' '}
                                     {planDuration}
                                 </h2>
 
