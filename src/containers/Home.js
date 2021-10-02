@@ -67,6 +67,34 @@ function Home(props) {
     
     totalMembers = 1334 + totalMembers
 
+    const theLatestDeposits = latestDeposits.splice(0, 10).map((d, key) => {
+        const splitDate = d.updatedAt.split(',')[0]
+        return (
+            <div className='transactions__col' key={key}>
+               
+                <p className='transactions__amount'>${d.amount}</p>
+
+                <p className='transactions__date'>{splitDate}</p>
+                <h4 className='transactions__name'>{d.creator}</h4>
+            </div>
+        )
+    })
+    const theLatestWithdrawals = latestWithdrawals
+        .splice(0, 10)
+        .map((d, key) => {
+            const splitDate = d.updatedAt.split(',')[0]
+
+            return (
+                <div className='transactions__col' key={key}>
+                    
+                    <p className='transactions__amount'>${d.amount}</p>
+
+                    <p className='transactions__date'>{splitDate}</p>
+                    <h4 className='transactions__name'>{d.creator}</h4>
+                </div>
+            )
+        })
+
    
 
     return (
@@ -291,7 +319,9 @@ function Home(props) {
                 <div className='content'>
                     <div className='lasttenbox slideInLeft wow'>
                         <div className='head'>last 10 deposits</div>
-                        <div className='listing'></div>
+                        <div className='listing'>
+                            {theLatestDeposits}
+                        </div>
                     </div>
                     <div className='midstatbox slideInUp wow'>
                         <div className='statbox one'>
@@ -325,7 +355,9 @@ function Home(props) {
                     </div>
                     <div className='lasttenbox slideInRight wow'>
                         <div className='head'>last 10 withdrawals</div>
-                        <div className='listing'></div>
+                        <div className='listing'>
+                            {theLatestWithdrawals}
+                        </div>
                     </div>
                 </div>
             </div>
