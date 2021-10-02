@@ -43,69 +43,78 @@ function Deposit(props) {
     const onPackageChange = (newValue) => {
         const selectedPackage = newValue.value
 
-        
         if (selectedPackage === 'Helm') {
             setPackageName('Helm')
             setPackageProfit(amountToDeposit * 0.1)
-            console.log({planDetails})
+
+            setPlanDuration('24hrs')
         }
         if (selectedPackage === 'Premium') {
             setPackageName('Premium')
 
             setPackageProfit(amountToDeposit * 0.2)
+            setPlanDuration('24hrs')
         }
         if (selectedPackage === 'Business') {
             setPackageName('Business')
 
             setPackageProfit(amountToDeposit * 0.3)
+            setPlanDuration('24hrs')
         }
         if (selectedPackage === 'Bronze') {
             setPackageName('Bronze')
 
             setPackageProfit(amountToDeposit * 0.4)
+            setPlanDuration('1 week')
         }
         if (selectedPackage === 'Silver') {
             setPackageName('Silver')
 
             setPackageProfit(amountToDeposit * 0.6)
+            setPlanDuration('1 week')
         }
         if (selectedPackage === 'Gold') {
             setPackageName('Gold')
 
             setPackageProfit(amountToDeposit * 0.8)
+            setPlanDuration('1 week')
         }
         if (selectedPackage === 'Diamond') {
             setPackageName('Diamond')
 
             setPackageProfit(amountToDeposit * 0.8)
+            setPlanDuration('1 week')
         }
         if (selectedPackage === 'One Month') {
             setPackageName('One Month')
 
             setPackageProfit(amountToDeposit * 0.8)
+            setPlanDuration('One Month')
         }
         if (selectedPackage === 'Two Months') {
             setPackageName('Two Months')
 
             setPackageProfit(amountToDeposit * 0.8)
+            setPlanDuration('Two Month')
         }
         if (selectedPackage === 'Three Months') {
             setPackageName('Three Months')
 
             setPackageProfit(amountToDeposit * 0.8)
+            setPlanDuration('Three Month')
         }
         if (selectedPackage === 'Six Months') {
             setPackageName('Six Months')
 
             setPackageProfit(amountToDeposit * 0.8)
+            setPlanDuration('Six Month')
         }
 
-        console.log({planDetails})
+        console.log({ planDetails })
     }
 
     const onAmountChange = (e) => {
         const amountValue = e.target.value
-
 
         setMinAmount(planDetails.minimum)
         setMaxAmount(planDetails.maximum)
@@ -359,7 +368,7 @@ function Deposit(props) {
                                     }}
                                 >
                                     Profit: $
-                                    <pwex>{Math.floor(packageProfit)}</pwex>{" "} for {" "}
+                                    <pwex>{Math.floor(packageProfit)}</pwex> for{' '}
                                     {planDuration}
                                 </h2>
 
