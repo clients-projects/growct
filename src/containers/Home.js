@@ -25,53 +25,21 @@ import Profsupport  from '../sass/images/profsupport.png'
 
 function Home(props) {
 
+     const [latestDeposits, setLatestDeposits] = useState([])
+     const [latestWithdrawals, setLatestWithdrawals] = useState([])
 
-    const [calcNum, setCalcNum] = useState(20)
-    const [selectedValue, setSelectedValue] = useState(0.1)
-    const [calcProfit, setCalcProfit] = useState(22)
+     useEffect(() => {
+         if (props.latestDeposits) {
+             setLatestDeposits(props.latestDeposits)
+         }
 
-    const inputChangeHandler = (input, event) => {
-        if (input.target.id === 'calc_amount') {
-            setCalcNum(input.target.value)
+         if (props.latestWithdrawals) {
+             setLatestWithdrawals(props.latestWithdrawals)
+         }
+     }, [props])
 
-            //setCalcProfit((Number(selectedValue) * Number(input.target.value)) + Number(input.target.value))
-        }
 
-        console.log({ input })
-        if (input.target.id === 'calc_plan') {
-            let calcPercent = 0
-            if (input.target.value === '10') {
-                calcPercent = calcNum * 0.1
-                setSelectedValue(calcPercent)
-            }
-            if (input.target.value === '20') {
-                calcPercent = calcNum * 0.2
-                setSelectedValue(calcPercent)
-            }
-            if (input.target.value === '30') {
-                calcPercent = calcNum * 0.3
-                setSelectedValue(calcPercent)
-            }
-            if (input.target.value === '40') {
-                calcPercent = calcNum * 0.4
-                setSelectedValue(calcPercent)
-            }
-            if (input.target.value === '60') {
-                calcPercent = calcNum * 0.6
-                setSelectedValue(calcPercent)
-            }
-            if (input.target.value === '80') {
-                calcPercent = calcNum * 0.8
-                setSelectedValue(calcPercent)
-            }
-
-            setCalcProfit(Number(calcPercent) + Number(calcNum))
-        }
-    }
-
-    const handleIncomeCalculation = (e) => {
-        e.preventDefault()
-    }
+   
 
     return (
         <>
@@ -178,9 +146,7 @@ function Home(props) {
                             </div>
                             <div className='right'>
                                 <div className='certificatebo'>
-                                    <a href='#'>
                                         <img src={Certificate} alt='' />
-                                    </a>
                                 </div>
                             </div>
                         </div>
