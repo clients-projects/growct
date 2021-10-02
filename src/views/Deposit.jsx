@@ -103,7 +103,10 @@ function Deposit(props) {
     const onAmountChange = (e) => {
         const amountValue = e.target.value
 
-        console.log({planDetails})
+        console.log({ planDetails })
+        
+        setMinAmount(planDetails.minimum)
+        setMaxAmount(planDetails.maximum)
 
         if (packageName === 'Helm') {
             setPackageName('Helm')
@@ -381,7 +384,8 @@ function Deposit(props) {
                                         autofocus='autofocus'
                                         name='amount'
                                         placeholder='$0.00'
-                                        min={200}
+                                        min={minAmount}
+                                        max={maxAmount}
                                     />
                                 </div>
 
