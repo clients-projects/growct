@@ -11,9 +11,8 @@ import * as orderAction from '../store/actions/burgerIndex'
 
 function Layout(props) {
     useEffect(() => {
-        if (props.tokenId) {
-            props.onInitActivities(props.tokenId)
-        }
+            props.onInitActivities()
+        
     }, [props])
 
     const lastLocation = useLastLocation()
@@ -83,8 +82,8 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        onInitActivities: (token) =>
-            dispatch(orderAction.initActivities(token)),
+        onInitActivities: () =>
+            dispatch(orderAction.initActivities()),
     }
 }
 export default connect(mapStateToProps, mapDispatchToProps)(Layout)
