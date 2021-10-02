@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import connect from 'react-redux'
+import {connect} from 'react-redux'
 
 import BannerThumb from '../sass/images/bannerthumb.png'
 import GeoTrust from '../sass/images/geotrust.png'
