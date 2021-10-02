@@ -66,7 +66,7 @@ function Transactions(props) {
                             <FaMoneyBillAlt />
                         </div>
                         <div className='data'>
-                            <span>PACKAGE A</span>
+                            <span>Helm</span>
                             <span>
                                 Funds: <b>{Helm}</b>
                             </span>
