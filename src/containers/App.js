@@ -121,29 +121,25 @@ function App(props) {
     return (
         <div className='rootApp'>
             <a
-                href='https://wa.me/+447423037842'
+                href='https://wa.me/+12232272130'
                 alt=''
                 target='_blank'
                 rel='noopener noreferrer'
-            > 
-               <img
-                  src={WhatsappLivechat}
+            >
+                <img
+                    src={WhatsappLivechat}
                     alt=''
                     className='liveChat__whatsapp'
                 />
-             </a> 
+            </a>
             <a
                 href='https://www.instagram.com/invites/contact/?i=18seskica6hc&utm_content=anmdj7v'
                 alt=''
                 target='_blank'
                 rel='noopener noreferrer'
-            > 
-               <img
-                  src={InstagramLogo}
-                    alt=''
-                    className='instagram'
-                />
-             </a> 
+            >
+                <img src={InstagramLogo} alt='' className='instagram' />
+            </a>
             <Layout isAdmin={location} siteOwner={props.siteOwner}>
                 {AuthGuard}
             </Layout>

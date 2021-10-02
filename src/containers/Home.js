@@ -294,28 +294,28 @@ function Home(props) {
                     <div className='midstatbox slideInUp wow'>
                         <div className='statbox one'>
                             <div className='info'>
-                                547
+                                {onlineDays}
                                 <span>Running Days</span>
                             </div>
                             <div className="icon"><img src={Runningdays} alt=""/></div>
                         </div>
                         <div className='statbox two'>
                             <div className='info'>
-                                $ 335169.13
+                                ${totalInvestments}
                                 <span>Total Deposited</span>
                             </div>
                             <div className="icon"><img src={Totaldeposited} alt=""/></div>
                         </div>
                         <div className='statbox three'>
                             <div className='info'>
-                                $ 782310.92
+                                ${totalPaidOut}
                                 <span>Total Withdrawal</span>
                             </div>
                             <div className="icon"><img src={Totalwithdrawals} alt=""/></div>
                         </div>
                         <div className='statbox four'>
                             <div className='info'>
-                                13265
+                                1326 + {totalMembers}
                                 <span>Total Members</span>
                             </div>
                             <div className="icon"><img src={Totalmembers} alt=""/></div>
