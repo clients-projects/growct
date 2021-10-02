@@ -182,9 +182,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        onInitGetUser: (token) => dispatch(actionTypes.initGetUser(token)),
-        onInitActivities: (token) =>
-            dispatch(actionTypes.initActivities(token)),
+        onInitGetUser: (token) => dispatch(actionTypes.initGetUser(token))
     }
 }
 export default connect(mapStateToProps, mapDispatchToProps)(Admin)
