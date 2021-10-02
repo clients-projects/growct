@@ -611,9 +611,6 @@ function Layout(props) {
                         </div>
                     </div>
                 </section>
-                <section>
-                    <TechnicalAnalysis />
-                </section>
 
                 <section className='referralwrap' style={{ margin: '4rem 0' }}>
                     <div className='contents'>
@@ -644,6 +641,9 @@ function Layout(props) {
                 </section>
 
                 <section className='featureswrap'>
+                    <section>
+                        <TechnicalAnalysis />
+                    </section>
                     <div className='contents'>
                         <h2>growveonCT features</h2>
                         <div className='feturesboxinside'>
@@ -716,6 +716,9 @@ function Layout(props) {
                     </div>
                 </section>
             </section>
+            <section>
+                <TechnicalAnalysis />
+            </section>
 
             {/* <div className='lasttenwrap'>
                 <div className='content'>
@@ -759,19 +762,6 @@ function Layout(props) {
                     </div>
                 </div>
             </div> */}
-
-            <div className='paymentlogowrap'>
-                <div className='contents'>
-                    {/* <div className="icons zoomIn wow"><img src="styles/images/perfectmoney.png" alt=""></div>
-      <div className="icons zoomIn wow"><img src="styles/images/payeer.png" alt=""></div>
-      <div className="icons zoomIn wow"><img src="styles/images/bitcoin.png" alt=""></div>
-      <div className="icons zoomIn wow"><img src="styles/images/litecoin.png" alt=""></div>
-      <div className="icons zoomIn wow"><img src="styles/images/ethreum.png" alt=""></div>
-      <div className="icons zoomIn wow"><img src="styles/images/bicoincash.png" alt=""></div>
-      <div className="icons zoomIn wow"><img src="styles/images/dogecoin.png" alt=""></div>
-      <div className="icons zoomIn wow"><img src="styles/images/dashcoin.png" alt=""></div> */}
-                </div>
-            </div>
         </>
     )
 }
