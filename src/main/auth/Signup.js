@@ -570,7 +570,7 @@ const Signup = (props) => {
                                                             <label for='regCheck'>
                                                                 I agree with the{' '}
                                                                 <Link
-                                                                    href='termsAndConditions'
+                                                                    href='/termsAndConditions'
                                                                     style={{
                                                                         color: '#292929',
                                                                         textDecoration:
