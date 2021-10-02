@@ -641,7 +641,7 @@ function Layout(props) {
                 </section>
 
                 <section className='featureswrap'>
-                    <section>
+                    <section style={{marginBottom: '4rem'}}>
                         <TechnicalAnalysis />
                     </section>
                     <div className='contents'>
