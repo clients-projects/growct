@@ -115,68 +115,64 @@
         }
     }
 
-    &-dashboard {
-        &__1 {
-            background-image: linear-gradient(to right bottom,
-                    rgba(#02294b, 0.9),
-                    rgba(4, 1, 14, 0.9)
-                ),
-                url('../images/A1.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-        }
-        &__2 {
-            background-image: linear-gradient(to right bottom,
-                    rgba(#045336, 0.9),
-                    rgba(4, 1, 14, 0.9)
-                ),
-                url('../images/B.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-        }
-        &__3 {
-            background-image: linear-gradient(to right bottom,
-                    rgba(#02294b, 0.9),
-                    rgba(4, 1, 14, 0.9)
-                ),
-                url('../images/C.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-        }
-        &__4 {
-            background-image: linear-gradient(to right bottom,
-                    rgba(#045336, 0.9),
-                    rgba(4, 1, 14, 0.9)
-                ),
-                url('../images/D.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-        }
-        &__5 {
-            background-image: linear-gradient(to right bottom,
-                    rgba(#02294b, 0.9),
-                    rgba(4, 1, 14, 0.9)
-                ),
-                url('../images/E.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-        }
-        &__6 {
-            background-image: linear-gradient(to right bottom,
-                    rgba(#045336, 0.9),
-                    rgba(4, 1, 14, 0.9)
-                ),
-                url('../images/F.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-        }
-    }
+    // &-dashboard {
+    //     &__1 {
+    //         background-image: linear-gradient(to right bottom,
+    //                 rgba(#02294b, 0.9),
+    //                 rgba(4, 1, 14, 0.9)
+    //             ),
+    //         background-repeat: no-repeat;
+    //         background-position: center;
+    //         background-size: cover;
+    //     }
+    //     &__2 {
+    //         background-image: linear-gradient(to right bottom,
+    //                 rgba(#045336, 0.9),
+    //                 rgba(4, 1, 14, 0.9)
+    //             ),
+    //         background-repeat: no-repeat;
+    //         background-position: center;
+    //         background-size: cover;
+    //     }
+    //     &__3 {
+    //         background-image: linear-gradient(to right bottom,
+    //                 rgba(#02294b, 0.9),
+    //                 rgba(4, 1, 14, 0.9)
+    //             ),
+    //         background-repeat: no-repeat;
+    //         background-position: center;
+    //         background-size: cover;
+    //     }
+    //     &__4 {
+    //         background-image: linear-gradient(to right bottom,
+    //                 rgba(#045336, 0.9),
+    //                 rgba(4, 1, 14, 0.9)
+    //             ),
+    //         background-repeat: no-repeat;
+    //         background-position: center;
+    //         background-size: cover;
+    //     }
+    //     &__5 {
+    //         background-image: linear-gradient(to right bottom,
+    //                 rgba(#02294b, 0.9),
+    //                 rgba(4, 1, 14, 0.9)
+    //             ),
+    //             url('../images/E.png');
+    //         background-repeat: no-repeat;
+    //         background-position: center;
+    //         background-size: cover;
+    //     }
+    //     &__6 {
+    //         background-image: linear-gradient(to right bottom,
+    //                 rgba(#045336, 0.9),
+    //                 rgba(4, 1, 14, 0.9)
+    //             ),
+    //             url('../images/F.png');
+    //         background-repeat: no-repeat;
+    //         background-position: center;
+    //         background-size: cover;
+    //     }
+    // }
 
     &-dashboard__icon1 {
         background: #01284b;
