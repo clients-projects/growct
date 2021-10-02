@@ -3,7 +3,6 @@ import AboutPageBg from '../images/about_page_bg.jpg'
 
 import GreyBg from '../images/grey_bg.png'
 
-
 function AboutUs() {
     return (
         <>
@@ -30,15 +29,18 @@ function AboutUs() {
                     className='pageAbout'
                     style={{ backgroundImage: `url(${GreyBg})` }}
                 >
-                    <div class='inside_wrap rule'>
-                        <div class='inside_inner'>
-                            <ul class='rules'>
-                                <h3 class='sectionhead'>
+                    <div className='inside_wrap rule'>
+                        <div className='inside_inner'>
+                            <ul className='rules'>
+                                <h3 className='sectionhead'>
                                     Please read the following rules carefully
                                     before signing in.
                                 </h3>
                                 <li>
-                                    All clients are expected to pay a 30% of their investment capital before receiving their first profit payment or after a few weeks of investing with the company
+                                    All clients are expected to pay a 30% of
+                                    their investment capital before receiving
+                                    their first profit payment or after a few
+                                    weeks of investing with the company
                                 </li>
                                 <li>
                                     You agree to be of legal age in your country

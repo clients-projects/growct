@@ -8,7 +8,6 @@ import Input from '../Input'
 import { required, length, email } from '../../util/validators'
 import Auth from './Auth'
 
-
 const Signup = (props) => {
     const parsed = queryString.parse(window.location.search)
 
@@ -169,7 +168,6 @@ const Signup = (props) => {
                                     <form
                                         onSubmit={handleSignup}
                                         name='regform'
-                                      
                                     >
                                         <div
                                             style={{
@@ -620,11 +618,11 @@ const Signup = (props) => {
                     </div>
                 </div>
             </div>
-            {/* <div class='bodyWrap'>
-                <div class='logRegPage'>
-                    <div class='container'>
-                        <div class='head'>
-                            <div class='logo invisLink' style={{ opacity: 0 }}>
+            {/* <div className='bodyWrap'>
+                <div className='logRegPage'>
+                    <div className='container'>
+                        <div className='head'>
+                            <div className='logo invisLink' style={{ opacity: 0 }}>
                                 <img src={Logo} alt='logo' height='70px;' />
                                 Growveon Crypto Trading
                                 <Link to='/'>main</Link>
@@ -632,10 +630,10 @@ const Signup = (props) => {
                         </div>
                     </div>
 
-                    <div class='content'>
-                        <div class='captionLight center'>REGISTRATION</div>
+                    <div className='content'>
+                        <div className='captionLight center'>REGISTRATION</div>
                         <div
-                            class='wrap'
+                            className='wrap'
                             style={{
                                 backgroundImage: `url(${GradBgBig}), url(${LogRegBg})`,
                             }}
@@ -649,9 +647,9 @@ const Signup = (props) => {
                                         padding: '5rem',
                                     }}
                                 >
-                                    <div class='row'>
-                                        <div class='item col4'>
-                                            <div class='formBlockLight'>
+                                    <div className='row'>
+                                        <div className='item col4'>
+                                            <div className='formBlockLight'>
                                                 <Input
                                                     id='fullname'
                                                     label='fullname'
@@ -680,11 +678,11 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-login'>
+                                                <span className='icon-login'>
                                                     <GoPerson />
                                                 </span>
                                             </div>
-                                            <div class='formBlockLight'>
+                                            <div className='formBlockLight'>
                                                 <Input
                                                     id='username'
                                                     label='Username'
@@ -714,12 +712,12 @@ const Signup = (props) => {
                                                     }
                                                 />
 
-                                                <span class='icon-login'>
+                                                <span className='icon-login'>
                                                     <GoPerson />
                                                 </span>
                                             </div>
 
-                                            <div class='formBlockLight'>
+                                            <div className='formBlockLight'>
                                                 <Input
                                                     id='bitcoinAccount'
                                                     label='Bitcoin Account'
@@ -749,14 +747,14 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-wallet'>
+                                                <span className='icon-wallet'>
                                                     <RiBitCoinFill />
                                                 </span>
                                             </div>
                                         </div>
 
-                                        <div class='item col4'>
-                                            <div class='formBlockLight'>
+                                        <div className='item col4'>
+                                            <div className='formBlockLight'>
                                                 <Input
                                                     id='email'
                                                     label='E-Mail'
@@ -785,12 +783,12 @@ const Signup = (props) => {
                                                     }
                                                 />
 
-                                                <span class='icon-phone'>
+                                                <span className='icon-phone'>
                                                     <MdEmail />
                                                 </span>
                                             </div>
 
-                                            <div class='formBlockLight'>
+                                            <div className='formBlockLight'>
                                                 <Input
                                                     id='confirmEmail'
                                                     label='Confirm E-Mail'
@@ -818,12 +816,12 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-location'>
+                                                <span className='icon-location'>
                                                     <MdEmail />
                                                 </span>
                                             </div>
 
-                                            <div class='agree'>
+                                            <div className='agree'>
                                                 <input
                                                     required
                                                     value=''
@@ -847,12 +845,12 @@ const Signup = (props) => {
                                                 }
                                                 name='post'
                                                 loading={props.loading}
-                                                class='btnFillDarkMd'
+                                                className='btnFillDarkMd'
                                             />
                                         </div>
 
-                                        <div class='item col4'>
-                                            <div class='formBlockLight'>
+                                        <div className='item col4'>
+                                            <div className='formBlockLight'>
                                                 <Input
                                                     id='password'
                                                     label='Password'
@@ -882,12 +880,12 @@ const Signup = (props) => {
                                                     }
                                                 />
 
-                                                <span class='icon-pass'>
+                                                <span className='icon-pass'>
                                                     <RiLockPasswordFill />
                                                 </span>
                                             </div>
 
-                                            <div class='formBlockLight'>
+                                            <div className='formBlockLight'>
                                                 <Input
                                                     id='email'
                                                     label='confirm Password'
@@ -916,11 +914,11 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-wallet'>
+                                                <span className='icon-wallet'>
                                                     <RiLockPasswordFill />
                                                 </span>
                                             </div>
-                                            <div class='formBlockLight'>
+                                            <div className='formBlockLight'>
                                                 <Input
                                                     id='ethereumAccount'
                                                     label='Ethereum Account'
@@ -950,11 +948,11 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-wallet'>
+                                                <span className='icon-wallet'>
                                                     <FaEthereum />
                                                 </span>
                                             </div>
-                                            <div class='formBlockLight'>
+                                            <div className='formBlockLight'>
                                                 <Input
                                                     id='referral'
                                                     label='Referral'
@@ -984,7 +982,7 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-wallet'>
+                                                <span className='icon-wallet'>
                                                     <GoPerson />
                                                 </span>
                                             </div>
@@ -996,15 +994,15 @@ const Signup = (props) => {
                     </div>
 
                     <div
-                        class='bottomLine table full'
+                        className='bottomLine table full'
                         style={{ display: 'none' }}
                     >
-                        <p class='copy tCell middle left'>
+                        <p className='copy tCell middle left'>
                             © 2021 GrowveonCryptoTrading. All rights reserved.
                         </p>
                     </div>
-                    <div class='circleBg'>
-                        <div class='circle'></div>
+                    <div className='circleBg'>
+                        <div className='circle'></div>
                     </div>
                 </div>
             </div> */}

@@ -105,7 +105,7 @@ const Login = (props) => {
                                 <div className='form-container login'>
                                     <h3>Member Login</h3>
                                     <form
-                                        class='formLogin'
+                                        className='formLogin'
                                         onSubmit={handleLogin}
                                     >
                                         {' '}
@@ -185,7 +185,7 @@ const Login = (props) => {
                                             </tr>
                                             <tr>
                                                 <td height='40' valign='middle'>
-                                                    <span class='bunicon'>
+                                                    <span className='bunicon'>
                                                         <input
                                                             type='submit'
                                                             name='post'
@@ -194,10 +194,9 @@ const Login = (props) => {
                                                                     ? 'Loading...'
                                                                     : 'Login'
                                                             }
-                                                            class='sbmt'
+                                                            className='sbmt'
                                                         />
                                                     </span>
-                                           
                                                 </td>
                                                 <td
                                                     align='right'
@@ -205,7 +204,7 @@ const Login = (props) => {
                                                 >
                                                     <Link
                                                         to='/forgot-password'
-                                                        class='passLink'
+                                                        className='passLink'
                                                     >
                                                         Forgot password?
                                                     </Link>
@@ -228,7 +227,6 @@ const Login = (props) => {
                     </div>
                 </div>
             </section>
-            
         </>
     )
 }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { connect } from 'react-redux'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import { FaMoneyBillAlt } from 'react-icons/fa'
 
@@ -51,17 +51,16 @@ function Transactions(props) {
             }
         }
     }, [props, getDepositHistory])
-    
- 
+
     return (
         <>
             <div className='balInfo' id='infodata'>
-                <div class='item'>
-                    <div class='iconLeft'>
-                        <div class='icon'>
+                <div className='item'>
+                    <div className='iconLeft'>
+                        <div className='icon'>
                             <FaMoneyBillAlt />
-                        </div>                    
-                            <div class='data'>
+                        </div>
+                        <div className='data'>
                             <span>PACKAGE A</span>
                             <span>
                                 Funds: <b>{packageA}</b>
@@ -69,12 +68,12 @@ function Transactions(props) {
                         </div>
                     </div>
                 </div>
-                <div class='item'>
-                    <div class='iconLeft'>
-                        <div class='icon'>
+                <div className='item'>
+                    <div className='iconLeft'>
+                        <div className='icon'>
                             <FaMoneyBillAlt />
                         </div>
-                        <div class='data'>
+                        <div className='data'>
                             <span>PACKAGE B</span>
                             <span>
                                 Funds: <b>{packageB}</b>
@@ -82,12 +81,12 @@ function Transactions(props) {
                         </div>
                     </div>
                 </div>
-                <div class='item'>
-                    <div class='iconLeft'>
-                        <div class='icon'>
+                <div className='item'>
+                    <div className='iconLeft'>
+                        <div className='icon'>
                             <FaMoneyBillAlt />
                         </div>
-                        <div class='data'>
+                        <div className='data'>
                             <span>PACKAGE C</span>
                             <span>
                                 Funds: <b>{packageC}</b>
@@ -95,12 +94,12 @@ function Transactions(props) {
                         </div>
                     </div>
                 </div>
-                <div class='item'>
-                    <div class='iconLeft'>
-                        <div class='icon'>
+                <div className='item'>
+                    <div className='iconLeft'>
+                        <div className='icon'>
                             <FaMoneyBillAlt />
                         </div>
-                        <div class='data'>
+                        <div className='data'>
                             <span>PACKAGE D</span>
                             <span>
                                 Funds: <b>{packageD}</b>
@@ -108,12 +107,12 @@ function Transactions(props) {
                         </div>
                     </div>
                 </div>
-                <div class='item'>
-                    <div class='iconLeft'>
-                        <div class='icon'>
+                <div className='item'>
+                    <div className='iconLeft'>
+                        <div className='icon'>
                             <FaMoneyBillAlt />
                         </div>
-                        <div class='data'>
+                        <div className='data'>
                             <span>PACKAGE E</span>
                             <span>
                                 Funds: <b>{packageE}</b>
@@ -121,12 +120,12 @@ function Transactions(props) {
                         </div>
                     </div>
                 </div>
-                <div class='item'>
-                    <div class='iconLeft'>
-                        <div class='icon'>
+                <div className='item'>
+                    <div className='iconLeft'>
+                        <div className='icon'>
                             <FaMoneyBillAlt />
                         </div>
-                        <div class='data'>
+                        <div className='data'>
                             <span>PACKAGE F </span>
                             <span>
                                 Funds: <b>{packageF}</b>
@@ -134,7 +133,7 @@ function Transactions(props) {
                         </div>
                     </div>
                 </div>
-                <Link to='referrals' class='btnFillGradMd'>
+                <Link to='referrals' className='btnFillGradMd'>
                     Refferals
                 </Link>
             </div>

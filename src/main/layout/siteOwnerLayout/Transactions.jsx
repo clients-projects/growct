@@ -25,12 +25,12 @@ function Transactions(props) {
     return (
         <>
             <div className='balInfo' id='infodata'>
-                <div class='item'>
-                    <div class='iconLeft'>
-                        <div class='icon'>
+                <div className='item'>
+                    <div className='iconLeft'>
+                        <div className='icon'>
                             <FaMoneyBillAlt />
                         </div>{' '}
-                        <div class='data'>
+                        <div className='data'>
                             <span>Last Deposit</span>
                             <span>
                                 Name: <b>{props.activities.lastDepositName}</b>
@@ -38,12 +38,12 @@ function Transactions(props) {
                         </div>
                     </div>
                 </div>
-                <div class='item'>
-                    <div class='iconLeft'>
-                        <div class='icon'>
+                <div className='item'>
+                    <div className='iconLeft'>
+                        <div className='icon'>
                             <FaMoneyBillAlt />
                         </div>
-                        <div class='data'>
+                        <div className='data'>
                             <span>Last Withdrawal</span>
                             <span>
                                 Name:{' '}
@@ -52,12 +52,12 @@ function Transactions(props) {
                         </div>
                     </div>
                 </div>
-                <div class='item'>
-                    <div class='iconLeft'>
-                        <div class='icon'>
+                <div className='item'>
+                    <div className='iconLeft'>
+                        <div className='icon'>
                             <FaMoneyBillAlt />
                         </div>
-                        <div class='data'>
+                        <div className='data'>
                             <span>Last Withdrawal</span>
                             <span>
                                 Amount:{' '}
@@ -66,12 +66,12 @@ function Transactions(props) {
                         </div>
                     </div>
                 </div>
-                <div class='item'>
-                    <div class='iconLeft'>
-                        <div class='icon'>
+                <div className='item'>
+                    <div className='iconLeft'>
+                        <div className='icon'>
                             <FaMoneyBillAlt />
                         </div>
-                        <div class='data'>
+                        <div className='data'>
                             <span>Last Deposit</span>
                             <span>
                                 Amount:{' '}
@@ -80,12 +80,12 @@ function Transactions(props) {
                         </div>
                     </div>
                 </div>
-                <div class='item'>
-                    <div class='iconLeft'>
-                        <div class='icon'>
+                <div className='item'>
+                    <div className='iconLeft'>
+                        <div className='icon'>
                             <FaMoneyBillAlt />
                         </div>
-                        <div class='data'>
+                        <div className='data'>
                             <span>Total Investments</span>
                             <span>
                                 Amount:{' '}
@@ -94,12 +94,12 @@ function Transactions(props) {
                         </div>
                     </div>
                 </div>
-                <div class='item'>
-                    <div class='iconLeft'>
-                        <div class='icon'>
+                <div className='item'>
+                    <div className='iconLeft'>
+                        <div className='icon'>
                             <FaMoneyBillAlt />
                         </div>
-                        <div class='data'>
+                        <div className='data'>
                             <span>Total Payment </span>
                             <span>
                                 Amount: <b>{props.totalPayment}</b>
@@ -107,7 +107,7 @@ function Transactions(props) {
                         </div>
                     </div>
                 </div>
-                <Link to='referrals' class='btnFillGradMd'>
+                <Link to='referrals' className='btnFillGradMd'>
                     Refferals
                 </Link>
             </div>

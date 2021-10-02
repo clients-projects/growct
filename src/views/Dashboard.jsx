@@ -42,24 +42,24 @@ const Dashboard = (props) => {
 
     return (
         <>
-            <div class='bodyWrap'>
+            <div className='bodyWrap'>
                 <Header />
 
                 <div
-                    class='cabContent'
+                    className='cabContent'
                     style={{
                         backgroundImage: `url(${GradBgRev}), url(${WhiteBg})`,
                     }}
                 >
-                    <div class='container'>
-                        <div class='cabHead'>
+                    <div className='container'>
+                        <div className='cabHead'>
                             <SubHeader />
 
-                            <div class='row'>
+                            <div className='row'>
                                 <Sidebar />
 
-                                <div class='right'>
-                                    <div class='balInfo'>
+                                <div className='right'>
+                                    <div className='balInfo'>
                                         <div
                                             style={{
                                                 height: '50vh',
@@ -95,37 +95,37 @@ const Dashboard = (props) => {
 
                         <p>none</p>
                     </div>
-                    <div class='cabItem profile'>
-                        <span class='captionDark center'>your account</span>
-                        <div class='accTbl'></div>{' '}
-                        <div class='row' style={{ padding: '0 3rem' }}>
-                            <div class='item col6'>
-                                <div class='tblWrap'>
-                                    <ul class='tblTempl2 in table full'>
-                                        <li class='tRow'>
-                                            <span class='param tCell middle'>
+                    <div className='cabItem profile'>
+                        <span className='captionDark center'>your account</span>
+                        <div className='accTbl'></div>{' '}
+                        <div className='row' style={{ padding: '0 3rem' }}>
+                            <div className='item col6'>
+                                <div className='tblWrap'>
+                                    <ul className='tblTempl2 in table full'>
+                                        <li className='tRow'>
+                                            <span className='param tCell middle'>
                                                 Daily Earning
                                             </span>
-                                            <span class='data tCell middle'>
+                                            <span className='data tCell middle'>
                                                 ${props.userData.dailyEarning}
                                             </span>
                                         </li>
-                                        <li class='tRow'>
-                                            <span class='param tCell middle'>
+                                        <li className='tRow'>
+                                            <span className='param tCell middle'>
                                                 Pending withdrawal
                                             </span>
-                                            <span class='data tCell middle'>
+                                            <span className='data tCell middle'>
                                                 $
                                                 {
                                                     props.userPendingWithdrawalAmount
                                                 }
                                             </span>
                                         </li>
-                                        <li class='tRow'>
-                                            <span class='param tCell middle'>
+                                        <li className='tRow'>
+                                            <span className='param tCell middle'>
                                                 Total Withdrawal
                                             </span>
-                                            <span class='data tCell middle'>
+                                            <span className='data tCell middle'>
                                                 ${totalUserWithdrawal}
                                             </span>
                                         </li>
@@ -133,30 +133,30 @@ const Dashboard = (props) => {
                                 </div>
                             </div>
 
-                            <div class='item col6'>
-                                <div class='tblWrap'>
-                                    <ul class='tblTempl2 out table full'>
-                                        <li class='tRow'>
-                                            <span class='param tCell middle'>
+                            <div className='item col6'>
+                                <div className='tblWrap'>
+                                    <ul className='tblTempl2 out table full'>
+                                        <li className='tRow'>
+                                            <span className='param tCell middle'>
                                                 Total Earning
                                             </span>
-                                            <span class='data tCell middle'>
+                                            <span className='data tCell middle'>
                                                 ${props.userData.totalEarnings}
                                             </span>
                                         </li>
-                                        <li class='tRow'>
-                                            <span class='param tCell middle'>
+                                        <li className='tRow'>
+                                            <span className='param tCell middle'>
                                                 Last deposit
                                             </span>
-                                            <span class='data tCell middle'>
+                                            <span className='data tCell middle'>
                                                 ${props.lastDepositAmount}
                                             </span>
                                         </li>
-                                        <li class='tRow'>
-                                            <span class='param tCell middle'>
+                                        <li className='tRow'>
+                                            <span className='param tCell middle'>
                                                 Total deposit
                                             </span>
-                                            <span class='data tCell middle'>
+                                            <span className='data tCell middle'>
                                                 ${totalUserDeposit}
                                             </span>
                                         </li>
@@ -167,10 +167,13 @@ const Dashboard = (props) => {
                         <br />
                         <br />
                         <br />
-                        <div class='refLink' style={{ padding: '2rem 3rem' }}>
-                            <div class='linkBlock'>
-                                <div class='iconLeft'>
-                                    <span class='icon-link'>
+                        <div
+                            className='refLink'
+                            style={{ padding: '2rem 3rem' }}
+                        >
+                            <div className='linkBlock'>
+                                <div className='iconLeft'>
+                                    <span className='icon-link'>
                                         <HiLink
                                             style={{
                                                 position: 'relative',
@@ -178,7 +181,9 @@ const Dashboard = (props) => {
                                             }}
                                         />
                                     </span>
-                                    <span class='title'>referal link: </span>
+                                    <span className='title'>
+                                        referal link:{' '}
+                                    </span>
                                     <Link to='referrals' id='linkRef'>
                                         {props.userData.referralLink}{' '}
                                     </Link>
@@ -189,7 +194,7 @@ const Dashboard = (props) => {
                                     onCopy={() => console.log('copied')}
                                 >
                                     <button
-                                        class='btnFillGradMd copyBtn'
+                                        className='btnFillGradMd copyBtn'
                                         data-clipboard-target='#linkRef'
                                     >
                                         Copy Link
@@ -200,7 +205,7 @@ const Dashboard = (props) => {
                     </div>
                 </div>
             </div>
-            <p class='copyright'>
+            <p className='copyright'>
                 © 2021 Growveon cryptotrading. All rights reserved.
             </p>
         </>

@@ -1,7 +1,7 @@
-import React, {useState, useEffect} from 'react'
-import {Link} from 'react-router-dom'
+import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import publicIp from 'public-ip'
-import {connect} from 'react-redux'
+import { connect } from 'react-redux'
 
 import { BsGear, BsBoxArrowInUp, BsBoxArrowInDown } from 'react-icons/bs'
 import { VscServer } from 'react-icons/vsc'
@@ -9,14 +9,13 @@ import { BiDollarCircle } from 'react-icons/bi'
 
 import avatar from '../../../assets/img/faces/face-1.jpg'
 
-
 function SubHeader(props) {
     const [IpOfUser, setIpOfUser] = useState('')
 
     useEffect(() => {
-    async function getUserIp () {
+        async function getUserIp() {
             const userIp = await publicIp.v4()
-    
+
             setIpOfUser(userIp)
         }
 
@@ -25,11 +24,11 @@ function SubHeader(props) {
 
     return (
         <>
-            <div class='row'>
-                <div class='left'>
-                    <div class='userInfo'>
+            <div className='row'>
+                <div className='left'>
+                    <div className='userInfo'>
                         <div
-                            class='userpic'
+                            className='userpic'
                             style={{
                                 backgroundImage: `url(${avatar})`,
                             }}
@@ -37,8 +36,8 @@ function SubHeader(props) {
 
                         <span>Username:</span>
                         <a href='dashboard'>{props.userData.username}</a>
-                        <a href='settings' class='editAcc'>
-                            <span class='icon-edit icon-cur1'>
+                        <a href='settings' className='editAcc'>
+                            <span className='icon-edit icon-cur1'>
                                 <BsGear />
                             </span>
                             Edit account
@@ -46,16 +45,15 @@ function SubHeader(props) {
                     </div>
                 </div>
 
-                <div class='right'>
-                    <div class='accInfo cfix'>
+                <div className='right'>
+                    <div className='accInfo cfix'>
                         <ul>
-                  
                             <li>
-                                <div class='iconLeft'>
-                                    <span class='icon-stat'>
+                                <div className='iconLeft'>
+                                    <span className='icon-stat'>
                                         <VscServer />
                                     </span>
-                                    <div class='data'>
+                                    <div className='data'>
                                         <span>Virtual IP adress:</span>
                                         <span>
                                             <b>{IpOfUser}</b>
@@ -65,10 +63,10 @@ function SubHeader(props) {
                             </li>
                         </ul>
 
-                        <div class='userBal'>
-                            <div class='iconLeft'>
-                                <div class='icon'>
-                                    <span class='icon-sum2 gradTxt'>
+                        <div className='userBal'>
+                            <div className='iconLeft'>
+                                <div className='icon'>
+                                    <span className='icon-sum2 gradTxt'>
                                         <BiDollarCircle
                                             style={{
                                                 marginTop: '.9rem',
@@ -77,32 +75,38 @@ function SubHeader(props) {
                                         />
                                     </span>
                                 </div>
-                                <div class='data'>
-                                    <span class='title'>Account Balance:</span>
-                                    <span class='num' id='balance'>
+                                <div className='data'>
+                                    <span className='title'>
+                                        Account Balance:
+                                    </span>
+                                    <span className='num' id='balance'>
                                         ${props.totalReceivedAmount}
                                     </span>
                                 </div>
                             </div>
                         </div>
 
-                        <div class='btnsCab'>
-                            <h3 class='btnFillColor1MdIcon'>
-                            pending Deposits
-                                <span class='iconLeft'>
-                                    <span class='icon-pay_out'>
+                        <div className='btnsCab'>
+                            <h3 className='btnFillColor1MdIcon'>
+                                pending Deposits
+                                <span className='iconLeft'>
+                                    <span className='icon-pay_out'>
                                         <BsBoxArrowInDown />
                                     </span>
-                                    <span class='data'>{props.pendingDepositsCount}</span>
+                                    <span className='data'>
+                                        {props.pendingDepositsCount}
+                                    </span>
                                 </span>
                             </h3>
-                            <h3 class='btnFillColor2MdIcon'>
-                            pending withdrawals
-                                <span class='iconLeft'>
-                                    <span class='icon-pay_in'>
+                            <h3 className='btnFillColor2MdIcon'>
+                                pending withdrawals
+                                <span className='iconLeft'>
+                                    <span className='icon-pay_in'>
                                         <BsBoxArrowInUp />
                                     </span>
-                                <span class='data'>{props.pendingWithdrawalsCount}</span>
+                                    <span className='data'>
+                                        {props.pendingWithdrawalsCount}
+                                    </span>
                                 </span>
                             </h3>
                         </div>
@@ -117,9 +121,8 @@ const mapStateToProps = (state) => {
     return {
         userData: state.auth.userData,
         totalReceivedAmount: state.auth.totalReceivedAmount,
-                pendingDepositsCount: state.auth.pendingDepositsCount,
+        pendingDepositsCount: state.auth.pendingDepositsCount,
         pendingWithdrawalsCount: state.auth.pendingWithdrawalsCount,
-
     }
 }
 

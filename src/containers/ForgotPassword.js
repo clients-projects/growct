@@ -130,24 +130,27 @@ const Login = (props) => {
                 </form>
             </Auth> */}
 
-            <div class='bodyWrap'>
+            <div className='bodyWrap'>
                 <div
-                    class='logRegPage'
+                    className='logRegPage'
                     style={{
                         backgroundImage: `url(${GradBgBig}), url(${LogRegBg})`,
                     }}
                 >
-                    <div class='container'>
-                        <div class='head'>
-                            <div class='logo invisLink' style={{ opacity: 0 }}>
+                    <div className='container'>
+                        <div className='head'>
+                            <div
+                                className='logo invisLink'
+                                style={{ opacity: 0 }}
+                            >
                                 <img src={Logo} alt='logo' height='70px;' />
                                 GrowveonCT
                                 <Link to='/'>main</Link>
                             </div>
                         </div>
 
-                        <div class='content'>
-                            <div class='captionLight center'>
+                        <div className='content'>
+                            <div className='captionLight center'>
                                 Forgot Password
                             </div>
                             <p
@@ -164,16 +167,16 @@ const Login = (props) => {
                             </p>
 
                             <div
-                                class='wrap login'
+                                className='wrap login'
                                 style={{ paddingTop: '100px' }}
                             >
                                 <Auth message={message}>
                                     <form
-                                        class='formLogin'
+                                        className='formLogin'
                                         onSubmit={handleForgotPassword}
                                     >
-                                        <div class='item'>
-                                            <div class='formBlockLight'>
+                                        <div className='item'>
+                                            <div className='formBlockLight'>
                                                 <label>Email Address:</label>
                                                 <Input
                                                     id='email'
@@ -198,7 +201,7 @@ const Login = (props) => {
                                                             .touched
                                                     }
                                                 />
-                                                <span class='icon-mail'>
+                                                <span className='icon-mail'>
                                                     <RiLockPasswordFill />
                                                 </span>
                                             </div>
@@ -206,7 +209,7 @@ const Login = (props) => {
                                             <br></br>
                                             <button
                                                 type='submit'
-                                                class='btnFillDarkMd'
+                                                className='btnFillDarkMd'
                                                 loading={props.loading}
                                             >
                                                 {props.loading
@@ -215,7 +218,7 @@ const Login = (props) => {
                                             </button>
                                             {/* <button
                                             type='submit'
-                                            class='btnFillDarkMd'
+                                            className='btnFillDarkMd'
                                             name='post'
                                         >
                                             Get Code
@@ -226,15 +229,15 @@ const Login = (props) => {
                             </div>
                         </div>
 
-                        <div class='bottomLine table full'>
-                            <p class='copy tCell middle left'>
+                        <div className='bottomLine table full'>
+                            <p className='copy tCell middle left'>
                                 © 2021 Growveon Crypto Trade. All rights
                                 reserved.
                             </p>
                         </div>
                     </div>
-                    <div class='circleBg'>
-                        <div class='circle'></div>
+                    <div className='circleBg'>
+                        <div className='circle'></div>
                     </div>
                 </div>
             </div>
