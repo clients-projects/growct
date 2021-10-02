@@ -372,18 +372,7 @@ function Deposit(props) {
                                 </p>
                             )}
                             <div class='item'>
-                                <h1 style={{ textAlign: 'center' }}>
-                                    <pwees></pwees>
-                                </h1>
-
-                                <h4
-                                    style={{
-                                        textAlign: 'center',
-                                        marginTop: '10px',
-                                    }}
-                                >
-                                    <pweee></pweee>
-                                </h4>
+                      
 
                                 <h2
                                     style={{
