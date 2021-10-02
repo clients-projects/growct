@@ -12,7 +12,7 @@ import Auth from '../main/auth/Auth'
 
 import GradBgBig from '../images/grad_bg_big.png'
 import LogRegBg from '../images/logreg_bg.jpg'
-import Logo from '../images/logos.png'
+import Logo from '../sass/images/GrowveonctLogo.png'
 
 const Login = (props) => {
     const [state, setState] = useState({
