@@ -121,6 +121,7 @@ const mapStateToProps = (state) => {
     return {
         activities: state.auth.activities,
         totalPayment: state.auth.totalDisbursedAmount,
+        tokenId: state.auth.tokenId
     }
 }
 

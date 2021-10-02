@@ -233,6 +233,7 @@ function Transactions(props) {
 const mapStateToProps = (state) => {
     return {
         getUserDepositHistory: state.users.getUserDepositHistory,
+        tokenId: state.auth.tokenId
     }
 }
 
