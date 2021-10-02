@@ -334,6 +334,7 @@ export const initGetUserHistory = (token) => {
                 return res.json()
             })
             .then((resData) => {
+                console.log('user history', resData)
                 if (resData.errors) {
                     dispatch(getUserHistoryFailed(resData.errors[0].message))
                 }
