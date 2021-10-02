@@ -377,6 +377,7 @@ function Deposit(props) {
                                         autofocus='autofocus'
                                         name='amount'
                                         placeholder='$0.00'
+                                        min={200}
                                     />
                                 </div>
 
