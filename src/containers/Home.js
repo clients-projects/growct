@@ -148,7 +148,7 @@ function Layout(props) {
                     <div className='contents'>
                         <div className='aboutinside slideInUp wow'>
                             <div className='left'>
-                                <h1>ABOUT growveonct.com</h1>
+                                <h1>ABOUT growveonct</h1>
                                 <p
                                     style={{
                                         lineHeight: 2,
