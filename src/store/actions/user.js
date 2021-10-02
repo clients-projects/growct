@@ -393,6 +393,7 @@ export const initGetUsers = (token) => {
     }
 }
 export const initGetAdmin = (token) => {
+    console.log('get admin action')
     return (dispatch) => {
         dispatch(getUsersStart())
 
