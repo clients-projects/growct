@@ -284,7 +284,10 @@ function Deposit(props) {
     }, [packageName])
 
     useEffect(() => {
+        console.log('deposit useEffect')
+        console.log('admindata', props.adminData)
         if (props.adminData) {
+
             setAdminBitcoinAddress(props.adminData.bitcoinAccount)
             setAdminEthereumAddress(props.adminData.ethereumAccount)
         }
@@ -303,7 +306,6 @@ function Deposit(props) {
             setMessage('Please enter a value')
             return setError(true)
         } else {
-            // setMessage('Order Successful!! ')
             setError(false)
 
             if (!error) {
