@@ -404,6 +404,7 @@ function Deposit(props) {
                                     <Select
                                         options={options}
                                         isClearable
+                                        autoFocus
                                         onChange={onPackageChange}
                                     />
                                 </div>
