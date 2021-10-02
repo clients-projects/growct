@@ -378,7 +378,7 @@ export const initSignup = (authData) => {
     }
 }
 
-export const initActivities = (token) => {
+export const initActivities = () => {
     return (dispatch) => {
         dispatch(authStart())
 
