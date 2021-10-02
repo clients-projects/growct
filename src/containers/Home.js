@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import {connect} from 'react-redux'
+import { connect } from 'react-redux'
 
 import BannerThumb from '../sass/images/bannerthumb.png'
 import GeoTrust from '../sass/images/geotrust.png'
@@ -10,7 +10,6 @@ import BannerBitcoin from '../sass/images/bannerbitcoin.png'
 import BannerEthereum from '../sass/images/bannerethreum.png'
 import Certificate from '../sass/images/certificatethumb.jpg'
 
-
 import TechnicalAnalysis from '../tradeviewWidgets/AdvancedRealChart'
 
 import Uniformmaturity from '../sass/images/uniformmaturity.png'
@@ -19,63 +18,59 @@ import Strongsecurity from '../sass/images/strongsecurity.png'
 import Runningdays from '../sass/images/runningdays.png'
 import Totaldeposited from '../sass/images/totaldeposited.png'
 import Totalmembers from '../sass/images/totalmembers.png'
-import Totalwithdrawals  from '../sass/images/totalwithdrawals.png'
-import Profsupport  from '../sass/images/profsupport.png'
-
+import Totalwithdrawals from '../sass/images/totalwithdrawals.png'
+import Profsupport from '../sass/images/profsupport.png'
 
 function Home(props) {
-
-     const [latestDeposits, setLatestDeposits] = useState([])
+    const [latestDeposits, setLatestDeposits] = useState([])
     const [latestWithdrawals, setLatestWithdrawals] = useState([])
-     const [onlineDays, setOnlineDays] = useState(4005)
-     let [totalMembers, setTotalMembers] = useState(642, 424)
-     const [totalPaidOut, setTotalPaidOut] = useState(202, 542, 420)
-     const [totalInvestments, setTotalInvestments] = useState(342, 322, 523)
-     const [newestMember, setNewestMember] = useState('Lawson2')
-     const [lastDepositName, setLastDepositName] = useState('Micheal04')
-     const [lastDepositAmount, setLastDepositAmount] = useState('3,224')
-     const [lastWithdrawalAmount, setLastWithdrawalAmount] = useState('9,032')
-     const [lastWithdrawalName, setLastWithdrawalName] = useState('Johnson')
+    const [onlineDays, setOnlineDays] = useState(4005)
+    let [totalMembers, setTotalMembers] = useState(642, 424)
+    const [totalPaidOut, setTotalPaidOut] = useState(202, 542, 420)
+    const [totalInvestments, setTotalInvestments] = useState(342, 322, 523)
+    const [newestMember, setNewestMember] = useState('Lawson2')
+    const [lastDepositName, setLastDepositName] = useState('Micheal04')
+    const [lastDepositAmount, setLastDepositAmount] = useState('3,224')
+    const [lastWithdrawalAmount, setLastWithdrawalAmount] = useState('9,032')
+    const [lastWithdrawalName, setLastWithdrawalName] = useState('Johnson')
 
-     useEffect(() => {
-         if (props.latestDeposits) {
-             console.log('latest deposits', props.latestDeposits)
-             setLatestDeposits(props.latestDeposits)
-         }
+    useEffect(() => {
+        if (props.latestDeposits) {
+            console.log('latest deposits', props.latestDeposits)
+            setLatestDeposits(props.latestDeposits)
+        }
 
-         if (props.latestWithdrawals) {
-             console.log(props.latestWithdrawals)
-             setLatestWithdrawals(props.latestWithdrawals)
-         }
+        if (props.latestWithdrawals) {
+            console.log(props.latestWithdrawals)
+            setLatestWithdrawals(props.latestWithdrawals)
+        }
 
-         if (props.activities) {
-              console.log('the activities', props.activities)
-              const activity = props.activities
+        if (props.activities) {
+            console.log('the activities', props.activities)
+            const activity = props.activities
 
-              setOnlineDays(activity.onlineDays)
-              setTotalMembers(activity.totalMembers)
-              setTotalPaidOut(activity.totalPaidOut)
-              setTotalInvestments(activity.totalInvestments)
-              setNewestMember(activity.newestMember)
-              setLastDepositName(activity.lastDepositName)
-              setLastDepositAmount(activity.lastDepositAmount)
-              setLastWithdrawalAmount(activity.lastWithdrawalAmount)
-              setLastWithdrawalName(activity.lastWithdrawalName)
-          }
-     }, [props])
+            setOnlineDays(activity.onlineDays)
+            setTotalMembers(activity.totalMembers)
+            setTotalPaidOut(activity.totalPaidOut)
+            setTotalInvestments(activity.totalInvestments)
+            setNewestMember(activity.newestMember)
+            setLastDepositName(activity.lastDepositName)
+            setLastDepositAmount(activity.lastDepositAmount)
+            setLastWithdrawalAmount(activity.lastWithdrawalAmount)
+            setLastWithdrawalName(activity.lastWithdrawalName)
+        }
+    }, [props])
 
-    
     totalMembers = 1334 + totalMembers
 
     const theLatestDeposits = latestDeposits.splice(0, 10).map((d, key) => {
         const splitDate = d.updatedAt.split(',')[0]
         return (
             <div className='transactions' key={key}>
-               
-                <p className='transactions__amount'>${d.amount}</p>
+                <h4 className='transactions__name'>{d.creator}</h4>
 
                 <p className='transactions__date'>{splitDate}</p>
-                <h4 className='transactions__name'>{d.creator}</h4>
+                <p className='transactions__amount'>${d.amount}</p>
             </div>
         )
     })
@@ -86,27 +81,21 @@ function Home(props) {
 
             return (
                 <div className='transactions' key={key}>
-                    
-                    <p className='transactions__amount'>${d.amount}</p>
+                    <h4 className='transactions__name'>{d.creator}</h4>
 
                     <p className='transactions__date'>{splitDate}</p>
-                    <h4 className='transactions__name'>{d.creator}</h4>
+                    <p className='transactions__amount'>${d.amount}</p>
                 </div>
             )
         })
-
-   
 
     return (
         <>
             <section className='mainwrap'>
                 <section className='bannerwrap'>
-                
-
                     <section className='banner'>
                         <div className='contents'>
                             <div className='leftinfo'>
-                      
                                 <h1 className='slideInDown wow'>
                                     safe & Secure
                                 </h1>
@@ -163,8 +152,6 @@ function Home(props) {
                     </section>
                 </section>
 
-              
-
                 <section className='aboutwrap' style={{ margin: '4rem 0' }}>
                     <div className='contents'>
                         <div className='aboutinside slideInUp wow'>
@@ -202,7 +189,7 @@ function Home(props) {
                             </div>
                             <div className='right'>
                                 <div className='certificatebo'>
-                                        <img src={Certificate} alt='' />
+                                    <img src={Certificate} alt='' />
                                 </div>
                             </div>
                         </div>
@@ -238,14 +225,16 @@ function Home(props) {
                 </section>
 
                 <section className='featureswrap'>
-                    <section style={{marginBottom: '4rem'}}>
+                    <section style={{ marginBottom: '4rem' }}>
                         <TechnicalAnalysis />
                     </section>
                     <div className='contents'>
                         <h2>growveonCT features</h2>
                         <div className='feturesboxinside'>
                             <div className='featuredbox flipinX wow'>
-                                <div className="icon"><img src={Uniformmaturity} alt=""/></div>
+                                <div className='icon'>
+                                    <img src={Uniformmaturity} alt='' />
+                                </div>
                                 <div className='infos'>
                                     <h4>PROFESSIONAL TEAM</h4>
                                     <p>
@@ -257,7 +246,9 @@ function Home(props) {
                                 </div>
                             </div>
                             <div className='featuredbox flipinX wow'>
-                                <div className="icon"><img src={Fastpayment} alt=""/></div>
+                                <div className='icon'>
+                                    <img src={Fastpayment} alt='' />
+                                </div>
                                 <div className='infos'>
                                     <h4>INSTANT PAYOUTS</h4>
                                     <p>
@@ -269,7 +260,9 @@ function Home(props) {
                                 </div>
                             </div>
                             <div className='featuredbox flipinX wow'>
-                                <div className="icon"><img src={Profsupport} alt=""/></div>
+                                <div className='icon'>
+                                    <img src={Profsupport} alt='' />
+                                </div>
                                 <div className='infos'>
                                     <h4>24/7 SUPPORT</h4>
                                     <p>
@@ -281,14 +274,16 @@ function Home(props) {
                                 </div>
                             </div>
                             <div className='featuredbox flipinX wow'>
-                                <div className="icon"><img src={Strongsecurity} alt=""/></div>
+                                <div className='icon'>
+                                    <img src={Strongsecurity} alt='' />
+                                </div>
                                 <div className='infos'>
                                     <h4>STRONG SECURITY</h4>
                                     <p>
-                                        GrowveonCT uses 256 bit ssl
-                                        security. Also our site is hosted on a
-                                        dedicated server and protected against
-                                        all kinds of ddos attacks.
+                                        GrowveonCT uses 256 bit ssl security.
+                                        Also our site is hosted on a dedicated
+                                        server and protected against all kinds
+                                        of ddos attacks.
                                     </p>
                                 </div>
                             </div>
@@ -314,14 +309,11 @@ function Home(props) {
                 </section>
             </section>
 
-
             <div className='lasttenwrap'>
                 <div className='content'>
                     <div className='lasttenbox slideInLeft wow'>
                         <div className='head'>last 10 deposits</div>
-                        <div className='listing'>
-                            {theLatestDeposits}
-                        </div>
+                        <div className='listing'>{theLatestDeposits}</div>
                     </div>
                     <div className='midstatbox slideInUp wow'>
                         <div className='statbox one'>
@@ -329,35 +321,41 @@ function Home(props) {
                                 {onlineDays}
                                 <span>Running Days</span>
                             </div>
-                            <div className="icon"><img src={Runningdays} alt=""/></div>
+                            <div className='icon'>
+                                <img src={Runningdays} alt='' />
+                            </div>
                         </div>
                         <div className='statbox two'>
                             <div className='info'>
                                 ${totalInvestments}
                                 <span>Total Deposited</span>
                             </div>
-                            <div className="icon"><img src={Totaldeposited} alt=""/></div>
+                            <div className='icon'>
+                                <img src={Totaldeposited} alt='' />
+                            </div>
                         </div>
                         <div className='statbox three'>
                             <div className='info'>
                                 ${totalPaidOut}
                                 <span>Total Withdrawal</span>
                             </div>
-                            <div className="icon"><img src={Totalwithdrawals} alt=""/></div>
+                            <div className='icon'>
+                                <img src={Totalwithdrawals} alt='' />
+                            </div>
                         </div>
                         <div className='statbox four'>
                             <div className='info'>
                                 {totalMembers}
                                 <span>Total Members</span>
                             </div>
-                            <div className="icon"><img src={Totalmembers} alt=""/></div>
+                            <div className='icon'>
+                                <img src={Totalmembers} alt='' />
+                            </div>
                         </div>
                     </div>
                     <div className='lasttenbox slideInRight wow'>
                         <div className='head'>last 10 withdrawals</div>
-                        <div className='listing'>
-                            {theLatestWithdrawals}
-                        </div>
+                        <div className='listing'>{theLatestWithdrawals}</div>
                     </div>
                 </div>
             </div>
@@ -369,7 +367,7 @@ const mapStateToProps = (state) => {
     return {
         latestWithdrawals: state.auth.latestWithdrawals,
         latestDeposits: state.auth.latestDeposits,
-        activities: state.auth.activities
+        activities: state.auth.activities,
     }
 }
 
