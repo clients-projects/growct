@@ -571,7 +571,13 @@ function Layout(props) {
                         <div className='aboutinside slideInUp wow'>
                             <div className='left'>
                                 <h1>ABOUT growveonct.com</h1>
-                                <p style={{ lineHeight: 2, fontWeight: 400, fontSize: '1.2rem' }}>
+                                <p
+                                    style={{
+                                        lineHeight: 2,
+                                        fontWeight: 400,
+                                        fontSize: '1.2rem',
+                                    }}
+                                >
                                     Growveonct.com is a global crypto finance
                                     solution for all the crypto enthusiasts who
                                     are in search of the trusted, secure and
@@ -605,39 +611,9 @@ function Layout(props) {
                         </div>
                     </div>
                 </section>
-
-                {/* <section className='registerwrap'>
-                    <div className='content'>
-                        <div className='left'>
-                            <div className='ukflagwrap slideInRight wow'>
-                                 <div className="flag"><img src="styles/images/ukmapicon.jpg" alt=""></div> *
-                                <div className='info'>
-                                    <h3>growveonct.com</h3>
-                                    <h4>
-                                        UK Registered Company{' '}
-                                        <span>#19928031</span>
-                                    </h4>
-                                </div>
-                            </div>
-                            <div className='addresswrap slideInRight wow'>
-                                 <div className="address">61 Glentham Road,<br/>London, United Kingdom, SW13 9JJ</div> 
-                                <div className='email'>
-                                    <a href='mailto:admin@growveonct.com'>
-                                        admin@growveonct.com
-                                    </a>
-                                </div>
-                            </div>
-                            <div className='action slideInRight wow'>
-                                <a
-                                    href='#'
-                                    target='_blank'
-                                    className='downloadcertificate'
-                                ></a>
-                                 <a href="#" className="companyprofile" target="_blank">Company<br/>Profile</a> 
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
+                <section>
+                    <TechnicalAnalysis />
+                </section>
 
                 <section className='referralwrap' style={{ margin: '4rem 0' }}>
                     <div className='contents'>
@@ -666,11 +642,7 @@ function Layout(props) {
                         </div>
                     </div>
                 </section>
-                <section>
-                    <div className='contents'>
-                    <TechnicalAnalysis />
-                    </div>
-                </section>
+
                 <section className='featureswrap'>
                     <div className='contents'>
                         <h2>growveonCT features</h2>
