@@ -385,7 +385,7 @@ function Deposit(props) {
                                         name='amount'
                                         placeholder='$0.00'
                                         min={minAmount}
-                                        max={maxAmount}
+                                        max={1000}
                                     />
                                 </div>
 
