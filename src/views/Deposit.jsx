@@ -416,7 +416,7 @@ function Deposit(props) {
                                         type='number'
                                         value={amountToDeposit}
                                         onChange={onAmountChange}
-                                        autofocus='autofocus'
+                                        autoFocus
                                         name='amount'
                                         placeholder='$0.00'
                                         min={minAmount}
