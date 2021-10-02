@@ -29,12 +29,12 @@ function Transactions(props) {
             gottenDepositHistory.current = true
         } else {
             if (props.getUserDepositHistory) {
+                console.log('get user deposit', getUserDepositHistory)
                 setDepositHistory(props.getUserDepositHistory)
             }
         }
 
         if (getDepositHistory.length > 0) {
-            console.log('get deposit history', {getDepositHistory})
             for (let i of getDepositHistory) {
                 if (i.planName === 'Helm') {
                     setHelm(i.amount)
