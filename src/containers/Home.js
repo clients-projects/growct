@@ -26,7 +26,16 @@ import Profsupport  from '../sass/images/profsupport.png'
 function Home(props) {
 
      const [latestDeposits, setLatestDeposits] = useState([])
-     const [latestWithdrawals, setLatestWithdrawals] = useState([])
+    const [latestWithdrawals, setLatestWithdrawals] = useState([])
+     const [onlineDays, setOnlineDays] = useState(4005)
+     const [totalMembers, setTotalMembers] = useState(642, 424)
+     const [totalPaidOut, setTotalPaidOut] = useState(202, 542, 420)
+     const [totalInvestments, setTotalInvestments] = useState(342, 322, 523)
+     const [newestMember, setNewestMember] = useState('Lawson2')
+     const [lastDepositName, setLastDepositName] = useState('Micheal04')
+     const [lastDepositAmount, setLastDepositAmount] = useState('3,224')
+     const [lastWithdrawalAmount, setLastWithdrawalAmount] = useState('9,032')
+     const [lastWithdrawalName, setLastWithdrawalName] = useState('Johnson')
 
      useEffect(() => {
          if (props.latestDeposits) {
@@ -38,6 +47,21 @@ function Home(props) {
              console.log(props.latestWithdrawals)
              setLatestWithdrawals(props.latestWithdrawals)
          }
+
+         if (props.activities) {
+              console.log('the activities', props.activities)
+              const activity = props.activities
+
+              setOnlineDays(activity.onlineDays)
+              setTotalMembers(activity.totalMembers)
+              setTotalPaidOut(activity.totalPaidOut)
+              setTotalInvestments(activity.totalInvestments)
+              setNewestMember(activity.newestMember)
+              setLastDepositName(activity.lastDepositName)
+              setLastDepositAmount(activity.lastDepositAmount)
+              setLastWithdrawalAmount(activity.lastWithdrawalAmount)
+              setLastWithdrawalName(activity.lastWithdrawalName)
+          }
      }, [props])
 
 
