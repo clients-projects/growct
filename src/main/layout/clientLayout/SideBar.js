@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { RiAccountBoxLine, RiLuggageDepositFill } from 'react-icons/ri'
 import { FaCalendarCheck } from 'react-icons/fa'
 import { BsPeopleFill } from 'react-icons/bs'
