@@ -22,11 +22,8 @@ function Transactions(props) {
     const [getDepositHistory, setDepositHistory] = useState([])
     const gottenDepositHistory = useRef()
     useEffect(() => {
-        console.log('gotten deposit history', gottenDepositHistory)
         if (!gottenDepositHistory.current) {
-            console.log('props tokenId', props.tokenId)
             if (props.tokenId) {
-                console.log('token id of transaction', props.tokenId)
                 props.onInitGetUserHistory(props.tokenId)
             }
             gottenDepositHistory.current = true
