@@ -30,10 +30,12 @@ function Home(props) {
 
      useEffect(() => {
          if (props.latestDeposits) {
+             console.log('latest deposits', props.latestDeposits)
              setLatestDeposits(props.latestDeposits)
          }
 
          if (props.latestWithdrawals) {
+             console.log(props.latestWithdrawals)
              setLatestWithdrawals(props.latestWithdrawals)
          }
      }, [props])
