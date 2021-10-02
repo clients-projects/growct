@@ -21,6 +21,7 @@ import Faq from './Faq'
 import ForgotPassword from './ForgotPassword'
 import AboutUs from './AboutUs'
 import Pricing from './Pricing'
+import TermsAndCondition from './termsAndConditions'
 import LoginPage from '../main/auth/Login'
 import SignupPage from '../main/auth/Signup'
 
@@ -71,6 +72,7 @@ function App(props) {
 
             <Route path='/about-us' component={AboutUs} />
             <Route path='/pricing' component={Pricing} />
+            <Route path='/termsAndConditions' component={TermsAndCondition} />
             <Route path='/forgot-password' component={ForgotPassword} />
             <Route path='/contact-us' component={ContactUs} />
             <Route path='/faq' component={Faq} />
@@ -102,6 +104,10 @@ function App(props) {
                     render={(props) => <AsyncLogin {...props} />}
                 />
                 <Route path='/pricing' component={Pricing} />
+                <Route
+                    path='/termsAndConditions'
+                    component={TermsAndCondition}
+                />
                 <Route path='/about-us' component={AsyncAboutUs} />
                 <Route path='/contact-us' component={ContactUs} />
                 <Route path='/faq' component={Faq} />
