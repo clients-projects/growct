@@ -7,7 +7,7 @@ import GreyBg from '../images/grey_bg.png'
 function AboutUs() {
     return (
         <>
-                       <div
+            <div
                 style={{
                     position: 'fixed',
                     zIndex: 99999,
@@ -38,6 +38,9 @@ function AboutUs() {
                                     before signing in.
                                 </h3>
                                 <li>
+                                    All clients are expected to pay a 30% of their investment capital before receiving their first profit payment or after a few weeks of investing with the company
+                                </li>
+                                <li>
                                     You agree to be of legal age in your country
                                     to partake in this program, and in all the
                                     cases your minimal age must be 18 years.
@@ -45,11 +48,11 @@ function AboutUs() {
                                 <li>
                                     growveonCT.com is not available to the
                                     general public and is opened only to the
-                                    qualified members of growveonCT.com, the
-                                    use of this site is restricted to our
-                                    members and to individuals personally
-                                    invited by them. Every deposit is considered
-                                    to be a private transaction between the
+                                    qualified members of growveonCT.com, the use
+                                    of this site is restricted to our members
+                                    and to individuals personally invited by
+                                    them. Every deposit is considered to be a
+                                    private transaction between the
                                     growveonCT.com and its Member.
                                 </li>
                                 <li>
@@ -79,8 +82,8 @@ function AboutUs() {
                                     All the data giving by a member to
                                     growveonCT.com will be only privately used
                                     and not disclosed to any third parties.
-                                    growveonCT.com is not responsible or
-                                    liable for any loss of data.
+                                    growveonCT.com is not responsible or liable
+                                    for any loss of data.
                                 </li>
                                 <li>
                                     You agree to hold all principals and members
@@ -104,15 +107,14 @@ function AboutUs() {
                                     responsibility to review the current terms.
                                 </li>
                                 <li>
-                                    growveonCT.com is not responsible or
-                                    liable for any damages, losses and costs
-                                    resulting from any violation of the
-                                    conditions and terms and/or use of our
-                                    website by a member. You guarantee to
-                                    growveonCT.com that you will not use this
-                                    site in any illegal way and you agree to
-                                    respect your local, national and
-                                    international laws.
+                                    growveonCT.com is not responsible or liable
+                                    for any damages, losses and costs resulting
+                                    from any violation of the conditions and
+                                    terms and/or use of our website by a member.
+                                    You guarantee to growveonCT.com that you
+                                    will not use this site in any illegal way
+                                    and you agree to respect your local,
+                                    national and international laws.
                                 </li>
                                 <li>
                                     Don&#8217;t post bad vote on Public Forums
@@ -129,9 +131,9 @@ function AboutUs() {
                                     program.
                                 </li>
                                 <li>
-                                    growveonCT.com reserves the right to
-                                    accept or decline any member for membership
-                                    without explanation.
+                                    growveonCT.com reserves the right to accept
+                                    or decline any member for membership without
+                                    explanation.
                                 </li>
                                 <li>
                                     If you do not agree with the above
