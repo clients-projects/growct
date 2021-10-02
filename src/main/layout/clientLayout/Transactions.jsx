@@ -147,7 +147,7 @@ function Transactions(props) {
                             <FaMoneyBillAlt />
                         </div>
                         <div className='data'>
-                            <span>Gold </span>
+                            <span> <b>Gold</b> </span>
                             <span>
                                 Funds: <b>{Gold}</b>
                             </span>
@@ -160,7 +160,7 @@ function Transactions(props) {
                             <FaMoneyBillAlt />
                         </div>
                         <div className='data'>
-                            <span>Diamond </span>
+                            <span><b>Diamond</b> </span>
                             <span>
                                 Funds: <b>{Diamond}</b>
                             </span>
@@ -173,7 +173,7 @@ function Transactions(props) {
                             <FaMoneyBillAlt />
                         </div>
                         <div className='data'>
-                            <span>OneMonth </span>
+                            <span> <b>OneMonth</b> </span>
                             <span>
                                 Funds: <b>{OneMonth}</b>
                             </span>
