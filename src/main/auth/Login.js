@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { connect } from 'react-redux'
-import { GoPerson } from 'react-icons/go'
 import { Link } from 'react-router-dom'
-import { RiLockPasswordFill } from 'react-icons/ri'
 
 import * as orderAction from '../../store/actions/burgerIndex'
 
@@ -11,9 +9,6 @@ import Input from '../Input'
 import { required, length, email } from '../../util/validators'
 import Auth from './Auth'
 
-import GradBgBig from '../../images/grad_bg_big.png'
-import LogRegBg from '../../images/logreg_bg.jpg'
-import Logo from '../../images/logos.png'
 
 const Login = (props) => {
     const [state, setState] = useState({
