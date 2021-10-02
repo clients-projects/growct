@@ -233,7 +233,7 @@ function Home(props) {
                                 <div className='infos'>
                                     <h4>INSTANT PAYOUTS</h4>
                                     <p>
-                                        We at Growveonct believe in full
+                                        We at GrowveonCT believe in full
                                         transparency and hence all our investors
                                         enjoy instant payouts of their profits
                                         and referral earnings.
@@ -257,7 +257,7 @@ function Home(props) {
                                 <div className='infos'>
                                     <h4>STRONG SECURITY</h4>
                                     <p>
-                                        growveonct.com uses 256 bit ssl
+                                        GrowveonCT uses 256 bit ssl
                                         security. Also our site is hosted on a
                                         dedicated server and protected against
                                         all kinds of ddos attacks.
