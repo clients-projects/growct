@@ -15,20 +15,20 @@ import Transactions from '../main/layout/clientLayout/Transactions'
 const Referrals = (props) => {
     return (
         <div className='content'>
-            <div class='bodyWrap'>
+            <div className='bodyWrap'>
                 <Header />
 
                 <div
-                    class='cabContent'
+                    className='cabContent'
                     style={{
                         backgroundImage: `url(${GradBgRev}), url(${WhiteBg})`,
                     }}
                 >
-                    <div class='container'>
-                        <div class='cabHead'>
+                    <div className='container'>
+                        <div className='cabHead'>
                             <SubHeader />
 
-                            <div class='row'>
+                            <div className='row'>
                                 <SideBar />
 
                                 <div className='right'>
@@ -41,26 +41,26 @@ const Referrals = (props) => {
                 <div id='content_place'></div>
 
                 <div
-                    class='cabItem depList'
+                    className='cabItem depList'
                     style={{ background: '#d5e1e3', padding: '4rem 3rem' }}
                 >
-                    <span class='captionDark center'>Referrals</span>
+                    <span className='captionDark center'>Referrals</span>
 
-                    <div class='refLink'>
-                        <div class='userLink'>
+                    <div className='refLink'>
+                        <div className='userLink'>
                             <div
-                                class='userpic'
+                                className='userpic'
                                 style={{
                                     backgroundImage: `url(${avatar})`,
                                 }}
                             ></div>
-                            <span class='subtitle'>your upline:</span>
+                            <span className='subtitle'>your upline:</span>
                             <h2 style={{ color: 'black' }}>{props.upline}</h2>
                         </div>
-                        <div class='refInfo'>
-                            <div class='row'>
-                                <div class='item col4'>
-                                    <div class='in tot'>
+                        <div className='refInfo'>
+                            <div className='row'>
+                                <div className='item col4'>
+                                    <div className='in tot'>
                                         <span>
                                             Total referral comission:{' '}
                                             <b>
@@ -69,16 +69,16 @@ const Referrals = (props) => {
                                         </span>
                                     </div>
                                 </div>
-                                <div class='item col4'>
-                                    <div class='in sum'>
+                                <div className='item col4'>
+                                    <div className='in sum'>
                                         <span>
                                             Referrals:{' '}
                                             <b>{props.totalReferrals}</b>
                                         </span>
                                     </div>
                                 </div>
-                                <div class='item col4'>
-                                    <div class='in act'>
+                                <div className='item col4'>
+                                    <div className='in act'>
                                         <span>
                                             Active referrals:{' '}
                                             <b>{props.activeReferrals}</b>
@@ -90,7 +90,7 @@ const Referrals = (props) => {
                     </div>
                 </div>
 
-                <p class='copyright'>
+                <p className='copyright'>
                     © 2021 Growveon cryptotrading. All rights reserved.
                 </p>
             </div>

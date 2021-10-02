@@ -62,20 +62,20 @@ const PlanOrder = (props) => {
     }
     return (
         <>
-            <div class='bodyWrap'>
+            <div className='bodyWrap'>
                 <Header />
 
                 <div
-                    class='cabContent'
+                    className='cabContent'
                     style={{
                         backgroundImage: `url(${GradBgRev}), url(${WhiteBg})`,
                     }}
                 >
-                    <div class='container'>
-                        <div class='cabHead'>
+                    <div className='container'>
+                        <div className='cabHead'>
                             <SubHeader />
 
-                            <div class='row'>
+                            <div className='row'>
                                 <SideBar />
 
                                 <div className='right'>
@@ -88,14 +88,14 @@ const PlanOrder = (props) => {
                 <div id='content_place'></div>
 
                 <div
-                    class='cabItem depList'
+                    className='cabItem depList'
                     style={{ color: 'black', background: '#b6cece' }}
                 >
-                    <span class='captionDark center'>Withdraw</span>
+                    <span className='captionDark center'>Withdraw</span>
 
-                    <div class='operWrap'>
+                    <div className='operWrap'>
                         <form
-                            class='formLogin'
+                            className='formLogin'
                             style={{ padding: '2rem 15rem' }}
                             onSubmit={handleSubmit}
                         >
@@ -110,7 +110,7 @@ const PlanOrder = (props) => {
                                     {message}
                                 </p>
                             )}
-                            <div class='item'>
+                            <div className='item'>
                                 <h1 style={{ textAlign: 'center' }}>
                                     <pwees></pwees>
                                 </h1>
@@ -126,7 +126,7 @@ const PlanOrder = (props) => {
 
                                 <br />
 
-                                <div class='formBlockLight'>
+                                <div className='formBlockLight'>
                                     <label style={{ color: 'black' }}>
                                         Choose Withdrawal Address:
                                     </label>
@@ -137,7 +137,7 @@ const PlanOrder = (props) => {
                                     />
                                 </div>
 
-                                <div class='formBlockLight'>
+                                <div className='formBlockLight'>
                                     <label style={{ color: 'black' }}>
                                         Amount:
                                     </label>
@@ -153,7 +153,7 @@ const PlanOrder = (props) => {
 
                                 <br />
                                 <span
-                                    class='form-text'
+                                    className='form-text'
                                     style={{
                                         color: 'red',
                                         fontWeight: 'bold',
@@ -173,7 +173,10 @@ const PlanOrder = (props) => {
                                         margin: '2rem 0',
                                     }}
                                 >
-                                    <button type='submit' class='btnFillDarkMd'>
+                                    <button
+                                        type='submit'
+                                        className='btnFillDarkMd'
+                                    >
                                         {props.loading
                                             ? 'Loading..'
                                             : 'Withdraw'}{' '}
@@ -193,7 +196,7 @@ const PlanOrder = (props) => {
                     </div>
                 </div>
 
-                <p class='copyright'>
+                <p className='copyright'>
                     © 2021 Growveon cryptotrading. All rights reserved.
                 </p>
             </div>

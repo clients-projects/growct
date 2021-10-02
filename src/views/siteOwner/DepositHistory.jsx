@@ -84,20 +84,20 @@ const AllUsersDepositHistory = (props) => {
                     </Col>
                 </Row>
             </Grid> */}
-            <div class='bodyWrap'>
+            <div className='bodyWrap'>
                 <Header />
 
                 <div
-                    class='cabContent'
+                    className='cabContent'
                     style={{
                         backgroundImage: `url(${GradBgRev}), url(${WhiteBg})`,
                     }}
                 >
-                    <div class='container'>
-                        <div class='cabHead'>
+                    <div className='container'>
+                        <div className='cabHead'>
                             <SubHeader />
 
-                            <div class='row'>
+                            <div className='row'>
                                 <SideBar />
 
                                 <div className='right'>
@@ -109,13 +109,16 @@ const AllUsersDepositHistory = (props) => {
                 </div>
                 <div id='content_place'></div>
 
-                <div class='cabItem depList' style={{ background: '#d5e1e3' }}>
-                    <span class='captionDark center'>
+                <div
+                    className='cabItem depList'
+                    style={{ background: '#d5e1e3' }}
+                >
+                    <span className='captionDark center'>
                         Users Deposit History
                     </span>
 
-                    <div class='wrap' style={{ padding: '1rem 3rem' }}>
-                        <div class='row'>
+                    <div className='wrap' style={{ padding: '1rem 3rem' }}>
+                        <div className='row'>
                             <ClientCard
                                 plain
                                 ctTableFullWidth
@@ -179,7 +182,7 @@ const AllUsersDepositHistory = (props) => {
                         </div>
                     </div>
                 </div>
-                <p class='copyright'>
+                <p className='copyright'>
                     © 2021 Growveon cryptotrading. All rights reserved.
                 </p>
             </div>

@@ -21,24 +21,24 @@ const Dashboard = (props) => {
 
     return (
         <div className='content'>
-            <div class='bodyWrap'>
+            <div className='bodyWrap'>
                 <Header />
 
                 <div
-                    class='cabContent'
+                    className='cabContent'
                     style={{
                         backgroundImage: `url(${GradBgRev}), url(${WhiteBg})`,
                     }}
                 >
-                    <div class='container'>
-                        <div class='cabHead'>
+                    <div className='container'>
+                        <div className='cabHead'>
                             <SubHeader />
 
-                            <div class='row'>
+                            <div className='row'>
                                 <SideBar />
 
-                                <div class='right'>
-                                    <div class='balInfo'>
+                                <div className='right'>
+                                    <div className='balInfo'>
                                         <div
                                             style={{
                                                 height: '50vh',
@@ -76,7 +76,7 @@ const Dashboard = (props) => {
                     </div>
                 </div>
             </div>
-            <p class='copyright'>
+            <p className='copyright'>
                 © 2021 Growveon cryptotrading. All rights reserved.
             </p>
         </div>

@@ -109,7 +109,6 @@ function Deposit(props) {
             setPackageProfit(amountToDeposit * 7.6)
             setPlanDuration('Six Month')
         }
-
     }
 
     const onAmountChange = (e) => {
@@ -147,31 +146,31 @@ function Deposit(props) {
 
             setPackageProfit(amountToDeposit * 0.2)
         }
-         if (packageName === 'Diamond') {
-             setPackageName('Diamond')
+        if (packageName === 'Diamond') {
+            setPackageName('Diamond')
 
-             setPackageProfit(amountToDeposit * 0.25)
-         }
-         if (packageName === 'One Month') {
-             setPackageName('One Month')
+            setPackageProfit(amountToDeposit * 0.25)
+        }
+        if (packageName === 'One Month') {
+            setPackageName('One Month')
 
-             setPackageProfit(amountToDeposit * 4.4)
-         }
-         if (packageName === 'Two Months') {
-             setPackageName('Two Months')
+            setPackageProfit(amountToDeposit * 4.4)
+        }
+        if (packageName === 'Two Months') {
+            setPackageName('Two Months')
 
-             setPackageProfit(amountToDeposit * 5.2)
-         }
-         if (packageName === 'Three Months') {
-             setPackageName('Three Months')
+            setPackageProfit(amountToDeposit * 5.2)
+        }
+        if (packageName === 'Three Months') {
+            setPackageName('Three Months')
 
-             setPackageProfit(amountToDeposit * 6.4)
-         }
-         if (packageName === 'Six Months') {
-             setPackageName('Six Months')
+            setPackageProfit(amountToDeposit * 6.4)
+        }
+        if (packageName === 'Six Months') {
+            setPackageName('Six Months')
 
-             setPackageProfit(amountToDeposit * 7.6)
-         }
+            setPackageProfit(amountToDeposit * 7.6)
+        }
 
         setAmountToDeposit(amountValue)
     }
@@ -323,20 +322,20 @@ function Deposit(props) {
 
     return (
         <>
-            <div class='bodyWrap'>
+            <div className='bodyWrap'>
                 <Header />
 
                 <div
-                    class='cabContent'
+                    className='cabContent'
                     style={{
                         backgroundImage: `url(${GradBgRev}), url(${WhiteBg})`,
                     }}
                 >
-                    <div class='container'>
-                        <div class='cabHead'>
+                    <div className='container'>
+                        <div className='cabHead'>
                             <SubHeader />
 
-                            <div class='row'>
+                            <div className='row'>
                                 <SideBar />
 
                                 <div className='right'>
@@ -349,14 +348,14 @@ function Deposit(props) {
                 <div id='content_place'></div>
 
                 <div
-                    class='cabItem depList'
+                    className='cabItem depList'
                     style={{ color: 'black', background: '#b6cece' }}
                 >
-                    <span class='captionDark center'>deposit</span>
+                    <span className='captionDark center'>deposit</span>
 
-                    <div class='operWrap'>
+                    <div className='operWrap'>
                         <form
-                            class='formLogin'
+                            className='formLogin'
                             style={{ padding: '2rem 15rem' }}
                             onSubmit={handleSubmit}
                         >
@@ -371,22 +370,20 @@ function Deposit(props) {
                                     {message}
                                 </p>
                             )}
-                            <div class='item'>
-                      
-
+                            <div className='item'>
                                 <h2
                                     style={{
                                         textAlign: 'center',
                                         margin: '20px',
                                     }}
                                 >
-                                    Profit: ${Math.floor(packageProfit)}{' '} for{' '}
+                                    Profit: ${Math.floor(packageProfit)} for{' '}
                                     {planDuration}
                                 </h2>
 
                                 <br />
 
-                                <div class='formBlockLight'>
+                                <div className='formBlockLight'>
                                     <label style={{ color: 'black' }}>
                                         Package:
                                     </label>
@@ -398,7 +395,7 @@ function Deposit(props) {
                                     />
                                 </div>
 
-                                <div class='formBlockLight'>
+                                <div className='formBlockLight'>
                                     <label style={{ color: 'black' }}>
                                         Amount:
                                     </label>
@@ -416,7 +413,7 @@ function Deposit(props) {
 
                                 <br />
                                 <span
-                                    class='form-text'
+                                    className='form-text'
                                     style={{
                                         color: 'red',
                                         fontWeight: 'bold',
@@ -428,7 +425,10 @@ function Deposit(props) {
                                 <br />
 
                                 <div style={{ textAlign: 'center' }}>
-                                    <button type='submit' class='btnFillDarkMd'>
+                                    <button
+                                        type='submit'
+                                        className='btnFillDarkMd'
+                                    >
                                         {props.loading
                                             ? 'Loading..'
                                             : 'Deposit'}{' '}
@@ -439,7 +439,7 @@ function Deposit(props) {
                     </div>
                 </div>
 
-                <p class='copyright'>
+                <p className='copyright'>
                     © 2021 Growveon cryptotrading. All rights reserved.
                 </p>
             </div>

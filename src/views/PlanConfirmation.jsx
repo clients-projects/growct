@@ -12,7 +12,7 @@ function PlanConfirmation(props) {
     console.log('props of location', props.location.state.planDetails)
 
     let duration = 'day'
-    if (name !== 'Helm' || name !== 'Premium'|| name !== 'Business') {
+    if (name !== 'Helm' || name !== 'Premium' || name !== 'Business') {
         duration = 'days'
     }
 
@@ -76,19 +76,14 @@ function PlanConfirmation(props) {
                     )}
                 </h4>
 
-{   copyAddress && (
-                    <p className='copied'>Copied!</p>
-
-    )
-
-}
+                {copyAddress && <p className='copied'>Copied!</p>}
 
                 <CopyToClipboard
                     text={walletAddress}
                     onCopy={() => setCopyAddress(true)}
                 >
                     <button
-                        class='btnFillGradMd copyBtn'
+                        className='btnFillGradMd copyBtn'
                         data-clipboard-target='#linkRef'
                     >
                         Copy Address
