@@ -61,20 +61,14 @@ function Footer() {
                             </li>
                             <li className='col'>
                                 <ul>
-                                    <li>
-                                        <Link to='testimonies'>
-                                            TESTIMONIES
-                                        </Link>
-                                    </li>
+                             
                                     <li>
                                         <Link to='/contact-us'>CONTACT US</Link>
                                     </li>
                                     <li>
                                         <Link to='/faq'>FAQ</Link>
                                     </li>
-                                    <li>
-                                        <Link href='/Auth/signup'>Sign up</Link>
-                                    </li>
+                               
                                 </ul>
                             </li>
                         </ul>
