@@ -28,7 +28,7 @@ function Home(props) {
      const [latestDeposits, setLatestDeposits] = useState([])
     const [latestWithdrawals, setLatestWithdrawals] = useState([])
      const [onlineDays, setOnlineDays] = useState(4005)
-     const [totalMembers, setTotalMembers] = useState(642, 424)
+     let [totalMembers, setTotalMembers] = useState(642, 424)
      const [totalPaidOut, setTotalPaidOut] = useState(202, 542, 420)
      const [totalInvestments, setTotalInvestments] = useState(342, 322, 523)
      const [newestMember, setNewestMember] = useState('Lawson2')
@@ -64,6 +64,8 @@ function Home(props) {
           }
      }, [props])
 
+    
+    totalMembers = 1334 + totalMembers
 
    
 
@@ -315,7 +317,7 @@ function Home(props) {
                         </div>
                         <div className='statbox four'>
                             <div className='info'>
-                                1326 + {totalMembers}
+                                {totalMembers}
                                 <span>Total Members</span>
                             </div>
                             <div className="icon"><img src={Totalmembers} alt=""/></div>
