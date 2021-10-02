@@ -10,6 +10,8 @@ import Input from '../main/Input'
 import { required, email } from '../util/validators'
 import Auth from '../main/auth/Auth'
 
+import GradBgBig from '../images/grad_bg_big.png'
+import LogRegBg from '../images/logreg_bg.jpg'
 import Logo from '../sass/images/GrowveonctLogo.png'
 
 const Login = (props) => {
@@ -94,7 +96,9 @@ const Login = (props) => {
             <div className='bodyWrap'>
                 <div
                     className='logRegPage'
-                   
+                    style={{
+                        backgroundImage: `url(${GradBgBig}), url(${LogRegBg})`,
+                    }}
                 >
                     <div className='container'>
                         <div className='head'>
@@ -182,12 +186,7 @@ const Login = (props) => {
                             </div>
                         </div>
 
-                        <div className='bottomLine table full'>
-                            <p className='copy tCell middle left'>
-                                © 2021 Growveon Crypto Trade. All rights
-                                reserved.
-                            </p>
-                        </div>
+                    
                     </div>
                     <div className='circleBg'>
                         <div className='circle'></div>
