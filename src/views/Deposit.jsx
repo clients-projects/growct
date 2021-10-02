@@ -43,10 +43,7 @@ function Deposit(props) {
     const onPackageChange = (newValue) => {
         const selectedPackage = newValue.value
 
-        console.log({ planDetails })
-        
-         setMinAmount(planDetails.minimum)
-         setMaxAmount(planDetails.maximum)
+      
 
         if (selectedPackage === 'Helm') {
             setPackageName('Helm')
@@ -106,7 +103,15 @@ function Deposit(props) {
     }
 
     const onAmountChange = (e) => {
-        const amountValue = e.target.value        
+        const amountValue = e.target.value
+        
+          console.log({ planDetails })
+
+          setMinAmount(planDetails.minimum)
+        setMaxAmount(planDetails.maximum)
+        
+        console.log({minAmount})
+        console.log({maxAmount})
        
 
         if (packageName === 'Helm') {
