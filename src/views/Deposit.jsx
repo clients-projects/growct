@@ -16,6 +16,8 @@ function Deposit(props) {
     const [packageProfit, setPackageProfit] = useState(0)
     const [amountToDeposit, setAmountToDeposit] = useState(0)
     const [packageName, setPackageName] = useState('')
+    const [minAmount, setMinAmount] = useState()
+    const [maxAmount, setMaxAmount] = useState()
 
     const [planDetails, setPlanDetails] = useState({})
     const [message, setMessage] = useState('')
