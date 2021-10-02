@@ -418,7 +418,6 @@ export const initActivities = (token) => {
             body: JSON.stringify(graphqlQuery),
             headers: {
                 'Content-Type': 'application/json',
-                Authorization: 'Bearer ' + token,
             },
         })
             .then((res) => {
