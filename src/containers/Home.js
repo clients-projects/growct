@@ -226,7 +226,7 @@ function Layout(props) {
                         <h2>growveonCT features</h2>
                         <div className='feturesboxinside'>
                             <div className='featuredbox flipinX wow'>
-                                {/* <div className="icon"><img src="styles/images/uniformmaturity.png" alt=""></div> */}
+                                <div className="icon"><img src={Uniformmaturity} alt=""/></div>
                                 <div className='infos'>
                                     <h4>PROFESSIONAL TEAM</h4>
                                     <p>
