@@ -26,7 +26,6 @@ function Layout(props) {
         }
     }
     const fromLocationSplit = fromlocationPath.split(' ')
-    console.log('from location', fromLocationSplit)
 
     let toRender
 
@@ -40,10 +39,7 @@ function Layout(props) {
      
         localStorage.setItem('cssLoaded', false)
       
-        // const all = import('../sass/components/home.scss')
-        // all.finally((result) => {
-        //     localStorage.setItem('cssLoaded', true)
-        // })
+   
 
         toRender = (
             <>
@@ -78,7 +74,6 @@ function Layout(props) {
 
 const mapStateToProps = (state) => {
     console.log('layout state', state)
-    console.log('url is loaded')
     return {
         tokenId: state.auth.tokenId,
 
