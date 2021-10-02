@@ -359,7 +359,7 @@ function Deposit(props) {
                                     }}
                                 >
                                     Profit: $
-                                    <pwex>{Math.floor(packageProfit)}</pwex>
+                                    <pwex>{Math.floor(packageProfit)}</pwex>{" "} for {" "}
                                     {planDuration}
                                 </h2>
 
