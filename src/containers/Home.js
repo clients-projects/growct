@@ -70,7 +70,7 @@ function Home(props) {
     const theLatestDeposits = latestDeposits.splice(0, 10).map((d, key) => {
         const splitDate = d.updatedAt.split(',')[0]
         return (
-            <div className='transactions__col' key={key}>
+            <div className='transactions' key={key}>
                
                 <p className='transactions__amount'>${d.amount}</p>
 
@@ -85,7 +85,7 @@ function Home(props) {
             const splitDate = d.updatedAt.split(',')[0]
 
             return (
-                <div className='transactions__col' key={key}>
+                <div className='transactions' key={key}>
                     
                     <p className='transactions__amount'>${d.amount}</p>
 
