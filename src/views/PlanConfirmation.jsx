@@ -14,7 +14,7 @@ function PlanConfirmation(props) {
     let duration = 'day'
     console.log({name})
     if (name !== 'Helm' || name !== 'Premium' || name !== 'Business') {
-        console.log({name})
+        console.log('name is not', {name})
         duration = 'days'
     }
 
