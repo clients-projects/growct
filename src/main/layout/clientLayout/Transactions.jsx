@@ -153,6 +153,71 @@ function Transactions(props) {
                         </div>
                     </div>
                 </div>
+                <div className='item'>
+                    <div className='iconLeft'>
+                        <div className='icon'>
+                            <FaMoneyBillAlt />
+                        </div>
+                        <div className='data'>
+                            <span>Diamond </span>
+                            <span>
+                                Funds: <b>{Diamond}</b>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div className='item'>
+                    <div className='iconLeft'>
+                        <div className='icon'>
+                            <FaMoneyBillAlt />
+                        </div>
+                        <div className='data'>
+                            <span>OneMonth </span>
+                            <span>
+                                Funds: <b>{OneMonth}</b>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div className='item'>
+                    <div className='iconLeft'>
+                        <div className='icon'>
+                            <FaMoneyBillAlt />
+                        </div>
+                        <div className='data'>
+                            <span>TwoMonths </span>
+                            <span>
+                                Funds: <b>{TwoMonths}</b>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div className='item'>
+                    <div className='iconLeft'>
+                        <div className='icon'>
+                            <FaMoneyBillAlt />
+                        </div>
+                        <div className='data'>
+                            <span>ThreeMonths </span>
+                            <span>
+                                Funds: <b>{ThreeMonths}</b>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div className='item'>
+                    <div className='iconLeft'>
+                        <div className='icon'>
+                            <FaMoneyBillAlt />
+                        </div>
+                        <div className='data'>
+                            <span>SixMonths </span>
+                            <span>
+                                Funds: <b>{SixMonths}</b>
+                            </span>
+                        </div>
+                    </div>
+                </div>
                 <Link to='referrals' className='btnFillGradMd'>
                     Refferals
                 </Link>
