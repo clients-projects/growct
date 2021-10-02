@@ -24,11 +24,11 @@ function Header(props) {
     return (
         <>
             <header>
-                <div class='topLine'>
-                    <div class='container'>
-                        <div class='table full'>
-                            <div class='logoWrap tCell'>
-                                <div class='logo invisLink'>
+                <div className='topLine'>
+                    <div className='container'>
+                        <div className='table full'>
+                            <div className='logoWrap tCell'>
+                                <div className='logo invisLink'>
                                     <img
                                         src={Logo}
                                         alt='logo'
@@ -38,7 +38,7 @@ function Header(props) {
                                     <a href='/'>main</a>
                                 </div>
                             </div>
-                            <div class='lang tCell right'>
+                            <div className='lang tCell right'>
                                 <Link
                                     to='#'
                                     style={{
@@ -66,23 +66,23 @@ function Header(props) {
                                     </span>
                                 </span>
                             </div>
-                            <div class='userBlock tCell top right'>
-                                <div class='iconLeft'>
+                            <div className='userBlock tCell top right'>
+                                <div className='iconLeft'>
                                     <div
-                                        class='icon'
+                                        className='icon'
                                         style={{
                                             backgroundImage: `url(${avatar})`,
                                         }}
                                     ></div>
-                                    <div class='data'>
+                                    <div className='data'>
                                         <span>Welcome,</span>
                                         <a href='/dashboard'>{props.userData.username}</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class='exit tCell top right'>
+                            <div className='exit tCell top right'>
                                 <button
-                                    class='btnFillColor1Sm'
+                                    className='btnFillColor1Sm'
                                     onClick={props.onLogOut}
                                 >
                                     Logout
@@ -92,8 +92,8 @@ function Header(props) {
                     </div>
                 </div>
 
-                <div class='menu'>
-                    <div class='container'>
+                <div className='menu'>
+                    <div className='container'>
                         <center>
                             <ul>
                                 <li>
