@@ -24,12 +24,12 @@ function PlanConfirmation(props) {
 
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <meta
                     name='viewport'
                     content='width=device-width, initial-scale=1'
                 />
-            </Helmet>
+            </Helmet> */}
 
             <div className='deposit'>
                 <h3 className='deposit__heading'>Deposit Confirmation</h3>
