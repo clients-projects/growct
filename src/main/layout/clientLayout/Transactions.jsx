@@ -53,6 +53,21 @@ function Transactions(props) {
                 if (i.planName === 'Gold') {
                     setGold(i.amount)
                 }
+                if (i.planName === 'Diamond') {
+                    setDiamond(i.amount)
+                }
+                if (i.planName === 'OneMonth') {
+                    setOneMonth(i.amount)
+                }
+                if (i.planName === 'TwoMonths') {
+                    setTwoMonths(i.amount)
+                }
+                if (i.planName === 'ThreeMonths') {
+                    setThreeMonths(i.amount)
+                }
+                if (i.planName === 'SixMonths') {
+                    setSixMonths(i.amount)
+                }
             }
         }
     }, [props, getDepositHistory])
