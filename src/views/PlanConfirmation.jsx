@@ -9,7 +9,7 @@ function PlanConfirmation(props) {
     const { amountToDeposit, currency } = props.location.state
     let { name, percent, days } = props.location.state.planDetails
 
-    console.log(props.location.state.planDetails)
+    console.log('props of location', props.location.state.planDetails)
 
     let duration = 'day'
     if (name !== 'Helm' || name !== 'Premium'|| name !== 'Business') {
