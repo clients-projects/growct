@@ -20,6 +20,7 @@ function Deposit(props) {
     const [maxAmount, setMaxAmount] = useState(5000)
 
     const [planDetails, setPlanDetails] = useState({})
+    const [planDuration, setPlanDuration] = useState(1)
     const [message, setMessage] = useState('')
     const [error, setError] = useState(false)
     const [adminBitcoinAddress, setAdminBitcoinAddress] = useState('')
