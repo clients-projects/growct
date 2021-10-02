@@ -308,28 +308,28 @@ function Layout(props) {
                                 547
                                 <span>Running Days</span>
                             </div>
-                            {/* <div className="icon"><img src="styles/images/runningdays.png" alt=""></div> */}
+                            <div className="icon"><img src={Runningdays} alt=""/></div>
                         </div>
                         <div className='statbox two'>
                             <div className='info'>
                                 $ 335169.13
                                 <span>Total Deposited</span>
                             </div>
-                            {/* <div className="icon"><img src="styles/images/totaldeposited.png" alt=""></div> */}
+                            <div className="icon"><img src={Totaldeposited} alt=""/></div>
                         </div>
                         <div className='statbox three'>
                             <div className='info'>
                                 $ 782310.92
                                 <span>Total Withdrawal</span>
                             </div>
-                            {/* <div className="icon"><img src="styles/images/totalwithdrawals.png" alt=""></div> */}
+                            <div className="icon"><img src={Totalwithdrawals} alt=""/></div>
                         </div>
                         <div className='statbox four'>
                             <div className='info'>
                                 13265
                                 <span>Total Members</span>
                             </div>
-                            {/* <div className="icon"><img src="styles/images/totalmembers.png" alt=""></div> */}
+                            <div className="icon"><img src={Totalmembers} alt=""/></div>
                         </div>
                     </div>
                     <div className='lasttenbox slideInRight wow'>
