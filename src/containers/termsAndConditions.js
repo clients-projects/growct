@@ -72,14 +72,14 @@ font-size: 16px;} */}
                                     cases your minimal age must be 18 years.
                                 </li>
                                 <li>
-                                    nodefrancias.com is not available to the
+                                    growveonCT.com is not available to the
                                     general public and is opened only to the
-                                    qualified members of nodefrancias.com, the
+                                    qualified members of growveonCT.com, the
                                     use of this site is restricted to our
                                     members and to individuals personally
                                     invited by them. Every deposit is considered
                                     to be a private transaction between the
-                                    nodefrancias.com and its Member.
+                                    growveonCT.com and its Member.
                                 </li>
                                 <li>
                                     As a private transaction, this program is
@@ -93,7 +93,7 @@ font-size: 16px;} */}
                                 <li>
                                     You agree that all information,
                                     communications, materials coming from
-                                    nodefrancias.com are unsolicited and must be
+                                    growveonCT.com are unsolicited and must be
                                     kept private, confidential and protected
                                     from any disclosure. Moreover, the
                                     information, communications and materials
@@ -106,9 +106,9 @@ font-size: 16px;} */}
                                 </li>
                                 <li>
                                     All the data giving by a member to
-                                    nodefrancias.com will be only privately used
+                                    growveonCT.com will be only privately used
                                     and not disclosed to any third parties.
-                                    nodefrancias.com is not responsible or
+                                    growveonCT.com is not responsible or
                                     liable for any loss of data.
                                 </li>
                                 <li>
@@ -133,12 +133,12 @@ font-size: 16px;} */}
                                     responsibility to review the current terms.
                                 </li>
                                 <li>
-                                    nodefrancias.com is not responsible or
+                                    growveonCT.com is not responsible or
                                     liable for any damages, losses and costs
                                     resulting from any violation of the
                                     conditions and terms and/or use of our
                                     website by a member. You guarantee to
-                                    nodefrancias.com that you will not use this
+                                    growveonCT.com that you will not use this
                                     site in any illegal way and you agree to
                                     respect your local, national and
                                     international laws.
@@ -158,7 +158,7 @@ font-size: 16px;} */}
                                     program.
                                 </li>
                                 <li>
-                                    nodefrancias.com reserves the right to
+                                    growveonCT.com reserves the right to
                                     accept or decline any member for membership
                                     without explanation.
                                 </li>
