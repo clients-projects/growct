@@ -43,58 +43,103 @@ const PlanOrder = (props) => {
 
     useEffect(() => {
         switch (selectedPlan) {
-            case 'PACKAGE A':
+            case 'Helm':
                 setPlanDetails({
-                    name: 'PACKAGE A',
-                    percent: 10,
-                    hours: 48,
-                    minimum: 50,
-                    maximum: 199,
-                })
-                break
-            case 'PAKAGE B':
-                setPlanDetails({
-                    name: 'PACKAGE B',
-                    percent: 20,
-                    days: 4,
-                    minimum: 200,
-                    maximum: 499,
-                })
-                break
-            case 'PACKAGE C':
-                setPlanDetails({
-                    name: 'PACKAGE C',
-                    percent: 30,
-                    days: 6,
+                    name: 'Helm',
+                    percent: 2,
+                    days: 1,
                     minimum: 500,
-                    maximum: 999,
-                })
-                break
-            case 'PACKAGE D':
-                setPlanDetails({
-                    name: 'PACKAGE D',
-                    percent: 40,
-                    days: 8,
-                    minimum: 1000,
                     maximum: 4999,
                 })
                 break
-            case 'PACKAGE E':
+            case 'Premium':
                 setPlanDetails({
-                    name: 'PACKAGE E',
-                    percent: 60,
-                    days: 10,
+                    name: 'Premium',
+                    percent: 2.5,
+                    days: 1,
                     minimum: 5000,
-                    maximum: 9999,
+                    maximum: 1999,
                 })
                 break
-            case 'PACKAGE F':
+            case 'Business':
                 setPlanDetails({
-                    name: 'PACKAGE F',
-                    percent: 80,
-                    days: 12,
-                    minimum: 10000,
-                    maximum: 'UNLIMITED',
+                    name: 'Business',
+                    percent: 3.5,
+                    days: 1,
+                    minimum: 20000,
+                    maximum: 50000,
+                })
+                break
+            case 'Bronze':
+                setPlanDetails({
+                    name: 'Bronze',
+                    percent: 10,
+                    days: 7,
+                    minimum: 500,
+                    maximum: 4999,
+                })
+                break
+            case 'Silver':
+                setPlanDetails({
+                    name: 'Silver',
+                    percent: 15,
+                    days: 7,
+                    minimum: 5000,
+                    maximum: 19999,
+                })
+                break
+            case 'Gold':
+                setPlanDetails({
+                    name: 'Gold',
+                    percent: 20,
+                    days: 7,
+                    minimum: 20000,
+                    maximum: 49999,
+                })
+                break
+            case 'Diamond':
+                setPlanDetails({
+                    name: 'Diamond',
+                    percent: 25,
+                    days: 7,
+                    minimum: 50000,
+                    maximum: 500000,
+                })
+                break
+            case 'One Month':
+                setPlanDetails({
+                    name: 'One Month',
+                    percent: 44,
+                    days: 30,
+                    minimum: 500,
+                    maximum: 4999,
+                })
+                break
+            case 'Two Months':
+                setPlanDetails({
+                    name: 'Two Months',
+                    percent: 52,
+                    days: 30,
+                    minimum: 5000,
+                    maximum: 19999,
+                })
+                break
+            case 'Three Months':
+                setPlanDetails({
+                    name: 'Three Months',
+                    percent: 64,
+                    days: 30,
+                    minimum: 20000,
+                    maximum: 49999,
+                })
+                break
+            case 'Six Months':
+                setPlanDetails({
+                    name: 'Six Months',
+                    percent: 76,
+                    days: 30,
+                    minimum: 50000,
+                    maximum: 500000,
                 })
                 break
 

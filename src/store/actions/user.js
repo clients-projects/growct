@@ -420,7 +420,6 @@ export const initGetAdmin = (token) => {
                 return res.json()
             })
             .then((resData) => {
-                console.log("get admin action data", resData)
                 if (resData.errors) {
 
                     dispatch(getUsersFailed(resData.errors[0].message))
