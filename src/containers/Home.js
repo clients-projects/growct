@@ -238,7 +238,7 @@ function Layout(props) {
                                 </div>
                             </div>
                             <div className='featuredbox flipinX wow'>
-                                {/* <div className="icon"><img src="styles/images/fastpayment.png" alt=""></div> */}
+                                <div className="icon"><img src={Fastpayment} alt=""/></div>
                                 <div className='infos'>
                                     <h4>INSTANT PAYOUTS</h4>
                                     <p>
@@ -250,7 +250,7 @@ function Layout(props) {
                                 </div>
                             </div>
                             <div className='featuredbox flipinX wow'>
-                                {/* <div className="icon"><img src="styles/images/profsupport.png" alt=""></div> */}
+                                <div className="icon"><img src={Profsupport} alt=""/></div>
                                 <div className='infos'>
                                     <h4>24/7 SUPPORT</h4>
                                     <p>
@@ -262,7 +262,7 @@ function Layout(props) {
                                 </div>
                             </div>
                             <div className='featuredbox flipinX wow'>
-                                {/* <div className="icon"><img src="styles/images/strongsecurity.png" alt=""></div> */}
+                                <div className="icon"><img src={Strongsecurity} alt=""/></div>
                                 <div className='infos'>
                                     <h4>STRONG SECURITY</h4>
                                     <p>
