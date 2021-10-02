@@ -1,15 +1,13 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
-
 import { connect } from 'react-redux'
 
 import GradBgRev from '../images/grad_bg_rev.png'
 import WhiteBg from '../images/white_bg.png'
-import avatar from '../assets/img/faces/face-1.jpg'
 
 import Header from '../main/layout/clientLayout/Header'
 import SideBar from '../main/layout/clientLayout/SideBar'
 import SubHeader from '../main/layout/clientLayout/SubHeader'
+import Transactions from '../main/layout/clientLayout/Transactions'
 
 import * as orderAction from '../store/actions/burgerIndex'
 
@@ -141,122 +139,7 @@ const UserSettings = (props) => {
                                 <SideBar />
 
                                 <div className='right'>
-                                    <div className='balInfo' id='infodata'>
-                                        <div className='item'>
-                                            <div className='iconLeft'>
-                                                <div
-                                                    className='icon'
-                                                    style={{
-                                                        backgroundImage: `url(${avatar})`,
-                                                    }}
-                                                ></div>
-                                                <div className='data'>
-                                                    <span>
-                                                        On the deposit: <b>0</b>
-                                                    </span>
-                                                    <span>
-                                                        Balance: <b>0</b>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className='item'>
-                                            <div className='iconLeft'>
-                                                <div
-                                                    className='icon'
-                                                    style={{
-                                                        backgroundImage: `url(${avatar})`,
-                                                    }}
-                                                ></div>
-                                                <div className='data'>
-                                                    <span>
-                                                        On the deposit: <b>0</b>
-                                                    </span>
-                                                    <span>
-                                                        Balance: <b>0</b>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className='item'>
-                                            <div className='iconLeft'>
-                                                <div
-                                                    className='icon'
-                                                    style={{
-                                                        backgroundImage: `url(${avatar})`,
-                                                    }}
-                                                ></div>
-                                                <div className='data'>
-                                                    <span>
-                                                        On the deposit: <b>0</b>
-                                                    </span>
-                                                    <span>
-                                                        Balance: <b>0</b>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className='item'>
-                                            <div className='iconLeft'>
-                                                <div
-                                                    className='icon'
-                                                    style={{
-                                                        backgroundImage: `url(${avatar})`,
-                                                    }}
-                                                ></div>
-                                                <div className='data'>
-                                                    <span>
-                                                        On the deposit: <b>0</b>
-                                                    </span>
-                                                    <span>
-                                                        Balance: <b>0</b>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className='item'>
-                                            <div className='iconLeft'>
-                                                <div
-                                                    className='icon'
-                                                    style={{
-                                                        backgroundImage: `url(${avatar})`,
-                                                    }}
-                                                ></div>
-                                                <div className='data'>
-                                                    <span>
-                                                        On the deposit: <b>0</b>
-                                                    </span>
-                                                    <span>
-                                                        Balance: <b>0</b>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className='item'>
-                                            <div className='iconLeft'>
-                                                <div
-                                                    className='icon'
-                                                    style={{
-                                                        backgroundImage: `url(${avatar})`,
-                                                    }}
-                                                ></div>
-                                                <div className='data'>
-                                                    <span>
-                                                        On the deposit: <b>0</b>
-                                                    </span>
-                                                    <span>
-                                                        Balance: <b>0</b>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <Link
-                                            href='referrals'
-                                            className='btnFillGradMd'
-                                        >
-                                            Refferals
-                                        </Link>
-                                    </div>
+                                    <Transactions />
                                 </div>
                             </div>
                         </div>
