@@ -10,8 +10,6 @@ import Input from '../main/Input'
 import { required, email } from '../util/validators'
 import Auth from '../main/auth/Auth'
 
-import GradBgBig from '../images/grad_bg_big.png'
-import LogRegBg from '../images/logreg_bg.jpg'
 import Logo from '../sass/images/GrowveonctLogo.png'
 
 const Login = (props) => {
