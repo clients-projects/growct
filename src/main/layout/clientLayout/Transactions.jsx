@@ -50,7 +50,7 @@ function Transactions(props) {
                 if (i.planName === 'Silver') {
                     setSilver(i.amount)
                 }
-                if (i.planName === 'Package F') {
+                if (i.planName === 'Gold') {
                     setGold(i.amount)
                 }
             }
@@ -131,7 +131,7 @@ function Transactions(props) {
                             <FaMoneyBillAlt />
                         </div>
                         <div className='data'>
-                            <span>PACKAGE F </span>
+                            <span>Gold </span>
                             <span>
                                 Funds: <b>{Gold}</b>
                             </span>
