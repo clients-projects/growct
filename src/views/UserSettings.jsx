@@ -324,8 +324,8 @@ const UserSettings = (props) => {
                                                         <td>
                                                             <input
                                                                 type='text'
-                                                                name='bitcoin'
-                                                                value={bitcoin}
+                                                                name='ethereum'
+                                                                value={ethereum}
                                                                 onChange={
                                                                     handleChange
                                                                 }
