@@ -29,7 +29,7 @@ function Transactions(props) {
             gottenDepositHistory.current = true
         } else {
             if (props.getUserDepositHistory) {
-                console.log('get user deposit', getUserDepositHistory)
+                console.log('get user deposit', props.getUserDepositHistory)
                 setDepositHistory(props.getUserDepositHistory)
             }
         }
