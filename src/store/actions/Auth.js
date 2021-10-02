@@ -5,7 +5,6 @@ const URL = 'http://localhost:3030'
 //const URL = 'https://growct.herokuapp.com'
 
 export const authStart = () => {
-    console.log('the url', URL)
     return {
         type: actions.AUTH_START,
     }
