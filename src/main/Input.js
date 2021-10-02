@@ -7,7 +7,7 @@ const input = (props) => {
         <>
             <p className='form__linkText'>
                 I agree with the{' '}
-                <Link to='/terms' className='form__link'>
+                <Link to='termsAndConditions' className='form__link'>
                     Terms and Conditions
                 </Link>
             </p>
