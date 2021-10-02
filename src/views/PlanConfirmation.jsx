@@ -12,7 +12,9 @@ function PlanConfirmation(props) {
     console.log('props of location', props.location.state.planDetails)
 
     let duration = 'day'
+    console.log({name})
     if (name !== 'Helm' || name !== 'Premium' || name !== 'Business') {
+        console.log({name})
         duration = 'days'
     }
 
