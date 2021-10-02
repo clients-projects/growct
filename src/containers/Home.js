@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
-
+import connect from 'react-redux'
 
 import BannerThumb from '../sass/images/bannerthumb.png'
 import GeoTrust from '../sass/images/geotrust.png'
@@ -24,9 +23,7 @@ import Totalwithdrawals  from '../sass/images/totalwithdrawals.png'
 import Profsupport  from '../sass/images/profsupport.png'
 
 
-function Layout(props) {
-
-
+function Home(props) {
 
 
     const [calcNum, setCalcNum] = useState(20)
@@ -342,4 +339,11 @@ function Layout(props) {
     )
 }
 
-export default Layout
+const mapStateToProps = (state) => {
+    return {
+        latestWithdrawals: state.auth.latestWithdrawals,
+        latestDeposits: state.auth.latestDeposits,
+    }
+}
+
+export default connect(mapStateToProps)(Home)
