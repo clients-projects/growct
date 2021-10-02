@@ -182,7 +182,7 @@ function Deposit(props) {
                 setPlanDetails({
                     name: 'Helm',
                     percent: 2,
-                    hours: 24,
+                    day: 1,
                     minimum: 500,
                     maximum: 4999,
                 })
@@ -191,7 +191,7 @@ function Deposit(props) {
                 setPlanDetails({
                     name: 'Premium',
                     percent: 2.5,
-                    hours: 24,
+                    day: 1,
                     minimum: 5000,
                     maximum: 1999,
                 })
@@ -200,7 +200,7 @@ function Deposit(props) {
                 setPlanDetails({
                     name: 'Business',
                     percent: 3.5,
-                    hours: 24,
+                    day: 1,
                     minimum: 20000,
                     maximum: 50000,
                 })

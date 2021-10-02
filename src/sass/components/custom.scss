@@ -456,32 +456,32 @@ background: $color-primary-dark;
 .planinfos ul li span {
 	color: #2d9bd6;
 }
-.deposit {
-	line-height: 85px;
-	text-align: left;
-	max-width: 240px;
-	margin: 0 auto;
-}
-.deposit a {
-	font-size: 24px;
-	color: #dcf5ff;
-	display: block;
-	padding: 0 40px;
-	position: relative;
-}
-.deposit a::after {
-	position: absolute;
-	content: "";
-	width: 24px;
-	height: 24px;
-	background: url(images/depositarrow.png) no-repeat center center;
-	right: 40px;
-	top: 32px;
-	transition:0.5s;
-}
-.deposit a:hover:after {
-	right:50px;
-}
+// .deposit {
+// 	line-height: 85px;
+// 	text-align: left;
+// 	max-width: 240px;
+// 	margin: 0 auto;
+// }
+// .deposit a {
+// 	font-size: 24px;
+// 	color: #dcf5ff;
+// 	display: block;
+// 	padding: 0 40px;
+// 	position: relative;
+// }
+// .deposit a::after {
+// 	position: absolute;
+// 	content: "";
+// 	width: 24px;
+// 	height: 24px;
+// 	background: url(images/depositarrow.png) no-repeat center center;
+// 	right: 40px;
+// 	top: 32px;
+// 	transition:0.5s;
+// }
+// .deposit a:hover:after {
+// 	right:50px;
+// }
 .calculatorwrap {
 	background: #f1f1f1;
 	padding: 0 0 85px;

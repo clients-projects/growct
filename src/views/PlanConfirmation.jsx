@@ -9,6 +9,8 @@ function PlanConfirmation(props) {
     const { amountToDeposit, currency } = props.location.state
     let { name, percent, hours, days } = props.location.state.planDetails
 
+    console.log(props.location.state.planDetails)
+
     let duration = 'hours'
     if (name !== 'PACKAGE A') {
         hours = days
@@ -24,12 +26,12 @@ function PlanConfirmation(props) {
 
     return (
         <>
-            {/* <Helmet>
+            <Helmet>
                 <meta
                     name='viewport'
                     content='width=device-width, initial-scale=1'
                 />
-            </Helmet> */}
+            </Helmet>
 
             <div className='deposit'>
                 <h3 className='deposit__heading'>Deposit Confirmation</h3>
