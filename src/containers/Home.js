@@ -335,6 +335,7 @@ const mapStateToProps = (state) => {
     return {
         latestWithdrawals: state.auth.latestWithdrawals,
         latestDeposits: state.auth.latestDeposits,
+        activities: state.auth.activities
     }
 }
 
