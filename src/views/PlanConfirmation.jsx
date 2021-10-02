@@ -11,11 +11,11 @@ function PlanConfirmation(props) {
 
     console.log('props of location', props.location.state.planDetails)
 
-    let duration = 'day'
+    let duration = 'days'
     console.log('this is name', {name})
-    if (name !== 'Helm' || name !== 'Premium' || name !== 'Business') {
+    if (name === 'Helm' || name === 'Premium' || name === 'Business') {
         console.log('name is not', {name})
-        duration = 'days'
+        duration = 'day'
     }
 
     let walletAddress
