@@ -72,7 +72,7 @@ function App(props) {
 
             <Route path='/about-us' component={AboutUs} />
             <Route path='/pricing' component={Pricing} />
-            <Route path='/termsAndConditions' component={TermsAndCondition} />
+            <Route path='/terms' component={TermsAndCondition} />
             <Route path='/forgot-password' component={ForgotPassword} />
             <Route path='/contact-us' component={ContactUs} />
             <Route path='/faq' component={Faq} />
@@ -105,7 +105,7 @@ function App(props) {
                 />
                 <Route path='/pricing' component={Pricing} />
                 <Route
-                    path='/termsAndConditions'
+                    path='/terms'
                     component={TermsAndCondition}
                 />
                 <Route path='/about-us' component={AsyncAboutUs} />
