@@ -1,42 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-
 import AboutPageBg from '../images/about_page_bg.jpg'
-import { MdLocationOn } from 'react-icons/md'
-import AboutImg from '../images/about_img.jpg'
-import GreyBg from '../images/grey_bg.png'
-import Profile from '../images/profile.jpg'
 
-import { AiFillPhone, AiOutlineFundProjectionScreen } from 'react-icons/ai'
-import { IoIosPeople } from 'react-icons/io'
-import { MdLowPriority } from 'react-icons/md'
-import { RiUserUnfollowFill } from 'react-icons/ri'
-import { SiAutotask } from 'react-icons/si'
+import GreyBg from '../images/grey_bg.png'
+
 
 function AboutUs() {
     return (
         <>
-            {/* .sbmt {background-color: #008CBA; 
-width: 300px;
-border: none;
-color: white;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;}
-
-.sbmt:hover {background-color: #2fa076;
-width: 300px;
-border: none;
-color: white;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;} */}
-
-            <div
+                       <div
                 style={{
                     position: 'fixed',
                     zIndex: 99999,
@@ -51,7 +22,7 @@ font-size: 16px;} */}
                     style={{ backgroundImage: `url(${AboutPageBg})` }}
                 >
                     <div className='container'>
-                        <span className='heading'>About us</span>
+                        <span className='heading'>Terms and Conditions</span>
                     </div>
                 </div>
 
