@@ -284,8 +284,7 @@ function Deposit(props) {
     }, [packageName])
 
     useEffect(() => {
-        console.log('deposit useEffect')
-        console.log('admindata', props.adminData)
+     
         if (props.adminData) {
 
             setAdminBitcoinAddress(props.adminData.bitcoinAccount)
