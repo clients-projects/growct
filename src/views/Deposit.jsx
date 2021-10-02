@@ -434,10 +434,7 @@ function Deposit(props) {
                                         fontSize: 'small',
                                     }}
                                 >
-                                    <pwee>Enter Amount ($) </pwee>
-                                    <br />
-                                    <pweee></pweee>
-                                    <br />
+                                    Enter Amount ($)
                                 </span>
                                 <br />
 
