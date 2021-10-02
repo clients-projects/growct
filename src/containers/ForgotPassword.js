@@ -92,50 +92,11 @@ const Login = (props) => {
 
     return (
         <>
-            {/* <Particles
-                className='particles'
-                params={{
-                    particles: {
-                        number: {
-                            value: 20,
-                        },
-                    },
-                }}
-            />
-            <Auth login message={message}>
-                <h1 className='form__heading form__heading--forgottenPassword'>
-                    Retrive Password
-                </h1>
-                <form onSubmit={handleForgotPassword}>
-                    <Input
-                        id='email'
-                        label='E-Mail'
-                        type='email'
-                        control='input'
-                        onChange={inputChangeHandler}
-                        onBlur={inputBlurHandler.bind('email')}
-                        value={state.loginForm['email'].value}
-                        valid={state.loginForm['email'].valid}
-                        touched={state.loginForm['email'].touched}
-                    />
-                    <div className='form-btn'>
-                        <Button
-                            design='raised'
-                            type='submit'
-                            loading={props.loading}
-                        >
-                            {props.loading ? 'Loading...' : 'Send'}
-                        </Button>
-                    </div>
-                </form>
-            </Auth> */}
-
+           
             <div className='bodyWrap'>
                 <div
                     className='logRegPage'
-                    style={{
-                        backgroundImage: `url(${GradBgBig}), url(${LogRegBg})`,
-                    }}
+                   
                 >
                     <div className='container'>
                         <div className='head'>
@@ -216,13 +177,7 @@ const Login = (props) => {
                                                     ? 'Loading...'
                                                     : 'Get Code'}
                                             </button>
-                                            {/* <button
-                                            type='submit'
-                                            className='btnFillDarkMd'
-                                            name='post'
-                                        >
-                                            Get Code
-                                        </button> */}
+                                         
                                         </div>
                                     </form>
                                 </Auth>
