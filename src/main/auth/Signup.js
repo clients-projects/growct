@@ -611,7 +611,7 @@ const Signup = (props) => {
                             </Auth>
 
                             <section className='loginyellowbottom'>
-                                <a href='?a=login' className='loginnewuser'>
+                                <a href='login' className='loginnewuser'>
                                     Do you have an account?{' '}
                                     <span>Login Here</span>
                                 </a>
