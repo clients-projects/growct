@@ -110,7 +110,6 @@ function Deposit(props) {
             setPlanDuration('Six Month')
         }
 
-        console.log({ planDetails })
     }
 
     const onAmountChange = (e) => {
@@ -121,33 +120,58 @@ function Deposit(props) {
 
         if (packageName === 'Helm') {
             setPackageName('Helm')
-            setPackageProfit(amountValue * 0.1)
+            setPackageProfit(amountToDeposit * 0.02)
         }
         if (packageName === 'Premium') {
             setPackageName('Premium')
 
-            setPackageProfit(amountValue * 0.2)
+            setPackageProfit(amountToDeposit * 0.025)
         }
         if (packageName === 'Business') {
             setPackageName('Business')
 
-            setPackageProfit(amountValue * 0.3)
+            setPackageProfit(amountToDeposit * 0.035)
         }
         if (packageName === 'Bronze') {
             setPackageName('Bronze')
 
-            setPackageProfit(amountValue * 0.4)
+            setPackageProfit(amountToDeposit * 0.1)
         }
         if (packageName === 'Silver') {
             setPackageName('Silver')
 
-            setPackageProfit(amountValue * 0.6)
+            setPackageProfit(amountToDeposit * 0.15)
         }
         if (packageName === 'Gold') {
             setPackageName('Gold')
 
-            setPackageProfit(amountValue * 0.8)
+            setPackageProfit(amountToDeposit * 0.2)
         }
+         if (packageName === 'Diamond') {
+             setPackageName('Diamond')
+
+             setPackageProfit(amountToDeposit * 0.25)
+         }
+         if (packageName === 'One Month') {
+             setPackageName('One Month')
+
+             setPackageProfit(amountToDeposit * 4.4)
+         }
+         if (packageName === 'Two Months') {
+             setPackageName('Two Months')
+
+             setPackageProfit(amountToDeposit * 5.2)
+         }
+         if (packageName === 'Three Months') {
+             setPackageName('Three Months')
+
+             setPackageProfit(amountToDeposit * 6.4)
+         }
+         if (packageName === 'Six Months') {
+             setPackageName('Six Months')
+
+             setPackageProfit(amountToDeposit * 7.6)
+         }
 
         setAmountToDeposit(amountValue)
     }
@@ -220,7 +244,7 @@ function Deposit(props) {
             case 'One Month':
                 setPlanDetails({
                     name: 'One Month',
-                    percent: 11,
+                    percent: 44,
                     days: 30,
                     minimum: 500,
                     maximum: 4999,
@@ -229,7 +253,7 @@ function Deposit(props) {
             case 'Two Months':
                 setPlanDetails({
                     name: 'Two Months',
-                    percent: 13,
+                    percent: 52,
                     days: 30,
                     minimum: 5000,
                     maximum: 19999,
@@ -238,7 +262,7 @@ function Deposit(props) {
             case 'Three Months':
                 setPlanDetails({
                     name: 'Three Months',
-                    percent: 16,
+                    percent: 64,
                     days: 30,
                     minimum: 20000,
                     maximum: 49999,
@@ -247,7 +271,7 @@ function Deposit(props) {
             case 'Six Months':
                 setPlanDetails({
                     name: 'Six Months',
-                    percent: 19,
+                    percent: 76,
                     days: 30,
                     minimum: 50000,
                     maximum: 500000,
