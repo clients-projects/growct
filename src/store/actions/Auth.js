@@ -97,7 +97,6 @@ export const getMember = (data) => {
 }
 
 export const initGetUser = (token) => {
-    console.log('get user action')
 
     return (dispatch) => {
         dispatch(authStart())
