@@ -12,6 +12,7 @@ function Transactions(props) {
     useEffect(() => {
         if (!gottenDepositHistory.current) {
             if (props.tokenId) {
+                console.log('token id of transaction')
                 props.onInitGetUserHistory(props.tokenId)
             }
             gottenDepositHistory.current = true
