@@ -20,7 +20,7 @@ function Deposit(props) {
     const [maxAmount, setMaxAmount] = useState(5000)
 
     const [planDetails, setPlanDetails] = useState({})
-    const [planDuration, setPlanDuration] = useState(1)
+    const [planDuration, setPlanDuration] = useState('24hrs')
     const [message, setMessage] = useState('')
     const [error, setError] = useState(false)
     const [adminBitcoinAddress, setAdminBitcoinAddress] = useState('')
@@ -37,14 +37,13 @@ function Deposit(props) {
         { label: 'One Month ($500 - $4,999)', value: 'One Month' },
         { label: 'Two Months ($5,000 - $19,999)', value: 'Two Months' },
         { label: 'Three Months ($20,000 - $49,999)', value: 'Three Months' },
-        { label: 'Six Months ($50,000 - $500,000)', value: 'Six Months' }
-       
+        { label: 'Six Months ($50,000 - $500,000)', value: 'Six Months' },
     ]
 
     const onPackageChange = (newValue) => {
         const selectedPackage = newValue.value
 
-      
+        console.log({planDetails})
 
         if (selectedPackage === 'Helm') {
             setPackageName('Helm')
@@ -100,20 +99,16 @@ function Deposit(props) {
 
             setPackageProfit(amountToDeposit * 0.8)
         }
-        
+
+        console.log({planDetails})
     }
 
     const onAmountChange = (e) => {
         const amountValue = e.target.value
-        
-          console.log({ planDetails })
 
-          setMinAmount(planDetails.minimum)
+
+        setMinAmount(planDetails.minimum)
         setMaxAmount(planDetails.maximum)
-        
-        console.log({minAmount})
-        console.log({maxAmount})
-       
 
         if (packageName === 'Helm') {
             setPackageName('Helm')
@@ -365,6 +360,7 @@ function Deposit(props) {
                                 >
                                     Profit: $
                                     <pwex>{Math.floor(packageProfit)}</pwex>
+                                    {planDuration}
                                 </h2>
 
                                 <br />
