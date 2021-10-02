@@ -7,13 +7,12 @@ function PlanConfirmation(props) {
 
     const [copyAddress, setCopyAddress] = useState(false)
     const { amountToDeposit, currency } = props.location.state
-    let { name, percent, hours, days } = props.location.state.planDetails
+    let { name, percent, days } = props.location.state.planDetails
 
     console.log(props.location.state.planDetails)
 
-    let duration = 'hours'
-    if (name !== 'PACKAGE A') {
-        hours = days
+    let duration = 'day'
+    if (name !== 'Helm' || name !== 'Premium'|| name !== 'Business') {
         duration = 'days'
     }
 
@@ -44,7 +43,7 @@ function PlanConfirmation(props) {
                         {name}
                     </p>
                     <p className='deposit__info--left'>Profit</p>
-                    <p className='deposit__info--right'>{`${percent}% for ${hours} ${duration}`}</p>
+                    <p className='deposit__info--right'>{`${percent}% for ${days} ${duration}`}</p>
                     <p className='deposit__info--left'>Principal Return</p>
                     <p className='deposit__info--right'>Yes</p>
                     <p className='deposit__info--left'>Principal Withdraw</p>
