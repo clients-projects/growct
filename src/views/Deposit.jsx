@@ -45,68 +45,68 @@ function Deposit(props) {
 
         if (selectedPackage === 'Helm') {
             setPackageName('Helm')
-            setPackageProfit(amountToDeposit * 0.1)
+            setPackageProfit(amountToDeposit * 0.02)
 
             setPlanDuration('24hrs')
         }
         if (selectedPackage === 'Premium') {
             setPackageName('Premium')
 
-            setPackageProfit(amountToDeposit * 0.2)
+            setPackageProfit(amountToDeposit * 0.025)
             setPlanDuration('24hrs')
         }
         if (selectedPackage === 'Business') {
             setPackageName('Business')
 
-            setPackageProfit(amountToDeposit * 0.3)
+            setPackageProfit(amountToDeposit * 0.035)
             setPlanDuration('24hrs')
         }
         if (selectedPackage === 'Bronze') {
             setPackageName('Bronze')
 
-            setPackageProfit(amountToDeposit * 0.4)
+            setPackageProfit(amountToDeposit * 0.1)
             setPlanDuration('1 week')
         }
         if (selectedPackage === 'Silver') {
             setPackageName('Silver')
 
-            setPackageProfit(amountToDeposit * 0.6)
+            setPackageProfit(amountToDeposit * 0.15)
             setPlanDuration('1 week')
         }
         if (selectedPackage === 'Gold') {
             setPackageName('Gold')
 
-            setPackageProfit(amountToDeposit * 0.8)
+            setPackageProfit(amountToDeposit * 0.2)
             setPlanDuration('1 week')
         }
         if (selectedPackage === 'Diamond') {
             setPackageName('Diamond')
 
-            setPackageProfit(amountToDeposit * 0.8)
+            setPackageProfit(amountToDeposit * 0.25)
             setPlanDuration('1 week')
         }
         if (selectedPackage === 'One Month') {
             setPackageName('One Month')
 
-            setPackageProfit(amountToDeposit * 0.8)
+            setPackageProfit(amountToDeposit * 4.4)
             setPlanDuration('One Month')
         }
         if (selectedPackage === 'Two Months') {
             setPackageName('Two Months')
 
-            setPackageProfit(amountToDeposit * 0.8)
+            setPackageProfit(amountToDeposit * 5.2)
             setPlanDuration('Two Month')
         }
         if (selectedPackage === 'Three Months') {
             setPackageName('Three Months')
 
-            setPackageProfit(amountToDeposit * 0.8)
+            setPackageProfit(amountToDeposit * 6.4)
             setPlanDuration('Three Month')
         }
         if (selectedPackage === 'Six Months') {
             setPackageName('Six Months')
 
-            setPackageProfit(amountToDeposit * 0.8)
+            setPackageProfit(amountToDeposit * 7.6)
             setPlanDuration('Six Month')
         }
 
