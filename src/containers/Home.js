@@ -147,7 +147,7 @@ function Home(props) {
                     <div className='contents'>
                         <div className='aboutinside slideInUp wow'>
                             <div className=''>
-                                <h1>ABOUT GROWVEON CRYPTO TRADING</h1>
+                                <h1 style={{textAlign: 'center'}}>ABOUT GROWVEON CRYPTO TRADING</h1>
                                 <p
                                     style={{
                                         lineHeight: 2,
@@ -176,7 +176,7 @@ function Home(props) {
                                     for financing and grow in the booming crypto
                                     marketplace.
                                 </p>
-                                <a href='?a=faq'>More Information</a>
+                                {/* <a href='?a=faq'>More Information</a> */}
                             </div>
                             {/* <div className='right'>
                                 <div className='certificatebo'>
