@@ -48,7 +48,6 @@ function Home(props) {
             setTotalMembers(activity.totalMembers)
             setTotalPaidOut(activity.totalPaidOut)
             setTotalInvestments(activity.totalInvestments)
-           
         }
     }, [props])
 
@@ -147,13 +146,15 @@ function Home(props) {
                     <div className='contents'>
                         <div className='aboutinside slideInUp wow'>
                             <div className=''>
-                                <h1 style={{textAlign: 'center'}}>ABOUT GROWVEON CRYPTO TRADING</h1>
+                                <h1 style={{ textAlign: 'center' }}>
+                                    ABOUT GROWVEON CRYPTO TRADING
+                                </h1>
                                 <p
                                     style={{
                                         lineHeight: 2,
                                         fontWeight: 400,
                                         fontSize: '1.2rem',
-                                        paddingTop: '1rem'
+                                        paddingTop: '1rem',
                                     }}
                                 >
                                     GrowveonCT is a global crypto finance
@@ -208,9 +209,8 @@ function Home(props) {
                             </h3>
                             <p>
                                 Earn with the most premium multi level referral
-                                commission program by referring to your friends,
-                                relative, colleagues and your networking
-                                circles.
+                                commission program by referring your friends,
+                                and networking circles.
                             </p>
                         </div>
                     </div>
@@ -230,7 +230,9 @@ function Home(props) {
                                 <div className='infos'>
                                     <h4>PROFESSIONAL TEAM</h4>
                                     <p>
-                                        Growveon CT is saddled by a professional experienced admin team experienced in handling high yield investment programs
+                                        Growveon CT is saddled by a professional
+                                        experienced admin team experienced in
+                                        handling high yield investment programs
                                     </p>
                                 </div>
                             </div>
@@ -269,7 +271,9 @@ function Home(props) {
                                 <div className='infos'>
                                     <h4>STRONG SECURITY</h4>
                                     <p>
-                                        Growveon CT runs a 256 bit ssl security hosted on a dedicated server and protected from all cyber attacks
+                                        Growveon CT runs a 256 bit ssl security
+                                        hosted on a dedicated server and
+                                        protected from all cyber attacks
                                     </p>
                                 </div>
                             </div>
