@@ -153,6 +153,7 @@ function Home(props) {
                                         lineHeight: 2,
                                         fontWeight: 400,
                                         fontSize: '1.2rem',
+                                        paddingTop: '1rem'
                                     }}
                                 >
                                     GrowveonCT is a global crypto finance
