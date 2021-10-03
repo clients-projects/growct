@@ -106,7 +106,7 @@ function Home(props) {
                                     to accomplish the most outstanding profit.
                                 </p>
                                 <a
-                                    href='/signup'
+                                    href='/Auth/signup'
                                     className='slideInDown wow action'
                                 >
                                     Invest now
