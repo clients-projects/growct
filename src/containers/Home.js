@@ -146,8 +146,8 @@ function Home(props) {
                 <section className='aboutwrap' style={{ margin: '4rem 0' }}>
                     <div className='contents'>
                         <div className='aboutinside slideInUp wow'>
-                            <div className='left'>
-                                <h1>ABOUT growveonct</h1>
+                            <div className=''>
+                                <h1>ABOUT GROWVEON CRYPTO TRADING</h1>
                                 <p
                                     style={{
                                         lineHeight: 2,
@@ -155,7 +155,7 @@ function Home(props) {
                                         fontSize: '1.2rem',
                                     }}
                                 >
-                                    Growveonct.com is a global crypto finance
+                                    GrowveonCT is a global crypto finance
                                     solution for all the crypto enthusiasts who
                                     are in search of the trusted, secure and
                                     reliable platform. growveonct.com is
