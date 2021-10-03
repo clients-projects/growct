@@ -178,11 +178,11 @@ function Home(props) {
                                 </p>
                                 <a href='?a=faq'>More Information</a>
                             </div>
-                            <div className='right'>
+                            {/* <div className='right'>
                                 <div className='certificatebo'>
                                     <img src={Certificate} alt='' />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>
