@@ -110,7 +110,7 @@ font-size: 16px;} */}
                                 </div>
                             </div>
                             <p>
-                                GrowveonCT is the only company dedicated to work
+                                GrowveonCT is dedicated to work
                                 on EA, better known as Algo Trading, which
                                 atomizes the trading process and brings risk
                                 free profit, saves times, money and build better
@@ -118,7 +118,7 @@ font-size: 16px;} */}
                             </p>
                             <p>
                                 A Robot trading System is used to automatically
-                                generate trading signals on the forex trader’s
+                                generate trading signals on the Crypto trader’s
                                 behalf. As such, a manual trader has to glue
                                 himself or herself in front of a computer screen
                                 and wait for the appropriate time when the
@@ -137,7 +137,7 @@ font-size: 16px;} */}
                                 perform the buy and sell actions while you spend
                                 your time on the beach. One of the main reasons
                                 why traders fail is emotional trading. However,
-                                a forex robot lowers or eliminates emotions from
+                                a Crypto robot lowers or eliminates emotions from
                                 the trading equation and give you a reliable way
                                 of earning money.
                             </p>
