@@ -107,7 +107,7 @@ function Home(props) {
                                     to accomplish the most outstanding profit.
                                 </p>
                                 <a
-                                    href='?a=signup'
+                                    href='/signup'
                                     className='slideInDown wow action'
                                 >
                                     Invest now
@@ -230,10 +230,7 @@ function Home(props) {
                                 <div className='infos'>
                                     <h4>PROFESSIONAL TEAM</h4>
                                     <p>
-                                        GrowveonCT Ltd is run by a very
-                                        professional and experienced admin team
-                                        who are expert in handling the hyip
-                                        yield investment programs.
+                                        Growveon CT is saddled by a professional experienced admin team experienced in handling high yield investment programs
                                     </p>
                                 </div>
                             </div>
@@ -272,10 +269,7 @@ function Home(props) {
                                 <div className='infos'>
                                     <h4>STRONG SECURITY</h4>
                                     <p>
-                                        GrowveonCT uses 256 bit ssl security.
-                                        Also our site is hosted on a dedicated
-                                        server and protected against all kinds
-                                        of ddos attacks.
+                                        Growveon CT runs a 256 bit ssl security hosted on a dedicated server and protected from all cyber attacks
                                     </p>
                                 </div>
                             </div>
