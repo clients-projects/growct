@@ -53,6 +53,8 @@ function Home(props) {
 
     totalMembers = 1334 + totalMembers
 
+    console.log({totalMembers})
+
     const theLatestDeposits = latestDeposits.splice(0, 10).map((d, key) => {
         const splitDate = d.updatedAt.split(',')[0]
         return (
