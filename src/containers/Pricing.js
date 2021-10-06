@@ -402,8 +402,8 @@ function Pricing() {
                             style={{ color: 'white' }}
                         >
                             <h2 style={{ textAlign: 'center' }}>
-                                *INVESTED CAPITAL IS DUE FOR WITHDRAWAL AFTER
-                                (28 days)*
+                                *All Invested capital attains withdrawal phase
+                                after 28 days.*
                             </h2>
                         </div>
                     </div>
