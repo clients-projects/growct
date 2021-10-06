@@ -125,19 +125,17 @@ font-size: 16px;} */}
                                 his square hole.
                             </p>
                             <p>
-                                With robot trading, the trading rules or
-                                strategies have been ingrained in a computer
-                                program, and your trade decisions will be made
-                                automatically without your intervention. With a
-                                trading robot, you can trade profitably 24 hours
-                                a day and increase your profits. After you’ve
-                                coded your strategies on a robot, it will
-                                perform the buy and sell actions while you spend
-                                your time on the beach. One of the main reasons
-                                why traders fail is emotional trading. However,
-                                a Crypto robot lowers or eliminates emotions
-                                from the trading equation and give you a
-                                reliable way of earning money.
+                                With AI trading, the signal artifice are
+                                ingrained in a systems program, giving you a
+                                monopoly to automatically conform with the
+                                finest and perfect trading signals. With a
+                                trading robot, one can hit the crests 24 hours a
+                                day and Inflate maximally on output. As we know
+                                the major limitation to trading success remains
+                                emotions. However, a Crypto robot which operates
+                                0s and 1s eliminates the human sensation from
+                                the trading equation and gives you the best
+                                trading signals to hitting the crypto casino
                             </p>
                             <div
                                 className='img left'
@@ -151,10 +149,13 @@ font-size: 16px;} */}
                                 the ledger is distributed across all nodes in
                                 the system making hacking near impossible. All
                                 of the solidity Ethereum smart contract code
-                                used for the token sale and vault account was
+                                used for the token sales and vault account was
                                 fully audited by SmartDec, a firm specialized in
                                 Smart Contract Security Audit. No single
-                                authority has control.
+                                authority has control. Against this backdrop we
+                                Growveon, we are here to give the best,
+                                proficient and Paramount lap of luxury to your
+                                financial Dreams. We Growveon! We keep our word.
                             </p>
                         </div>
                         <div className='advTempl'>

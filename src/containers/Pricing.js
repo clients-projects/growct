@@ -23,7 +23,11 @@ function Pricing() {
                 <section className='investmentofferwrap'>
                     <div
                         className='content'
-                        style={{ display: 'grid', gap: '3rem', padding: '0 2rem' }}
+                        style={{
+                            display: 'grid',
+                            gap: '3rem',
+                            padding: '0 2rem',
+                        }}
                     >
                         <div>
                             <div className='left slideInDown wow'>
@@ -34,11 +38,10 @@ function Pricing() {
                             </div>
                             <div className='right slideInDown wow'>
                                 <p style={{ fontWeight: 400 }}>
-                                    growveonct.com proposes you the most
-                                    dependable and novel finance system to
-                                    choose not only for settlements but also for
-                                    the possibility to earn the most
-                                    extraordinary profit.
+                                    GrowveonCT proposes you the most dependable
+                                    and novel finance system to choose not only
+                                    for settlements but also for the possibility
+                                    to earn the most extraordinary profit
                                 </p>
                             </div>
                         </div>
