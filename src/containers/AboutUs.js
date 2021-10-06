@@ -110,21 +110,19 @@ font-size: 16px;} */}
                                 </div>
                             </div>
                             <p>
-                                GrowveonCT is dedicated to work
-                                on EA, better known as Algo Trading, which
-                                atomizes the trading process and brings risk
-                                free profit, saves times, money and build better
-                                wealth over long period of time.
+                                GrowveonCT is an investment enterprise steered
+                                at decrypting the crypto puzzle and bringing
+                                risk free profit at your acknowledged time to
+                                secure your financial dreams
                             </p>
                             <p>
-                                A Robot trading System is used to automatically
-                                generate trading signals on the Crypto trader’s
-                                behalf. As such, a manual trader has to glue
-                                himself or herself in front of a computer screen
-                                and wait for the appropriate time when the
-                                criteria for making a decision fits with his or
-                                her rules—something which is tiring and
-                                complicated.
+                                An A.I Robotic trading System is used to
+                                automatically generate trading signals on the
+                                crypto trader’s specifications. GrowveonCT is
+                                aimed at neutralizing the stick like glue
+                                interphase between the trader and his screen
+                                while waiting for the trading peg to conform to
+                                his square hole.
                             </p>
                             <p>
                                 With robot trading, the trading rules or
@@ -137,9 +135,9 @@ font-size: 16px;} */}
                                 perform the buy and sell actions while you spend
                                 your time on the beach. One of the main reasons
                                 why traders fail is emotional trading. However,
-                                a Crypto robot lowers or eliminates emotions from
-                                the trading equation and give you a reliable way
-                                of earning money.
+                                a Crypto robot lowers or eliminates emotions
+                                from the trading equation and give you a
+                                reliable way of earning money.
                             </p>
                             <div
                                 className='img left'

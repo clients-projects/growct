@@ -41,7 +41,6 @@ function Home(props) {
         }
 
         if (props.activities) {
-            console.log('the activities', props.activities)
             const activity = props.activities
 
             setOnlineDays(activity.onlineDays)
@@ -101,11 +100,11 @@ function Home(props) {
                                     className='slideInDown wow'
                                     style={{ fontWeight: 400 }}
                                 >
-                                    growveonct.com is a global cryptocurrency
-                                    platform which aims to extract maximum from
-                                    the opportunities of trading and investments
-                                    while operating with the assets of customers
-                                    to accomplish the most outstanding profit.
+                                    GrowveonCT is a global crypto currency
+                                    platform which aims at extracting maximally
+                                    from trading investment opportunities while
+                                    operating capital of customers to generate
+                                    phenomenal profit
                                 </p>
                                 <a
                                     href='/Auth/signup'
