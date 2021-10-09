@@ -30,14 +30,14 @@ const Faq = () => {
                                 style={{ marginBottom: '40px' }}
                             >
                                 <p>
-                                    In Cryptro, everyone has a voice and the
+                                    In Crypto, everyone has a voice and the
                                     ability to propose projects directly to the
                                     network. Anything you can do – from
-                                    marketing to development – that helps
-                                    Cryptro grow and improve can be funded. This
-                                    means Cryptro funds its own growth and
-                                    adoption, consensus is guaranteed, and
-                                    everyone is accountable to the network.
+                                    marketing to development – that helps Crypto
+                                    grow and improve can be funded. This means
+                                    Crypto funds its own growth and adoption,
+                                    consensus is guaranteed, and everyone is
+                                    accountable to the network.
                                 </p>
                             </div>
 
@@ -46,28 +46,25 @@ const Faq = () => {
                                     <div className='iconLeft'>
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
-                                            What is GrowveonCT? What are the
-                                            main features of it?
+                                            What is GrowveonCT? What are its
+                                            main features?
                                         </span>
                                     </div>
                                 </div>
                                 <div className='content'>
                                     <div className='textBlock'>
                                         <p>
-                                            <strong>GrowveonCT</strong> is a
-                                            fully automated trading robot, which
-                                            works well on the{' '}
-                                            <strong>MT4</strong> platform. It
-                                            helps you gain the maximum profit in
-                                            Trading Forex by analysing the
-                                            market theoretically. With a great
+                                            <strong>GrowveonCT</strong> is a is
+                                            a fully automated trading robot,
+                                            which performs optimally on the MT4
+                                            (Meta Trader 4) platform. It helps
+                                            you gain the maximum profit in
+                                            Trading crypto by analysing the
+                                            market spontaneously. With a great
                                             reward to risk ratio, it is
                                             developed for precisely calculating
-                                            the market tendencies and act
-                                            accordingly. That’s why it is
-                                            capable of functioning with all
-                                            regulated brokers and to produce
-                                            tremendous results.
+                                            the market tendencies and function
+                                            proportionately.
                                         </p>
                                         <p>
                                             In short, it is an Auto-Trading
