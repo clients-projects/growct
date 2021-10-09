@@ -116,8 +116,7 @@ const Faq = () => {
                                     <div className='iconLeft'>
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
-                                            Why should I trust GrowveonCT
-                                            (Robot)?
+                                            Why should I trust GrowveonCT?
                                         </span>
                                     </div>
                                 </div>
