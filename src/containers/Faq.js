@@ -56,8 +56,8 @@ const Faq = () => {
                                         <p>
                                             <strong>GrowveonCT</strong> is a is
                                             a fully automated trading robot,
-                                            which performs optimally on the MT4
-                                            (Meta Trader 4) platform. It helps
+                                            which performs optimally on the <strong> MT4
+                                            (Meta Trader 4) </strong> platform. It helps
                                             you gain the maximum profit in
                                             Trading crypto by analysing the
                                             market spontaneously. With a great
@@ -66,15 +66,7 @@ const Faq = () => {
                                             the market tendencies and function
                                             proportionately.
                                         </p>
-                                        <p>
-                                            In short, it is an Auto-Trading
-                                            Forex Expert Advisor, which works
-                                            great with all types of Brokerage on
-                                            the <strong>MT4</strong> platform,
-                                            including the types Micro,
-                                            classNameic, Premium, Standard, ECN,
-                                            Islamic and Zero Spread Accounts.
-                                        </p>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -84,8 +76,7 @@ const Faq = () => {
                                     <div className='iconLeft'>
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
-                                            Which Trading Instruments does Robot
-                                            44 Trade work on?
+                                            Which Trading Instruments does GrowveonCT work on?
                                         </span>
                                     </div>
                                 </div>
@@ -99,7 +90,9 @@ const Faq = () => {
                                         <ul>
                                             <li>All Currency Pairs</li>
                                             <li>Gold (XAUUSD)</li>
-                                            <li>Metals</li>
+                                            <li>Bitcoin</li>
+                                            <li>Ethereum</li>
+                                            <li>Litecoin</li>
                                             <li>Oil (WTI and Brent)</li>
                                             <li>Silver (XAGUSD)</li>
                                             <li>Commodities</li>
@@ -142,7 +135,7 @@ const Faq = () => {
                                             </strong>{' '}
                                             of our product before proceeding to
                                             purchase it. There are many reputed
-                                            Forex review websites/Forums and
+                                            Crypto review websites/Forums and
                                             experts, which rank{' '}
                                             <strong>GrowveonCT</strong> on top,
                                             considering us the best Performing
@@ -202,7 +195,7 @@ const Faq = () => {
                                             a completely different and most
                                             powerful strategy to help you thrive
                                             towards more and more profit in the
-                                            Forex market.
+                                            Crypto market.
                                         </p>
                                     </div>
                                 </div>
@@ -450,7 +443,7 @@ const Faq = () => {
                                     <div className='iconLeft'>
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
-                                            HHow long will it take to get my
+                                            How long will it take to get my
                                             withdrawal into my wallet.?
                                         </span>
                                     </div>
@@ -472,7 +465,7 @@ const Faq = () => {
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
                                             In unpredicted political or economic
-                                            events, which affect the FOREX
+                                            events, which affect the Crypto
                                             market, will the EA be able to trade
                                             well? Should I keep it running on
                                             news release?
@@ -555,7 +548,7 @@ const Faq = () => {
                                             about GrowveonCT. We strongly
                                             condemn those all comments and
                                             irresponsible conclusions, coming
-                                            from the knobs of FOREX Trading.
+                                            from the knobs of Crypto Trading.
                                         </p>
                                     </div>
                                 </div>
@@ -594,7 +587,7 @@ const Faq = () => {
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
                                             What if I am completely naïve to
-                                            trading FOREX? Should I buy Robot 44
+                                            trading Crypto? Should I buy Robot 44
                                             Trade?
                                         </span>
                                     </div>
@@ -606,7 +599,7 @@ const Faq = () => {
                                             helps you install the system on your
                                             Account with step-by-step screenshot
                                             examples. You do not require
-                                            learning and researching on Forex or
+                                            learning and researching on Crypto or
                                             spending a huge time monitoring the
                                             charts on your computer screen,{' '}
                                             <strong>GrowveonCT</strong> will do
