@@ -372,7 +372,7 @@ const Faq = () => {
                                                 to Friday
                                             </li>
                                             <li>
-                                                16 PM to <strong>44</strong> PM
+                                                16 PM to <strong>4</strong> PM
                                                 – Saturday to Sunday
                                             </li>
                                         </ul>

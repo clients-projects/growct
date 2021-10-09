@@ -8,7 +8,6 @@ import SiteLock from '../sass/images/sitelock.png'
 import Mcafee from '../sass/images/mcafee.png'
 import BannerBitcoin from '../sass/images/bannerbitcoin.png'
 import BannerEthereum from '../sass/images/bannerethreum.png'
-import Certificate from '../sass/images/certificatethumb.jpg'
 
 import TechnicalAnalysis from '../tradeviewWidgets/AdvancedRealChart'
 
