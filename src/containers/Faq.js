@@ -201,32 +201,7 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div className='faqItem'>
-                                <div className='head'>
-                                    <div className='iconLeft'>
-                                        <span className='icon-faq gradTxt'></span>
-                                        <span className='data'>
-                                            How may I Buy GrowveonCT?
-                                        </span>
-                                    </div>
-                                </div>
-                                <div className='content'>
-                                    <div className='textBlock'>
-                                        <p>
-                                            As per the number of Usernames /
-                                            Live and Demo accounts you want to
-                                            own, you can choose our packages and
-                                            buy them online. We offer various
-                                            Packages at present. Click here for
-                                            more details. If you have made your
-                                            purchase for any plan of your
-                                            choice, then contact our support on
-                                            live chat or via email to claim your
-                                            GrowveonCT package.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
 
@@ -361,32 +336,6 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div className='faqItem'>
-                                <div className='head'>
-                                    <div className='iconLeft'>
-                                        <span className='icon-faq gradTxt'></span>
-                                        <span className='data'>
-                                            What will I get in GrowveonCT’s
-                                            package?
-                                        </span>
-                                    </div>
-                                </div>
-                                <div className='content'>
-                                    <div className='textBlock'>
-                                        <p>
-                                            On purchase, you will get your Tbot
-                                            Software GrowveonCT, and money back
-                                            guarantee (which is subjected to our
-                                            terms and conditions). If submitted
-                                            wrong information in the
-                                            registration form, you should
-                                            immediately write to us via email or
-                                            contact our support team on live
-                                            chat.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
 
                             <div className='faqItem'>
                                 <div className='head'>
