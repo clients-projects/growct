@@ -109,7 +109,7 @@ function Header(props) {
                                     <a href='/pricing'>PRICING</a>
                                 </li>
                                 <li>
-                                    <a href='/testimonies'>Testimonies</a>
+                                    <a href='/testimonies'>TESTIMONIES</a>
                                 </li>
                                 <li>
                                     <a href='/contact-us'>CONTACT US</a>

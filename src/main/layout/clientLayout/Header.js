@@ -76,7 +76,9 @@ function Header(props) {
                                     ></div>
                                     <div className='data'>
                                         <span>Welcome,</span>
-                                        <a href='/dashboard'>{props.userData.username}</a>
+                                        <a href='/dashboard'>
+                                            {props.userData.username}
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -102,13 +104,16 @@ function Header(props) {
                                 <li>
                                     <a href='/about-us'>ABOUT US</a>
                                 </li>
-                             
+
                                 <li>
                                     <a href='/pricing'>PRICING</a>
                                 </li>
-                              
+
                                 <li>
                                     <a href='/contact-us'>CONTACT US</a>
+                                </li>
+                                <li>
+                                    <Link to='/testimonies'>TESTIMONIES</Link>
                                 </li>
                                 <li>
                                     <a href='/faq'>FAQ</a>
