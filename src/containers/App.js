@@ -21,6 +21,7 @@ import Faq from './Faq'
 import ForgotPassword from './ForgotPassword'
 import AboutUs from './AboutUs'
 import Pricing from './Pricing'
+import Testimonies from './Testimonies'
 import TermsAndCondition from './termsAndConditions'
 import LoginPage from '../main/auth/Login'
 import SignupPage from '../main/auth/Signup'
@@ -55,11 +56,7 @@ function App(props) {
                 path='/'
                 exact
                 component={Home}
-                render={(props) => (
-                    <Home
-                        {...props}
-                    />
-                )}
+                render={(props) => <Home {...props} />}
             />
             <Route
                 path='/Auth/login'
@@ -71,6 +68,7 @@ function App(props) {
             />
 
             <Route path='/about-us' component={AboutUs} />
+            <Route path='/testimonies' component={Testimonies} />
             <Route path='/pricing' component={Pricing} />
             <Route path='/terms' component={TermsAndCondition} />
             <Route path='/forgot-password' component={ForgotPassword} />
