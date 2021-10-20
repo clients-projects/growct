@@ -14,7 +14,7 @@ import * as orderAction from '../store/actions/burgerIndex'
 
 function Deposit(props) {
     const [packageProfit, setPackageProfit] = useState(0)
-    const [amountToDeposit, setAmountToDeposit] = useState()
+    const [amountToDeposit, setAmountToDeposit] = useState('')
     const [packageName, setPackageName] = useState('')
     const [minAmount, setMinAmount] = useState(500)
     const [maxAmount, setMaxAmount] = useState(5000)
@@ -113,7 +113,7 @@ function Deposit(props) {
     }
 
     const onAmountChange = (e) => {
-        const amountValue = +e.target.value
+        const amountValue = e.target.value
         console.log('amount changed', typeof amountValue)
 
         setMinAmount(planDetails.minimum)
