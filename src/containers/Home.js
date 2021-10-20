@@ -138,7 +138,7 @@ function Home(props) {
                     </section>
                 </section>
 
-                <section className='aboutwrap ' style={{ margin: '4rem 0' }}>
+                <section className='aboutwrap '>
                     <div className='contents'>
                         <div className='aboutinside slideInUp wow'>
                             <div className='aboutImg'>
