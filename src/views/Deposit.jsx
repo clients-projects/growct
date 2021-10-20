@@ -28,7 +28,7 @@ function Deposit(props) {
 
     const options = [
         { label: 'Helm ($500 - $4,999)', value: 'Helm' },
-        { label: 'Premium ($5,000 - $19,999)', value: 'Premium' }
+       // { label: 'Premium ($5,000 - $19,999)', value: 'Premium' },
         { label: 'Business ($20,000 - $50,000)', value: 'Business' },
         { label: 'Bronze ($500 - $4,999)', value: 'Bronze' },
         { label: 'Silver ($5,000 - $19,999)', value: 'Silver' },
@@ -37,7 +37,7 @@ function Deposit(props) {
         { label: 'One Month ($500 - $4,999)', value: 'One Month' },
         { label: 'Two Months ($5,000 - $19,999)', value: 'Two Months' },
         { label: 'Three Months ($20,000 - $49,999)', value: 'Three Months' },
-        { label: 'Six Months ($50,000 - $500,000)', value: 'Six Months' },
+        { label: 'Six Months ($50,000 - $500,000)', value: 'Six Months' }
     ]
 
     const onPackageChange = (newValue) => {
@@ -113,8 +113,8 @@ function Deposit(props) {
     }
 
     const onAmountChange = (e) => {
-        const amountValue = e.target.value
-        console.log('amount changed', amountValue)
+        const amountValue = +e.target.value
+        console.log('amount changed', typeof amountValue)
 
         setMinAmount(planDetails.minimum)
         setMaxAmount(planDetails.maximum)
@@ -409,7 +409,7 @@ function Deposit(props) {
                                         Amount:
                                     </label>
                                     <input
-                                       // type='number'
+                                       type='number'
                                         value={amountToDeposit}
                                         onChange={onAmountChange}
                                         autoFocus
