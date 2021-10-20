@@ -197,7 +197,7 @@ function Deposit(props) {
                     percent: 2.5,
                     days: 1,
                     minimum: 5000,
-                    maximum: 1999,
+                    maximum: 19999,
                 })
                 break
             case 'Business':
@@ -301,14 +301,13 @@ function Deposit(props) {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        console.log('handle submit', e)
         const formData = {
             packageName,
             amountToDeposit: Math.floor(amountToDeposit),
             currency: 'Bitcoin',
         }
+        // if(packageName === 'Premium' && (amountToDeposit )){}
 
-        console.log({ formData })
         if (amountToDeposit === '' || amountToDeposit === '0') {
             setMessage('Please enter a value')
             return setError(true)
@@ -409,8 +408,8 @@ function Deposit(props) {
                                         Amount:
                                     </label>
                                     <input
-                                        //type='number'
-                                        type={packageName !== 'Premium' ? 'number' : 'text'}
+                                        type='number'
+                                       // type={packageName !== 'Premium' ? 'number' : 'text'}
                                         // pattern='[0-9]*'
                                         value={amountToDeposit}
                                         onChange={onAmountChange}
