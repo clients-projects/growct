@@ -115,10 +115,6 @@ export const initGetFunds = (token) => {
                         _id
                     }
 
-                    getFund {
-                        _id
-                    }
-
                     getAllUsersDeposit {
                         _id
                     }
@@ -127,14 +123,7 @@ export const initGetFunds = (token) => {
                         _id
                     }
 
-                    fundData {
-                        fundNO
-                        creator
-                        amount
-                        currency
-                        status
-                        updatedAt
-                    }
+              
 
                     thePendingDeposit {
                         fundNO
@@ -186,6 +175,7 @@ export const initGetFunds = (token) => {
                 return res.json()
             })
             .then((resData) => {
+                console.log('get funds', resData)
                 if (resData.errors) {
                     dispatch(fundAccountFailed(resData.errors[0].message))
                 }

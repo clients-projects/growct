@@ -11,7 +11,7 @@ import { AiFillPhone, AiOutlineFundProjectionScreen } from 'react-icons/ai'
 import { IoIosPeople } from 'react-icons/io'
 import { MdLowPriority } from 'react-icons/md'
 import { RiUserUnfollowFill } from 'react-icons/ri'
-import { SiAutotask } from 'react-icons/si'
+//import { SiAutotask } from 'react-icons/si'
 
 function AboutUs() {
     return (
@@ -255,7 +255,7 @@ font-size: 16px;} */}
                                         <div className='item col4'>
                                             <div className='in'>
                                                 <span className='icon-pass gradTxt'>
-                                                    <SiAutotask className='location__svg' />
+                                                    {/* <SiAutotask className='location__svg' /> */}
                                                 </span>
                                                 <span className='title'>
                                                     AUTO TRADING 24/7
