@@ -295,8 +295,7 @@ function Deposit(props) {
     }, [props])
 
     const handleSubmit = (e) => {
-        e.preventDefault()
-        console.log('handle submit')
+        console.log('handle submit', e)
         const formData = {
             packageName,
             amountToDeposit: Math.floor(amountToDeposit),
