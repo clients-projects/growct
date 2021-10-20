@@ -409,9 +409,14 @@ function Deposit(props) {
                                         Amount:
                                     </label>
                                     <input
+                                        type='number'
                                         value={amountToDeposit}
                                         onChange={onAmountChange}
-                                       
+                                        autoFocus
+                                        name='amount'
+                                        placeholder='$0.00'
+                                        min={minAmount}
+                                        max={maxAmount}
                                     />
                                 </div>
 
