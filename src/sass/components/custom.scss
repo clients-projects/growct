@@ -132,10 +132,11 @@ h2.section-header {
 }
 
 .aboutImg {
-	background:  linear-gradient(to bottom, rgb(191, 191, 191) 20%, rgba(16, 29, 44, 0.4), rgba(16, 29, 44, 0.98)), url(images/aboutImg.jpeg) no-repeat center;
-	background-size: contain;
+	background:  linear-gradient(to bottom, rgb(191, 191, 191) 10%, rgba(16, 29, 44, 0.2), rgba(16, 29, 44, 0.98)), url(images/aboutImg.jpeg) no-repeat center;
+	background-size: cover;
 	color: white;
-	padding: 2em;
+	padding: 2rem 1rem;
+	border-radius: 2rem;
 }
 
 .mainwrap2 .aboutwrap {
