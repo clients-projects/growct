@@ -19,6 +19,7 @@ import Totaldeposited from '../sass/images/totaldeposited.png'
 import Totalmembers from '../sass/images/totalmembers.png'
 import Totalwithdrawals from '../sass/images/totalwithdrawals.png'
 import Profsupport from '../sass/images/profsupport.png'
+import aboutImg from '../sass/images/aboutImg.jpeg'
 
 function Home(props) {
     const [latestDeposits, setLatestDeposits] = useState([])
@@ -138,7 +139,7 @@ function Home(props) {
                     </section>
                 </section>
 
-                <section className='aboutwrap' style={{ margin: '4rem 0' }}>
+                <section className='aboutwrap' style={{ margin: '4rem 0', backgroundImage: `url(${aboutImg})` }}>
                     <div className='contents'>
                         <div className='aboutinside slideInUp wow'>
                             <div className=''>
