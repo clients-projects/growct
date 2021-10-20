@@ -28,7 +28,7 @@ function Deposit(props) {
 
     const options = [
         { label: 'Helm ($500 - $4,999)', value: 'Helm' },
-       // { label: 'Premium ($5,000 - $19,999)', value: 'Premium' },
+        { label: 'Premium ($5,000 - $19,999)', value: 'premium' },
         { label: 'Business ($20,000 - $50,000)', value: 'Business' },
         { label: 'Bronze ($500 - $4,999)', value: 'Bronze' },
         { label: 'Silver ($5,000 - $19,999)', value: 'Silver' },
@@ -50,8 +50,8 @@ function Deposit(props) {
 
             setPlanDuration('24hrs')
         }
-        if (selectedPackage === 'Premium') {
-            setPackageName('Premium')
+        if (selectedPackage === 'premium') {
+            setPackageName('premium')
 
             setPackageProfit(amountToDeposit * 0.025)
             setPlanDuration('24hrs')
@@ -123,9 +123,9 @@ function Deposit(props) {
             setPackageName('Helm')
             setPackageProfit(amountToDeposit * 0.02)
         }
-        if (packageName === 'Premium') {
+        if (packageName === 'premium') {
 
-            setPackageName('Premium')
+            setPackageName('premium')
             setPackageProfit(amountToDeposit * 0.025)
         }
         if (packageName === 'Business') {
@@ -191,9 +191,9 @@ function Deposit(props) {
                     maximum: 4999,
                 })
                 break
-            case 'Premium':
+            case 'premium':
                 setPlanDetails({
-                    name: 'Premium',
+                    name: 'premium',
                     percent: 2.5,
                     days: 1,
                     minimum: 5000,
