@@ -14,7 +14,7 @@ import * as orderAction from '../store/actions/burgerIndex'
 
 function Deposit(props) {
     const [packageProfit, setPackageProfit] = useState(0)
-    const [amountToDeposit, setAmountToDeposit] = useState(0)
+    const [amountToDeposit, setAmountToDeposit] = useState()
     const [packageName, setPackageName] = useState('')
     const [minAmount, setMinAmount] = useState(500)
     const [maxAmount, setMaxAmount] = useState(5000)
@@ -28,7 +28,7 @@ function Deposit(props) {
 
     const options = [
         { label: 'Helm ($500 - $4,999)', value: 'Helm' },
-        { label: 'mium ($5,000 - $19,999)', value: 'mium' },
+        { label: 'Premium ($5,000 - $19,999)', value: 'Premium' },
         { label: 'Business ($20,000 - $50,000)', value: 'Business' },
         { label: 'Bronze ($500 - $4,999)', value: 'Bronze' },
         { label: 'Silver ($5,000 - $19,999)', value: 'Silver' },
@@ -50,8 +50,8 @@ function Deposit(props) {
 
             setPlanDuration('24hrs')
         }
-        if (selectedPackage === 'mium') {
-            setPackageName('mium')
+        if (selectedPackage === 'Premium') {
+            setPackageName('Premium')
 
             setPackageProfit(amountToDeposit * 0.025)
             setPlanDuration('24hrs')
@@ -123,9 +123,9 @@ function Deposit(props) {
             setPackageName('Helm')
             setPackageProfit(amountToDeposit * 0.02)
         }
-        if (packageName === 'mium') {
+        if (packageName === 'Premium') {
 
-            setPackageName('mium')
+            setPackageName('Premium')
             setPackageProfit(amountToDeposit * 0.025)
         }
         if (packageName === 'Business') {
@@ -191,9 +191,9 @@ function Deposit(props) {
                     maximum: 4999,
                 })
                 break
-            case 'mium':
+            case 'Premium':
                 setPlanDetails({
-                    name: 'mium',
+                    name: 'Premium',
                     percent: 2.5,
                     days: 1,
                     minimum: 5000,
