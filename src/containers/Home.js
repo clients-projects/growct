@@ -141,8 +141,8 @@ function Home(props) {
 
                 <section className='aboutwrap ' style={{ margin: '4rem 0' }}>
                     <div className='contents'>
-                        <div className='aboutinside slideInUp wow aboutImg'>
-                            <div className=''>
+                        <div className='aboutinside slideInUp wow'>
+                            <div className='aboutImg'>
                                 <h1 style={{ textAlign: 'center' }}>
                                     ABOUT GROWVEON CRYPTO TRADING
                                 </h1>
