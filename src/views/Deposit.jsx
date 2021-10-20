@@ -34,10 +34,10 @@ function Deposit(props) {
         { label: 'Silver ($5,000 - $19,999)', value: 'Silver' },
         { label: 'Gold ($20,000 - $49,999)', value: 'Gold' },
         { label: 'Diamond ($50,000 - $500,000)', value: 'Diamond' },
-        { label: 'One Month ($500 - $4,999)', value: 'OneMonth' },
-        { label: 'Two Months ($5,000 - $19,999)', value: 'TwoMonths' },
-        { label: 'Three Months ($20,000 - $49,999)', value: 'ThreeMonths' },
-        { label: 'Six Months ($50,000 - $500,000)', value: 'SixMonths' },
+        { label: 'One Month ($500 - $4,999)', value: 'One Month' },
+        { label: 'Two Months ($5,000 - $19,999)', value: 'Two Months' },
+        { label: 'Three Months ($20,000 - $49,999)', value: 'Three Months' },
+        { label: 'Six Months ($50,000 - $500,000)', value: 'Six Months' },
     ]
 
     const onPackageChange = (newValue) => {
