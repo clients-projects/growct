@@ -72,7 +72,6 @@ function Layout(props) {
 }
 
 const mapStateToProps = (state) => {
-    console.log('layout state', state)
     return {
         tokenId: state.auth.tokenId,
 
