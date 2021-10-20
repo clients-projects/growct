@@ -124,8 +124,8 @@ function Deposit(props) {
             setPackageProfit(amountToDeposit * 0.02)
         }
         if (packageName === 'Premium') {
-            setPackageName('Premium')
 
+            setPackageName('Premium')
             setPackageProfit(amountToDeposit * 0.025)
         }
         if (packageName === 'Business') {
@@ -178,6 +178,8 @@ function Deposit(props) {
     }
 
     console.log('the package name', packageName)
+    console.log('the package profit', packageProfit)
+    console.log('amount to deposit', amountToDeposit)
     useEffect(() => {
         switch (packageName) {
             case 'Helm':
@@ -286,6 +288,8 @@ function Deposit(props) {
         }
     }, [packageName])
 
+    console.log('the plan details', planDetails)
+
     useEffect(() => {
      
         if (props.adminData) {
@@ -296,6 +300,7 @@ function Deposit(props) {
     }, [props])
 
     const handleSubmit = (e) => {
+        e.preventDefault()
         console.log('handle submit', e)
         const formData = {
             packageName,
@@ -404,14 +409,9 @@ function Deposit(props) {
                                         Amount:
                                     </label>
                                     <input
-                                        type='number'
                                         value={amountToDeposit}
                                         onChange={onAmountChange}
-                                        autoFocus
-                                        name='amount'
-                                        placeholder='$0.00'
-                                        min={minAmount}
-                                        max={maxAmount}
+                                       
                                     />
                                 </div>
 
