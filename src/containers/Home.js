@@ -139,7 +139,7 @@ function Home(props) {
                     </section>
                 </section>
 
-                <section className='aboutwrap' style={{ margin: '4rem 0', backgroundImage: `url(${aboutImg})` }}>
+                <section className='aboutwrap aboutImg' style={{ margin: '4rem 0'}}>
                     <div className='contents'>
                         <div className='aboutinside slideInUp wow'>
                             <div className=''>
