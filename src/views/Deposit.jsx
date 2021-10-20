@@ -113,7 +113,7 @@ function Deposit(props) {
     }
 
     const onAmountChange = (e) => {
-        const amountValue = e.target.value
+        const amountValue = e.target.value.replace(/\D/, '')
         console.log('amount changed', typeof amountValue)
 
         setMinAmount(planDetails.minimum)
@@ -410,8 +410,8 @@ function Deposit(props) {
                                     </label>
                                     <input
                                         //type='number'
-                                        type='text'
-                                        pattern='[0-9]*'
+                                        type={packageName !== 'Premium' ? 'number' : 'text'}
+                                        // pattern='[0-9]*'
                                         value={amountToDeposit}
                                         onChange={onAmountChange}
                                         autoFocus
