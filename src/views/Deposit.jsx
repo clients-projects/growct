@@ -409,7 +409,9 @@ function Deposit(props) {
                                         Amount:
                                     </label>
                                     <input
-                                       //type='number'
+                                        //type='number'
+                                        type='text'
+                                        pattern='[0-9]*'
                                         value={amountToDeposit}
                                         onChange={onAmountChange}
                                         autoFocus
