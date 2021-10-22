@@ -189,14 +189,12 @@ export const initGetUser = (token) => {
                 return res.json()
             })
             .then((resData) => {
-                console.log('res data of get user', resData)
                 if (resData.errors) {
                     dispatch(authFailed('getUser', resData.errors[0].message))
                 }
                 dispatch(getUser(resData.data.getUser))
             })
             .catch((err) => {
-                console.log('error in getUser', err)
                 return dispatch(authFailed('getUser', 'Failed to fetch (500)'))
             })
     }
@@ -272,7 +270,6 @@ export const initGetMember = (id, token) => {
             })
             .then((resData) => {
                 if (resData.errors) {
-                    console.log('resData error of getMember', resData.errors)
                     dispatch(authFailed('getUser', resData.errors[0].message))
                 }
                 dispatch(getMember(resData.data.getMember))
