@@ -275,7 +275,6 @@ export const initGetMember = (id, token) => {
                 dispatch(getMember(resData.data.getMember))
             })
             .catch((err) => {
-                console.log('error in getUser', err)
                 return dispatch(authFailed('getUser', 'Failed to fetch (500)'))
             })
     }
@@ -421,7 +420,6 @@ export const initActivities = () => {
                 return res.json()
             })
             .then((resData) => {
-                console.log('resdata of activities', resData)
                 if (resData.errors) {
                     dispatch(authFailed(resData.errors[0].message))
                 }
