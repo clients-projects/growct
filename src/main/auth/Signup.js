@@ -130,7 +130,6 @@ const Signup = (props) => {
                     formIsValid = formIsValid && updatedForm[inputName].valid
                 }
 
-                console.log('is the form valid', formIsValid)
             }
             return {
                 signupForm: updatedForm,
