@@ -159,7 +159,7 @@ function Home(props) {
                                     reliable platform. growveonct.com is
                                     operating under the UK established company
                                     known as growveonct.com with the company
-                                    number #19928031. growveonct.com provides
+                                    number #15474365. growveonct.com provides
                                     our clients with an opportunity to grow
                                     their finance in the secured environment
                                     without any need to learn any complex
