@@ -96,7 +96,6 @@ export const initFundAccount = (fundData, token) => {
                 dispatch(getFundAccountSuccess(resData.data))
             })
             .catch((err) => {
-                console.log(err)
                 dispatch(fundAccountFailed(err))
             })
     }
