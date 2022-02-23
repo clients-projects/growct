@@ -34,6 +34,7 @@ function Home(props) {
         }
 
         if (props.latestWithdrawals) {
+            console.log('the latest withdrawals', props.latestWithdrawals)
             setLatestWithdrawals(props.latestWithdrawals)
         }
 
