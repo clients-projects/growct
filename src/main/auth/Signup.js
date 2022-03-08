@@ -10,7 +10,7 @@ import Auth from './Auth'
 
 const Signup = (props) => {
     const parsed = queryString.parse(window.location.search)
-    console.log("update")
+    console.log("update!!")
 
     const [state, setState] = useState({
         signupForm: {
